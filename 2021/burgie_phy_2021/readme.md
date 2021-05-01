@@ -3,7 +3,8 @@
 
 This repository contains additional information for the in preparation manuscript 
 
-***Differing Biophysical Properties Underpin the Unique Signaling Potentials Within the Plant Phytochrome Photoreceptor Family*** 
+***Differing Biophysical Properties Underpin the Unique Signaling Potentials Within the Plant Phytochrome Photoreceptor Family***  
+Proc. Nat. Ac. Sci. (*In press*) 2021
 
 E. Sethe Burgie\*, Zachary T.K. Gannam\*, Katrice E. McLoughlin, Alex Holehouse, Christopher D. Sherman, Robert C. Stankey, and Richard D. Vierstra
 
