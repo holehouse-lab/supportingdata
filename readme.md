@@ -43,9 +43,7 @@ The instructions below are valid of *nix systems (macOS or Linux/unix). They ass
 
 	Once you've cloned in the repo this creates a directory on your local computer that is linked to the GitHub repository. 
 
-6. 				
-
-	The remaining workflow involves copying files into this directory, **staging** them in the local repository using `git add`, **committing** staged files via `git commit` and then **pushing** the local repository to github using `git push`.
+6. The remaining workflow involves copying files into this directory, **staging** them in the local repository using `git add`, **committing** staged files via `git commit` and then **pushing** the local repository to github using `git push`.
 	
 	##### Adding files to the staging area
 	`git add` lets you tell your repository that there are files you want to upload. Specifically, once a file is copied into the git repository directory, it can be added using:
