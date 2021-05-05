@@ -23,7 +23,9 @@ The instructions below are valid of *nix systems (macOS or Linux/unix). They ass
 
 1. If you don't yet have one, create a GitHub account!
 
-2. Create a new repository in your account - [see instructions here](https://docs.github.com/en/github/getting-started-with-github/create-a-repo). Do not include any additional info (e.g. license files etc) here.
+2. Create a new repository in your account - [see instructions here](https://docs.github.com/en/github/getting-started-with-github/create-a-repo). Do not include any additional info (e.g. license files etc) here. 
+
+	New repositories can either be created as **private** or **public**. A private repository can be made public whenever, but I'm not sure if a public repository can be made private... This privacy is controlled entirely through the GitHub website and changing privacy is possible under the repository Settings.
 
 3. Check if `git` is installed on your local machine (it really should be). To do this, open the terminal and run:
 
