@@ -1,4 +1,4 @@
-#Making predictions with PARROT: general usage
+# Making predictions with PARROT: general usage
 
 Included in this directory:
 * 6 Pre-trained PARROT networks (*.pt* extension) for phosphosite, activation domain and nucleation propensity prediction
@@ -12,40 +12,40 @@ The command use for making predictions with pre-trained networks is `parrot-pred
 
 	parrot-predict <sequence_file> <trained_network> <output_file> -d <datatype> -c <num_classes> -nl <number_hidden_layers> -hs <hidden_vector_size> [--probabilistic-classification]
 
-##`sequence_file`
+## `sequence_file`
 This is a tab/whitespace-delimited file that lists the sequences you want to make predictions for. Each row specifies a single sequence in the format:
 	
     <seq_ID>	<AA_sequence>
 
 See `example_seqs.tsv` for reference.
 
-##`trained_network`
+## `trained_network`
 This is the file location of your pre-trained PARROT network. By PyTorch convention, I use *.pt* to specify these files, but this is not required.
 
-##`output_file`
+## `output_file`
 This is the file name and location where your predictions will be saved to. Outputted predictions will be listed in the same order as the provided `sequence_file`, along with the corresponding sequence IDs and amino acid sequences for each.
 
-##`-d datatype`
+## `-d datatype`
 These remaining arguments require some knowledge of how your network was trained. "Datatype" refers to whether your network is predicting *per-sequence* or *per-residue* values. Accordingly, the `-d` flag must be followed by either "sequence" or "residues", without the quotes.
 
-##`-c num_classes`
+## `-c num_classes`
 This argument specifies whether the network was designed for a *classification* or *regression* task. If regression (i.e. the network outputs continuous, real-number values), "num_classes" should be 1. If classification (i.e. the network outputs a discrete class label), "num_classes" should be the number of possible classes a sequence/residue can be.
 
-##`-nl number_hidden_layers` & `-hs hidden_vector_size`
+## `-nl number_hidden_layers` & `-hs hidden_vector_size`
 These two arguments indicate the hyperparameters of the pre-trained PARROT network. These should be noted from when the network was trained, but if forgotten, it is possible to infer what these parameters should be based on the error messages that are produced when incorrect hyperparameters are supplied.
 
-##`--probabilistic-classification`
+## `--probabilistic-classification`
 This optional argument can only be used for sequence classification tasks with two possible classes. Its function is to change a binary class label output (0 or 1) into a real-number in [0,1] that represents confidence of the prediction, i.e., a value of 0.003 means that the network is fairly certain that the sequence is class 0, while 0.43 is rather uncertain.
 
 There are a few other optional arguments that can be supplied. For information on these, see the full documentation at https://idptools-parrot.readthedocs.io/en/latest/
 
-#Examples
+# Examples
 
-##Predictions of phospho-tyrosines:
+## Predictions of phospho-tyrosines:
 
 	parrot-predict phosphoY_seqs.tsv Y_phospho_network.pt phospho_predictions.tsv -d sequence -c 2 -nl 2 -hs 10
 
-##Predictions of activation domains:
+## Predictions of activation domains:
 
 **Network trained on Erijman et al (ADpred) data:**
 
@@ -55,7 +55,7 @@ There are a few other optional arguments that can be supplied. For information o
 
 	parrot-predict AD_seqs.tsv paddleTrain_AD_network.pt AD_predictions_Sanborn.tsv -d sequence -c 1 -nl 2 -hs 20
 
-#Specific hyperparameters of provided networks
+# Specific hyperparameters of provided networks
 ## Phosphorylation site predictions:
 **S_phospho_network.pt**, **T_phospho_network.pt**, & **Y_phospho_network.pt**
 * -d sequence
