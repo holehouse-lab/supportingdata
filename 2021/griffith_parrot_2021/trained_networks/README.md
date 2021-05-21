@@ -1,7 +1,8 @@
 # Making predictions with PARROT: general usage
 
 Included in this directory:
-* 6 Pre-trained PARROT networks (*.pt* extension) for phosphosite, activation domain and nucleation propensity prediction
+
+* 6 Pre-trained PARROT networks (`.pt` extension) for phosphosite, activation domain and nucleation propensity prediction
 * 2 Example files with sequences on which we can make predictions using these trained networks
 
 First, if you haven't already, install the PARROT commandline tool using pip:
@@ -57,7 +58,9 @@ There are a few other optional arguments that can be supplied. For information o
 
 # Specific hyperparameters of provided networks
 ## Phosphorylation site predictions:
-**S_phospho_network.pt**, **T_phospho_network.pt**, & **Y_phospho_network.pt**
+
+**S\_phospho\_network.pt**, **T\_phospho\_network.pt**, & **Y\_phospho\_network.pt**
+
 * -d sequence
 * -c 2
 * -nl 2
@@ -65,14 +68,16 @@ There are a few other optional arguments that can be supplied. For information o
 * While not required for the network to produce output, these networks are optimized to make predictions on sequences that are 19aa long, with the residue of interest (S, T, Y) in the central position.
 
 ## Activation domain function predictions:
-**AD_prediction_network.pt**
+**AD\_prediction\_network.pt**
+
 * -d sequence
 * -c 2
 * -nl 2
 * -hs 10
 * Trained on data from Erijman et al. Best optimized to run on 30aa peptides.
 
-**AD_prediction_network.pt**
+**AD\_prediction\_network.pt**
+
 * -d sequence
 * -c 1
 * -nl 2
@@ -80,7 +85,8 @@ There are a few other optional arguments that can be supplied. For information o
 * Trained on data from Sanborn et al. Best optimized to run on 53aa peptides.
 
 ## AB42 nucleation score predictions:
-**AB42_nucleation_predictor.pt**
+**AB42\_nucleation\_predictor.pt**
+
 * -d sequence
 * -c 1
 * -nl 2
