@@ -2,8 +2,8 @@
 ##### Last updated 2021-05-16
 
 ## About
-This data directory contains formatted data for the CAID and CheZOD sequence prediction evaluation. If these data are used please read and cite [1] for CheZOD and [2] for CAID data.
-
+This data directory contains formatted data for the CAID and CheZOD sequence prediction evaluation. If these data are used please read and cite [1] for CheZOD and [2] for CAID data. License are provided in each directory and reflect 
+L
 
 ## References
 
