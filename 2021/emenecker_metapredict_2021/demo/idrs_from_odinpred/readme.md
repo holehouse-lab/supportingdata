@@ -5,12 +5,12 @@
 
 While - by default - this function uses the metapredict disorder scores, we also include the functionality to extract IDRs from _other_ disorder profiles as well.
 
-The tutorial below walks through how one could use this approach with ODiNPred to extract out IDRs.
+The tutorial below walks through how one could use this approach with ODiNPred to extract out IDRs. However, if you can convert your per-residue disorder scores into a Python list, any predictor could be used here
 
 ## IDRs from ODiNPred
 [ODiNPred](https://st-protein.chem.au.dk/odinpred) is a fantastic disorder predictor that combines NMR data with evolutionary analysis to make data-driven predictions of disorder.
 
-One a profile is predicted, ODiNPred will email you a per-protein file with the per-residue disorder scores named something like `DisorderPredictions....txt` with the following format.
+To use ODiNPred, shimmy on over to their web server add your sequences and your email address and hit **submit**. Once the prediction has run, ODiNPred will email you a per-protein file with the per-residue disorder scores named something like `DisorderPredictions....txt` with the following format.
 
 	 Residue  No. Zscore Disorder-Probability
 	 M         1  1.6758  0.9890
