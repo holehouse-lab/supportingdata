@@ -1,11 +1,14 @@
 ## Additional Supporting Information
-###### Last updated 2021-05-18
+###### Last updated 2021-06-02
 
-This repository contains additional information for the in preparation manuscript 
+This repository contains additional information for the manuscript:
 
-***PARROT: a flexible recurrent neural network framework for analysis of large protein datasets*** 
+***PARROT: a flexible recurrent neural network framework for analysis of large protein datasets*** <br>
+Griffith, D., & Holehouse, A. S.<br>
+**bioRxiv** 2021.05.21.445045 (2021). [https://doi.org/10.1101/2021.05.21.445045](https://doi.org/10.1101/2021.05.21.445045)
+<br>
+*Currently under review*
 
-**Griffith, D and Holehouse, A.S.**
 
 
 ## Contents
