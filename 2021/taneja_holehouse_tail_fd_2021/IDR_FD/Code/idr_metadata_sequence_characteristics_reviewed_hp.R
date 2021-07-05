@@ -13,8 +13,8 @@ cores=detectCores()
 registerDoParallel(cores-1)
 
 
-fastaFile = readAAStringSet("../Raw_Data/uniprot_human_proteome_reviewed_2020_05_clean.fasta")
-pdb_data = read.csv('../Processed_Data/PDB_Level_Info_iter0_6828.csv')
+fastaFile = readAAStringSet("./Raw_Data/uniprot_human_proteome_reviewed_2020_05_clean.fasta")
+pdb_data = read.csv('./Processed_Data/PDB_Level_Info_iter0_6828.csv')
 
 seq_name = names(fastaFile)
 sequence = paste(fastaFile)
@@ -26,7 +26,7 @@ colnames(fasta_df) = c('Uniprot_ID', 'Sequence')
 fasta_df$Sequence = as.character(fasta_df$Sequence)
 fasta_df = fasta_df %>% group_by(Uniprot_ID) %>% mutate(Sequence_Length = nchar(Sequence)) %>% as.data.frame()
 
-idr_df = read.table(file = '../Raw_Data/DISORDER_R3_human_proteome_2019_10_clean_no_comma_shephard_domains.tsv', sep = '\t', header = FALSE)
+idr_df = read.table(file = './Raw_Data/DISORDER_R3_human_proteome_2019_10_clean_no_comma_shephard_domains.tsv', sep = '\t', header = FALSE)
 colnames(idr_df) = c('Uniprot_ID', 'Start_Coverage', 'End_Coverage', 'Domain')
 idr_df = idr_df[,-c(which(colnames(idr_df) == 'Domain'))]
 colnames(idr_df)[2:3] = paste(colnames(idr_df)[2:3],'IDR',sep='_')
@@ -34,7 +34,7 @@ colnames(idr_df)[2:3] = paste(colnames(idr_df)[2:3],'IDR',sep='_')
 idr_df = inner_join(idr_df, fasta_df[,c('Uniprot_ID', 'Sequence_Length')], by = 'Uniprot_ID')
 
 
-fd_mutually_exclusive_df = read.csv(file = '../Processed_Data/uniprot_human_proteome_folded_domain_mutally_exclusive_residues.csv', header = TRUE)
+fd_mutually_exclusive_df = read.csv(file = './Processed_Data/uniprot_human_proteome_folded_domain_mutally_exclusive_residues.csv', header = TRUE)
 colnames(fd_mutually_exclusive_df)[2:3] = paste(colnames(fd_mutually_exclusive_df)[2:3],'FD',sep='_')
 
 #determine whether an IDR is part of a cterminal or nterminal region 
@@ -130,11 +130,11 @@ idr_df_filtered = idr_df %>% filter((!(is.na(FD_IDR_terminal_dist)) & ((N_Termin
 nterminal_idr_df = idr_df_filtered %>% filter(N_Terminal_Status == 1) %>% as.data.frame()
 cterminal_idr_df = idr_df_filtered %>% filter(C_Terminal_Status == 1) %>% as.data.frame()
 
-write.csv(idr_df_filtered, paste('../Processed_Data/idr_metadata.csv',sep='/'),row.names=FALSE)
+write.csv(idr_df_filtered, paste('./Processed_Data/idr_metadata.csv',sep='/'),row.names=FALSE)
 
 
 
-
+idr_df_filtered = read.csv('./Processed_Data/idr_metadata.csv')
 
 ###############################
 #Calculate Charge distribution for each IDR
@@ -193,60 +193,154 @@ for (i in 1:nrow(idr_df_filtered))
 }
 
 
+fd_charge_df = list()
 
-get_kappa_subset_seq = function(seq, start, end)
+for (i in 1:nrow(idr_df_filtered))
 {
-  if (start <= end) {
-    return(calculate_kappa(substr(seq,start,end)))
-  } else {
-    return(calculate_kappa(substr(seq,end,start)))
+  if (i %% 100 == 0) { print(i) }
+  
+  curr_nterminal_status = idr_df_filtered[i,'N_Terminal_Status']
+  curr_cterminal_status = idr_df_filtered[i,'C_Terminal_Status']
+  curr_nontail_status = idr_df_filtered[i,'Non_Tail_Status']
+  
+  curr_uniprot_id = idr_df_filtered[i,'Uniprot_ID']
+  curr_start_coverage = idr_df_filtered[i,'Start_Coverage_FD']
+  curr_end_coverage = idr_df_filtered[i,'End_Coverage_FD']
+
+  if (!is.na(curr_start_coverage) & !is.na(curr_end_coverage))
+  {
+    curr_sequence = (fasta_df %>% filter(uniprot_id == curr_uniprot_id) %>% select(Sequence))[1,]
+    
+    curr_fd_sequence = substr(curr_sequence, curr_start_coverage, curr_end_coverage)
+    curr_charge_sequence = calc_charge_sequence(curr_fd_sequence)
+    
+    unique_id = paste(curr_uniprot_id, curr_start_coverage, curr_end_coverage, sep = '_')
+    
+    if (curr_nterminal_status | curr_cterminal_status | curr_nontail_status)
+    {
+      fd_charge_df[[unique_id]] = curr_charge_sequence
+    }
+    else
+    {
+      print('error')
+    }
   }
 }
+
+
+
+get_percentage_phospho_residues = function(seq, start, end)
+{
+  if (start <= end) 
+  {
+    num_serine = str_count(substr(seq,start,end), "S")
+    num_theornine = str_count(substr(seq,start,end), "T")
+    num_tyrosine = str_count(substr(seq,start,end), "Y")
+    num_residues = nchar(substr(seq,start,end))
+  }
+  else 
+  {
+    num_serine = str_count(substr(seq,end,start), "S")
+    num_theornine = str_count(substr(seq,end,start), "T")
+    num_tyrosine = str_count(substr(seq,end,start), "Y")
+    num_residues = nchar(substr(seq,end,start))
+    
+  }
+  return((num_serine+num_theornine+num_tyrosine)/num_residues)
+}
+
 
 
 #for (i in 1:nrow(idr_df_filtered))
 idr_charge_stats = foreach(i=1:nrow(idr_df_filtered), .combine=rbind) %dopar% 
 {
-    print(i)
+    #print(i)
     curr_nterminal_status = idr_df_filtered[i,'N_Terminal_Status']
     curr_cterminal_status = idr_df_filtered[i,'C_Terminal_Status']
     curr_nontail_status = idr_df_filtered[i,'Non_Tail_Status']
     
     curr_uniprot_id = idr_df_filtered[i,'Uniprot_ID']
     curr_sequence = (fasta_df %>% filter(uniprot_id == curr_uniprot_id) %>% select(Sequence))[1,]
-    curr_start_coverage = idr_df_filtered[i,'Start_Coverage_IDR']
-    curr_end_coverage = idr_df_filtered[i,'End_Coverage_IDR']
+    curr_start_coverage_idr = idr_df_filtered[i,'Start_Coverage_IDR']
+    curr_end_coverage_idr = idr_df_filtered[i,'End_Coverage_IDR']
     curr_dist = idr_df_filtered[i,'FD_IDR_terminal_dist']
     
-    unique_id = paste(curr_uniprot_id, curr_start_coverage, curr_end_coverage, sep = '_')
-    
+    idr_unique_id = paste(curr_uniprot_id, curr_start_coverage_idr, curr_end_coverage_idr, sep = '_')
     curr_charge_sequence = idr_charge_df[[unique_id]]
     
-    num_residues = length(curr_charge_sequence)
-    num_positive = length(which(curr_charge_sequence == 1))
-    num_negative = length(which(curr_charge_sequence == -1))
-    fp = num_positive/num_residues
-    fn = num_negative/num_residues
-    ncpr = (num_positive - num_negative)/num_residues
-    tcpr = (num_positive + num_negative)/num_residues
+    num_residues_idr = length(curr_charge_sequence)
+    num_positive_idr = length(which(curr_charge_sequence == 1))
+    num_negative_idr = length(which(curr_charge_sequence == -1))
+    fp_idr = num_positive_idr/num_residues_idr
+    fn_idr = num_negative_idr/num_residues_idr
+    ncpr_idr = (num_positive_idr - num_negative_idr)/num_residues_idr
+    tcpr_idr = (num_positive_idr + num_negative_idr)/num_residues_idr
 
-    ret = data.frame(Uniprot_ID = curr_uniprot_id, unique_id = unique_id,
+
+    
+    ret = data.frame(Uniprot_ID = curr_uniprot_id, unique_id = idr_unique_id,
                      N_Terminal_Status = curr_nterminal_status,
                      C_Terminal_Status = curr_cterminal_status,
                      Non_Tail_Status = curr_nontail_status,
                      FD_IDR_terminal_dist = curr_dist,
-                     start_pos = curr_start_coverage, 
-                     end_pos = curr_end_coverage,
-                     num_residues = num_residues,
-                     fp = fp,
-                     fn = fn,
-                     ncpr = ncpr,
-                     tcpr = tcpr)
+                     start_pos = curr_start_coverage_idr, 
+                     end_pos = curr_end_coverage_idr,
+                     num_residues = num_residues_idr,
+                     fp = fp_idr,
+                     fn = fn_idr,
+                     ncpr = ncpr_idr,
+                     tcpr = tcpr_idr)
     return(ret)
 }
 
 
-write.csv(idr_charge_stats, paste('../Processed_Data','idr_charge_distribution_stats_all.csv',sep='/'),row.names=FALSE)
+#for (i in 1:nrow(idr_df_filtered))
+fd_charge_stats = foreach(i=1:nrow(idr_df_filtered), .combine=rbind) %dopar% 
+{
+    #print(i)
+    curr_nterminal_status = idr_df_filtered[i,'N_Terminal_Status']
+    curr_cterminal_status = idr_df_filtered[i,'C_Terminal_Status']
+    curr_nontail_status = idr_df_filtered[i,'Non_Tail_Status']
+    
+    curr_uniprot_id = idr_df_filtered[i,'Uniprot_ID']
+    curr_sequence = (fasta_df %>% filter(uniprot_id == curr_uniprot_id) %>% select(Sequence))[1,]
+    
+    curr_start_coverage_fd = idr_df_filtered[i,'Start_Coverage_FD']
+    curr_end_coverage_fd = idr_df_filtered[i,'End_Coverage_FD']
+    
+    if (!is.na(curr_start_coverage_fd) & !is.na(curr_end_coverage_fd))
+    {
+      fd_unique_id = paste(curr_uniprot_id, curr_start_coverage_fd, curr_end_coverage_fd, sep = '_')
+      curr_charge_sequence = fd_charge_df[[fd_unique_id]]
+      
+      num_residues_fd = length(curr_charge_sequence)
+      num_positive_fd = length(which(curr_charge_sequence == 1))
+      num_negative_fd = length(which(curr_charge_sequence == -1))
+      fp_fd = num_positive_fd/num_residues_fd
+      fn_fd = num_negative_fd/num_residues_fd
+      ncpr_fd = (num_positive_fd - num_negative_fd)/num_residues_fd
+      tcpr_fd = (num_positive_fd + num_negative_fd)/num_residues_fd
+
+      
+      ret = data.frame(Uniprot_ID = curr_uniprot_id, unique_id = fd_unique_id,
+                       start_pos = curr_start_coverage_fd, 
+                       end_pos = curr_end_coverage_fd,
+                       num_residues = num_residues_fd,
+                       fp = fp_fd,
+                       fn = fn_fd,
+                       ncpr = ncpr_fd,
+                       tcpr = tcpr_fd)
+      return(ret)
+    }
+    
+    return(data.frame(NULL))
+}
+
+
+fd_charge_stats = distinct(fd_charge_stats)
+
+
+write.csv(fd_charge_stats, paste('./Processed_Data','fd_charge_distribution_stats_all.csv',sep='/'),row.names=FALSE)
 
 
 

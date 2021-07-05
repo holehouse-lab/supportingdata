@@ -70,4 +70,6 @@ idr_data_within_X_at_pdb_level_unique = idr_data_within_X_at_pdb_level %>% group
 
 idr_data_within_X_at_pdb_level_unique$FD_coverage_percentage = signif(idr_data_within_X_at_pdb_level_unique$FD_Length_PDB/(idr_data_within_X_at_pdb_level_unique$Sequence_Length - idr_data_within_X_at_pdb_level_unique$IDR_Length),2)
 
+idr_data_within_X_at_pdb_level_unique = idr_data_within_X_at_pdb_level_unique %>% filter(FD_coverage_percentage >= .75 | FD_Length_PDB >= 200) %>% as.data.frame()
+
 write.csv(idr_data_within_X_at_pdb_level_unique, '../Processed_Data/fd_candidate.csv', row.names = FALSE)

@@ -1,0 +1,3 @@
+patch_mean_q,patch_size,patch_size_percentage,patch_centroid_x,patch_centroid_y,patch_centroid_z,patch_centroid_nearest_surface_coord_x,patch_centroid_nearest_surface_coord_y,patch_centroid_nearest_surface_coord_z,patch_centroid_idr_euclid_dist,patch_centroid_idr_surf_dist
+-11.38936,2595,0.02,12.17368,8.786475,58.82082,12.095,8.394,58.437,21.78762,28.37178
+-11.57365,25601,0.18,24.34649,37.9605,15.70258,22.049,41.598,19.331,41.53571,42.03403

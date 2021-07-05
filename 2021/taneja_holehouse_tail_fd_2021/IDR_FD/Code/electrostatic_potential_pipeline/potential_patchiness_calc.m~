@@ -1,0 +1,647 @@
+function output = potential_patchiness_calc(input_file, output_dir, run_parallel)
+    
+    %input_file = '/Users/ishan/Holehouse/ishan/ddx9_analysis/phi_patchiness_input.csv';
+    %output_dir = '/Users/ishan/Holehouse/ishan/ddx9_analysis/phi_patchiness';
+    
+    input_file = '/Users/ishan/Holehouse/ishan/protein_mutation_pymol/GFP_within_R/gfp_phi_patchiness_input.csv';
+    output_dir = '/Users/ishan/Holehouse/ishan/protein_mutation_pymol/GFP_within_R/phi_patchiness_data';
+    
+    %input_file = '/Users/ishan/Holehouse/ishan/IDR_FD_Interaction_EDA/Processed_Data/phi_patchiness_input_2do1_2he9.csv';
+    %output_dir = '/Users/ishan/Holehouse/ishan/IDR_FD_Interaction_EDA/Processed_Data/Phi_Patchiness_Data';
+    
+    input_data = readtable(input_file,'Delimiter','comma', 'readvariable', true);
+    
+    input_data.PDB_ID = string(input_data.PDB_ID);
+    input_data.chain = string(input_data.chain);
+    input_data.reference_point = string(input_data.reference_point);
+    input_data.residue = string(input_data.residue);
+    input_data.Uniprot_ID = string(input_data.Uniprot_ID);
+    input_data.dx_file_loc = string(input_data.dx_file_loc);
+    input_data.ply_file_loc = string(input_data.ply_file_loc);
+    disp(input_data);
+    
+    overwrite = 1; %if set to 1, reruns calculation even if file already exists; otherwise does not run calc
+    
+    if (run_parallel)
+        parfor (i = 1:height(input_data), maxNumCompThreads)  %run in parallel
+            uniprot_id = string(input_data{i,'Uniprot_ID'});
+            pdb_id = string(input_data{i,'PDB_ID'});
+            chain = string(input_data{i,'chain'});
+            residue = string(input_data{i,'residue'});
+            reference_point = string(input_data{i,'reference_point'});
+                            
+            idr_x = input_data{i,'x_loc'};
+            idr_y = input_data{i,'y_loc'};
+            idr_z = input_data{i,'z_loc'};
+            
+            dx_file = input_data{i,'dx_file_loc'};
+            ply_file = input_data{i,'ply_file_loc'};
+            
+            if (ismissing(pdb_id)) % idr only
+                output_filename = strcat(uniprot_id, '_residue_', residue, '_reference_', reference_point);
+            else
+                output_filename = strcat(pdb_id, '_', chain, '_residue_', residue, '_reference_', reference_point);
+            end
+            
+            disp(output_filename);
+            disp(strcat(num2str(round(i/height(input_data),4)*100), '% complete'));
+            
+            f1 = strcat(output_dir, '/', output_filename, '_neg_patch_loc', '.csv');
+            f2 = strcat(output_dir, '/', output_filename, '_pos_patch_loc', '.csv');
+            f3 = strcat(output_dir, '/', output_filename, '_patchiness_all', '.csv');
+            f4 = strcat(output_dir, '/', output_filename, '_q_all', '.csv');
+            f5 = strcat(output_dir, '/', output_filename, '_patchiness_q_f_surface_distance', '.csv');
+            f6 = strcat(output_dir, '/', output_filename, '_patchiness_q_f_radius', '.csv');
+            f7 = strcat(output_dir, '/', output_filename, '_pos_patch_dist_distrbution', '.csv');
+            f8 = strcat(output_dir, '/', output_filename, '_neg_patch_dist_distrbution', '.csv');
+
+            if ~isfile(f1) || ~isfile(f2) || ~isfile(f3) || ~isfile(f4) || ~isfile(f5) || ~isfile(f6) ||  ~isfile(f7) ||  ~isfile(f8) || overwrite
+                gen_surface_charge_characteristics(dx_file, ply_file, idr_x, idr_y, idr_z, output_filename, output_dir);  
+            else
+                disp(strcat(f4, ' exists'));
+            end
+                    
+        end 
+    else
+        for i=1:height(input_data)
+            
+            uniprot_id = string(input_data{i,'Uniprot_ID'});
+            pdb_id = string(input_data{i,'PDB_ID'});
+            chain = string(input_data{i,'chain'});
+            residue = string(input_data{i,'residue'});
+            reference_point = string(input_data{i,'reference_point'});
+            
+            idr_x = input_data{i,'x_loc'};
+            idr_y = input_data{i,'y_loc'};
+            idr_z = input_data{i,'z_loc'};
+            
+            dx_file = input_data{i,'dx_file_loc'};
+            ply_file = input_data{i,'ply_file_loc'};
+            
+            if (ismissing(pdb_id)) % idr only
+                output_filename = strcat(uniprot_id, '_residue_', residue,  '_reference_', reference_point);
+            else
+                output_filename = strcat(pdb_id, '_', chain, '_residue_', residue,  '_reference_', reference_point);
+            end
+            
+            disp(output_filename);
+            disp(strcat(num2str(round(i/height(input_data),4)*100), '% complete'));
+            
+            f1 = strcat(output_dir, '/', output_filename, '_neg_patch_loc', '.csv');
+            f2 = strcat(output_dir, '/', output_filename, '_pos_patch_loc', '.csv');
+            f3 = strcat(output_dir, '/', output_filename, '_patchiness_all', '.csv');
+            f4 = strcat(output_dir, '/', output_filename, '_q_all', '.csv');
+            f5 = strcat(output_dir, '/', output_filename, '_patchiness_q_f_surface_distance', '.csv');
+            f6 = strcat(output_dir, '/', output_filename, '_patchiness_q_f_radius', '.csv');
+            f7 = strcat(output_dir, '/', output_filename, '_pos_patch_dist_distribution', '.csv');
+            f8 = strcat(output_dir, '/', output_filename, '_neg_patch_dist_distribution', '.csv');
+
+            if ~isfile(f1) || ~isfile(f2) || ~isfile(f3) || ~isfile(f4) || ~isfile(f5) || ~isfile(f6) ||  ~isfile(f7) ||  ~isfile(f8) || overwrite
+                gen_surface_charge_characteristics(dx_file, ply_file, idr_x, idr_y, idr_z, output_filename, output_dir);  
+            else
+                disp(strcat(f4, ' exists'));
+            end
+            
+        end
+    end
+
+
+end
+
+
+function write_csv_w_header(data, colnames, filename)
+    T = array2table(data);
+    T.Properties.VariableNames(1:size(colnames,2)) = colnames;
+    writetable(T,filename);
+end
+
+
+function output = gen_surface_charge_characteristics(dx_file, ply_file, idr_x, idr_y, idr_z, output_filename, output_dir)
+
+    if isfile(dx_file) && isfile(ply_file) 
+        
+        output1=gen_surf_pot_and_coords(dx_file, ply_file);
+        X = output1;
+        X(any(isnan(X), 2),:)=[];
+        pcutoff = 3; %threshold used to define positive patch
+        ncutoff = -3; %threshold used to define negative patch
+        patchiness_search_radius = 2; %distance used to find nearby points when calculating patchiness
+        radius_start = patchiness_search_radius; 
+        
+        
+        patchiness_all = patchcorr_optimized_spherical_dist(X,pcutoff,ncutoff,patchiness_search_radius); 
+        q_mean_all = mean(X(:,4)); 
+        
+        [patchiness_q_f_radius, radius_colnames] = patchcorr_optimized_wrt_idr_spherical_dist(X,pcutoff,ncutoff,radius_start, patchiness_search_radius, idr_x, idr_y, idr_z, patchiness_all); 
+        
+        disp('constructing graph representation');
+        sampling_rate = 1; %in case you only want to use a subset of X in graph construction; may be useful if limited in computational resources
+        edge_distance_cutoff = patchiness_search_radius; %euclidean distance that constitutes two vertices being connected by an edge
+        [X_subset, G_connected] = construct_graph(X, edge_distance_cutoff, sampling_rate);
+        
+        [patchiness_q_f_surface_dist, surface_dist_colnames] = patchcorr_optimized_wrt_idr_surface_dist(G_connected,X_subset,pcutoff,ncutoff,radius_start, patchiness_search_radius, idr_x, idr_y, idr_z, patchiness_all);
+        
+        disp('finding patches');
+        [ppatches, npatches, patch_loc_colnames] = find_patches(G_connected,X_subset,pcutoff,ncutoff,idr_x, idr_y, idr_z);
+        
+        disp('patch distance distribution');
+        [ppatches_dist_distribution, npatches_dist_distribution, patch_dist_distribution_colnames]= patch_accessibility(G_connected,X_subset,pcutoff,ncutoff,idr_x, idr_y, idr_z);
+
+        if ~exist(output_dir, 'dir')
+            mkdir(output_dir);
+        end
+        
+        write_csv_w_header(patchiness_all, {'mean_patchiness'}, strcat(output_dir, '/', output_filename, '_patchiness_all', '.csv'));
+        write_csv_w_header(q_mean_all, {'mean_phi'}, strcat(output_dir, '/', output_filename, '_q_all', '.csv'));
+        write_csv_w_header(patchiness_q_f_radius, radius_colnames, strcat(output_dir, '/', output_filename, '_patchiness_q_f_radius', '.csv'));
+        write_csv_w_header(patchiness_q_f_surface_dist, surface_dist_colnames, strcat(output_dir, '/', output_filename, '_patchiness_q_f_surface_distance', '.csv'));
+        write_csv_w_header(ppatches, patch_loc_colnames, strcat(output_dir, '/', output_filename, '_pos_patch_loc', '.csv'));
+        write_csv_w_header(npatches, patch_loc_colnames, strcat(output_dir, '/', output_filename, '_neg_patch_loc', '.csv'));
+        write_csv_w_header(ppatches_dist_distribution, patch_dist_distribution_colnames, strcat(output_dir, '/', output_filename, '_pos_patch_dist_distrbution', '.csv'));
+        write_csv_w_header(npatches_dist_distribution, patch_dist_distribution_colnames, strcat(output_dir, '/', output_filename, '_neg_patch_dist_distrbution', '.csv'));
+    else
+        disp(dx_file);
+        disp(ply_file);
+        disp('either of the above does not exist');
+    end
+end
+    
+
+function output1 = gen_surf_pot_and_coords(dx_file, ply_file)
+
+    %%reads in Ply file and maps corresponding potential values from dx file onto
+    %%surface
+
+    PlyData = pcread(ply_file);
+    PlyCoor = PlyData.Location;
+    
+    dxFileId = fopen(dx_file,'r');
+    for j = 1:4
+        fgetl(dxFileId); % Irrelevant lines
+    end
+    gridCountsLine = fgetl(dxFileId);
+    nxyz = sscanf(gridCountsLine, 'object 1 class gridpositions counts %d %d %d');
+    nx = nxyz(1); 
+    ny = nxyz(2); 
+    nz = nxyz(3);
+    originLine = fgetl(dxFileId);
+    origin = sscanf(originLine, 'origin %f %f %f');
+    dxLine = fgetl(dxFileId);
+    dx = sscanf(dxLine, 'delta %f %f %f'); dx = dx(1);
+    dyLine = fgetl(dxFileId);
+    dy = sscanf(dyLine, 'delta %f %f %f'); dy = dy(2);
+    dzLine = fgetl(dxFileId);
+    dz = sscanf(dzLine, 'delta %f %f %f'); dz = dz(3);
+    fclose(dxFileId);
+    % Get potential information
+    dxFileObj = importdata(dx_file, ' ', 11);
+    dxFileData = dxFileObj.data';
+    dxFileData = reshape(dxFileData, size(dxFileData,2)*3, 1); %put each potential value on a single row
+    dxFileData(isnan(dxFileData)) = []; % Remove NaN entries
+    potDX = reshape(dxFileData, nz, ny, nx); % nz * ny * nx
+    potDX = permute(potDX, [2,3,1]); % ny * nx * nz -> more natural plotting
+    %potDX = reshape(dxFileData, nx, ny, nz); 
+    % The grid on x,y,z
+    xGrid = origin(1) + (0:nx-1)*dx;
+    yGrid = origin(2) + (0:ny-1)*dy;
+    zGrid = origin(3) + (0:nz-1)*dz;
+
+    surfPot = interp3(xGrid, yGrid, zGrid, potDX, PlyCoor(:,1),PlyCoor(:,2), PlyCoor(:,3), 'linear');
+
+    output1=[PlyCoor,surfPot]; %cols 1-3: x,y,z coords; col4: potential val
+ 
+end
+    
+  
+
+    
+
+
+
+
+function [patchiness] = patchcorr_optimized_spherical_dist(X,pcutoff,ncutoff,patchiness_search_radius)
+
+    
+    Idx = rangesearch(X(:,1:3),X(:,1:3),patchiness_search_radius,'SortIndices',false); %for each point in X, find nearby points within patchiness_search_radius
+    [total, count] = patchiness_helper_all(Idx,X, pcutoff, ncutoff); 
+    patchiness = total/count; 
+
+end 
+    
+
+function [patchiness_q_f_radius, colnames]=patchcorr_optimized_wrt_idr_spherical_dist(X,pcutoff,ncutoff,radius_start, patchiness_search_radius, idr_x, idr_y, idr_z, patchiness_all)
+
+    colnames = {'radius', 'mean_patchiness', 'mean_phi', 'num_points'};
+
+    A = [idr_x, idr_y, idr_z];
+    A = A';
+    A = reshape(A,1,[]);
+
+    patchiness_curr_radius = 100; 
+    i = 0; 
+    
+    patchiness_q_f_radius = []; 
+    
+    while patchiness_curr_radius ~= patchiness_all
+
+        nearby_points_idr = rangesearch(A,X(:,1:3),radius_start+i,'SortIndices',false); %find points near IDR junction within radius_start+i
+        nearby_points_idr_idx = find(~cellfun(@isempty,nearby_points_idr)); %gets row numbers in X that are within radius_start+i within A 
+
+        if ~isempty(nearby_points_idr_idx)
+
+            %find points within patchiness search radius 
+            %Idx{i}  --> points in X that are near nearby_points_idr_idx
+            X_nearby = X(nearby_points_idr_idx,:);
+            Idx = rangesearch(X_nearby(:,1:3),X(:,1:3),patchiness_search_radius,'SortIndices',false); %for points within radius_start+i of IDR junction, find nearby points within patchiness_search_radius
+
+            [total, count] = patchiness_helper_f_radius(Idx,nearby_points_idr_idx,X, pcutoff, ncutoff); 
+            patchiness_curr_radius = total/count; 
+
+            net_q_curr_radius = mean(X(nearby_points_idr_idx,4)); 
+
+            matrix_val = [radius_start+i, patchiness_curr_radius, net_q_curr_radius, size(nearby_points_idr_idx,1)];
+            patchiness_q_f_radius = [patchiness_q_f_radius; matrix_val]; 
+
+        end 
+        i = i+1; 
+    end
+
+end
+
+
+
+
+function [X_subset, G_connected] = construct_graph(X, edge_distance_cutoff, sampling_rate)
+
+%edge_distance_cutoff is the euclidean distance that constitutes two vertices
+%being connected by an edge
+%sampling_rate is a number indicating to get every nth row of X (to reduce
+%computational complexity)
+
+    X_subset = X(1:sampling_rate:end,:); 
+
+    s = zeros(size(X_subset,1)*100*round(edge_distance_cutoff),1);
+    t = zeros(size(X_subset,1)*100*round(edge_distance_cutoff),1);
+    weights = zeros(size(X_subset,1)*100*round(edge_distance_cutoff),1);
+
+    curr_idx = 1;
+
+    [nearby_points_curr_point,dist] = rangesearch(X_subset(:,1:3), X_subset(:,1:3),edge_distance_cutoff,'SortIndices',false);
+
+    for i=1:size(X_subset,1)
+
+        %if (mod(i,10000) == 0)
+        %    disp(i);
+        %    disp(curr_idx);
+        %end
+
+        relevant_idx = nearby_points_curr_point{i}; 
+        num_elems = size(relevant_idx,2);
+        
+        if ~isempty(relevant_idx)
+            s(curr_idx:(curr_idx+num_elems-1)) = i;
+            t(curr_idx:(curr_idx+num_elems-1)) = relevant_idx;
+            weights(curr_idx:(curr_idx+num_elems-1)) = dist{i};
+            curr_idx = curr_idx+num_elems; 
+        end
+        
+    end
+                
+    G = graph(s(1:curr_idx-1),t(1:curr_idx-1),weights(1:curr_idx-1));
+    
+    %the graph may not be fully connected due to truncation
+    %imposed by edge_distance_cutoff
+    
+    %below code 'connects' Graph by finding closest connected component for
+    %each connected component
+    %corresponding edge is then added between those two components
+    %at each iteration, this is done for all connected components
+    %this process is repeated until # of components = 1
+    
+    graph_components = conncomp(G);
+    unique_graph_components = unique(graph_components); 
+    
+    if length(unique_graph_components) == 1
+        G_connected = G;
+    end 
+    
+    while length(unique_graph_components) ~= 1
+    
+        for i = 1:(length(unique_graph_components))
+
+            component_i = unique_graph_components(i); 
+            component_i_index = find(graph_components == component_i);
+            
+            candidate_compi_nearest_idx = -1;
+            candidate_compj_nearest_idx = -1;
+            candidate_min_dist = 1000; 
+            
+            for j = 1:length(unique_graph_components)
+                
+                if i ~= j
+                    
+                    component_j = unique_graph_components(j); 
+                    component_j_index = find(graph_components == component_j);
+
+                    [k,dist] = dsearchn(X_subset(component_i_index,1:3),X_subset(component_j_index,1:3)); 
+                    min_dist = min(dist(:));
+
+                    compj_nearest_row = find(dist == min_dist);
+                    compj_nearest_row = compj_nearest_row(1); %in case of ties
+                    compi_nearest_row = k(compj_nearest_row);
+
+                    compj_nearest_idx = component_j_index(compj_nearest_row);
+                    compi_nearest_idx = component_i_index(compi_nearest_row);
+
+                    component_j_coords = X_subset(compj_nearest_idx,1:3);
+                    component_i_coords = X_subset(compi_nearest_idx,1:3);
+                
+
+                    if min_dist < candidate_min_dist 
+                        candidate_compj_nearest_idx = compj_nearest_idx;
+                        candidate_compi_nearest_idx = compi_nearest_idx; 
+                        candidate_min_dist = min_dist;
+                    end
+                    
+                end
+            
+            end
+                
+            s(curr_idx) = candidate_compj_nearest_idx;
+            t(curr_idx) = candidate_compi_nearest_idx;
+            weights(curr_idx) = candidate_min_dist;
+            curr_idx = curr_idx+1;  
+            
+        end
+    
+        G_connected = graph(s(1:curr_idx-1),t(1:curr_idx-1),weights(1:curr_idx-1));
+        graph_components = conncomp(G_connected);
+        unique_graph_components = unique(graph_components); 
+        
+    end
+  
+
+            
+end
+
+
+function [patchiness_q_f_surface_dist, colnames]=patchcorr_optimized_wrt_idr_surface_dist(G_connected,X_subset,pcutoff,ncutoff,radius_start, patchiness_search_radius, idr_x, idr_y, idr_z, patchiness_all)
+
+    colnames = {'surface_dist', 'mean_patchiness', 'mean_phi', 'num_points'};
+    
+    A = [idr_x, idr_y, idr_z];
+    A = A';
+    A = reshape(A,1,[]);
+
+    idr_idx_in_X_subset = knnsearch(X_subset(:,1:3),A,'K',1);
+    idr_idx_in_X_subset = idr_idx_in_X_subset(1);
+    
+    %find distance between IDR junction node and all other nodes
+    dist_from_idr_to_all = distances(G_connected,idr_idx_in_X_subset);
+    
+    infinite_dist = find(isinf(dist_from_idr_to_all) == 1);
+    
+    if ~isempty(infinite_dist)
+        disp('Inf distance detected; G is not fully connected');
+    end
+        
+    patchiness_curr_radius = 100; 
+    i = 0; 
+    
+    patchiness_q_f_surface_dist = []; 
+    
+    while patchiness_curr_radius ~= patchiness_all
+
+        %find pionts within radius_start+i based on surface distance (i.e
+        %using graph representation of protein and finding shortest distance between nodes)
+        nearby_points_idr_idx = find(dist_from_idr_to_all < radius_start+i);
+                
+        if ~isempty(nearby_points_idr_idx)
+
+            %find points within patchiness search radius 
+            %Idx{i}  --> points in X_subset that are near nearby_points_idr_idx
+            X_subset_nearby = X_subset(nearby_points_idr_idx,:);
+            Idx = rangesearch(X_subset_nearby(:,1:3),X_subset(:,1:3),patchiness_search_radius,'SortIndices',false);
+
+            [total, count] = patchiness_helper_f_radius(Idx,nearby_points_idr_idx,X_subset, pcutoff, ncutoff); 
+            patchiness_curr_radius = total/count; 
+
+            net_q_curr_radius = mean(X_subset(nearby_points_idr_idx,4)); 
+
+            matrix_val = [radius_start+i, patchiness_curr_radius, net_q_curr_radius, size(nearby_points_idr_idx,2)];
+            patchiness_q_f_surface_dist = [patchiness_q_f_surface_dist; matrix_val]; 
+
+        end 
+        i = i+1; 
+        %disp(i);
+    end
+
+
+end
+
+
+
+function [ppatches, npatches, colnames]= find_patches(G_connected,X_subset,pcutoff,ncutoff,idr_x, idr_y, idr_z)
+
+    %basic idea: given graph G remove all nodes/edges if the potential of a
+    %given node is less/greater than pcutoff/ncutoff
+    %this gives a graph consisting of only 'positive' or 'negative' nodes
+    %then find all connected components in G_pos and G_neg
+    %each connected component constitutes a patch 
+
+    colnames = {'patch_mean_q', 'patch_size', 'patch_size_percentage', 'patch_centroid_x', 'patch_centroid_y', 'patch_centroid_z', 'patch_centroid_nearest_surface_coord_x', 'patch_centroid_nearest_surface_coord_y', 'patch_centroid_nearest_surface_coord_z', 'patch_centroid_idr_euclid_dist', 'patch_centroid_idr_surf_dist'};
+    
+    A = [idr_x, idr_y, idr_z];
+    A = A';
+    A = reshape(A,1,[]);
+
+    idr_idx_in_X_subset = knnsearch(X_subset(:,1:3),A,'K',1);
+    idr_idx_in_X_subset = idr_idx_in_X_subset(1);
+        
+    
+    pos_nodes = find(X_subset(:,4) >= pcutoff);
+    neg_nodes = find(X_subset(:,4) <= ncutoff);
+
+    G_connected_pos = subgraph(G_connected,pos_nodes);
+    G_connected_neg = subgraph(G_connected,neg_nodes);
+
+    pos_components = conncomp(G_connected_pos);
+    unique_pos_components = unique(pos_components); 
+
+    X_subset_pos = X_subset(pos_nodes,:);
+
+    ppatches=[];
+
+    pos_patch_max_idx = 0;    
+    max_patch_size = 0;
+    
+    for i = 1:length(unique_pos_components)
+        
+        pos_component_index = find(pos_components == unique_pos_components(i)); %get indices of nodes in the ith connected component  
+        patch_size = size(pos_component_index,2);
+        patch_size_percentage = round(patch_size/size(X_subset,1),4);
+        
+        if patch_size_percentage > .01
+            patch_centroid = mean(X_subset_pos(pos_component_index,1:3));
+            patch_centroid_idr_dist_euclidean = pdist([patch_centroid; [idr_x, idr_y, idr_z]],'Euclidean'); %get euclidean distance from IDR junction to patch centroid
+            
+            %find index of node nearest to patch centroid and then
+            %calculate surface distance to patch centroid
+            patch_centroid_idx_in_X_subset = knnsearch(X_subset(:,1:3),patch_centroid,'K',1);
+            patch_centroid_idx_in_X_subset = patch_centroid_idx_in_X_subset(1);
+            patch_centroid_idr_dist_surf_dist = distances(G_connected,idr_idx_in_X_subset, patch_centroid_idx_in_X_subset);
+            
+            
+            patch_centroid_nearest_coord = X_subset(patch_centroid_idx_in_X_subset,1:3); %might be useful to track if there is not a node that is actually nearb
+            
+            patch_mean_q = mean(X_subset_pos(pos_component_index,4));
+            ppatches = [ppatches; [patch_mean_q, patch_size, patch_size_percentage, patch_centroid(1), patch_centroid(2), patch_centroid(3), patch_centroid_nearest_coord(1), patch_centroid_nearest_coord(2), patch_centroid_nearest_coord(3), patch_centroid_idr_dist_euclidean, patch_centroid_idr_dist_surf_dist]];
+        end
+        
+        if patch_size_percentage > max_patch_size
+            max_patch_size = patch_size_percentage;
+            pos_patch_max_idx = i;
+        end
+        %pcshow(X_subset_pos(pos_component_index,1:3)); %-- to visualize a patch
+    end
+
+
+    neg_components = conncomp(G_connected_neg);
+    unique_neg_components = unique(neg_components); 
+
+    X_subset_neg = X_subset(neg_nodes,:);
+
+    npatches=[];
+    
+    neg_patch_max_idx = 0;
+    max_patch_size = 0;
+    
+    for i = 1:length(unique_neg_components)
+        
+        neg_component_index = find(neg_components == unique_neg_components(i));
+        patch_size = size(neg_component_index,2);
+        patch_size_percentage = round(patch_size/size(X_subset,1),2);
+        
+        if patch_size_percentage > .01
+            patch_centroid = mean(X_subset_neg(neg_component_index,1:3));
+            patch_centroid_idr_dist = pdist([patch_centroid; [idr_x, idr_y, idr_z]],'Euclidean');
+            
+            %find index of node nearest to patch centroid
+            patch_centroid_idx_in_X_subset = knnsearch(X_subset(:,1:3),patch_centroid,'K',1);
+            patch_centroid_idx_in_X_subset = patch_centroid_idx_in_X_subset(1);
+            patch_centroid_idr_dist_surf_dist = distances(G_connected,idr_idx_in_X_subset, patch_centroid_idx_in_X_subset);
+            
+            patch_centroid_nearest_coord = X_subset(patch_centroid_idx_in_X_subset,1:3);
+
+            patch_mean_q = mean(X_subset_neg(neg_component_index,4));
+            npatches = [npatches; [patch_mean_q, patch_size, patch_size_percentage, patch_centroid(1), patch_centroid(2), patch_centroid(3), patch_centroid_nearest_coord(1), patch_centroid_nearest_coord(2), patch_centroid_nearest_coord(3), patch_centroid_idr_dist, patch_centroid_idr_dist_surf_dist]];
+        end
+        if patch_size_percentage > max_patch_size
+            max_patch_size = patch_size_percentage;
+            neg_patch_max_idx = i;
+        end
+        %pcshow(X_subset_neg(neg_component_index,1:3));
+        
+    end
+    
+    %for plotting largest pos patch + largest neg patch
+    %pos_component_index = find(pos_components == unique_pos_components(pos_patch_max_idx));
+    %neg_component_index = find(neg_components == unique_neg_components(neg_patch_max_idx));
+    %combined_data = [X_subset_pos(pos_component_index,1:3); X_subset_neg(neg_component_index,1:3)];
+    %rgb_matrix = [repelem([0,0,255],size(pos_component_index,2),[1]); repelem([255,0,0],size(neg_component_index,2),[1])];
+    %pcshow(combined_data, rgb_matrix)
+    
+end
+
+
+function [ppatches_dist_distribution, npatches_dist_distribution, colnames]= patch_accessibility(G_connected,X_subset,pcutoff,ncutoff,idr_x, idr_y, idr_z)
+
+    colnames = {'patch_centroid_x', 'patch_centroid_y', 'patch_centroid_z', 'patch_mean_q_sampled', 'distance_to_sampled_patch_node'};
+    
+    A = [idr_x, idr_y, idr_z];
+    A = A';
+    A = reshape(A,1,[]);
+
+    idr_idx_in_X_subset = knnsearch(X_subset(:,1:3),A,'K',1);
+    idr_idx_in_X_subset = idr_idx_in_X_subset(1);
+        
+    
+    pos_nodes = find(X_subset(:,4) >= pcutoff);
+    neg_nodes = find(X_subset(:,4) <= ncutoff);
+
+    G_connected_pos = subgraph(G_connected,pos_nodes);
+    G_connected_neg = subgraph(G_connected,neg_nodes);
+
+    pos_components = conncomp(G_connected_pos);
+    unique_pos_components = unique(pos_components); 
+
+    X_subset_pos = X_subset(pos_nodes,:);
+
+    ppatches_dist_distribution=[];
+
+    for i = 1:length(unique_pos_components)
+        
+        pos_component_index = find(pos_components == unique_pos_components(i));
+        patch_size = size(pos_component_index,2);
+        num_points_to_sample = round(patch_size*.1);
+        patch_size_percentage = round(patch_size/size(X_subset,1),2);
+        
+        if patch_size_percentage > .01
+            
+            pos_component_index_sample = randsample(pos_component_index,num_points_to_sample);
+            pos_nodes_index_in_X_subset = pos_nodes(pos_component_index_sample); %map indices from X_subset_pos to X_pos
+            
+            distance_distribution = distances(G_connected,idr_idx_in_X_subset, pos_nodes_index_in_X_subset);
+            
+            patch_centroid = mean(X_subset_pos(pos_component_index,1:3));
+            
+            patch_mean_q_sampled = mean(X_subset(pos_nodes_index_in_X_subset,4));
+           
+            output = horzcat(repmat(patch_centroid,size(distance_distribution,2),1), repmat(patch_mean_q_sampled,size(distance_distribution,2),1), distance_distribution');
+            
+            ppatches_dist_distribution = [ppatches_dist_distribution; output];
+        end
+             
+    end
+
+
+    neg_components = conncomp(G_connected_neg);
+    unique_neg_components = unique(neg_components); 
+
+    X_subset_neg = X_subset(neg_nodes,:);
+
+    npatches_dist_distribution=[];
+    
+    for i = 1:length(unique_neg_components)
+        
+        neg_component_index = find(neg_components == unique_neg_components(i));
+        patch_size = size(neg_component_index,2);
+        num_points_to_sample = round(patch_size*.1);
+        patch_size_percentage = round(patch_size/size(X_subset,1),2);
+        
+        if patch_size_percentage > .01
+            
+            neg_component_index_sample = randsample(neg_component_index,num_points_to_sample);
+            neg_nodes_index_in_X_subset = neg_nodes(neg_component_index_sample); %map indices from X_subset_pos to X_pos
+            
+            distance_distribution = distances(G_connected,idr_idx_in_X_subset, neg_nodes_index_in_X_subset);
+            
+            patch_centroid = mean(X_subset_neg(neg_component_index,1:3));
+            
+            patch_mean_q_sampled = mean(X_subset(neg_nodes_index_in_X_subset,4));
+           
+            output = horzcat(repmat(patch_centroid,size(distance_distribution,2),1), repmat(patch_mean_q_sampled,size(distance_distribution,2),1), distance_distribution');
+            
+            npatches_dist_distribution = [npatches_dist_distribution; output];
+        end
+        
+    end
+    
+
+    
+end
+
+
+
+
+
