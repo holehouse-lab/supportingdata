@@ -11,6 +11,9 @@ idr_len_data = read.csv('./Output_Data/idr_len.csv')
 idr_len_sequence_len_data = read.csv('./Output_Data/idr_len_sequence_len.csv')
 kappa_data = read.csv('./Output_Data/kappa.csv')
 phospho_data = read.csv('./Output_Data/phospho.csv')
+hydropathy_data = read.csv('./Output_Data/hydropathy.csv')
+hydrophobicity_data = read.csv('./Output_Data/hydrophobicity.csv')
+aromaticity_data = read.csv('./Output_Data/aromaticity.csv')
 
 
 fcr_long_df = fcr_data %>% gather(idr_type, fcr, all:C_w_pdb) %>% filter(!is.na(fcr)) %>% as.data.frame()
@@ -21,6 +24,9 @@ idr_len_long_df = idr_len_data %>% gather(idr_type, idr_len, all:C_w_pdb) %>% fi
 idr_len_sequence_len_long_df = idr_len_sequence_len_data %>% gather(idr_type, idr_len_sequence_len, all:C_w_pdb) %>% filter(!is.na(idr_len_sequence_len)) %>% as.data.frame()
 kappa_long_df = kappa_data %>% gather(idr_type, kappa, all:C_w_pdb) %>% filter(!is.na(kappa)) %>% as.data.frame()
 phospho_long_df = phospho_data %>% gather(idr_type, phospho, all:C_w_pdb) %>% filter(!is.na(phospho)) %>% as.data.frame()
+hydropathy_long_df = hydropathy_data %>% gather(idr_type, hydropathy, all:C_w_pdb) %>% filter(!is.na(hydropathy)) %>% as.data.frame()
+hydrophobicity_long_df = hydrophobicity_data %>% gather(idr_type, hydrophobicity, all:C_w_pdb) %>% filter(!is.na(hydrophobicity)) %>% as.data.frame()
+aromaticity_long_df = aromaticity_data %>% gather(idr_type, aromaticity, all:C_w_pdb) %>% filter(!is.na(aromaticity)) %>% as.data.frame()
 
 
 combine_n_c_term = function(data)
@@ -47,6 +53,9 @@ idr_len_long_df_processed = combine_n_c_term(idr_len_long_df)
 idr_len_sequence_len_long_df_processed = combine_n_c_term(idr_len_sequence_len_long_df)
 kappa_long_df_processed = combine_n_c_term(kappa_long_df)
 phospho_long_df_processed = combine_n_c_term(phospho_long_df)
+hydropathy_long_df_processed = combine_n_c_term(hydropathy_long_df)
+hydrophobicity_long_df_processed = combine_n_c_term(hydrophobicity_long_df)
+aromaticity_long_df_processed = combine_n_c_term(aromaticity_long_df)
 
 all_features_long_df = cbind(fcr_long_df, 
                              ncpr_long_df,
@@ -55,7 +64,10 @@ all_features_long_df = cbind(fcr_long_df,
                              idr_len_long_df,
                              idr_len_sequence_len_long_df,
                              kappa_long_df,
-                             phospho_long_df)
+                             phospho_long_df,
+                             hydropathy_long_df,
+                             hydrophobicity_long_df,
+                             aromaticity_long_df)
 
 
 
@@ -77,9 +89,6 @@ plot_single_feature = function(data, feature, feature_str, comparison_type_str)
     data$idr_type = factor(data$idr_type, levels = c('Non-Tail', 'Tail', 'Tail W/ PDB'))
     plot_save_dir = './Output_Plots/Non_Tail_Comparison'
   }
-  
-  dir.create(plot_save_dir, recursive = TRUE, showWarnings = FALSE)
-  
   
   if (feature_str == 'Kappa')
   {
@@ -132,6 +141,11 @@ for (comparison_type in c('All', 'Non_Tail'))
   plot_single_feature(idr_len_long_df_processed, 'idr_len', 'IDR Length', comparison_type)
   plot_single_feature(phospho_long_df_processed, 'phospho', '% Phospho', comparison_type)
   plot_single_feature(kappa_long_df_processed, 'kappa', 'Kappa', comparison_type)
+  
+  plot_single_feature(hydropathy_long_df_processed, 'hydropathy', 'Mean Hydropathy', comparison_type)
+  plot_single_feature(hydrophobicity_long_df_processed, 'hydrophobicity', '% Hydrophobic', comparison_type)
+  plot_single_feature(aromaticity_long_df_processed, 'aromaticity', '% Aromatic', comparison_type)
+  
 }
 
 plot_idr_len_power_law = function()
@@ -142,8 +156,6 @@ plot_idr_len_power_law = function()
   }
   
   plot_save_dir = './Output_Plots/Non_Tail_Comparison'
-  dir.create(plot_save_dir, recursive = TRUE, showWarnings = FALSE)
-  
   
   get_hist_info = function(data)
   {
@@ -181,8 +193,6 @@ plot_idr_len_power_law = function()
   
   
   plot_save_dir = './Output_Plots/All_Comparison'
-  dir.create(plot_save_dir, recursive = TRUE, showWarnings = FALSE)
-  
   
   data = idr_len_long_df_processed
   data = data %>% filter(idr_type != 'non_tail') %>% as.data.frame()
@@ -225,6 +235,10 @@ pairwise.wilcox.test(fcr_long_df_processed$fcr, fcr_long_df_processed$idr_type, 
 pairwise.wilcox.test(fp_long_df_processed$fp, fp_long_df_processed$idr_type, p.adjust.method="none")
 pairwise.wilcox.test(fn_long_df_processed$fn, fn_long_df_processed$idr_type, p.adjust.method="none")
 pairwise.wilcox.test(idr_len_long_df_processed$idr_len, idr_len_long_df_processed$idr_type, p.adjust.method="none")
+pairwise.wilcox.test(hydropathy_long_df_processed$hydropathy, hydropathy_long_df_processed$idr_type, p.adjust.method="none")
+pairwise.wilcox.test(hydrophobicity_long_df_processed$hydrophobicity, hydrophobicity_long_df_processed$idr_type, p.adjust.method="none")
+pairwise.wilcox.test(aromaticity_long_df_processed$aromaticity, aromaticity_long_df_processed$idr_type, p.adjust.method="none")
+
 
 phospho_long_df_processed %>% wilcox_effsize(phospho ~ idr_type) %>% as.data.frame()
 kappa_long_df_processed %>% wilcox_effsize(kappa ~ idr_type) %>% as.data.frame()
@@ -233,15 +247,15 @@ fcr_long_df_processed %>% wilcox_effsize(fcr ~ idr_type) %>% as.data.frame()
 fp_long_df_processed %>% wilcox_effsize(fp ~ idr_type) %>% as.data.frame()
 fn_long_df_processed %>% wilcox_effsize(fn ~ idr_type) %>% as.data.frame()
 idr_len_long_df_processed %>% wilcox_effsize(idr_len ~ idr_type) %>% as.data.frame()
-
+hydropathy_long_df_processed %>% wilcox_effsize(hydropathy ~ idr_type) %>% as.data.frame()
+hydrophobicity_long_df_processed %>% wilcox_effsize(hydrophobicity ~ idr_type) %>% as.data.frame()
+aromaticity_long_df_processed %>% wilcox_effsize(aromaticity ~ idr_type) %>% as.data.frame()
 
 
 
 plot_phase_diagram_individual = function(data, idr_type_str)
 {
   plot_save_dir = './Output_Plots'
-  dir.create(plot_save_dir, recursive = TRUE, showWarnings = FALSE)
-  
   
   data = data %>% filter(idr_type == idr_type_str) %>% as.data.frame()
   
@@ -268,8 +282,6 @@ plot_phase_diagram_facet = function(data)
   data = data %>% filter(idr_type != 'non_tail') %>% as.data.frame()
   
   plot_save_dir = './Output_Plots'
-  dir.create(plot_save_dir, recursive = TRUE, showWarnings = FALSE)
-  
   
   data[data$idr_type == 'all', 'idr_type'] = 'All'
   data[data$idr_type == 'tail', 'idr_type'] = 'Tail'
