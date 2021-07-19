@@ -1,5 +1,9 @@
 # Readme
-To re-generate accuracy analysis the `data.zip` directory must be unzipped first, i.e.,
+To re-generate accuracy analysis, data in `data`/ directory must be extracted. This can be achieved by running
 
-	unzip data.zip
+	cd data
+	bash extract.sh
+	
+
+	
 	
