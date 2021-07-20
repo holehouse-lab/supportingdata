@@ -13,7 +13,7 @@ import numpy as np
 # https://protfasta.readthedocs.io/en/latest/
 
 print('Reading in CAID sequences...')
-disprot_data = protfasta.read_fasta('../data/CAID_DisProt_Dataset.fasta')
+disprot_data = protfasta.read_fasta('../data/CAID/CAID_DisProt_Dataset.fasta')
 
 number_of_iterations = 3
 
