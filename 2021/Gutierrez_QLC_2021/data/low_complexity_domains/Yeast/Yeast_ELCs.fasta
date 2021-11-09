@@ -1,0 +1,791 @@
+>YAL035W Chr1 (76427..79435) [3009 bp; 1002 aa] {ON}  FUN12GTPase; required for general translation initiation by promoting Met-tRNAiMet binding to ribosomes and ribosomal subunit joining; homolog of bacterial IF2 START=177 END=249
+ELKKQLEEQEKLEREEEERLEKEEEERLANEEKMKEEAKAAKKEKEKAKREKRKAEGKLL
+TRKQKEEKKLLE
+
+>YAL035W Chr1 (76427..79435) [3009 bp; 1002 aa] {ON}  FUN12GTPase; required for general translation initiation by promoting Met-tRNAiMet binding to ribosomes and ribosomal subunit joining; homolog of bacterial IF2 START=271 END=377
+EENKPKKVVYSKKKKRTTQENASEAIKSDSKKDSEVVPDDELKESEDVLIDDWENLALGD
+DDEEGTNEETQESTASHENEDQNQGEEEEEGEEEEEEEEERAHVHE
+
+>YAL025C Chr1 complement(100225..101145) [921 bp; 306 aa] {ON}  MAK16Essential nuclear protein; constituent of 66S pre-ribosomal particles; required for maturation of 25S and 5.8S rRNAs; required for maintenance of M1 satellite double-stranded RNA of the L-A virus START=183 END=266
+EKVWKKIMGQMEEENSQDEEEDWDEEEESDDGEVEYVADDGEGEYVDVDDLEKWLADSDR
+EASSASESESDSESESDSDSDEE
+
+>YAL013W Chr1 (129270..130487) [1218 bp; 405 aa] {ON}  DEP1Transcriptional modulator involved in regulation of structural phospholipid biosynthesis genes and metabolically unrelated genes; as well as maintenance of telomeres; mating efficiency; and sporulation START=41 END=160
+EYCISSDAGTEKMDSDEEKSLANLPELKYAPKLSSLVKQETLTESLKRPHEDEKEAIDEA
+KKMKVPGENEDESKEEEKSQELEEAIDSKEKSTDARDEQGDEGDNEEENNEEDNENENE
+
+>YAR003W Chr1 (155005..156285) [1281 bp; 426 aa] {ON}  SWD1Subunit of the COMPASS (Set1C) complex; which methylates histone H3 on lysine 4 and is required in transcriptional silencing near telomeres; WD40 beta propeller superfamily member with similarity to mammalian Rbbp7 START=355 END=409
+EEVEENVDYLEKEDEFDEVDEAEQQQGLEQEEEIAIDLRTREQYDVRGNNLLVE
+
+>YBL104C Chr2 complement(18177..21293) [3117 bp; 1038 aa] {ON}  SEA4Subunit of the SEA (Seh1-associated) complex; a coatomer-related complex that associates dynamically with the vacuole; has an N-terminal beta-propeller fold and a C-terminal RING motif; promoter contains multiple GCN4 binding sites START=418 END=481
+ENTEIDEIRVNNEHEKSNLENVKTILKNLSFEDLDVSEDYFPSGHDEPNNEIEYSELSEE
+ENE
+
+>YBL052C Chr2 complement(119379..121874) [2496 bp; 831 aa] {ON}  SAS3Histone acetyltransferase catalytic subunit of NuA3 complex that acetylates histone H3; involved in transcriptional silencing; homolog of the mammalian MOZ proto-oncogene; mutant has aneuploidy tolerance; sas3gcn5 double mutation is lethal START=735 END=831
+EQDEVENDVDTELYVGENAKEDEDEDEDFTLDDDIEDEQISEENDEEEDTYEEDSDDDED
+GKRKGQEQDENDIESHIRKERVRKRRKITLIEDDEE
+
+>YBL011W Chr2 (203538..205817) [2280 bp; 759 aa] {ON}  SCT1Glycerol 3-phosphate/dihydroxyacetone phosphate dual substrate-specific sn-1 acyltransferase of the glycerolipid biosynthesis pathway; prefers 16-carbon fatty acids; similar to Gpt2p; gene is constitutively transcribed START=730 END=756
+ENTAREEEEEEEEEEEEEEEEEEGKE
+
+>YBR030W Chr2 (298292..299950) [1659 bp; 552 aa] {ON}  RKM3Ribosomal lysine methyltransferase specific for monomethylation of Rpl42ap and Rpl42bp (lysine 40); nuclear SET domain containing protein START=398 END=446
+EDEEDEDGQAKSDNLSDDIESEEEEEEEEGDDSLESWLSQLYIDSSGE
+
+>YBR079C Chr2 complement(395383..398277) [2895 bp; 964 aa] {ON}  RPG1eIF3a subunit of the core complex of translation initiation factor 3 (eIF3); essential for translation; part of a Prt1p-Rpg1p-Nip1p subcomplex that stimulates binding of mRNA and tRNA(i)Met to ribosomes; involved in translation reinitiation START=505 END=584
+EVSEEENTEPEVQEEKEETDEALGPQETEDGEEKEEESDPVIIRNSYIHNKLLELSNVLH
+DVDSFNNASYMEKVRIARE
+
+>YBR081C Chr2 complement(401253..405251) [3999 bp; 1332 aa] {ON}  SPT7Subunit of the SAGA transcriptional regulatory complex; involved in proper assembly of the complex; also present as a C-terminally truncated form in the SLIK/SALSA transcriptional regulatory complex START=194 END=247
+EFGDENDTEYTLLDVEEKEEEEIGKNEKPQNKEGISKFAEDEDYDDEDENYDE
+
+>YBR247C Chr2 complement(713004..714455) [1452 bp; 483 aa] {ON}  ENP1Protein associated with U3 and U14 snoRNAs; required for pre-rRNA processing and 40S ribosomal subunit synthesis; localized in the nucleus and concentrated in the nucleolus START=48 END=141
+EEDGYIDSKASRKILQLAKEQQDEIEGEELAESERNKQFEARFTTMSYDDEDEDEDEDEE
+AFGEDISDFEPEGDYKEEEEIVEIDEEDAAMFE
+
+>YBR278W Chr2 (760294..760899) [606 bp; 201 aa] {ON}  DPB3Third-largest subunit of DNA polymerase II (DNA polymerase epsilon); required to maintain fidelity of chromosomal replication and also for inheritance of telomeric silencing; mRNA abundance peaks at the G1/S boundary of the cell cycle START=74 END=150
+EECVEKRDNFRFLEDAIKQLKKNSALDKKRELNMQPGRSDQEVVIEEPELHEDDGVEEEE
+EEDEVSEEEEPVHNEE
+
+>YBR279W Chr2 (761257..762594) [1338 bp; 445 aa] {ON}  PAF1Component of the Paf1p complex involved in transcription elongation; binds to and modulates the activity of RNA polymerases I and II; required for expression of a subset of genes; including cell cycle-regulated genes; involved in SER3 repression by helping to maintain SRG1 transcription-dependent nucleosome occupancy; homolog of human PD2/hPAF1 START=362 END=445
+EEDDEDEEQPEDVKKESEGDSKTEGSEQEGENEKDEEIKQEKENEQDEENKQDENRAADT
+PETSDAVHTEQKPEEEKETLQEE
+
+>YCR033W Chr3 (186489..190169) [3681 bp; 1226 aa] {ON}  SNT1Subunit of the Set3C deacetylase complex that interacts directly with the Set3C subunit; Sif2p; putative DNA-binding protein; mutant has increased aneuploidy tolerance START=544 END=587
+EKECEILTKLSENLRKEEIENKRKEHELMEQKRREEGIETEKE
+
+>YCR033W Chr3 (186489..190169) [3681 bp; 1226 aa] {ON}  SNT1Subunit of the Set3C deacetylase complex that interacts directly with the Set3C subunit; Sif2p; putative DNA-binding protein; mutant has increased aneuploidy tolerance START=744 END=842
+ERSNDEEVEVDESKEESTNTIEKEEKSENNAEENVQPVLVQGSEVKGDPLGTPEKVENMI
+EQRGEEFAGELENAERVNDLKRAHDEVGEESNKSSVIE
+
+>YCR042C Chr3 complement(201174..205397) [4224 bp; 1407 aa] {ON}  TAF2TFIID subunit (150 kDa); involved in RNA polymerase II transcription initiation START=258 END=355
+EESEKEKEDTPEHDEEEEGKPARVIKDEDKDSNLKNDEEGKNSKSKDAQDNDEEEEEGES
+DEEEEEGEEERRNIEESNNPSLRDVIVCCSEYSNIKE
+
+>YCR088W Chr3 (265068..266846) [1779 bp; 592 aa] {ON}  ABP1Actin-binding protein of the cortical actin cytoskeleton; important for activation of the Arp2/3 complex that plays a key role actin in cytoskeleton organization; phosphorylation within its PRR (Proline-Rich Region); mediated by Cdc28p and Pho85p; protects Abp1p from proteolysis mediated by its own PEST sequences START=464 END=505
+EEPEQEEIAPSLPSRNSIPAPKQEEAPEQAPEEEIEEEAEE
+
+>YDL207W Chr4 (88248..89864) [1617 bp; 538 aa] {ON}  GLE1Cytoplasmic nucleoporin required for polyadenylated RNA export; not essential for protein import; contains a nuclear export signal; when bound to inositol hexakisphosphate (IP6); functions as an activator for the Dbp5p ATPase activity at the nuclear pore complex during mRNA export START=124 END=229
+EAIEESFQRKMQNLVLANQKEIQSIRENKRRVEEQRKRKEEEERKRKEAEEKAKREQELL
+RQKKDEEERKRKEAEAKLAQQKQEEERKKIEEQNEKERQLKKEHE
+
+>YDL155W Chr4 (176773..178056) [1284 bp; 427 aa] {ON}  CLB3B-type cyclin involved in cell cycle progression; activates Cdc28p to promote the G2/M transition; may be involved in DNA replication and spindle assembly; accumulates during S phase and G2; then targeted for ubiquitin-mediated degradation START=71 END=126
+ERLDSAAIIEEERLDANSVAQRKEADHNDLLTDREQEEPVEDDGESEEDEEEDQE
+
+>YDL153C Chr4 complement(181186..183018) [1833 bp; 610 aa] {ON}  SAS10Essential subunit of U3-containing Small Subunit (SSU) processome complex involved in production of 18S rRNA and assembly of small ribosomal subunit; disrupts silencing when overproduced; mutant has increased aneuploidy tolerance START=55 END=184
+EDEDEEEVLAMDEDDESIDEREDEEEEEEEELDGAAAYKKIFGRNLETDQLPEEDEENGM
+LDNENAWGSTKGEYYGADDLDDDEAAKEIEKEALRQQKKHLEELNMNDYLDEEEEEEWVK
+SAKEFDMGE
+
+>YDL153C Chr4 complement(181186..183018) [1833 bp; 610 aa] {ON}  SAS10Essential subunit of U3-containing Small Subunit (SSU) processome complex involved in production of 18S rRNA and assembly of small ribosomal subunit; disrupts silencing when overproduced; mutant has increased aneuploidy tolerance START=269 END=374
+ELHNNEDFTSMKGHPVMEKILTTKEIWRQASELPSSFDVNEGDGSESEETANIEAFNEKK
+LNELQNSEDSDAEDGGKQKQEIDEEERESDEEEEEEDVDIDDFEE
+
+>YDL122W Chr4 (242552..244981) [2430 bp; 809 aa] {ON}  UBP1Ubiquitin-specific protease that removes ubiquitin from ubiquitinated proteins; cleaves at the C terminus of ubiquitin fusions irrespective of their size; capable of cleaving polyubiquitin chains START=713 END=798
+ETVYVVDEAEVLSTPGVFMLFYEYDFDEETGKMKDDLEAIQSNNEEDDEKEQEQKGVQEP
+KESQEQGEGEEQEEGQEQMKFERTE
+
+>YDL099W Chr4 (283419..284444) [1026 bp; 341 aa] {ON}  BUG1Cis-golgi localized protein involved in ER to Golgi transport; forms a complex with the mammalian GRASP65 homolog; Grh1p; mutants are compromised for the fusion of ER-derived vesicles with Golgi membranes START=49 END=109
+ETPDLEGTPGEESTQEETVKANSTKSENNDQNDVDEESEEKEIEQVKSDPSGTTEKDIEE
+
+>YDL060W Chr4 (341619..343985) [2367 bp; 788 aa] {ON}  TSR1Protein required for processing of 20S pre-rRNA in the cytoplasm; associates with pre-40S ribosomal particles; inhibits the premature association of 60S subunits with assembling 40S subunits in the cytoplasm; similar to Bms1p START=412 END=496
+EEEEAEQTNGKDETMMEIDDEMMVEQDNEEVAGDEEYDIEDNEGFEELSPEEEERQLREF
+RDMEKEDREFPDEIELEPSESAIE
+
+>YDR060W Chr4 (570649..573726) [3078 bp; 1025 aa] {ON}  MAK21Constituent of 66S pre-ribosomal particles; required for large (60S) ribosomal subunit biogenesis; involved in nuclear export of pre-ribosomes; required for maintenance of dsRNA virus; homolog of human CAATT-binding protein START=115 END=194
+EDVDDDDIEEESTSSKESKIPAQEKEHAQSNIASSTIEKTSQESIDNGSEQEENTVEEAN
+LSSDQEPESESAEKEKKEE
+
+>YDR068W Chr4 (583713..584645) [933 bp; 310 aa] {ON}  DOS2Protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm START=230 END=283
+ESKRKEILSKKEKETEEKEVEWDDEEEEEDDDKVEAVADNKSKGETKVAVSQE
+
+>YDR170C Chr4 complement(796193..802222) [6030 bp; 2009 aa] {ON}  SEC7Guanine nucleotide exchange factor (GEF) for ADP ribosylation factors involved in proliferation of the Golgi; intra-Golgi transport and ER-to-Golgi transport; found in the cytoplasm and on Golgi-associated coated vesicles START=2 END=186
+EQNSVVNAEKGDGEISSNVETASSVNPSVKPQNAIKEEAKETNGEDQKCKGPENAGSTAE
+TKETSNDATNGMKTPEETEDTNDKRHDDEGEDGDEDEDEDEDEDEDNGDEDDEDVDSSSS
+ETSSEDGEDSESVSGESTESSSGEDEESDESDGNTSNSSSGDESGSEEEEEEEEEEEEEE
+NAGE
+
+>YDR171W Chr4 (806621..807748) [1128 bp; 375 aa] {ON}  HSP42Small heat shock protein (sHSP) with chaperone activity; forms barrel-shaped oligomers that suppress unfolded protein aggregation; involved in cytoskeleton reorganization after heat shock START=155 END=203
+EGTEPEIEANTEQEGEKGEEKDKKDKSEAPKEEAGETNKEKPLNQLEE
+
+>YDR172W Chr4 (808324..810381) [2058 bp; 685 aa] {ON}  SUP35Translation termination factor eRF3; has a role in mRNA deadenylation and decay; altered protein conformation creates the [PSI(+)] prion that alters translational fidelity and results in a nonsense suppressor phenotype START=166 END=222
+ESDKKEEEKSAETKEPTKEPTKVEEPVKKEEKPVQTEEKTEEKSELPKVEDLKISE
+
+>YDR244W Chr4 (950563..952401) [1839 bp; 612 aa] {ON}  PEX5Peroxisomal membrane signal receptor for the C-terminal tripeptide signal sequence (PTS1) of peroxisomal matrix proteins; required for peroxisomal matrix protein import; also proposed to have PTS1-receptor independent functions START=193 END=275
+EGVNEQEQQPWTDQFEKLEKEVSENLDINDEIEKEENVSEVEQNKPETVEKEEGVYGDQY
+QSDFQEVWDSIHKDAEEVLPSE
+
+>YDR299W Chr4 (1059627..1061231) [1605 bp; 534 aa] {ON}  BFR2Essential protein that is a component of 90S preribosomes; may be involved in rRNA processing; multicopy suppressor of sensitivity to Brefeldin A; expression is induced during lag phase and also by cold shock START=23 END=157
+EDEENASLFQHNEKNGESDLSDYGNSNTEETKKAHYLEVEKSKLRAEKGLELNDPKYTGV
+KGSRQALYEEVSENEDEEEEEEEEEEKEEDALSFRTDSEDEEVEIDEEESDADGGETEEA
+QQKRHALSKLIQQE
+
+>YDR346C Chr4 complement(1167214..1168659) [1446 bp; 481 aa] {ON}  SVF1Protein with a potential role in cell survival pathways; required for the diauxic growth shift; expression in mammalian cells increases survival under conditions inducing apoptosis; mutant has increased aneuploidy tolerance START=199 END=256
+EVIPESDEEESSADEDDNEDEDEESGDSEEESGSEEESDSEEVEITYEDRTITFKEE
+
+>YDR346C Chr4 complement(1167214..1168659) [1446 bp; 481 aa] {ON}  SVF1Protein with a potential role in cell survival pathways; required for the diauxic growth shift; expression in mammalian cells increases survival under conditions inducing apoptosis; mutant has increased aneuploidy tolerance START=358 END=418
+EQLESENGTEQALQGEDEKEDEKEDEEEEEYKNVAEENKICAVVEGPLNNLVERIDVMGE
+
+>YDR363W Chr4 (1199183..1200553) [1371 bp; 456 aa] {ON}  ESC2Sumo-like domain protein; prevents accumulation of toxic intermediates during replication-associated recombinational repair; roles in silencing; lifespan; chromatid cohesion and the intra-S-phase DNA damage checkpoint; RENi family member START=280 END=382
+ENEVSDIDVTIVSKEYEKNFEATLESKLKEEEAALLIKERQEMERKLEKKRNEQEESEYR
+EFESELKNVEETQEIKENDTVMNTKLLQEGGSLSGNSSSMEE
+
+>YDR365C Chr4 complement(1204497..1206383) [1887 bp; 628 aa] {ON}  ESF1Nucleolar protein involved in pre-rRNA processing; depletion causes severely decreased 18S rRNA levels START=67 END=141
+ELEDFDKYFEKEAENDEDSEVNAKTVVDRARGEVPDDYVSSSDEFTSSDSESSGESEVES
+EEENEVEIENAKPE
+
+>YDR398W Chr4 (1267471..1269402) [1932 bp; 643 aa] {ON}  UTP5Subunit of U3-containing Small Subunit (SSU) processome complex involved in production of 18S rRNA and assembly of small ribosomal subunit START=559 END=643
+EAGDIHSSEPVVEEDEDDVEYNEELDDAGLIEDGEESYGSEEEEEGDSDNEEEQKHTSSK
+QDGRLETEQSDGEEEAGYSDVEME
+
+>YDR412W Chr4 (1294693..1295400) [708 bp; 235 aa] {ON}  RRP17Component of the pre-60S pre-ribosomal particle; required for cell viability under standard (aerobic) conditions but not under anaerobic conditions; exonuclease required for 5&#8242; end processing of pre-60S ribosomal RNA START=55 END=115
+EFIKEQERLRKIEERQKIRQERKEVMEEQLKTFKESLNLEAEIEDAKNDKTEDLQVESDE
+
+>YDR485C Chr4 complement(1424820..1427207) [2388 bp; 795 aa] {ON}  VPS72Htz1p-binding component of the SWR1 complex; which exchanges histone variant H2AZ (Htz1p) for chromatin-bound histone H2A; required for vacuolar protein sorting START=35 END=93
+EQELRDIESTKRQISSYKNGNDDEEDEIGLLFQEDEDDEDFEMMAKDDDDEGEEKEDE
+
+>YDR496C Chr4 complement(1441433..1443403) [1971 bp; 656 aa] {ON}  PUF6Pumilio-homology domain protein that binds the 3' UTR of ASH1 mRNA and represses its translation; resulting in proper asymmetric localization of ASH1 mRNA; also co-sediments with the 60S ribosomal subunit and is required for its biogenesis START=65 END=113
+EAEEEADELDISDDSEEHENENEEKEGKDKSEGGENGNHTEQRKLLKE
+
+>YDR507C Chr4 complement(1462358..1465786) [3429 bp; 1142 aa] {ON}  GIN4Protein kinase involved in bud growth and assembly of the septin ring; proposed to have kinase-dependent and kinase-independent activities; undergoes autophosphorylation; similar to Kcc4p and Hsl1p START=923 END=987
+ELRKQNSQEGDQAHPKIKSMIPESGSSSHTEKEEENEEKEEKKPEQHKQEEDQEKREKVV
+DDME
+
+>YEL055C Chr5 complement(48471..51539) [3069 bp; 1022 aa] {ON}  POL5DNA Polymerase phi; has sequence similarity to the human MybBP1A and weak sequence similarity to B-type DNA polymerases; not required for chromosomal DNA replication; required for the synthesis of rRNA START=674 END=758
+EEVGLEELQILLDILKARENKQGFAQLFEGEEEFEEIKEENDASEDESKTGSESESESES
+DSDDADEKDEEDEANEDILNIDKE
+
+>YER008C Chr5 complement(167808..171818) [4011 bp; 1336 aa] {ON}  SEC3Subunit of the exocyst complex (Sec3p; Sec5p; Sec6p; Sec8p; Sec10p; Sec15p; Exo70p; Exo84p) which mediates targeting of post-Golgi vesicles to sites of active exocytosis; Sec3p specifically is a spatial landmark for secretion START=323 END=502
+EVNKRYELEQQQQQEEAELRRLEEQKRLQLQKENEMKRLEEERRIKQEERKRQMELEHQR
+QLEEEERKRQMELEAKKQMELKRQRQFEEEQRLKKERELLEIQRKQREQETAERLKKEEQ
+EALAKKEEEEKSKRNKVDNESYTQEINGKVDNLLEDLNAVLAEETETTPTMQNGTYVPE
+
+>YER025W Chr5 (205251..206834) [1584 bp; 527 aa] {ON}  GCD11Gamma subunit of the translation initiation factor eIF2; involved in the identification of the start codon; binds GTP when forming the ternary complex with GTP and tRNAi-Met START=7 END=77
+EPSIIINGNLEPVGEPDIVEETEVVAQETQETQDADKPKKKVAFTGLEEDGETEEEKRKR
+EFEEGGGLPE
+
+>YER063W Chr5 (281710..282366) [657 bp; 218 aa] {ON}  THO1Conserved nuclear RNA-binding protein; specifically binds to transcribed chromatin in a THO- and RNA-dependent manner; genetically interacts with shuttling hnRNP NAB2; overproduction suppresses transcriptional defect caused by hpr1 mutation START=28 END=90
+ELVQRLIKDDEESKGESEVSPQEQNQEQGSEPAAIEEPASQNITEKKEVSSEPKETNEPK
+EE
+
+>YER164W Chr5 (505392..509798) [4407 bp; 1468 aa] {ON}  CHD1Chromatin remodeler that regulates various aspects of transcription; contains a chromo domain; a helicase domain and a DNA-binding domain; component of both the SAGA and SLIK complexes START=38 END=83
+EDDEDNIKQSRRKRMTTIEDDEDEFEDEEGEEDSGEDEDEEDFEE
+
+>YFL008W Chr6 (119429..123106) [3678 bp; 1225 aa] {ON}  SMC1Subunit of the multiprotein cohesin complex; essential protein involved in chromosome segregation and in double-strand DNA break repair; SMC chromosomal ATPase family member; binds DNA with a preference for DNA with secondary structure START=990 END=1046
+ENNTDSARKELEQKIHEVEEILNELQPNARALERYDEAEGRFEVINNETEQLKAEE
+
+>YFR016C Chr6 complement(177042..180743) [3702 bp; 1233 aa] {ON} Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and bud; interacts with Spa2p; YFL016C is not an essential gene START=429 END=611
+ETERETYDDETMGPTKRISDNEKNLQHGTNDISVEVEKEEEEEEEEEENSTFSKVKKENV
+TGEQEAVRNNEVSGTEEESTSKGEEIMGGDEKQSEAGEKSSIIEIEGSANSAKISKDNLV
+LEDEAEAPTQENKPTEVVGEIDIPDAPRDDVEIVEAVEKNIIPEDLEVAKEDQEGEQVKL
+DE
+
+>YFR033C Chr6 complement(224326..224769) [444 bp; 147 aa] {ON}  QCR6Subunit 6 of the ubiquinol cytochrome-c reductase complex; which is a component of the mitochondrial inner membrane electron transport chain; highly acidic protein; required for maturation of cytochrome c1 START=4 END=126
+ELVGEYWEQLKITVVPVVAAAEDDDNEQHEEKAAEGEEKEEENGDEDEDEDEDEDDDDDD
+DEDEEEEEEVTDQLEDLREHFKNTEEGKALVHHYEECAERVKIQQQQPGYADLEHKEDCV
+EE
+
+>YFR039C Chr6 complement(232012..233544) [1533 bp; 510 aa] {ON} Putative protein of unknown function; may be involved in response to high salt and changes in carbon source; deletion mutant has decreased spore survival in Drosophila feces START=167 END=205
+ETDSETEDYEDDENENEDEDEDEDEDDVGIEDENKEYE
+
+>YGL244W Chr7 (41498..43174) [1677 bp; 558 aa] {ON}  RTF1Subunit of RNAPII-associated chromatin remodeling Paf1 complex; regulates gene expression by directing cotranscriptional histone modification; influences transcription and chromatin structure through several independent functional domains; directly or indirectly regulates DNA-binding properties of Spt15p and relative activities of different TATA elements; involved in transcription elongation as demonstrated by the G-less-based run-on (GLRO) assay START=45 END=109
+EVGSVEDDDEEDDYNPYSVGNADYGSEEEEEANPFPLEGKYKDESDREHLESLPEMERET
+LLFE
+
+>YGL244W Chr7 (41498..43174) [1677 bp; 558 aa] {ON}  RTF1Subunit of RNAPII-associated chromatin remodeling Paf1 complex; regulates gene expression by directing cotranscriptional histone modification; influences transcription and chromatin structure through several independent functional domains; directly or indirectly regulates DNA-binding properties of Spt15p and relative activities of different TATA elements; involved in transcription elongation as demonstrated by the G-less-based run-on (GLRO) assay START=183 END=240
+EDEDDEEDYREEDYKDDEGSEYGDDEEYNPFDRRDTYDKREEVEWAEEEDEQDREPE
+
+>YGL232W Chr7 (62075..62131;62190..63002) [870 bp; 289 aa] {ON}  TAN1Putative tRNA acetyltransferase; RNA-binding protein required for the formation of the modified nucleoside N(4)-acetylcytidine in serine and leucine tRNAs but not required for the same modification in 18S rRNA START=42 END=97
+ERQAAQELQLLFEEKFQELYGDIKEGEDESENDEKKDLSIEDQIKKELQELKGEE
+
+>YGL228W Chr7 (67598..69331) [1734 bp; 577 aa] {ON}  SHE10Putative glycosylphosphatidylinositol (GPI)-anchored protein of unknown function; overexpression causes growth arrest START=505 END=559
+ESGEFLYILRSKANLQFQERERKERERKEREKAAAEEFQRQQELLRQQEEEDEE
+
+>YGL207W Chr7 (98969..102076) [3108 bp; 1035 aa] {ON}  SPT16Subunit of the heterodimeric FACT complex (Spt16p-Pob3p); which associates with chromatin via interaction with Nhp6Ap and Nhp6Bp; and reorganizes nucleosomes to facilitate access to DNA by RNA and DNA polymerases START=959 END=1021
+EASDESEEEVSEYEASEDDVSDESAFSEDEEGSEVDDDISGDESEDYTGDESEEGEDWDE
+LE
+
+>YGL203C Chr7 complement(112475..114664) [2190 bp; 729 aa] {ON}  KEX1Protease involved in the processing of killer toxin and alpha factor precursor; cleaves Lys and Arg residues from the C-terminus of peptides and proteins START=515 END=611
+ESGDKPKENLEEEEQEAQNEEGKEKEGNKDKDGDDDNDNDDDDEDDHNSEGDDDDDDDDD
+EDDNNEKQSNQGLEDSRHKSSEYEQEEEEVEEFAEE
+
+>YGL164C Chr7 complement(191978..193300) [1323 bp; 440 aa] {ON}  YRB30RanGTP-binding protein; inhibits RanGAP1 (Rna1p)-mediated GTP hydrolysis of RanGTP (Gsp1p); shares similarity to proteins in other fungi but not in higher eukaryotes START=297 END=414
+EEQDSPVLVLKIDRSDDKENESSEGDKGLLDDITWYAVSGYEAIEEDEEEDEEEDEEEGK
+DGEERKEEEEEENKLEDKDSSITLLEYIIRLTSLQSNDQKSILEVSDERLSIYLNDE
+
+>YGL150C Chr7 complement(221104..225573) [4470 bp; 1489 aa] {ON}  INO80ATPase and nucleosome spacing factor; subunit of complex containing actin and actin-related proteins that has chromatin remodeling activity and 3' to 5' DNA helicase activity in vitro; has a role in modulating stress gene transcription START=214 END=294
+ENEDGNNGEDEDNDNDNENNNDNDNDNENENDNDSDNDDEEENGEEDEEEEEIEDLDEED
+FAAFEEQDDNDDEDFNPDVE
+
+>YGL137W Chr7 (249869..249886;250087..252738) [2670 bp; 889 aa] {ON}  SEC27Essential beta'-coat protein of the COPI coatomer; involved in ER-to-Golgi and Golgi-to-ER transport; contains WD40 domains that mediate cargo selective interactions; 45% sequence identity to mammalian beta'-COP START=832 END=888
+EQADENKEAEVEDSEFKESNSEAVEAEKKEEEAPQQQQSEQQPEQGEAVPEPVEEE
+
+>YGL081W Chr7 (357377..358339) [963 bp; 320 aa] {ON} Putative protein of unknown function; non-essential gene; interacts genetically with CHS5; a gene involved in chitin biosynthesis START=229 END=269
+ETSSFEEEIEVCTDTDTTEEKEEEEEKEEGDDEEGEIELE
+
+>YGR013W Chr7 (514554..516416) [1863 bp; 620 aa] {ON}  SNU71Component of U1 snRNP required for mRNA splicing via spliceosome; yeast specific; no metazoan counterpart START=335 END=406
+EEEDTNMEDEDEEDDTEDDLALEKRKEERDLEESNRRYEDMLHQLHSNTEPKIKSIRADI
+MSAENYEEHLE
+
+>YGR086C Chr7 complement(649598..650617) [1020 bp; 339 aa] {ON}  PIL1Primary component of eisosomes; which are large immobile cell cortex structures associated with endocytosis; null mutants show activation of Pkc1p/Ypk1p stress resistance pathways; detected in phosphorylated state in mitochondria; member of the BAR domain family START=278 END=331
+EDFEPEEGEEEEEEDGQGRWSEDEQEDGQIEEPEQEEEGAVEEHEQVGHQQSE
+
+>YGR103W Chr7 (695417..697234) [1818 bp; 605 aa] {ON}  NOP7Component of several different pre-ribosomal particles; forms a complex with Ytm1p and Erb1p that is required for maturation of the large ribosomal subunit; required for exit from G<sub>0</sub> and the initiation of cell proliferation START=264 END=336
+ESRQEDSLLKLDPTEIEEDVKVESLDASTLKSALNADEANTDETEKEEEQEKKQEKEQEK
+EQNEETELDTFE
+
+>YGR103W Chr7 (695417..697234) [1818 bp; 605 aa] {ON}  NOP7Component of several different pre-ribosomal particles; forms a complex with Ytm1p and Erb1p that is required for maturation of the large ribosomal subunit; required for exit from G<sub>0</sub> and the initiation of cell proliferation START=472 END=551
+EEGEEEESESESESEDQVEEEDQEVVAGEEDDDDDEELQAQKELELEAQGIKYSETSEAD
+KDVNKSKNKKRKVDEEEEE
+
+>YGR116W Chr7 (720409..724764) [4356 bp; 1451 aa] {ON}  SPT6Nucleosome remodeling protein; functions in various aspects of transcription; chromatin maintenance; and RNA processing; required for the maintenance of chromatin structure during transcription in order to inhibit transcription from promoters within the coding region START=1 END=95
+EETGDSKLVPRDEEEIVNDNDETKAPSEEEEGEDVFDSSEEDEDIDEDEDEARKVQEGFI
+VNDDDENEDPGTSISKKRRKHKRREREEDDRLSE
+
+>YGR130C Chr7 complement(751394..753844) [2451 bp; 816 aa] {ON} Component of the eisosome with unknown function; GFP-fusion protein localizes to the cytoplasm; specifically phosphorylated in vitro by mammalian diphosphoinositol pentakisphosphate (IP7) START=292 END=371
+EQKEEKSDVKKVNPPSGEEKKEVEAEGDAEEETEQSSAEESAERTSTPETSEPESEEDES
+PIDPSKAPKVPFQEPSRKE
+
+>YGR145W Chr7 (781767..783890) [2124 bp; 707 aa] {ON}  ENP2Essential nucleolar protein; required for biogenesis of the small ribosomal subunit; contains WD repeats; interacts with Mpp10p and Bfr2p; and has homology to Spb1p START=483 END=570
+EMFEDEEFQVDEDDYDFKQLNPVKSIKETEEGAAKRIRALTAAEESDEERIAMKDGRGHY
+DYEDEESDEEESDDETNQKSNKEELSE
+
+>YGR159C Chr7 complement(806412..807656) [1245 bp; 414 aa] {ON}  NSR1Nucleolar protein that binds nuclear localization sequences; required for pre-rRNA processing and ribosome biogenesis START=12 END=189
+EVKASKQAKEEKAKAVSSSSSESSSSSSSSSESESESESESESSSSSSSSDSESSSSSSS
+DSESEAETKKEESKDSSSSSSDSSSDEEEEEEKEETKKEESKESSSSDSSSSSSSDSESE
+KEESNDKKRKSEDAEEEEDEESSNKKQKNEETEEPATIFVGRLSWSIDDEWLKKEFE
+
+>YGR160W Chr7 (807073..807684) [612 bp; 203 aa] {OFF} Dubious open reading frame unlikely to encode a functional protein; based on available experimental and comparative sequence data START=98 END=179
+EEESEEEEEESLDSSFLVSASLSLSEDDEEEDSESEDEDEDEDSDSDSDSDSDSDEDEDE
+DEDSEEEEETALAFSSLACLE
+
+>YGR186W Chr7 (867774..869981) [2208 bp; 735 aa] {ON}  TFG1TFIIF (Transcription Factor II) largest subunit; involved in both transcription initiation and elongation of RNA polymerase II; homologous to human RAP74 START=455 END=533
+EDDRDDNSEVELDYDEEFADDEEAPIIDGNEQENKESEQRIKKEMLQANAMGLRDEEAPS
+ENEEDELFGEKKIDEDGE
+
+>YGR196C Chr7 complement(889733..892186) [2454 bp; 817 aa] {ON}  FYV8Protein of unknown function; required for survival upon exposure to K1 killer toxin START=386 END=456
+ESIKYSTNETEEEDNEDNESIEDKNEDNESIEDENEDTDSYKFSNREKGSILLTSDEEEE
+EKGMSSDSDE
+
+>YGR214W Chr7 (920575..920664;921120..921788) [759 bp; 252 aa] {ON}  RPS0AProtein component of the small (40S) ribosomal subunit; nearly identical to Rps0Bp; required for maturation of 18S rRNA along with Rps0Bp; deletion of either RPS0 gene reduces growth rate; deletion of both genes is lethal START=207 END=251
+EEVEQQVAEEATTEEAGEEEAKEEVTEEQAEATEWAEENADNVE
+
+>YGR285C Chr7 complement(1061852..1063153) [1302 bp; 433 aa] {ON}  ZUO1Ribosome-associated chaperone; functions in ribosome biogenesis and; in partnership with Ssz1p and SSb1/2; as a chaperone for nascent polypeptide chains; contains a DnaJ domain and functions as a J-protein partner for Ssb1p and Ssb2p START=276 END=329
+ERAVSEDPRIKMFKEEEKKEKERRKWEREAGARAEAEAKAKAEAEAKAKAESE
+
+>YHR027C Chr8 complement(161730..164711) [2982 bp; 993 aa] {ON}  RPN1Non-ATPase base subunit of the 19S regulatory particle of the 26S proteasome; may participate in the recognition of several ligands of the proteasome; contains a leucine-rich repeat (LRR) domain; a site for protein-protein interactions START=631 END=705
+EEDADEEETAEGQTNSISDFLGEQVNEPTKNEEAEIEVDEMEVDAEGEEVEVKAEITEKK
+NGESLEGEEIKSEE
+
+>YHR032W Chr8 (173344..175089) [1746 bp; 581 aa] {ON}  ERC1Member of the multi-drug and toxin extrusion (MATE) family of the multidrug/oligosaccharidyl-lipid/polysaccharide (MOP) exporter superfamily; overproduction confers ethionine resistance and accumulation of S-adenosylmethionine START=36 END=103
+ESEENLIEGEEQEGSEEEPSYTGNDDETEREGEYHSLLDANNSRTLQQEAWQQGYDSHDR
+KRLLDEE
+
+>YHR036W Chr8 (180345..181760) [1416 bp; 471 aa] {ON}  BRL1Essential nuclear envelope integral membrane protein identified as a suppressor of a conditional mutation in the major karyopherin; CRM1; homologous to and interacts with Brr6p; a nuclear envelope protein involved in nuclear export START=70 END=135
+EEEDDRMEIDEVDDTSFEEEYNNEPIETHTEATENAVVEEIEATPEERQKQEKNESQDQS
+VEEVE
+
+>YHR064C Chr8 complement(225525..227141) [1617 bp; 538 aa] {ON}  SSZ1Hsp70 protein that interacts with Zuo1p (a DnaJ homolog) to form a ribosome-associated complex that binds the ribosome via the Zuo1p subunit; also involved in pleiotropic drug resistance via sequential activation of PDR1 and PDR5; binds ATP START=451 END=510
+EGDHHIEEKTLEPIPKEENAEEDDESEWSDDEPEVVREKLYTLGTKLMELGIKNANGVE
+
+>YHR077C Chr8 complement(252374..255637;255751..255756) [3270 bp; 1089 aa] {ON}  NMD2Protein involved in the nonsense-mediated mRNA decay (NMD) pathway; interacts with Nam7p and Upf3p; involved in telomere maintenance START=832 END=975
+ESAVPIESITEDDEDEDDENDDGVDLLGEDEDAEISTPNTESAPGKHQAKQDESEDEDDE
+DDDEDDDDDDDDDDDDGEEGDEDDDEDDDDEDDDDEEEEDSDSDLEYGGDLDADRDIEMK
+RMYEEYERKLKDEEERKAEEELE
+
+>YHR119W Chr8 (346043..349285) [3243 bp; 1080 aa] {ON}  SET1Histone methyltransferase; subunit of the COMPASS (Set1C) complex; COMPASS methylates histone H3K4; Set1p-dependent H3K4 trimethylation recruits Nrd1p; allowing efficient termination of snoRNAs and cryptic unstable transcripts (CUTs) by Nrd1p-Nab3p-Sen1p pathway; modulates histone acetylation levels in promoter proximal regions to ensure efficient Nrd1p-dependent termination; required in transcriptional silencing near telomeres and at silent mating type loci; has a SET domain START=650 END=707
+EETDSKETTPLNDEGITRVSKEHDEEDENMTSSSSEEEEEEAPDKKFKSESEPTTPE
+
+>YHR154W Chr8 (402966..406178) [3213 bp; 1070 aa] {ON}  RTT107Protein implicated in Mms22-dependent DNA repair during S phase; involved in recruiting the SMC5/6 complex to double-strand breaks; DNA damage induces phosphorylation by Mec1p at one or more SQ/TQ motifs; interacts with Mms22p and Slx4p; has four BRCT domains; has a role in regulation of Ty1 transposition START=597 END=692
+ETEVFCEGHEKREEKEFTKPITEYDAPKKQEIREQSRKKNDIDYKKEEEETELQVQLGQR
+TKREIKTSKKNEKEKETNECHIEVDQMTNEKQGEE
+
+>YHR196W Chr8 (491931..493658) [1728 bp; 575 aa] {ON}  UTP9Nucleolar protein; component of the small subunit (SSU) processome containing the U3 snoRNA that is involved in processing of pre-18S rRNA START=317 END=372
+EPNFESISLKEIETQGYITINKNEKNNADEADQKKLEEKEEEAQPEVQHEKKETE
+
+>YHR197W Chr8 (493896..496187) [2292 bp; 763 aa] {ON}  RIX1Essential component of the Rix1 complex (Rix1p; Ipi1p; Ipi3p) that is required for processing of ITS2 sequences from 35S pre-rRNA; Rix1 complex associates with Mdn1p in pre-60S ribosomal particles START=626 END=763
+EDGEVRDDINKKEVETNESSSNANTGLETLKALENLENVTIPEPKHEVPKVVDDTAIFKK
+RSVEEVIERESTSSHKKVKFVEETTVDNGEELIVKKAVSQTKEEEKPMEDSEDEEQEEFE
+IPAIELSDDEEEEEEEE
+
+>YIL138C Chr9 complement(89230..89715) [486 bp; 161 aa] {ON}  TPM2Minor isoform of tropomyosin; binds to and stabilizes actin cables and filaments; which direct polarized cell growth and the distribution of several organelles; appears to have distinct and also overlapping functions with Tpm1p START=1 END=72
+EKIKEKLNSLKLESESWQEKYEELREQLKELEQSNTEKENEIKSLSAKNEQLDSEVEKLE
+SQLSDTKQLAE
+
+>YIL112W Chr9 (151595..154846) [3252 bp; 1083 aa] {ON}  HOS4Subunit of the Set3 complex; which is a meiotic-specific repressor of sporulation specific genes that contains deacetylase activity; potential Cdc28p substrate START=762 END=868
+EEKLKSISPLSMEPHSPKKAKSVEISKIHEETAAEREARLKEEEEYRKKRLEKKRKKEQE
+LLQKLAEDEKKRIEEQEKQKVLEMERLEKATLEKARKMEREKEMEE
+
+>YIL104C Chr9 complement(169982..171505) [1524 bp; 507 aa] {ON}  SHQ1Chaperone protein required for the assembly of box H/ACA snoRNPs and thus for pre-rRNA processing; forms a complex with Naf1p and interacts with H/ACA snoRNP components Nhp2p and Cbf5p; homology with known Hsp90p cochaperones START=443 END=501
+ENVIRSLALEMRKEQESLSKQDIEFECIASFNEQTGEPEWETLNIREMEILAESEYRE
+
+>YIL038C Chr9 complement(280142..282652) [2511 bp; 836 aa] {ON}  NOT3Subunit of the CCR4-NOT complex; which is a global transcriptional regulator with roles in transcription initiation and elongation and in mRNA degradation START=516 END=577
+EHEVATTVNQNGPENTTKKVMEQKEEESPEERNKLQVPTFGVFDDDFESDRDSETEPEEE
+E
+
+>YIR012W Chr9 (378486..379781) [1296 bp; 431 aa] {ON}  SQT1Essential protein involved in a late step of 60S ribosomal subunit assembly or modification; contains multiple WD repeats; interacts with Qsr1p in a two-hybrid assay START=1 END=50
+EPQEEFITTEEVEQEIVPTVEVEQDVPVDIEGENDDDDEMMNDDEEALE
+
+>YJL187C Chr10 complement(76803..79262) [2460 bp; 819 aa] {ON}  SWE1Protein kinase that regulates the G2/M transition by inhibition of Cdc28p kinase activity; localizes to the nucleus and to the daughter side of the mother-bud neck; homolog of S. pombe Wee1p; potential Cdc28p substrate START=77 END=129
+EANSKFLGKIEEEEEEEEEGKDEESVDSRIKRWSPFHENESVTTPITKRSAE
+
+>YJL168C Chr10 complement(102227..104428) [2202 bp; 733 aa] {ON}  SET2Histone methyltransferase with a role in transcriptional elongation; methylates a lysine residue of histone H3; associates with the C-terminal domain of Rpo21p; histone methylation activity is regulated by phosphorylation status of Rpo21p START=544 END=613
+EEYERKKQKRLEYERIALERAKQEELESLKQKLKLENERKSVLEDIIAEANKQKELQKEE
+AKKLVEAKE
+
+>YJL123C Chr10 complement(188004..189440) [1437 bp; 478 aa] {ON}  MTC1Protein of unknown function that may interact with ribosomes; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and to COPI-coated vesicles (early Golgi); mtc1 is synthetically lethal with cdc13-1 START=63 END=141
+EFLEELEKSNLSLTDKKGVEKKAPSESVNNKAQDEKVEESKENKNSEQDAHGKEKEPQQQ
+EKEEEEEEEEEEEEEEEE
+
+>YJL115W Chr10 (196287..197126) [840 bp; 279 aa] {ON}  ASF1Nucleosome assembly factor; involved in chromatin assembly and disassembly; anti-silencing protein that causes derepression of silent loci when overexpressed; plays a role in regulating Ty1 transposition START=81 END=268
+ELIPASELVSVTVILLSCSYDGREFVRVGYYVNNEYDEEELRENPPAKVQVDHIVRNILA
+EKPRVTRFNIVWDNENEGDLYPPEQPGVDDEEEEDDEEEDDDEDDEDDEDDDQEDGEGEA
+EEAAEEEEEEEEKTEDNETNLEEEEEDIENSDGDEEEGEEEVGSVDKNEDGNDKKRRKIE
+GGSTDIE
+
+>YJL049W Chr10 (345973..347325) [1353 bp; 450 aa] {ON} Putative protein of unknown function; YJL049W is a non-essential gene START=324 END=412
+ESNEVIKSINGYIGSTEKVEDLLDEIKEGHDRTEEVNDLLAHYNKGQDEEAEEEIERELE
+QLELDEKNNNKEENKNQDLHEPKESSSE
+
+>YJL033W Chr10 (383837..386149) [2313 bp; 770 aa] {ON}  HCA4Putative nucleolar DEAD box RNA helicase; high-copy number suppression of a U14 snoRNA processing mutant suggests an involvement in 18S rRNA synthesis START=616 END=697
+EGEAHPVYELEDEEEFHKRGDAEVQKTEFLTKESAVMADIDNIDKQVAKEKKQEKKRKRL
+EAMRREMEAAMEEEISGDEEE
+
+>YJL020C Chr10 complement(398937..402410) [3474 bp; 1157 aa] {ON}  BBC1Protein possibly involved in assembly of actin patches; interacts with an actin assembly factor Las17p and with the SH3 domains of Type I myosins Myo3p and Myo5p; localized predominantly to cortical actin patches START=216 END=420
+ERKKSLKENEKKIVPEPINRAQVESGRIETENDQLKKDLPQMSLKERIALLQEQQRLQAA
+REEELLRKKAKLEQEHERSAVNKNEPYTETEEAEENEKTEPKPEFTPETEHNEEPQMELL
+AHKEITKTSREADEGTNDIEKEQFLDEYTKENQKVEESQADEARGENVAEESEIGYGHED
+REGDNDEEKEEEDSEENRRAALRE
+
+>YJR002W Chr10 (438865..440646) [1782 bp; 593 aa] {ON}  MPP10Component of the SSU processome and 90S preribosome; required for pre-18S rRNA processing; interacts with and controls the stability of Imp3p and Imp4p; essential for viability; similar to human Mpp10p START=105 END=173
+EESELEEAESVFKEKQMLSADVSEIEEQSNDSLSENDEEPSMDDEKTSAEAAREEFAEEK
+RISSGQDE
+
+>YJR076C Chr10 complement(575354..576601) [1248 bp; 415 aa] {ON}  CDC11Component of the septin ring that is required for cytokinesis; septins are GTP-binding proteins that assemble into rod-like hetero-oligomers that can associate with other rods to form filaments; septin rings at the mother-bud neck act as scaffolds for recruiting cell division factors and as barriers to prevent diffusion of specific proteins between mother and daughter cells START=353 END=415
+ENNETYMTREEQIRLEEERLKAFEERVQQELLLKRQELLQREKELREIEARLEKEAKIKQ
+EE
+
+>YKL201C Chr11 complement(63930..67466) [3537 bp; 1178 aa] {ON}  MNN4Putative positive regulator of mannosylphosphate transferase (Mnn6p); involved in mannosylphosphorylation of N-linked oligosaccharides; expression increases in late-logarithmic and stationary growth phases START=1025 END=1174
+EDYAYAKLLEERKRREKKKKEEEEKKKKEEEEKKKKEEEEKKKKEEEEKKKKEEEEKKKK
+EEEEKKKQEEEEKKKKEEEEKKKQEEGEKMKNEDEENKKNEDEEKKKNEEEEKKKQEEKN
+KKNEDEEKKKQEEEEKKKNEEEEKKKQEE
+
+>YKL172W Chr11 (125759..127042) [1284 bp; 427 aa] {ON}  EBP2Required for 25S rRNA maturation and 60S ribosomal subunit assembly; localizes to the nucleolus and in foci along nuclear periphery; constituent of 66S pre-ribosomal particles; cooperates with Rrs1p and Mps3p to mediate telomere clustering by binding Sir4p; but is not involved in telomere tethering START=8 END=180
+ELLSHQKEIEKAEKLENDLKKKKSQELKKEEPTIVTASNLKKLEKKEKKADVKKEVAADT
+EEYQSQALSKKEKRKLKKELKKMQEQDATEAQKHMSGDEDESGDDREEEEEEEEEEEGRL
+DLEKLAKSDSESEDDSESENDSEEDEDVVAKEESEEKEEQEEEQDVPLSDVE
+
+>YKL146W Chr11 (171783..173861) [2079 bp; 692 aa] {ON}  AVT3Vacuolar transporter; exports large neutral amino acids from the vacuole; member of a family of seven S. cerevisiae genes (AVT1-7) related to vesicular GABA-glycine transporters START=245 END=289
+EFLTLYGHFAGEDLSEEEEEEEETEEEPEEEALETESTQLVSRE
+
+>YKL108W Chr11 (234426..235787) [1362 bp; 453 aa] {ON}  SLD2Single-stranded DNA origin-binding and annealing protein; required for the initiation of DNA replication; phosphorylated in S phase by cyclin-dependent kinases (Cdks); promoting origin binding; DNA replication and Dpb11p complex formation; component of the preloading complex; unphosphorylated or CDK-phosphorylated Sld2p binds to the MCM2-7 complex;required for the S phase checkpoint START=268 END=340
+ELAREHTEIVKEFGVLQEEDIEEEEEGEEGENGYDEKNHEDDFGLEDELIRPKVVKDIFQ
+EDDDNDDSQARE
+
+>YKL105C Chr11 complement(239185..242583) [3399 bp; 1132 aa] {ON} Putative protein of unknown function; similar to A. gossypii SEG gene which is important for stabilizing eisosomes START=302 END=379
+EKKEEIETLLKEVHSLEEKISNIEIAKLNEEEREQSLILELRKVKLDEERRMELLKRELN
+IVKENADLEAQELKLIE
+
+>YKL088W Chr11 (275283..276998) [1716 bp; 571 aa] {ON}  CAB3Subunit of a phosphopantothenoylcysteine decarboxylase (PPCDC; Cab3p; Sis2p; Vhs3p) complex; which catalyzes the third step of coenzyme A biosynthesis; null mutant lethality is complemented by E. coli coaBC START=472 END=570
+EKVLICGDIGMGGMREWTDIVEIVRRRINEIRKARDEETGDKEQEQEEQEGADNEDDDDE
+DDEEDEEDEEEEEALNETASDESNDEEDEEDEEDVKTE
+
+>YKL054C Chr11 complement(336537..338753) [2217 bp; 738 aa] {ON}  DEF1RNAPII degradation factor; forms a complex with Rad26p in chromatin; enables ubiquitination and proteolysis of RNAPII present in an elongation complex; mutant is deficient in Zip1p loading onto chromosomes during meiosis START=258 END=374
+ESPLENVAELKKEISDIKKDDQKSEASEEKVNEQETSAQEQEEETAEPSEENEDRVPEVD
+GEEVQEEAEKKEQVKEEEQTAEELEQEQDNVAAPEEEVTVVEEKVEISAVISEPPE
+
+>YKL050C Chr11 complement(342852..345620) [2769 bp; 922 aa] {ON} Protein of unknown function; the YKL050W protein is a target of the SCFCdc4 ubiquitin ligase complex and YKL050W transcription is regulated by Azf1p START=646 END=701
+EMAKEEAEMATEECMLKELQVDEMIIIRNIMLRECEKKLEEEKETAKRSRRGTEE
+
+>YKL040C Chr11 complement(361058..361828) [771 bp; 256 aa] {ON}  NFU1Protein involved in iron metabolism in mitochondria; similar to NifU; which is a protein required for the maturation of the Fe/S clusters of nitrogenase in nitrogen-fixing bacteria START=104 END=159
+EIIDLLTKQLAYGEDVISKEFHAVQEEEGEGGYKINMPKFELTEEDEEVSELIEE
+
+>YKL028W Chr11 (385758..387206) [1449 bp; 482 aa] {ON}  TFA1TFIIE large subunit; involved in recruitment of RNA polymerase II to the promoter; activation of TFIIH; and promoter opening START=373 END=443
+EEEEEEEEEEDEEEEEEEEMEDVMDDNDETARENALEDEFEDVTDTAGTAKTESNTSNDV
+KQESINDKTE
+
+>YKR020W Chr11 (478338..478832) [495 bp; 164 aa] {ON}  VPS51Component of the GARP (Golgi-associated retrograde protein) complex; Vps51p-Vps52p-Vps53p-Vps54p; which is required for the recycling of proteins from endosomes to the late Golgi; links the (VFT/GARP) complex to the SNARE Tlg1p START=25 END=94
+EFYNLENEPNKGRQEARIGEKASEAHSGEEQVTDVNIDTEANTEKPVKDDELSATEEDLK
+EGSEDAEEE
+
+>YKR023W Chr11 (483419..485011) [1593 bp; 530 aa] {ON} Putative protein of unknown function; the authentic; non-tagged protein is detected in highly purified mitochondria in high-throughput studies START=273 END=330
+EQDKLFDFIERKRERERKRNEVLKLQEEKEESEAKERQASEHDHKAEENPELLAAQE
+
+>YKR025W Chr11 (487770..488618) [849 bp; 282 aa] {ON}  RPC37RNA polymerase III subunit C37 START=10 END=83
+EEDEEDRTQDRADVEDESNDIDMIADENGTNSAIANEQEEKSEEVKAEDDTGEEEEDDPV
+IEEFPLKISGEEE
+
+>YKR048C Chr11 complement(525387..526640) [1254 bp; 417 aa] {ON}  NAP1Protein that interacts with mitotic cyclin Clb2p; required for the regulation of microtubule dynamics during mitosis; controls bud morphogenesis; involved in the transport of H2A and H2B histones to the nucleus; phosphorylated by CK2 START=365 END=413
+EFEFEEDEEEADEDEDEEEDDDHGLEDDDGESAEEQDDFAGRPEQAPE
+
+>YKR090W Chr11 (608946..611066) [2121 bp; 706 aa] {ON}  PXL1LIM domain-containing protein that localizes to sites of polarized growth; required for selection and/or maintenance of polarized growth sites; may modulate signaling by the GTPases Cdc42p and Rho1p; has similarity to metazoan paxillin START=229 END=298
+EQQKEESSIEYESEGQQEDENDIESLNFEPDPKLQMNLENEPLQDDFPEAKQEEKNTEPK
+IPEINVTRE
+
+>YKR095W Chr11 (619805..625432) [5628 bp; 1875 aa] {ON}  MLP1Myosin-like protein associated with the nuclear envelope; connects the nuclear pore complex with the nuclear interior; involved with Tel1p in telomere length control; involved with Pml1p and Pml39p in nuclear retention of unspliced mRNAs START=1803 END=1872
+EEDTEKKKEGEPVKRGEAIEEQTKSNKRPIDEVGELKNDEDDTTENINESKKIKTEDEEE
+KETDKVNDE
+
+>YLL022C Chr12 complement(99044..100201) [1158 bp; 385 aa] {ON}  HIF1Non-essential component of the HAT-B histone acetyltransferase complex (Hat1p-Hat2p-Hif1p); localized to the nucleus; has a role in telomeric silencing START=96 END=204
+ESESEPESDVSNGEEGNENGQTEIPNSRMFQFDQEEEDLTGDVDSGDSEDSGEGSEEEEE
+NVEKEEERLALHELANFSPANEHDDEIEDVSQLRKSGFHIYFENDLYE
+
+>YLL021W Chr12 (100947..105347) [4401 bp; 1466 aa] {ON}  SPA2Component of the polarisome; which functions in actin cytoskeletal organization during polarized growth; acts as a scaffold for Mkk1p and Mpk1p cell wall integrity signaling components; potential Cdc28p substrate START=1277 END=1326
+EEQEQEQNRSEEEESEDDDEEEEDSDFDVDTFDIENPDNTLSELLLYLE
+
+>YLL008W Chr12 (131729..133987) [2259 bp; 752 aa] {ON}  DRS1Nucleolar DEAD-box protein required for ribosome assembly and function; including synthesis of 60S ribosomal subunits; constituent of 66S pre-ribosomal particles START=130 END=231
+EEETEKEKVEKENDSDDEELAMDGFGMGAPMNNGDENQSEEEEEEEEKEEEEEEEEEQEE
+MTLEKGGKDDEIDEEDDSEEAKADFYAPETEGDEAKKQMYE
+
+>YLR009W Chr12 (166537..167136) [600 bp; 199 aa] {ON}  RLP24Essential protein with similarity to Rpl24Ap and Rpl24Bp; associated with pre-60S ribosomal subunits and required for ribosomal large subunit biogenesis START=83 END=181
+ELVATTLKAMARIEEIRQKRERAFYKNRMRGNKEKDFLRDKKLVESNPELLRIREVEIAR
+KLAKEQERAESVSEQEESEEEEEDMEIDSDEEEEEQLE
+
+>YLR019W Chr12 (180288..181481) [1194 bp; 397 aa] {ON}  PSR2Functionally redundant Psr1p homolog; a plasma membrane phosphatase involved in the general stress response; required with Psr1p and Whi2p for full activation of STRE-mediated gene expression; possibly through dephosphorylation of Msn2p START=104 END=159
+EEKEYEDYNEGDVEMTEVNNAGEEEEEDDEAKEKQDHVVHEYNVDADRNSSINDE
+
+>YLR048W Chr12 (242232..242321;242681..243349) [759 bp; 252 aa] {ON}  RPS0BProtein component of the small (40S) ribosomal subunit; nearly identical to Rps0Ap; required for maturation of 18S rRNA along with Rps0Ap; deletion of either RPS0 gene reduces growth rate; deletion of both genes is lethal START=207 END=251
+EEVEQVAEEAAAAEEGEEEEVKEEVTEGQAEATEWAEENADNVE
+
+>YLR086W Chr12 (302243..306499) [4257 bp; 1418 aa] {ON}  SMC4Subunit of the condensin complex; reorganizes chromosomes during cell division; forms a complex with Smc2p that has ATP-hydrolyzing and DNA-binding activity; required for tRNA gene clustering at the nucleolus; potential Cdc28p substrate START=848 END=918
+EEVDKIERELSERENNFRVASDTVHEMEEELKKLRDHEPDLESQISKAEMEADSLASELT
+LAEQQVKEAE
+
+>YLR106C Chr12 complement(349006..363738) [14733 bp; 4910 aa] {ON}  MDN1Huge dynein-related AAA-type ATPase (midasin); forms extended pre-60S particle with the Rix1 complex (Rix1p-Ipi1p-Ipi3p); acts in removal of ribosomal biogenesis factors at successive steps of pre-60S assembly and export from nucleus START=4050 END=4149
+EEVDDKNLQEGTGLGDGEGAQNNNKDVEQDEDLTEDAQNENKEQQDKDERDDENEDDAVE
+MEGDMAGELEDLSNGEENDDEDTDSEEEELDEEIDDLNE
+
+>YLR106C Chr12 complement(349006..363738) [14733 bp; 4910 aa] {ON}  MDN1Huge dynein-related AAA-type ATPase (midasin); forms extended pre-60S particle with the Rix1 complex (Rix1p-Ipi1p-Ipi3p); acts in removal of ribosomal biogenesis factors at successive steps of pre-60S assembly and export from nucleus START=4169 END=4394
+EKDTDQNLDGKNQEEDVQAAENDEQQRDNKEGGDEDPNAPEDGDEEIENDENAEEENDVG
+EQEDEVKDEEGEDLEANVPEIETLDLPEDMNLDSEHEESDEDVDMSDGMPDDLNKEEVGN
+EDEEVKQESGIESDNENDEPGPEEDAGETETALDEEEGAEEDVDMTNDEGKEDEENGPEE
+QAMSDEEELKQDAAMEENKEKGGEQNTEGLDGVEEKADTEDIDQE
+
+>YLR129W Chr12 (399657..402488) [2832 bp; 943 aa] {ON}  DIP2Nucleolar protein; specifically associated with the U3 snoRNA; part of the large ribonucleoprotein complex known as the small subunit (SSU) processome; required for 18S rRNA biogenesis; part of the active pre-rRNA processing complex START=684 END=767
+EETEDQVFLEEEKEKELEEQYEDTLLTSLEEGNGDDAFKADASGEGVEDEASGVHKQTLE
+SLKAGERLMEALDLGIAEIEGLE
+
+>YLR138W Chr12 (418437..421394) [2958 bp; 985 aa] {ON}  NHA1Na+/H+ antiporter involved in sodium and potassium efflux through the plasma membrane; required for alkali cation tolerance at acidic pH START=660 END=734
+EETESEIESEDEMENESERSMASSEERRIRKMKEEEMKPGTAYLDGNRMIIENKQGEILN
+QVDIEDRNEARDDE
+
+>YLR175W Chr12 (506134..507585) [1452 bp; 483 aa] {ON}  CBF5Pseudouridine synthase catalytic subunit of box H/ACA small nucleolar ribonucleoprotein particles (snoRNPs); acts on both large and small rRNAs and on snRNA U2; mutations in human ortholog dyskerin cause the disorder dyskeratosis congenita START=375 END=475
+ENTPEQWKKEYVPLDNAEQSTSSSQETKETEEEPKKAKEDSLIKEVETEKEEVKEDDSKK
+EKKEKKDKKEKKEKKEKKDKKEKKEKKEKKRKSEDGDSEE
+
+>YLR182W Chr12 (517940..520351) [2412 bp; 803 aa] {ON}  SWI6Transcription cofactor; forms complexes with Swi4p and Mbp1p to regulate transcription at the G1/S transition; involved in meiotic gene expression; also binds Stb1p to regulate transcription at START; cell wall stress induces phosphorylation by Mpk1p; which regulates Swi6p localization; required for the unfolded protein response; independently of its known transcriptional coactivators START=574 END=640
+ENETVQYNEKLEKLHKELNEQREELANSREQLANVKQLKDEYSLMQEQLTNLKAGIEEEE
+ESFREE
+
+>YLR223C Chr12 complement(582233..585490) [3258 bp; 1085 aa] {ON}  IFH1Coactivator that regulates transcription of ribosomal protein (RP) genes; recruited to RP gene promoters during optimal growth conditions via Fhl1p; subunit of CURI; a complex that coordinates RP production and pre-rRNA processing START=107 END=163
+EGTESSDYQAVTDGEESENEEEESEEEEEDDDEDDDDDDDDGSDSDSDSETSSDDE
+
+>YLR257W Chr12 (658826..659791) [966 bp; 321 aa] {ON} Putative protein of unknown function START=256 END=313
+EDSRMYSTSNYSISLVDLENGPKIIPETLEEEQEDAEKEGVLMEDEGNEEYTKDLEE
+
+>YLR263W Chr12 (670340..672823) [2484 bp; 827 aa] {ON}  RED1Protein component of the synaptonemal complex axial elements; involved in chromosome segregation during the first meiotic division; critical for coupling checkpoint signaling to SC formation; interacts with Hop1p; Mec3p and Ddc1p START=328 END=392
+EFEDEKLGETFFHNVNNIPKISEVQNFLVLDYIEEEPENEGEEEEQIGRADEQKEDEEEE
+SLDE
+
+>YLR272C Chr12 complement(683672..687202) [3531 bp; 1176 aa] {ON}  YCS4Subunit of the condensin complex; required for establishment and maintenance of chromosome condensation; chromosome segregation; chromatin binding of condensin; tRNA gene clustering at the nucleolus; and silencing at the mating type locus START=442 END=510
+EWEEYLKGSESQLNSTLKKVESQETLNDTIERSLIEEEVEQDEGQCRTELEGSFNKSAEL
+SRIENEVE
+
+>YLR309C Chr12 complement(749034..751769) [2736 bp; 911 aa] {ON}  IMH1Protein involved in vesicular transport; mediates transport between an endosomal compartment and the Golgi; contains a Golgi-localization (GRIP) domain that interacts with activated Arl1p-GTP to localize Imh1p to the Golgi START=308 END=394
+EEETVDNSINTEEYDKLKENLQELQEKYKDCEDWKQKYEDIEAELKDAKELENSQLEKSA
+KELETLNTELIDTKKSLKEKNSELEE
+
+>YLR331C Chr12 complement(790669..791046) [378 bp; 125 aa] {OFF}  JIP3Dubious open reading frame; unlikely to encode a protein; not conserved in closely related Saccharomyces species; 98% of ORF overlaps the verified gene MID2 START=1 END=91
+EKDEEDEESEEAEEELLVLESDEKLNDVNDMEAMLVDELVCDTRDLLDVDEVREDESALE
+EETILDDKMELEELTLLTEERAVDTAEEFE
+
+>YLR449W Chr12 (1030834..1032012) [1179 bp; 392 aa] {ON}  FPR4Peptidyl-prolyl cis-trans isomerase (PPIase) (proline isomerase) localized to the nucleus; catalyzes isomerization of proline residues in histones H3 and H4; which affects lysine methylation of those histones START=59 END=121
+ELTRGEYYNQDNNDGLEEDESESEQEADVPKRSVKSKKGKAVEQSESEDSEDENEIDDEF
+EE
+
+>YLR449W Chr12 (1030834..1032012) [1179 bp; 392 aa] {ON}  FPR4Peptidyl-prolyl cis-trans isomerase (PPIase) (proline isomerase) localized to the nucleus; catalyzes isomerization of proline residues in histones H3 and H4; which affects lysine methylation of those histones START=175 END=293
+EDEEDYYSDEESSNGEEEEEEEEEDDEELSSGDDDLDDLVDASDIESRLDELVKKDEKKK
+NNKKDSKRKHEEDEEESAKPAEKKQTTKKDKKAEKVKDSEESKPKPKTKLLEGGIIIE
+
+>YLR451W Chr12 (1036093..1038753) [2661 bp; 886 aa] {ON}  LEU3Zinc-knuckle transcription factor; repressor and activator; regulates genes involved in branched chain amino acid biosynthesis and ammonia assimilation; acts as a repressor in leucine-replete conditions and as an activator in the presence of alpha-isopropylmalate; an intermediate in leucine biosynthesis that accumulates during leucine starvation START=657 END=704
+EKCGMAKLERETKVSTAYNVDEEEEEDEDEEGEEEEEEEELSSKVPE
+
+>YML093W Chr13 (83090..85789) [2700 bp; 899 aa] {ON}  UTP14Subunit of U3-containing Small Subunit (SSU) processome complex involved in production of 18S rRNA and assembly of small ribosomal subunit START=104 END=196
+ENANYQEEEDEGGYTSIDEEDLMPLSQVWDMDEKTAQSNGNDDEDASPQLKLQDTDISSE
+SSSSEESESESEDDEEEEDPFDEISEDEEDIE
+
+>YML074C Chr13 complement(120089..121324) [1236 bp; 411 aa] {ON}  FPR3Nucleolar peptidyl-prolyl cis-trans isomerase (PPIase); FK506 binding protein; phosphorylated by casein kinase II (Cka1p-Cka2p-Ckb1p-Ckb2p) and dephosphorylated by Ptp1p START=40 END=128
+EAIDEENKPSTLRIIKRNPDFEDDDFLGGDFDEDEIDEESSEEEEEEKTQKKKKSKGKKA
+ESESEDDEEDDDEDDEFQESVLLTLSPE
+
+>YML074C Chr13 complement(120089..121324) [1236 bp; 411 aa] {ON}  FPR3Nucleolar peptidyl-prolyl cis-trans isomerase (PPIase); FK506 binding protein; phosphorylated by casein kinase II (Cka1p-Cka2p-Ckb1p-Ckb2p) and dephosphorylated by Ptp1p START=172 END=311
+EGEDEDEDADIYDSEDYDLTPDEDEIIGDDMDDLDDEEEEEVRIEEVQEEDEEDNDGEEE
+QEEEEEEEQKEEVKPEPKKSKKEKKRKHEEKEEEKKAKKVKKVEFKKDLEEGPTKPKSKK
+EQDKHKPKSKVLEGGIVIE
+
+>YML072C Chr13 complement(124730..129367) [4638 bp; 1545 aa] {ON}  TCB3Lipid-binding ER protein; enriched at ER-plasma membrane contact sites; localized to the bud via specific mRNA transport; non-tagged protein detected in a phosphorylated state in mitochondria; C-termini of Tcb1p; Tcb2p and Tcb3p interact START=938 END=1002
+EELVNVEKLEKELKEKKKKFEATQEENEQEMEKNPKEWEVAEIEDPFDSDEKKINRKAKL
+SLNE
+
+>YML071C Chr13 complement(129749..131572) [1824 bp; 607 aa] {ON}  COG8Component of the conserved oligomeric Golgi complex (Cog1p through Cog8p); a cytosolic tethering complex that functions in protein trafficking to mediate fusion of transport vesicles to Golgi compartments START=356 END=516
+EIPFPEELESTVLRINGTNEEKEIEEKEKETKKEEYQKQDSVANNEEDVTENKSIEDVQE
+EVQGKVEGEDDGAERKTENEIENETVNKTEDKAEKEKEEEVNTKDNKAEKEEEEINKVEV
+TPEEPSKSIDNKAEKEEEEINKVEVTPEEPSKKIRTSKRE
+
+>YML065W Chr13 (142210..144954) [2745 bp; 914 aa] {ON}  ORC1Largest subunit of the origin recognition complex; which directs DNA replication by binding to replication origins and is also involved in transcriptional silencing; exhibits ATPase activity START=239 END=298
+ETRATDITDNEDGNEDESSDYESPSDIDVSEDMDSGEISADELEEEEDEEEDEDEEEKE
+
+>YML030W Chr13 (216435..216914) [480 bp; 159 aa] {ON}  RCF1Cytochrome c oxidase subunit; required for assembly of the Complex III-Complex IV supercomplex; and for assembly of Cox13p and Rcf2p into cytochrome c oxidase; similar to Rcf2p; and either Rcf1p or Rcf2p is required for late-stage assembly of the Cox12p and Cox13p subunits and for cytochrome c oxidase activity; required for growth under hypoxic conditions; member of the hypoxia induced gene family; C. elegans and human orthologs are functional in yeast START=90 END=153
+ELKAKEEQLKEKAKMREKLWIQELERREEETEARRKRAELARMKTLENEEEIKNLEKELS
+DLE
+
+>YMR049C Chr13 complement(368094..370517) [2424 bp; 807 aa] {ON}  ERB1Constituent of 66S pre-ribosomal particles; forms a complex with Nop7p and Ytm1p that is required for maturation of the large ribosomal subunit; required for maturation of the 25S and 5.8S ribosomal RNAs; homologous to mammalian Bop1 START=9 END=67
+EAKMSKKRAASEESDVEEDEDKLLSVDGLIDAEASESDEDDDEYESAVEEKESSSDKE
+
+>YMR091C Chr13 complement(450058..451365) [1308 bp; 435 aa] {ON}  NPL6Component of the RSC chromatin remodeling complex; interacts with Rsc3p; Rsc30p; Ldb7p; and Htl1p to form a module important for a broad range of RSC functions; involved in nuclear protein import and maintenance of proper telomere length START=4 END=87
+EGGLASEVEHEKRSRSTSNRPNYAIDTEDLDIDENDENEDDDYREEEANEGVNEEEISDE
+EEQINKSGRNKRRHVDEEEDLSE
+
+>YMR119W Chr13 (505333..507207) [1875 bp; 624 aa] {ON}  ASI1Putative integral membrane E3 ubiquitin ligase; acts with Asi2p and Asi3p to ensure the fidelity of SPS-sensor signalling by maintaining the dormant repressed state of gene expression in the absence of inducing signals START=457 END=516
+EDIELELLNTSDDEYSEDYEPSEVESLGDSDEENLEEDSLIFNETRDALLDLFSSEDNE
+
+>YMR124W Chr13 (514456..517287) [2832 bp; 943 aa] {ON} Protein of unknown function; GFP-fusion protein localizes to the cell periphery; cytoplasm; bud; and bud neck; interacts with Crm1p in two-hybrid assay; YMR124W is not an essential gene; predicted to have a role in organelle organization START=480 END=567
+ENKGKLNVLQLSTPQQNELKEKERKLAEMEKSLREREALVEEKEKERAEKNTEANEEEEI
+SHESDDLNLRPASALETGLKDLKLESE
+
+>YMR128W Chr13 (523696..527499) [3804 bp; 1267 aa] {ON}  ECM16Essential DEAH-box ATP-dependent RNA helicase specific to the U3 snoRNP; predominantly nucleolar in distribution; required for 18S rRNA synthesis START=134 END=192
+EGRQTKKEEFKEALSLERQGRGNEQTNEILYEEYEPKVWDEYGEGGSSEDDDGEDDFE
+
+>YMR128W Chr13 (523696..527499) [3804 bp; 1267 aa] {ON}  ECM16Essential DEAH-box ATP-dependent RNA helicase specific to the U3 snoRNP; predominantly nucleolar in distribution; required for 18S rRNA synthesis START=237 END=307
+ESKTPKKKYNWRQRVEMEELKKHGKEDEMDFDTTSEDDDEEEDQEEEDKMHPSENPLEEV
+ESADSETGSE
+
+>YMR219W Chr13 (707133..712109) [4977 bp; 1658 aa] {ON}  ESC1Protein localized to the nuclear periphery; involved in telomeric silencing; interacts with PAD4-domain of Sir4p START=1328 END=1426
+ENYSQRLIEDSRRGKNQEESDEVNTSRERDLTFEKSVNEKYAGAIEEDTFSELDISIQHP
+EHEEDLDLSNNQERSIEELNSEPEEAELYELEIEGPTE
+
+>YMR227C Chr13 complement(722613..724385) [1773 bp; 590 aa] {ON}  TAF7TFIID subunit (67 kDa); involved in RNA polymerase II transcription initiation START=284 END=412
+EIDYVEKVVDMLLKQDKQAEEVSYDLVDKSELQARQERVSSWENFKEEPGEPLSRPALKK
+EEIHTIASAVGKQGAEEEGEEGMEEEEEEDLDLGAAFESEEEGSGAEGDKEQQQEEVGDE
+VDQDTGGE
+
+>YMR227C Chr13 complement(722613..724385) [1773 bp; 590 aa] {ON}  TAF7TFIID subunit (67 kDa); involved in RNA polymerase II transcription initiation START=482 END=590
+EKEAELKRKQLQQTEDSVQKQHQHRSDAETANNVEEEEEEEEEEEEEDEVDEDEEDDEEN
+DEDEDNVHEREHIQENKVVRELDEAPAEETLDQNDLDMMMLFGAEGDE
+
+>YMR240C Chr13 complement(749930..751240) [1311 bp; 436 aa] {ON}  CUS1Protein required for assembly of U2 snRNP into the spliceosome; forms a complex with Hsh49p and Hsh155p START=370 END=428
+ETPEFENSKEDTQANAENGRQDDKIDDEVEHKLDHFQEDISEVTSAEEKLERNEEESE
+
+>YMR294W Chr13 (856966..858087) [1122 bp; 373 aa] {ON}  JNM1Component of the yeast dynactin complex; consisting of Nip100p; Jnm1p; and Arp1p; required for proper nuclear migration and spindle partitioning during mitotic anaphase B START=93 END=156
+EEDESRQQKLERIREELEELKIENLTSEMQTEIKELCEIQSKLATESSSRLTNLRKKLLE
+TYE
+
+>YNL308C Chr14 complement(54122..55897) [1776 bp; 591 aa] {ON}  KRI1Essential nucleolar protein required for 40S ribosome biogenesis; associate with snR30; physically and functionally interacts with Krr1p START=12 END=77
+EQAKKEAAVPATDTATIKTSETSATTVKPAIEASKSYVPSEDEEEDEEEEEEEDDYGELI
+TDEVE
+
+>YNL308C Chr14 complement(54122..55897) [1776 bp; 591 aa] {ON}  KRI1Essential nucleolar protein required for 40S ribosome biogenesis; associate with snR30; physically and functionally interacts with Krr1p START=357 END=507
+EEEWDNVVAELFNEEFYQQEGKPTWNEDDEIMGDFYADADGDDQTEEGEVEKEQKEEDEE
+EGPKRKKSKKEEKLQKKKEKRKVNELVENALEQNKLALIEEVEKEEEERKSRSRTKEEQD
+LKFRYREVSPESFGLTAREIFAADDTDLNE
+
+>YNL271C Chr14 complement(129522..135383) [5862 bp; 1953 aa] {ON}  BNI1Formin; nucleates the formation of linear actin filaments; involved in cell processes such as budding and mitotic spindle orientation which require the formation of polarized actin cables; functionally redundant with BNR1 START=1738 END=1795
+EYKKAQAQNLAAEEEERLYIKHKKIVEEQQKRAQEKEKQKENSNSPSSEGNEEDEAE
+
+>YNL215W Chr14 (244468..245430) [963 bp; 320 aa] {ON}  IES2Protein that associates with the INO80 chromatin remodeling complex under low-salt conditions; essential for growth under anaerobic conditions START=104 END=204
+EKSDIGDSKGNDGEIEDGILEEEESLEKELNRGGGKEVEKSEESYYAQNDVGQKGEEEQD
+GESGGYEDNEPSISKESDELVSVVNGNGNEEDDEVEATKE
+
+>YNL206C Chr14 complement(256788..258155) [1368 bp; 455 aa] {ON}  RTT106Histone chaperone; involved in regulation of chromatin structure in both transcribed and silenced chromosomal regions; affects transcriptional elongation; has a role in regulation of Ty1 transposition START=334 END=395
+EATRQMQDEKKAGVFSDDDEENDQNFEAESDLSDGSGQESSDGAEDGEEAEEDDEEDDEE
+E
+
+>YNL186W Chr14 (289498..291876) [2379 bp; 792 aa] {ON}  UBP10Ubiquitin-specific protease that deubiquitinates ubiquitin-protein moieties; may regulate silencing by acting on Sir4p; involved in posttranscriptionally regulating Gap1p and possibly other transporters; primarily located in the nucleus START=115 END=310
+ELSTELSTEPPSSSSEDDKVGKEEEEEGEIFHEARDYVEPRKASLKERDNADKGDGEDIG
+EDIGEDIGEDIGEDIGEDIGENLGSPLATIDDSSNENEKEKRKELSTSISSDDEIEDDED
+EDDMDYDSSAMEKELPEEEENDSSSKISEGEKKSLYQDLMENSTVEVNRYEPVNNTKENG
+NRNPKGEEEEEEEEE
+
+>YNL173C Chr14 complement(308957..310057) [1101 bp; 366 aa] {ON}  MDG1Plasma membrane protein involved in G-protein mediated pheromone signaling pathway; overproduction suppresses bem1 mutations START=184 END=246
+ENNVGVNEEKAIKPYEENHPKVNLVKSEGYVTDGLGKTQSSESRLYELSAEDLEKEEEEE
+DE
+
+>YNL136W Chr14 (370368..371645) [1278 bp; 425 aa] {ON}  EAF7Subunit of the NuA4 histone acetyltransferase complex; which acetylates the N-terminal tails of histones H4 and H2A START=251 END=357
+EVKFEDEEKEEIEEDNTKDEEQKEKKEEIQEPKITHNEEVDKEKNENEEGDDEREKSTSY
+ENTNGSESEGVDEGVDEELGYESEREAEGKGKQIESEGGNLKKKTE
+
+>YNL113W Chr14 (412771..413199) [429 bp; 142 aa] {ON}  RPC19RNA polymerase subunit AC19; common to RNA polymerases I and III START=2 END=68
+EDIEQKKTATEVTPQEPKHIQEEEEQDVDMTGDEEQEEEPDREKIKLLTQATSEDGTSAS
+FQIVEE
+
+>YNL099C Chr14 complement(438567..439283) [717 bp; 238 aa] {ON}  OCA1Putative protein tyrosine phosphatase; required for cell cycle arrest in response to oxidative damage of DNA START=6 END=77
+EYEDVPEDESRLTEENVSVPEEEVEDEDEEEDDDDDHIYINEETESGREKVLVSHAPQER
+IVPPLNFCPVE
+
+>YNL091W Chr14 (452408..456130) [3723 bp; 1240 aa] {ON}  NST1Protein of unknown function; mediates sensitivity to salt stress; interacts physically with the splicing factor Msl1p and also displays genetic interaction with MSL1 START=459 END=503
+EDEDEEDYDDYSEYAEDSEEVSEYEGIEAVEKPEHDEKSNGIRE
+
+>YNL091W Chr14 (452408..456130) [3723 bp; 1240 aa] {ON}  NST1Protein of unknown function; mediates sensitivity to salt stress; interacts physically with the splicing factor Msl1p and also displays genetic interaction with MSL1 START=616 END=793
+EKQADNNRLKLLQELEEEKRKKREKEEKKQKKREKEKEKKRLQQLAKEEEKRKREEEKER
+LKKELEEREMRRREAQRKKVEEAKRKKDEERKRRLEEQQRREEMQEKQRKQKEELKRKRE
+EEKKRIREQKRLEQEKLQKEKEEEERQRLIAEDALRKQKLNEEQTSANILSAKPFTE
+
+>YNL079C Chr14 complement(478566..479165) [600 bp; 199 aa] {ON}  TPM1Major isoform of tropomyosin; binds to and stabilizes actin cables and filaments; which direct polarized cell growth and the distribution of several organelles; acetylated by the NatB complex and acetylated form binds actin most efficiently START=5 END=104
+EKLSNLKLEAESWQEKYEELKEKNKDLEQENVEKENQIKSLTVKNQQLEDEIEKLEAGLS
+DSKQTEQDNVEKENQIKSLTVKNHQLEEEIEKLEAELAE
+
+>YNL079C Chr14 complement(478566..479165) [600 bp; 199 aa] {ON}  TPM1Major isoform of tropomyosin; binds to and stabilizes actin cables and filaments; which direct polarized cell growth and the distribution of several organelles; acetylated by the NatB complex and acetylated form binds actin most efficiently START=129 END=197
+EEDLEESDTKLKETTEKLRESDLKADQLERRVAALEEQREEWERKNEELTVKYEDAKKEL
+DEIAASLE
+
+>YNL049C Chr14 complement(535281..537911) [2631 bp; 876 aa] {ON}  SFB2Component of the Sec23p-Sfb2p heterodimer of the COPII vesicle coat; required for cargo selection during vesicle formation in ER to Golgi transport; homologous to Sec24p and Sfb3p START=298 END=360
+EVSDEDDEESDGEEEDEDEEEEDVDNSETIQMFDIGDLDEPFLPMPSDELVVPLKYCKNN
+LE
+
+>YNR006W Chr14 (636986..638854) [1869 bp; 622 aa] {ON}  VPS27Endosomal protein that forms a complex with Hse1p; required for recycling Golgi proteins; forming lumenal membranes and sorting ubiquitinated proteins destined for degradation; has Ubiquitin Interaction Motifs which bind ubiquitin (Ubi4p) START=256 END=325
+EDEEELIRKAIELSLKESRNSASSEPIVPVVESKNEVKRQEIEEEEDPDLKAAIQESLRE
+AEEAKLRSE
+
+>YNR054C Chr14 complement(723356..724306) [951 bp; 316 aa] {ON}  ESF2Essential nucleolar protein involved in pre-18S rRNA processing; binds to RNA and stimulates ATPase activity of Dbp8; involved in assembly of the small subunit (SSU) processome START=42 END=95
+EDIESENESDIEEEQKQEEKEDVEQPDKENGEKLDREVEEQASSTTSLDLKTE
+
+>YOL145C Chr15 complement(49555..52788) [3234 bp; 1077 aa] {ON}  CTR9Component of the Paf1p complex involved in transcription elongation; binds to and modulates the activity of RNA polymerases I and II; required for expression of a subset of genes; including cyclin genes; involved in SER3 repression by helping to maintain SRG1 transcription-dependent nucleosome occupancy; contains TPR repeats START=850 END=967
+EGLKEGLELFRELNDLKEFNMIPKEELEQRIQLGETTMKSALERSLNEQEEFEKEQSAKI
+DEARKILEENELKEQGWMKQEEEARRLKLEKQAEEYRKLQDEAQKLIQEREAMAISE
+
+>YOL144W Chr15 (53098..54552) [1455 bp; 484 aa] {ON}  NOP8Nucleolar protein required for 60S ribosomal subunit biogenesis START=269 END=388
+EELLTEQRKGEEEEEEEEEKEVNAPEYENVNKTKDQSTLPQEKPEERKEQDEGDGQEDNE
+FIPTFTKEIGQGTISNTETLRNLFNPNEAEPVSQFKLIEDSDNDIDHAKDVDVNQLEEE
+
+>YOL027C Chr15 complement(272003..273724) [1722 bp; 573 aa] {ON}  MDM38Mitochondrial protein; forms a complex with Mba1p to facilitate recruitment of mRNA-specific translational activators to ribosomes; roles in protein export and K+/H+ exchange; human ortholog Letm1 implicated in Wolf-Hirschhorn syndrome START=473 END=552
+EKAETAKTEEISQEKENAEPTDSAEATEAEEKKTSDDNEFKLNVLKEQEELIKKEEEEAK
+QRASREHVPDDINLDEEEE
+
+>YOL006C Chr15 complement(313078..315387) [2310 bp; 769 aa] {ON}  TOP1Topoisomerase I; nuclear enzyme that relieves torsional strain in DNA by cleaving and re-sealing the phosphodiester backbone; relaxes both positively and negatively supercoiled DNA; functions in replication; transcription; and recombination START=92 END=139
+EDGDVKVKTTKKEEQENEKKKREEEEEEDKKAKEEEEEYKWWEKENE
+
+>YOL006C Chr15 complement(313078..315387) [2310 bp; 769 aa] {ON}  TOP1Topoisomerase I; nuclear enzyme that relieves torsional strain in DNA by cleaving and re-sealing the phosphodiester backbone; relaxes both positively and negatively supercoiled DNA; functions in replication; transcription; and recombination START=601 END=680
+EPKYFEEIDDLTKEDEATIHKRIIDREIEKYQRKFVRENDKRKFEKEELLPESQLKEWLE
+KVDEKKQEFEKELKTGEVE
+
+>YOR042W Chr15 (408425..409660) [1236 bp; 411 aa] {ON}  CUE5Protein containing a CUE domain that binds ubiquitin; which may facilitate intramolecular monoubiquitination; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern START=53 END=114
+EEKVNKSSGIDEDEVVTPAEDAKEEEEEHPPLPARRKSEEEPSKENPILQELKDAFPNLE
+E
+
+>YOR056C Chr15 complement(430247..431626) [1380 bp; 459 aa] {ON}  NOB1Essential nuclear protein involved in proteasome maturation and synthesis of 40S ribosomal subunits; required for cleavage of the 20S pre-rRNA to generate the mature 18S rRNA START=166 END=231
+EAREAREAENANLELESKAEEHVEEAGSKEQICNDENIKESSDLNEVFEDADDDGDWITP
+ENLTE
+
+>YOR073W Chr15 (464771..466543) [1773 bp; 590 aa] {ON}  SGO1Component of the spindle checkpoint; involved in sensing lack of tension on mitotic chromosomes; protects centromeric Rec8p at meiosis I; required for accurate chromosomal segregation at meiosis II and for mitotic chromosome stability START=203 END=278
+EPEDETGENEPMMENSSVEVPAESHESAQVEETIDALNPEEENSDSVSNFTNSIIEYSIP
+EENPTEPEHSSSKLE
+
+>YOR119C Chr15 complement(548792..550246) [1455 bp; 484 aa] {ON}  RIO1Essential serine kinase involved in cell cycle progression and processing of the 20S pre-rRNA into mature 18S rRNA START=382 END=444
+ERNFAASEQFEFDNADHECSSGTEEFSDDEEDGSSGSEEDDEEEGEYYDDDEPKVLKGKK
+HE
+
+>YOR123C Chr15 complement(553176..554570) [1395 bp; 464 aa] {ON}  LEO1Component of the Paf1 complex; which associates with RNA polymerase II and is involved in histone methylation; plays a role in regulating Ty1 transposition; involved in transcription elongation as demonstrated by the G-less-based run-on (GLRO) assay START=382 END=463
+EYEEDDFLVDDDEEEEAAFDDEEDDNEEEEEEEDADEENASRLRNLKREGAAMYREEEEE
+EKDRSETKRRRVAVIEDDEDE
+
+>YOR141C Chr15 complement(589942..592587) [2646 bp; 881 aa] {ON}  ARP8Nuclear actin-related protein involved in chromatin remodeling; component of chromatin-remodeling enzyme complexes; has mRNA binding activity START=3 END=115
+EEAESSIIYEEPIDIPLEDDDDEDELEEENSVPLSSQADQENAENESDDSVDNVVGSETP
+RSVTGLSVDPRDVADEEDEDEEGEDEDEDEDDNDVDNEDENDNDNANENENE
+
+>YOR175C Chr15 complement(659815..661674) [1860 bp; 619 aa] {ON}  ALE1Broad-specificity lysophospholipid acyltransferase; part of MBOAT family of membrane-bound O-acyltransferases; key component of Lands cycle; may have role in fatty acid exchange at sn-2 position of mature glycerophospholipids START=524 END=589
+EHEKGKTAEEEEMNLGIPPIELEKWDNAKEDWEDFCKDYKEWRNKNGLEIEEENLSKAFE
+RFKQE
+
+>YOR194C Chr15 complement(711683..712543) [861 bp; 286 aa] {ON}  TOA1TFIIA large subunit; involved in transcriptional activation; acts as antirepressor or as coactivator; homologous to largest and second largest subunits of human and Drosophila TFIIA START=150 END=207
+EVKPEIELTINNANITTVENIDDESEKKDDEEKEEDVEKTRKEKEQIEQVKLQAKKE
+
+>YOR216C Chr15 complement(747525..748979) [1455 bp; 484 aa] {ON}  RUD3Golgi matrix protein involved in the structural organization of the cis-Golgi; interacts genetically with COG3 and USO1 START=156 END=249
+EAQKQLEEVQEQLTEYESQNLKLKKKLEATKTENSELQSTIVTLNTELENLEKEQESTEE
+VFLEYESRIEALEDEKHDIIEKHSKELNTYRKE
+
+>YOR239W Chr15 (784857..785687;785689..786744) [1887 bp; 628 aa] {ON}  ABP140AdoMet-dependent tRNA methyltransferase and actin binding protein; C-terminal domain is responsible for 3-methylcytidine modification of residue 32 of the tRNA anticodon loop of tRNA-Thr and tRNA-Ser and contains an S-adenosylmethionine (AdoMet) binding motif; N-terminal actin binding sequence interacts with actin filaments and localizes to actin patches and cables; N- and C-terminal domains are encoded in separate ORFs that are translated into one protein via a +1 frameshift START=35 END=198
+ETKELHQQESTAVPQEVDVNEEFENEPETINSSRTAEKPLETNLPKPETNEEDEEEGSMS
+ENKIYSKGENADINVNDFQEYKEMENTGAEVLASSVEESDAIQEGVAEETEGIATPKQKE
+NEKNDESEEESANNASEPAEEYSQSEEDADIEQSNGKETENAE
+
+>YOR290C Chr15 complement(855147..860258) [5112 bp; 1703 aa] {ON}  SNF2Catalytic subunit of the SWI/SNF chromatin remodeling complex involved in transcriptional regulation; contains DNA-stimulated ATPase activity; functions interdependently in transcriptional activation with Snf5p and Snf6p START=1247 END=1353
+EEQEALLRSLLDAEEERRKKRESGVEEEEELKDSEINEILARNDEEMAVLTRMDEDRSKK
+EEELGVKSRLLEKSELPDIYSRDIGAELKREESESAAVYNGRGARE
+
+>YOR304W Chr15 (884514..887876) [3363 bp; 1120 aa] {ON}  ISW2ATP-dependent DNA translocase involved in chromatin remodeling; ATPase component that; with Itc1p; forms a complex required for repression of a-specific genes; INO1; and early meiotic genes during mitotic growth START=828 END=882
+EGSDAEEEEGEYKNAANTEGHKGHEELKRRIEEEQEKINSAPDFTQEDELRKQE
+
+>YOR341W Chr15 (960987..965981) [4995 bp; 1664 aa] {ON}  RPA190RNA polymerase I largest subunit A190 START=1365 END=1426
+EEDNDEEQSHKKTKQAVSYDEPDEDEIETMREAEKSSDEEGIDSDKESDSDSEDEDVDMN
+E
+
+>YPL263C Chr16 complement(44551..46506) [1956 bp; 651 aa] {ON}  KEL3Cytoplasmic protein of unknown function START=500 END=586
+EDLSAIEEAKRLGDRDSDEDEFEYEDDEEDEDDGEEEQDAGPLEGDEDEESESDDDKQAQ
+MEIPDERSWLPHPKPFETLRAFYLRE
+
+>YPL217C Chr16 complement(139620..143171) [3552 bp; 1183 aa] {ON}  BMS1GTPase required for synthesis of 40S ribosomal subunits and for processing the 35S pre-rRNA at sites A0; A1; and A2; interacts with Rcl1p; which stimulates its GTPase and U3 snoRNA binding activities; has similarity to Tsr1p START=652 END=752
+EGGEELYGDFEDLEDGNPSEQAEDNSDKESEDEDENEDTNGDDDNSFTNFDAEEKKDLTM
+EQEREMNAAKKEKLRAQFEIEEGENFKEDDENNEYDTWYE
+
+>YPL212C Chr16 complement(151515..153149) [1635 bp; 544 aa] {ON}  PUS1tRNA:pseudouridine synthase; introduces pseudouridines at positions 26-28; 34-36; 65; and 67 of tRNA; nuclear protein that appears to be involved in tRNA export; also acts on U2 snRNA START=212 END=268
+EESKTELPGVLDEDLESKEFWEEFKKDANEKFSTEEIEAILAYVPPARDEFDINEE
+
+>YPL190C Chr16 complement(185317..187725) [2409 bp; 802 aa] {ON}  NAB3RNA-binding protein; subunit of Nrd1 complex (Nrd1p-Nab3p-Sen1p); complex interacts with the exosome to mediate 3&#8242; end formation of some mRNAs; snRNAs; snoRNAs; and CUTs; required for termination of non-poly(A) transcripts and efficient splicing START=3 END=204
+ENHNSDVQDIPSPELSVDSNSNENELMNNSSADDGIEFDAPEEEREAEREEENEEQHELE
+DVNDEEEEDKEEKGEENGEVINTEEEEEEEHQQKGGNDDDDDDNEEEEEEEEDDDDDDDD
+DDDDEEEEEEEEEEGNDNSSVGSDSAAEDGEDEEDKKDKTKDKEVELRRETLEKEQKDVD
+EAIKKITREENDNTHFPTNME
+
+>YPL158C Chr16 complement(252034..254310) [2277 bp; 758 aa] {ON}  AIM44Protein of unknown function; GFP-fusion protein localizes to the bud neck; transcription is regulated by Swi5p; null mutant displays elevated frequency of mitochondrial genome loss START=615 END=709
+ETNSTIYEDLVDSLLTEYEADGSSSQIFDGVTVRADEEEEEDEDDEDDEEEEEENDDEED
+EEDEEDDEDDEEEEEKRKEGEGRNLAKEVDELAE
+
+>YPL146C Chr16 complement(276162..277529) [1368 bp; 455 aa] {ON}  NOP53Nucleolar protein; involved in biogenesis of the 60S subunit of the ribosome; interacts with rRNA processing factors Cbf5p and Nop2p; null mutant is viable but growth is severely impaired START=209 END=305
+EPIAVKEFTEIPHAGKSYNPNNKAWSELINKEYKEEKAREDERIALEKYKERIRHLMETL
+DDNEEEESSSNEEEEEEEEENENENESTQCSGSDKE
+
+>YPL121C Chr16 complement(320962..321630) [669 bp; 222 aa] {ON}  MEI5Meiosis specific protein involved in DMC1-dependent meiotic recombination; forms heterodimer with Sae3p; proposed to be an assembly factor for Dmc1p START=126 END=189
+EKEMEAKKRRLEYQIDNGMEDQICEIKESDDFRQLSEVEKQEWESQMNEQLKELEKKKIA
+ELE
+
+>YPL105C Chr16 complement(352863..355412) [2550 bp; 849 aa] {ON}  SYH1Protein of unknown function that influences nuclear pore distribution; co-purifies with ribosomes; contains a GYF domain; which bind proline-rich sequences; deletion extends chronological lifespan START=321 END=479
+EEKVPSHEEASPEEQEVFSEEGRTVSNITNEEESIVKNPTKQEEESRGSEKEQNILDQVQ
+PEIEEVDRKDVISTADEPKSKDTPQMTSEEQKRFAKAELMAQKLLEEQQRQEEEKKRREE
+QRKLKKEKKLKQKQKKEEEKLKKKKKEEGKLEKEKQKE
+
+>YPL074W Chr16 (415763..418027) [2265 bp; 754 aa] {ON}  YTA6Putative ATPase of the CDC48/PAS1/SEC18 (AAA) family; localized to the cortex of mother cells but not to daughter cells START=154 END=245
+EADEKEAKINKQADNIRRARKLEEEKKLGAKLQYERDLELQREKLIELKVKEKVEFEVAQ
+KLEEERVKREEEERKHREQAEKKRISTLKHE
+
+>YPL009C Chr16 complement(535820..538936) [3117 bp; 1038 aa] {ON}  TAE2Protein of unknown function; involved in protein translation; may interact with ribosomes; based on co-purification experiments; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm START=712 END=791
+EDNGDDDEEEEEEEEEEEEEEEEEEEEEEEEKEEEEKEEEQQQDEDDSNEVNGLEKGGDS
+NDSTKNNSFEHDNLEKDIE
+
+>YPL004C Chr16 complement(550632..551657) [1026 bp; 341 aa] {ON}  LSP1Primary component of eisosomes; which are large immobile patch structures at the cell cortex associated with endocytosis; along with Pil1p and Sur7p; null mutants show activation of Pkc1p/Ypk1p stress resistance pathways; member of the BAR domain family START=282 END=339
+EDEDGEEEEEPEIQNGDIPGQVVEEEEVEWTTEVPVDDEAHEADHHVSQNGHTSGSE
+
+>YPR018W Chr16 (594476..596296) [1821 bp; 606 aa] {ON}  RLF2Largest subunit (p90) of the Chromatin Assembly Complex (CAF-1); chromatin assembly by CAF-1 is important for multiple processes including silencing at telomeres; mating type loci; and rDNA; maintenance of kinetochore structure; deactivation of the DNA damage checkpoint after DNA repair; and chromatin dynamics during transcription START=117 END=224
+ETKSRSSSPCSKRELSSSKKEEAKREKELKKQQRAEEKHRKELLRQEEKKKKELKVEEER
+QRRAELKKQKEEEKRRKEEARLEAKRRKEEERLKKEEEIRLKEEAKE
+
+>YPR018W Chr16 (594476..596296) [1821 bp; 606 aa] {ON}  RLF2Largest subunit (p90) of the Chromatin Assembly Complex (CAF-1); chromatin assembly by CAF-1 is important for multiple processes including silencing at telomeres; mating type loci; and rDNA; maintenance of kinetochore structure; deactivation of the DNA damage checkpoint after DNA repair; and chromatin dynamics during transcription START=388 END=431
+EWVNEEEEGEVDNLESGEEEEEEEDDEDVPSEGEFDGFLDSEE
+
+>YPR137W Chr16 (802359..804080) [1722 bp; 573 aa] {ON}  RRP9Protein involved in pre-rRNA processing; associated with U3 snRNP; component of small ribosomal subunit (SSU) processosome; ortholog of the human U3-55k protein START=15 END=77
+EVNPSKPTVDEEITDPSSNEDEQLEVSDEEDALESEEEFEGENPADKRRRLAKQYLENLK
+SE
+
+>YPR143W Chr16 (818323..819075) [753 bp; 250 aa] {ON}  RRP15Nucleolar protein; constituent of pre-60S ribosomal particles; required for proper processing of the 27S pre-rRNA at the A3 and B1 sites to yield mature 5.8S and 25S rRNAs START=19 END=80
+EFGREKRNSGNQELSNEPEKDTIMEGDEAEEDEQNSSSDESSKIIDNEQSDAEEDDDEEE
+E
+
+>YPR148C Chr16 complement(826833..828140) [1308 bp; 435 aa] {ON} Protein of unknown function that may interact with ribosomes; based on co-purification experiments; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern START=159 END=209
+ECEFQNLEHNEKAELKKKKESIKTAQTTEAQGADHNEEDEEDEEDEEDDE
+
+>YPR148C Chr16 complement(826833..828140) [1308 bp; 435 aa] {ON} Protein of unknown function that may interact with ribosomes; based on co-purification experiments; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern START=316 END=394
+ETPSTEDEKPKSEGAEEESKKEANEPTVDDVADRKEDLKSNKVNDEPPIEESEDNKLLEK
+LEDEFVSNTTAAVETMEE
+
+>YPR189W Chr16 (912664..916962) [4299 bp; 1432 aa] {ON}  SKI3Ski complex component and TPR protein; mediates 3'-5' RNA degradation by the cytoplasmic exosome; null mutants have superkiller phenotype of increased viral dsRNAs and are synthetic lethal with mutations in 5'-3' mRNA decay START=337 END=416
+ESANKPPEGHKKTEKETDIKDVDETNEDEVKDRVEDEVKDRVEDEVKDQDEEAKEDEEED
+LDDIEIGLLEEEVVTVLTE
+

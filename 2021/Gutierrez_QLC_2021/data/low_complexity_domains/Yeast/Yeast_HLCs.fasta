@@ -1,0 +1,11 @@
+>YHR217C Chr8 complement(556581..557042) [462 bp; 153 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; located in the telomeric region TEL08R. START=19 END=93
+HTPHPHPHPHPHTPTHTHPHTPTPTPHPHPHTPHPHTTPTPTPHHTHTPHTTLSNLSLNL
+PSHYPTSPLVTLPH
+
+>YJL083W Chr10 (278841..280655) [1815 bp; 604 aa] {ON}  TAX4EH domain-containing protein involved in regulating phosphatidylinositol 4;5-bisphosphate levels and autophagy; Irs4p and Tax4p bind and activate the PtdIns phosphatase Inp51p; Irs4p and Tax4p are involved in localizing Atg17p to the PAS START=396 END=433
+HHHHHHHQLHNPNSHHLHTHHHTSSHKFNEDKPWKSH
+
+>YOR053W Chr15 (427817..428158) [342 bp; 113 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; partially overlaps the verified gene VHS3/YOR054C START=20 END=111
+HRLHLRLRHLHRRRRRRHHRRHHRRHHHHRRRRRRRRRRRRRHHRHHHHRHRRRRHYLHL
+YHQYRSSYYHPPHRYLHPLLLPFPQKHRDNH
+

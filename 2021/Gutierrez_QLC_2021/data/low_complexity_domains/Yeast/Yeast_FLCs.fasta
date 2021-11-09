@@ -1,0 +1,70 @@
+>YDL172C Chr4 complement(148607..149086) [480 bp; 159 aa] {OFF} Dubious ORF unlikely to encode a protein; based on available experimental and comparative sequence data START=2 END=57
+FQLNIVFKELKNPDFFFFFFFFSLPLSSFKLNLSSSSSFKLWLIVFLLDFGEIMF
+
+>YDR413C Chr4 complement(1294836..1295411) [576 bp; 191 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; overlaps the essential uncharacterized ORF YDR412W that is implicated in rRNA processing START=11 END=68
+FAFLWFILRSFLVKYLNFFTLGFFFCFSSTPRNFAYLVALFMLCLSTFSAFSNLTLF
+
+>YDR504C Chr4 complement(1456311..1456694) [384 bp; 127 aa] {OFF}  SPG3Protein required for survival at high temperature during stationary phase; not required for growth on nonfermentable carbon sources START=4 END=87
+FLVVTINFLKEKTTICHYFVNIFSLFLFLFVFVFVFIFVYFFYVILFYRFCSLFTYFPAN
+SIWYYLSIINIFFPLCFFLYENF
+
+>YDR509W Chr4 (1468226..1468573) [348 bp; 115 aa] {OFF} Dubious open reading frame unlikely to encode a functional protein; based on available experimental and comparative sequence data START=2 END=39
+FTFIFHIFNGFFHCFFKIFYFIFRFYRANLFFLWLYF
+
+>YEL045C Chr5 complement(68840..69265) [426 bp; 141 aa] {OFF} Dubious open reading frame unlikely to encode a protein based on available experimental and comparative sequence data; deletion gives MMS sensitivity; growth defect under alkaline conditions; less than optimal growth upon citric acid stress START=31 END=85
+FASGFRAAAPFLFSRCFALCITHCALFHLPYSFTGFSFYFFVFFRLFLHWIYAF
+
+>YEL033W Chr5 (86179..86598) [420 bp; 139 aa] {OFF}  MTC7Predicted metabolic role based on network analysis derived from ChIP experiments; a large-scale deletion study and localization of transcription factor binding sites; null mutant is sensitive to temperature oscillation in a cdc13-1 mutant START=17 END=69
+FAEPGFFLCNFFFVLLKHTQINPFFYFLFILLFIIYIAIIYFVFIRISHFSF
+
+>YGL149W Chr7 (225572..225877) [306 bp; 101 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; partially overlaps the verified ORF INO80/YGL150C. START=28 END=99
+FFCLFLLFFSLHFFCFTREHVHYTLPPKCHSLKFQFDSIPSSSLSLSPFPFLFFPRLRAV
+AFASPTLSFFF
+
+>YGL142C Chr7 complement(236269..238119) [1851 bp; 616 aa] {ON}  GPI10Integral membrane protein involved in glycosylphosphatidylinositol (GPI) anchor synthesis; putative alpha 1;2 mannosyltransferase required for addition of the third mannose onto the GPI core structure; human PIG-Bp is a functional homolog START=278 END=357
+FITFSKVLRSFFLVFTANAIIDMYFYEKVTFPFFRFLKFNFTTPLSKFYGVAPWHFHFFQ
+SLPIVLGASIPAFAFGLFF
+
+>YGR069W Chr7 (627083..627418) [336 bp; 111 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data START=15 END=53
+FLLLPSYTHPNHLFHFPSISFFFFFFFFFFSFRRNCLF
+
+>YGR114C Chr7 complement(720265..720654) [390 bp; 129 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; open reading frame overlaps 5' end of the essential gene SPT6 START=1 END=68
+FSSFFGNTCSWVFIFIIIVDNEAFLHFSCLIFVFINIFVFLRGVKDIFSFFFLTRRFSFI
+VVIYYFF
+
+>YHR021W-A Chr8 (149225..149680) [456 bp; 151 aa] {OFF}  ECM12Putative protein of unknown function; may contribute to cell wall biosynthesis; mutants display zymolyase hypersensitivity START=4 END=71
+FHFLIKYIYIHVLLVFYFHIKQQAIMPFFIFFFSSFDGLSFDLRVVAFLAKHVFVGVCSP
+FFVVGFF
+
+>YLR198C Chr12 complement(547286..547645) [360 bp; 119 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; overlaps the verified gene SIK1/YLR197W START=5 END=71
+FRFIVPFNPYFSSFYPSFPFYLSFPFCPSFPSFLSFPSSIFSLSFPSFLHHHLLIFSSLR
+IPFPWF
+
+>YMR292W Chr13 (854795..854816;854899..855293) [417 bp; 138 aa] {ON}  GOT1Homodimeric protein that is packaged into COPII vesicles and cycles between the ER and Golgi; involved in secretory transport but not directly required for aspects of transport assayed in vitro; may influence membrane composition START=8 END=75
+FGVAFTFGGFLFFLFGIFTFFDRALLALGNILFLIGVFLIIGSQKTYIFFTRPNKRRGSL
+FFLVGAF
+
+>YNL266W Chr14 (144245..144664) [420 bp; 139 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; partially overlaps the verified ORF IST1/YNL265C START=13 END=73
+FLRKASNRFFNSSSSSFSCSFLVFLFVVFFSDCFFSITSFLISFGILSSFLIFSLFCLGF
+
+>YNL179C Chr14 complement(300666..301103) [438 bp; 145 aa] {OFF} Dubious open reading frame; unlikely to encode a protein; not conserved in closely related Saccharomyces species; deletion in cyr1 mutant results in loss of stress resistance START=21 END=71
+FYFLIYRPFSLYLSSCEYWQSCFSFFFLFFLFFFFFFTFQFLVAFPILLF
+
+>YNL114C Chr14 complement(412684..413055) [372 bp; 123 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; completely overlaps the verified ORF RPC19/YNL113W; an RNA polymerase subunit START=39 END=106
+FRCCLCEKLNFFPVWFLFLFFIASHINILFFFFLDVLWFLWCYLCSGLFLFDVFSHLPGT
+LCEVQFF
+
+>YNL013C Chr14 complement(609133..609510) [378 bp; 125 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; partially overlaps the verified ORF HEF3/YNL014W START=17 END=75
+FKLKIFIRRNVFITHLFFLLHSLLLFLSQFCRREFAFFLPTINLVTHSIKFITLFFFF
+
+>YOR292C Chr15 complement(865653..866582) [930 bp; 309 aa] {ON} Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the vacuole; YOR292C is not an essential gene START=172 END=239
+FKTDTFDFFRWGCFMFWGFFISFFQAPWYKFLNFFYTEDPTVVQVFERVLSDQLLYSPIS
+LYCFFMF
+
+>YOR365C Chr15 complement(1023461..1025572) [2112 bp; 703 aa] {ON} Putative protein of unknown function; YOR365C is not an essential protein START=571 END=628
+FFNISIHSLNLVNAFFFLFFSNLFQQPIAVSSFMGLIFFFLNAAFSLYLFIFILICF
+
+>YPL238C Chr16 complement(100474..100863) [390 bp; 129 aa] {OFF} Dubious open reading frame unlikely to encode a functional protein; based on available experimental and comparative sequence data; partially overlaps 5' end of the verified essential gene SUI3/YPL237W START=25 END=108
+FSNASTLLSFVFFFFFFKDSSPKASAMSSVGSFSASASAETLLDFFFFFFNPANKSSPEP
+FSLPFTAASKSSGITFLVFFFFF
+

@@ -1,0 +1,68 @@
+>YDR342C Chr4 complement(1154216..1155928) [1713 bp; 570 aa] {ON}  HXT7High-affinity glucose transporter of the major facilitator superfamily; nearly identical to Hxt6p; expressed at high basal levels relative to other HXTs; expression repressed by high glucose levels START=117 END=192
+IVSIFNIGCAIGGIILSKLGDMYGRKVGLIVVVVIYIIGIIIQIASINKWYQYFIGRIIS
+GLGVGGIAVLSPMLI
+
+>YDR343C Chr4 complement(1159608..1161320) [1713 bp; 570 aa] {ON}  HXT6High-affinity glucose transporter of the major facilitator superfamily; nearly identical to Hxt7p; expressed at high basal levels relative to other HXTs; repression of expression by high glucose requires SNF3 START=117 END=192
+IVSIFNIGCAIGGIILSKLGDMYGRKVGLIVVVVIYIIGIIIQIASINKWYQYFIGRIIS
+GLGVGGIAVLSPMLI
+
+>YDR345C Chr4 complement(1162957..1164660) [1704 bp; 567 aa] {ON}  HXT3Low affinity glucose transporter of the major facilitator superfamily; expression is induced in low or high glucose conditions START=114 END=189
+IVSIFNIGCAIGGIILAKLGDMYGRKMGLIVVVVIYIIGIIIQIASINKWYQYFIGRIIS
+GLGVGGIAVLSPMLI
+
+>YDR366C Chr4 complement(1212438..1212836) [399 bp; 132 aa] {OFF} Putative protein of unknown function START=60 END=131
+IYVYVYILHICFEKYVNVEIIVGIPLLIKAIILGIQNILEVLLKDLGIHKRESAILHNSI
+NIIIIILYVYI
+
+>YER044C-A Chr5 complement(238460..239623;239712..239774) [1227 bp; 408 aa] {ON}  MEI4Meiosis-specific protein involved in double-strand break formation during meiotic recombination; required for chromosome synapsis and production of viable spores START=238 END=296
+IYSIINIQLIKIKTNQTFEPQILKYVSVLKLIEHILIIIESLIHVLIRFVSKHKLICI
+
+>YHL044W Chr8 (13565..14272) [708 bp; 235 aa] {ON} Putative integral membrane protein; member of DUP240 gene family; green fluorescent protein (GFP)-fusion protein localizes to the plasma membrane in a punctate pattern START=26 END=84
+ILPRDITPSKCAYFLKQNIVFISYIFIHIIITIILNRLALSAHGNTLIIILAALLITI
+
+>YHR092C Chr8 complement(287081..288811) [1731 bp; 576 aa] {ON}  HXT4High-affinity glucose transporter of the major facilitator superfamily; expression is induced by low levels of glucose and repressed by high levels of glucose START=123 END=206
+IVSIFNIGCAIGGIILAKLGDMYGRKMGLIVVVVIYIIGIIIQIASINKWYQYFIGRIIS
+GLGVGGIAVLSPMLISEVSPKHI
+
+>YHR094C Chr8 complement(290913..292625) [1713 bp; 570 aa] {ON}  HXT1Low-affinity glucose transporter of the major facilitator superfamily; expression is induced by Hxk2p in the presence of glucose and repressed by Rgt1p when glucose is limiting START=117 END=192
+IVSIFNIGCAIGGIVLAKLGDMYGRRIGLIVVVVIYTIGIIIQIASINKWYQYFIGRIIS
+GLGVGGITVLSPMLI
+
+>YHR096C Chr8 complement(294669..296447) [1779 bp; 592 aa] {ON}  HXT5Hexose transporter with moderate affinity for glucose; induced in the presence of non-fermentable carbon sources; induced by a decrease in growth rate; contains an extended N-terminal domain relative to other HXTs START=141 END=197
+IFNIGCAIGGIVLSKLGDMYGRKIGLMTVVVIYSIGIIIQIASIDKWYQYFIGRII
+
+>YIL170W Chr9 (19847..21220) [1374 bp; 457 aa] {ON}  HXT12Possible pseudogene in strain S288C; YIL170W/HXT12 and the adjacent ORF; YIL171W; together encode a non-functional member of the hexose transporter family START=3 END=78
+IVSIFNIGCAIGGIVLSKVGDIYGRRIGLITVTAIYVVGILIQITSINKWYQYFIGRIIS
+GIGVGGIAVLSPMLI
+
+>YJL219W Chr10 (19497..21200) [1704 bp; 567 aa] {ON}  HXT9Putative hexose transporter that is nearly identical to Hxt11p; has similarity to major facilitator superfamily (MFS) transporters; expression of HXT9 is regulated by transcription factors Pdr1p and Pdr3p START=113 END=180
+IVSIFNIGCAIGGIVLSKVGDIYGRRIGLITVTAIYVVGILIQITSINKWYQYFIGRIIS
+GLGVGGI
+
+>YKR093W Chr11 (615730..617535) [1806 bp; 601 aa] {ON}  PTR2Integral membrane peptide transporter; mediates transport of di- and tri-peptides; conserved protein that contains 12 transmembrane domains; PTR2 expression is regulated by the N-end rule pathway via repression by Cup9p START=157 END=212
+ICCGTAIYIAGIFILFITSIPSVGNRDSAIGGFIAAIILIGIATGMIKANLSVLI
+
+>YLR081W Chr12 (290212..291936) [1725 bp; 574 aa] {ON}  GAL2Galactose permease; required for utilization of galactose; also able to transport glucose START=123 END=182
+IVAIFNIGCAFGGIILSKGGDMYGRKKGLSIVVSVYIVGIIIQIASINKWYQYFIGRII
+
+>YLR334C Chr12 complement(796698..797078) [381 bp; 126 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; overlaps a stand-alone long terminal repeat sequence whose presence indicates a retrotransposition event occurred here START=4 END=69
+IIAGILLLIKAMIFCIVNILEVLLEDIGILKSLFLHNAITIISSSVLYFLLSYYIINPRI
+SASII
+
+>YML047C Chr13 complement(180017..181075) [1059 bp; 352 aa] {ON}  PRM6Pheromone-regulated protein; predicted to have 2 transmembrane segments; regulated by Ste12p during mating START=201 END=248
+IINKIKHIAKTNYEESVILSFMLFSFIIWVILISKLILSIIIFIIFI
+
+>YMR071C Chr13 complement(410762..411265) [504 bp; 167 aa] {ON}  TVP18Integral membrane protein localized to late Golgi vesicles along with the v-SNARE Tlg2p; may interact with ribosomes; based on co-purification experiments START=32 END=88
+INIILCIALGIANLFHVSGVIAFGIISIIQGLVILFIEIPFLLKICPLSDNFIEFI
+
+>YOL156W Chr15 (25273..26976) [1704 bp; 567 aa] {ON}  HXT11Putative hexose transporter that is nearly identical to Hxt9p; has similarity to major facilitator superfamily (MFS) transporters and is involved in pleiotropic drug resistance START=113 END=180
+IVSIFNIGCAIGGIVLSKVGDIYGRRIGLITVTAIYVVGILIQITSINKWYQYFIGRIIS
+GLGVGGI
+
+>YOL106W Chr15 (113226..113579) [354 bp; 117 aa] {OFF} Dubious open reading frame unlikely to encode a functional protein; based on available experimental and comparative sequence data START=10 END=92
+IETHIFPNINNSTEKWVNFEIIVGIPSLIKAIILGIQNVLEVLLDDIGIPIMESIFLCTN
+ITIIPHSISYVSLSYYIIDPCI
+
+>YOR105W Chr15 (518195..518521) [327 bp; 108 aa] {OFF} Protein of unknown function; expressed at both mRNA and protein levels START=45 END=103
+IMARTIITIIITSIITSRETVTILPPLIIEVHIQPKIINHIRDINQTKAIDITNEVNI
+

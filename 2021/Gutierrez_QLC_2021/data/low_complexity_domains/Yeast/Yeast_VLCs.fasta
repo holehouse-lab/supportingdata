@@ -1,0 +1,37 @@
+>YAL064W-B Chr1 (12046..12426) [381 bp; 126 aa] {ON} Fungal-specific protein of unknown function START=5 END=124
+VSEHTPDSQEVTVTSVVCCLDSVVEIGHHVVYSVVTPLIVAVLIDTMAGEAVLEHTSDSQ
+EEIVTTVVCSVVPLVCFVVSVVCFVISVVEIGHHVVYSVVAPLTVTVAVETIAEEMDSV
+
+>YBR113W Chr2 (465566..466048) [483 bp; 160 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; partially overlaps the verified gene CYC8 START=26 END=80
+VLMGRVAAEELLPAVAVAAVVVAVVVAVERVVPLLFVHRPDSFFLIFFFQSCFV
+
+>YDR209C Chr4 complement(871036..871449) [414 bp; 137 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; partially overlaps uncharacterized gene YDR210W. START=76 END=127
+VDLVGHRLVAAEDNPVAVDLVDNNLVVVDLVDNNLAVGVLVGSNLVVGSLV
+
+>YDR433W Chr4 (1329600..1330040) [441 bp; 146 aa] {OFF} Dubious open reading frame unlikely to encode a functional protein; based on available experimental and comparative sequence data START=12 END=136
+VASEVAAASEAASEVASEAVSPEAASVAPEVDLVVQEVVTVAIPEVATVATPEADMVAPE
+VVTIVLEVVTIVQEVVIPEVAMVVQEMITVLQEVATVVQEVVMMVQEAIMVLQEMHTEPE
+MLHV
+
+>YFL023W Chr6 (90986..93376) [2391 bp; 796 aa] {ON}  BUD27Unconventional prefoldin protein involved in translation initiation; mutants have inappropriate expression of nutrient sensitive genes due to translational derepression of Gcn4p transcription factor; diploid mutants show random budding START=458 END=520
+VENEVVEKEPVVGDIIEKEPVVGDVIEKEPVVGDVIEKEPAVTDIVEREPAVNDIVERKP
+VV
+
+>YKL119C Chr11 complement(218570..219217) [648 bp; 215 aa] {ON}  VPH2Integral membrane protein required for vacuolar H+-ATPase (V-ATPase) function; although not an actual component of the V-ATPase complex; functions in the assembly of the V-ATPase; localized to the endoplasmic reticulum (ER) START=134 END=185
+VTTVFNVLVSVISVVVAIWYWTGSSTNFPVHVRLLLCLFFGILVLVADVVV
+
+>YKR040C Chr11 complement(518063..518566) [504 bp; 167 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; partially overlaps the uncharacterized ORF YKR041W START=65 END=121
+VLTLRWFRGPIAWVVVDVVFASCNVVFFSPALSDENWPYVSFFGVVVVIAVHIIVV
+
+>YML009W-B Chr13 (250435..250911) [477 bp; 158 aa] {OFF} Dubious ORF unlikely to encode a functional protein; based on available experimental and comparative sequence data; deletion mutation confers an increase in Ty1 transposition START=6 END=87
+VVAVSPHGVVLPLGVAKVMEVHPLGAVLAAVPQLGAAKVLVLLLLGVVLQPGVTNQVGAV
+HPLGRRVVNLMVPCLLGVVPV
+
+>YMR316C-B Chr13 complement(907321..907629) [309 bp; 102 aa] {OFF} Dubious open reading frame unlikely to encode a functional protein; based on available experimental and comparative sequence data START=13 END=81
+VSEESDELEVNSGTTEETNVLELLTIISGLVVTLVLVVLVVLVVVGVVVLVVLLVVVVLL
+CDVVVAVV
+
+>YPL232W Chr16 (107275..108147) [873 bp; 290 aa] {ON}  SSO1Plasma membrane t-SNARE involved in fusion of secretory vesicles at the plasma membrane and in vesicle fusion during sporulation; forms a complex with Sec9p that binds v-SNARE Snc2p; syntaxin homolog; functionally redundant with Sso2p START=220 END=287
+VIEQQENVDVIDKNVEDAQLDVEQGVGHTDKAVKSARKARKNKIRCWLIVFAIIVVVVVV
+VVVPAVV
+

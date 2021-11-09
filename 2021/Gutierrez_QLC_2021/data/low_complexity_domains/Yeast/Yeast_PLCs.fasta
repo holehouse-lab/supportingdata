@@ -1,0 +1,174 @@
+>YBR108W Chr2 (454822..457665) [2844 bp; 947 aa] {ON}  AIM3Protein interacting with Rvs167p; null mutant is viable and displays elevated frequency of mitochondrial genome loss START=843 END=907
+PVPSDLDEKYVSASGSITPPRPPPSRSSPKKVPPVVPKKNDNLKKKPPVVPKKKPLLKSL
+EPRP
+
+>YBR289W Chr2 (779667..782384) [2718 bp; 905 aa] {ON}  SNF5Subunit of the SWI/SNF chromatin remodeling complex involved in transcriptional regulation; functions interdependently in transcriptional activation with Snf2p and Snf6p START=71 END=132
+PPPQTHQSPPPPPQQSQPIANQSATSTPPPPPAPHNLHPQIGQVPLAPAPINLPPQIAQL
+P
+
+>YCL008C Chr3 complement(105696..106853) [1158 bp; 385 aa] {ON}  STP22Component of the ESCRT-I complex; which is involved in ubiquitin-dependent sorting of proteins into the endosome; homologous to the mouse and human Tsg101 tumor susceptibility gene; mutants exhibit a Class E Vps phenotype START=154 END=218
+PPQDQAPSLPPKPNTQLQQEQNTPPLPPKPKSPHLKPPLPPPPPPQPASNALDLMDMDNT
+DISP
+
+>YCR030C Chr3 complement(173826..176438) [2613 bp; 870 aa] {ON}  SYP1Protein of unknown function that is involved in endocytic site formation; may regulate assembly and disassembly of the septin ring; colocalizes and interacts with septin subunits; potential role in actin cytoskeletal organization START=397 END=502
+PTYSSSKSNNWTPGEASDTPPLPPHATPKNVDAPVTADTPPAQTFTPSEVPPSTPQQSSP
+PTAKEPDSSNLPKTVPISISQPPLQPQSKTKPLPVEPASPSISLP
+
+>YCR077C Chr3 complement(250238..252628) [2391 bp; 796 aa] {ON}  PAT1Topoisomerase II-associated deadenylation-dependent mRNA-decapping factor; also required for faithful chromosome transmission; maintenance of rDNA locus stability; and protection of mRNA 3'-UTRs from trimming; functionally linked to Pab1p START=166 END=256
+PQGLPQGPPQQQFPMQPASGQPGPSQFAPPPPPPGVNVNMNQMPMGPVQVPVQASPSPIG
+MSNTPSPGPVVGATKMPLQSGRRSKRDLSP
+
+>YDL233W Chr4 (36797..38173) [1377 bp; 458 aa] {ON} Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm and nucleus; YDL233W is not an essential gene START=4 END=75
+PPQPPPQAVPMPYIVNNNTPPYPNGNINFPPTAQQNIPPTVYPQQVPFPGQPQGGQFPQP
+SSEQQVFNQLP
+
+>YDL195W Chr4 (107208..111029) [3822 bp; 1273 aa] {ON}  SEC31Component of the Sec13p-Sec31p complex of the COPII vesicle coat; required for vesicle formation in ER to Golgi transport; mutant has increased aneuploidy tolerance START=1038 END=1149
+PYAPPPQQRVATPLSGGVPPAPLPKASNPYAPTATTQPNGSSYPPTGPYTNNHTMTSPPP
+VFNKPPTGPPPISMKKRSNKLASIEQNPSQGATYPPTLSSSASPLQPSQPP
+
+>YDL189W Chr4 (122216..123589) [1374 bp; 457 aa] {ON}  RBS1Protein of unknown function; identified as a high copy suppressor of psk1 psk2 mutations that confer temperature-sensitivity for galactose utilization; proposed to bind single-stranded nucleic acids via its R3H domain START=297 END=366
+PYLVYPPPQMGGNSLPTYPLMYNPAGPAPGPAPSPMVMGNNTVFMNPYMYNMNPQGSCSF
+GTPIPMYPP
+
+>YDL140C Chr4 complement(205360..210561) [5202 bp; 1733 aa] {ON}  RPO21RNA polymerase II largest subunit B220; part of central core; phosphorylation of C-terminal heptapeptide repeat domain regulates association with transcription and splicing factors; similar to bacterial beta-prime START=1521 END=1719
+PFGAYGEAPTSPGFGVSSPGFSPTSPTYSPTSPAYSPTSPSYSPTSPSYSPTSPSYSPTS
+PSYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPSYS
+PTSPSYSPTSPSYSPTSPAYSPTSPSYSPTSPSYSPTSPSYSPTSPSYSPTSPNYSPTSP
+SYSPTSPGYSPGSPAYSP
+
+>YDR006C Chr4 complement(458542..461247) [2706 bp; 901 aa] {ON}  SOK1Protein whose overexpression suppresses the growth defect of mutants lacking protein kinase A activity; involved in cAMP-mediated signaling; localized to the nucleus; similar to the mouse testis-specific protein PBS13 START=178 END=226
+PPKNIYTNINNPSPSPPPSSKQPPSASAPQLPPATEPHKEQAAQQQPP
+
+>YDR432W Chr4 (1328783..1330027) [1245 bp; 414 aa] {ON}  NPL3RNA-binding protein that promotes elongation; regulates termination; and carries poly(A) mRNA from nucleus to cytoplasm; has a role in repressing translation initiation by binding eIF4G; required for pre-mRNA splicing; dissociation from mRNAs promoted by Mtr10p; phosphorylated by Sky1p in the cytoplasm START=12 END=70
+PESVVDAPVEEQHQEPPQAPDAPQEPQVPQESAPQESAPQEPPAPQEQNDVPPPSNAP
+
+>YDR432W Chr4 (1328783..1330027) [1245 bp; 414 aa] {ON}  NPL3RNA-binding protein that promotes elongation; regulates termination; and carries poly(A) mRNA from nucleus to cytoplasm; has a role in repressing translation initiation by binding eIF4G; required for pre-mRNA splicing; dissociation from mRNAs promoted by Mtr10p; phosphorylated by Sky1p in the cytoplasm START=91 END=150
+PPEPQPYYPPPPPGEHMHGRPPMHHRQEGELSNTRLFVRPFPLDVQESELNEIFGPFGP
+
+>YER165W Chr5 (510373..512106) [1734 bp; 577 aa] {ON}  PAB1Poly(A) binding protein; part of the 3'-end RNA-processing complex; mediates interactions between the 5' cap structure and the 3' mRNA poly(A) tail; involved in control of poly(A) tail length; interacts with translation factor eIF-4G START=433 END=491
+PGQFMPPMFYGVMPPRGVPFNGPNPQQMNPMGGMPKNGMPPQFRNGPVYGVPPQGGFP
+
+>YGL173C Chr7 complement(175527..180113) [4587 bp; 1528 aa] {ON}  XRN1Evolutionarily-conserved 5'-3' exonuclease component of cytoplasmic processing (P) bodies involved in mRNA decay; plays a role in microtubule-mediated processes; filamentous growth; ribosomal RNA maturation; and telomere maintenance; activated by the scavenger decapping enzyme Dcs1p START=1372 END=1449
+PTPPHPMNVVGGPIPGANDVADVGLPYNIPPGFMTHPNGLHPLHPHQMPYPNMNGMSIPP
+PAPHGFGQPISFPPPPP
+
+>YGL014W Chr7 (466141..468807) [2667 bp; 888 aa] {ON}  PUF4Member of the PUF protein family; which is defined by the presence of Pumilio homology domains that confer RNA binding activity; preferentially binds mRNAs encoding nucleolar ribosomal RNA-processing factors START=58 END=124
+PPSQMFPHPQMMGGMGFMPYSQMMQVPHNPCPFFPPPDFNDPTAPLSSSPLNAGGPPMLF
+KNDSLP
+
+>YHL024W Chr8 (56649..58790) [2142 bp; 713 aa] {ON}  RIM4Putative RNA-binding protein required for the expression of early and middle sporulation genes START=613 END=673
+PPKPYYFQPYYYHPMQYHMGPMGPLHPSQGSAGNHHPYMMVYPMSPPPPSGLDGSMIPPP
+
+>YHR165C Chr8 complement(429707..436948) [7242 bp; 2413 aa] {ON}  PRP8Component of the U4/U6-U5 snRNP complex; involved in the second catalytic step of splicing; mutations of human Prp8 cause retinitis pigmentosa START=4 END=78
+PPPPPGFEEDSDLALPPPPPPPPGYEIEELDNPMVPSSVNEDTFLPPPPPPPSNFEINAE
+EIVDFTLPPPPPPP
+
+>YHR217C Chr8 complement(556581..557042) [462 bp; 153 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; located in the telomeric region TEL08R. START=4 END=122
+PCLTPSSMQYSDIYIHTPHPHPHPHPHTPTHTHPHTPTPTPHPHPHTPHPHTTPTPTPHH
+THTPHTTLSNLSLNLPSHYPTSPLVTLPHSTIPLPTTIHLSTYYYHPPPIITVTLQLP
+
+>YIL159W Chr9 (41825..45952) [4128 bp; 1375 aa] {ON}  BNR1Formin; nucleates the formation of linear actin filaments; involved in cell processes such as budding and mitotic spindle orientation which require the formation of polarized actin cables; functionally redundant with BNI1 START=725 END=873
+PNYQSSPVLSSVSSSPKLFPRLSSDSLDNGIQLVPEVVKLPQLPPPPPPPPPPPLPQSLL
+TEAEAKPDGVSCIAAPAPPPLPDLFKTKTCGAVPPPPPPPPLPESLSMNKGPSNHDLVTP
+PAPPLPNGLLSSSSVSINPTTTDLKPPP
+
+>YIL156W Chr9 (48091..51306) [3216 bp; 1071 aa] {ON}  UBP7Ubiquitin-specific protease that cleaves ubiquitin-protein fusions START=462 END=553
+PYSQKARLQQEQQQQQQQPDSQDSFSAKESSTKVPEPPSWKPPDLPIRLRKRPPPPPPVS
+MPTTPEIPPPLPPKIMVHSQVSSISRKPPIP
+
+>YIL101C Chr9 complement(175307..177250) [1944 bp; 647 aa] {ON}  XBP1Transcriptional repressor that binds to promoter sequences of the cyclin genes; CYS3; and SMF2; expression is induced by stress or starvation during mitosis; and late in meiosis; member of the Swi4p/Mbp1p family; potential Cdc28p substrate START=530 END=593
+PGNIYIPQQRYSLPPPNQLSSPQRQLNYTYDHIHPVPSQYQSPRHYNVPSSPIAPAPPTF
+PQP
+
+>YIR006C Chr9 complement(365466..369908) [4443 bp; 1480 aa] {ON}  PAN1Part of actin cytoskeleton-regulatory complex Pan1p-Sla1p-End3p; associates with actin patches on the cell cortex; promotes protein-protein interactions essential for endocytosis; binds to and activates the Arp2/3 complex in vitro; previously thought to be a subunit of poly(A) ribonuclease START=1303 END=1415
+PDHARAPPVTAAPLPSVTPVPPAVPVPQANTSNEKSSPIPIAPIPPSVTQEPPVPLAPPL
+PAVDGFQEPPIPSAPAIATAVQKSGSSTPALAGGVLPPPPPLPTQQASTSEP
+
+>YJL020C Chr10 complement(398937..402410) [3474 bp; 1157 aa] {ON}  BBC1Protein possibly involved in assembly of actin patches; interacts with an actin assembly factor Las17p and with the SH3 domains of Type I myosins Myo3p and Myo5p; localized predominantly to cortical actin patches START=673 END=885
+PAAPVLSKVSHPEDKVPPHPVPSAPSAPPVPSAPSVPSAPPVPPAPPALSAPSVPPVPPV
+PPVSSAPPALSAPSIPPVPPTPPAPPAPPAPLALPKHNEVEEHVKSSAPLPPVSEEYHPM
+PNTAPPLPRAPPVPPATFEFDSEPTATHSHTAPSPPPHQNVTASTPSMMSTQQRVPTSVL
+SGAEKESRTLPPHVPSLTNRPVDSFHESDTTP
+
+>YJR093C Chr10 complement(603220..604203) [984 bp; 327 aa] {ON}  FIP1Subunit of cleavage polyadenylation factor (CPF); interacts directly with poly(A) polymerase (Pap1p) to regulate its activity; bridging factor that links Pap1p and the CPF complex via Yth1p START=281 END=318
+PNPPAPPMHPSFPPLPMFGSFPPFPMPGMMPPMNQQP
+
+>YKL204W Chr11 (53704..55602) [1899 bp; 632 aa] {ON}  EAP1eIF4E-associated protein; competes with eIF4G for binding to eIF4E; inhibits cap-dependent translation; functions independently of eIF4E to maintain genetic stability; plays a role in cell growth; implicated in the TOR signaling cascade START=451 END=485
+PPPPPPGLIAHQGPQFPVMGVPPNFPQRMMPPPP
+
+>YKL204W Chr11 (53704..55602) [1899 bp; 632 aa] {ON}  EAP1eIF4E-associated protein; competes with eIF4G for binding to eIF4E; inhibits cap-dependent translation; functions independently of eIF4E to maintain genetic stability; plays a role in cell growth; implicated in the TOR signaling cascade START=510 END=623
+PNGTRNSKGKQEETATPDLPQQQYMPPPPPPGFFPMHPNFPNGPMPPLPQGFPIPPNGML
+PVTGQQPQPPYPNMMLQGNFPPNFQQGFGSNSPMPIPSIINANGKNVTNQLPP
+
+>YKL059C Chr11 complement(328118..329443) [1326 bp; 441 aa] {ON}  MPE1Essential conserved subunit of CPF (cleavage and polyadenylation factor); plays a role in 3' end formation of mRNA via the specific cleavage and polyadenylation of pre-mRNA; contains a putative RNA-binding zinc knuckle motif START=369 END=432
+PETKKMKLMDPTGTAGLNNNTSLPTSVNNGGTPVPPVPLPFGIPPFPMFPMPFMPPTATI
+TNP
+
+>YLR144C Chr12 complement(429677..432016) [2340 bp; 779 aa] {ON}  ACF2Intracellular beta-1;3-endoglucanase; expression is induced during sporulation; may have a role in cortical actin cytoskeleton assembly START=8 END=64
+PPPVPNRPGGTTNRGPPPLPPRANVQPPVCSSENSSKPRENRVAGESLRTPSSSNP
+
+>YLR337C Chr12 complement(802653..805106) [2454 bp; 817 aa] {ON}  VRP1Proline-rich actin-associated protein involved in cytoskeletal organization and cytokinesis; related to mammalian Wiskott-Aldrich syndrome protein (WASP)-interacting protein (WIP) START=76 END=274
+PSMSAPPIPGMGAPQLGDILAGGIPKLKHINNNASTKPSPSASAPPIPGAVPSVAAPPIP
+NAPLSPAPAVPSIPSSSAPPIPDIPSSAAPPIPIVPSSPAPPLPLSGASAPKVPQNRPHM
+PSVRPAHRSHQRKSSNISLPSVSAPPLPSASLPTHVSNPPQAPPPPPTPTIGLDSKNIKP
+TDNAVSPPSSEVPAGGLP
+
+>YLR337C Chr12 complement(802653..805106) [2454 bp; 817 aa] {ON}  VRP1Proline-rich actin-associated protein involved in cytoskeletal organization and cytokinesis; related to mammalian Wiskott-Aldrich syndrome protein (WASP)-interacting protein (WIP) START=304 END=452
+PSQPPLPSSAPPIPTSHAPPLPPTAPPPPSLPNVTSAPKKATSAPAPPPPPLPAAMSSAS
+TNSVKATPVPPTLAPPLPNTTSVPPNKASSMPAPPPPPPPPPGAFSTSSALSASSIPLAP
+LPPPPPPSVATSVPSAPPPPPTLTTNKP
+
+>YLR337C Chr12 complement(802653..805106) [2454 bp; 817 aa] {ON}  VRP1Proline-rich actin-associated protein involved in cytoskeletal organization and cytokinesis; related to mammalian Wiskott-Aldrich syndrome protein (WASP)-interacting protein (WIP) START=607 END=721
+PALPGHVPPPPVPPVLSDDSKNNVPAASLLHDVLPSSNLEKPPSPPVAAAPPLPTFSAPS
+LPQQSVSTSIPSPPPVAPTLSVRTETESISKNPTKSPPPPPSPSTMDTGTSNSP
+
+>YMR070W Chr13 (409154..410626) [1473 bp; 490 aa] {ON}  MOT3Transcriptional repressor and activator with two C2-H2 zinc fingers; involved in repression of a subset of hypoxic genes by Rox1p; repression of several DAN/TIR genes during aerobic growth; and repression of ergosterol biosynthetic genes in response to hyperosmotic stress; contributes to recruitment of the Tup1p-Cyc8p general repressor to promoters; involved in positive transcriptional regulation of CWP2 and other genes; can form the [MOT3+] prion START=263 END=338
+PQHHPTIITDQFQFQLQQNPSPNLNLNINPAQPLHLPPGWKINTMPQPRPTTAPNHPPAP
+VPSSNPVASNLVPAP
+
+>YMR109W Chr13 (486587..490246) [3660 bp; 1219 aa] {ON}  MYO5One of two type I myosins; contains proline-rich tail homology 2 (TH2) and SH3 domains; MYO5 deletion has little effect on growth; but myo3 myo5 double deletion causes severe defects in growth and actin cytoskeleton organization START=989 END=1088
+PVSIAAAQHVPTAPASRHSKKPAPPPPGMQNKAATRRSVPNPASTLTASQSNARPSPPTA
+ATRATPAATPAAAAMGSGRQANIPPPPPPPPPSSKPKEP
+
+>YMR182C Chr13 complement(624532..625167) [636 bp; 211 aa] {ON}  RGM1Putative zinc finger DNA binding transcription factor; contains two N-terminal C2H2 zinc fingers and C-terminal proline rich domain; overproduction impairs cell growth and induces expression of genes involved in monosaccharide catabolism and aldehyde metabolism; deletion decreases expression of Y-prime telomeric elements; regulates expression of subtelomeric COS genes in conjunction with RNA binding protein Pub1p; localized to X elements within subtelomeric regions by ChIP START=94 END=193
+PNATRMFPQLRPYGIVVQPAPVPYNLPISTPASPQDTISLYAPPYFPHPMPSAPIPLPHQ
+PPPLPIYSYMQPLFLNHTPIQNHNIVELPPDSSDTPASP
+
+>YNL298W Chr14 (68915..71443) [2529 bp; 842 aa] {ON}  CLA4Cdc42p-activated signal transducing kinase of the PAK (p21-activated kinase) family; along with Ste20p and Skm1p; involved in septin ring assembly; vacuole inheritance; cytokinesis; sterol uptake regulation; phosphorylates Cdc3p and Cdc10p START=388 END=470
+PYHHQGPSPSPSPSPSPLNPYRPHHNMINPYSKQPQSPLSSQSTQNQAIPRYAQNSSPTA
+AHFQPQRTAPKPPISAPRAPYP
+
+>YNL271C Chr14 complement(129522..135383) [5862 bp; 1953 aa] {ON}  BNI1Formin; nucleates the formation of linear actin filaments; involved in cell processes such as budding and mitotic spindle orientation which require the formation of polarized actin cables; functionally redundant with BNR1 START=1277 END=1354
+PAPPPPPPPPPPPPMALFGKPKGETPPPPPLPSVLSSSTDGVIPPAPPMMPASQIKSAVT
+SPLLPQSPSLFEKYPRP
+
+>YNL124W Chr14 (392892..394370) [1479 bp; 492 aa] {ON}  NAF1RNA-binding protein required for the assembly of box H/ACA snoRNPs and thus for pre-rRNA processing; forms a complex with Shq1p and interacts with H/ACA snoRNP components Nhp2p and Cbf5p; similar to Gar1p START=343 END=456
+PVPITQHHQQQFSANNYPFPQQPNGMPYPPYSPFPQPTNFQYPPPPFGQATPAQFSNTVP
+YGSLPPAYNNMSPPTQQSFMPMTQSQPPLPYGVPPMNQMQNPMYIQPPPQAPP
+
+>YOR181W Chr15 (675939..677840) [1902 bp; 633 aa] {ON}  LAS17Actin assembly factor; activates the Arp2/3 protein complex that nucleates branched actin filaments; localizes with the Arp2/3 complex to actin patches; homolog of the human Wiskott-Aldrich syndrome protein (WASP) START=213 END=358
+PTTPAPALPPASPEVRKEETHPKHSLPPLPNQFAPLPDPPQHNSPPQNNAPSQPQSNPFP
+FPIPEIPSTQSATNPFPFPVPQQQFNQAPSMGIPQQNRPLPQLPNRNNRPVPPPPPMRTT
+TEGSGVRLPAPPPPPRRGPAPPPPP
+
+>YOR181W Chr15 (675939..677840) [1902 bp; 633 aa] {ON}  LAS17Actin assembly factor; activates the Arp2/3 protein complex that nucleates branched actin filaments; localizes with the Arp2/3 complex to actin patches; homolog of the human Wiskott-Aldrich syndrome protein (WASP) START=376 END=529
+PQATGRRGPAPPPPPRASRPTPNVTMQQNPQQYNNSNRPFGYQTNSNMSSPPPPPVTTFN
+TLTPQMTAATGQPAVPLPQNTQAPSQATNVPVAPPPPPASLGQSQIPQSAPSAPIPPTLP
+STTSAAPPPPPAFLTQQPQSGGAPAPPPPPQMP
+
+>YOR188W Chr15 (685767..689180) [3414 bp; 1137 aa] {ON}  MSB1Protein involved in positive regulation of both 1;3-beta-glucan synthesis and the Pkc1p-MAPK pathway; potential Cdc28p substrate; multicopy suppressor of temperature-sensitive mutations in CDC24 and CDC42; and of mutations in BEM4 START=1011 END=1067
+PPQMVPKGVRPNQYPQQHVNRYSPQAQPVVPAEYYNGPPPMRAPPMMSHMVPAQEP
+
+>YOR197W Chr15 (717086..718384) [1299 bp; 432 aa] {ON}  MCA1Ca2+-activated cysteine protease; may cleave specific substrates during stress response; involved in regulation of apoptosis upon H2O2 treatment; contributes to clearance of insoluble protein aggregates during normal growth; may be involved in cell cycle progression; similar to mammalian caspases; but exists as a monomer due to an extra pair of anti-parallel beta-strands that form a continuous beta-sheet with the 6 caspase-common beta-strands; blocking potential dimerization START=60 END=126
+PPPGPPPMAYNRPVYPPPQFQQEQAKAQLSNGYNNPNVNASNMYGPPQNMSLPPPQTQTI
+QGTDQP
+
+>YPL190C Chr16 complement(185317..187725) [2409 bp; 802 aa] {ON}  NAB3RNA-binding protein; subunit of Nrd1 complex (Nrd1p-Nab3p-Sen1p); complex interacts with the exosome to mediate 3&#8242; end formation of some mRNAs; snRNAs; snoRNAs; and CUTs; required for termination of non-poly(A) transcripts and efficient splicing START=558 END=687
+PTDYRAMSHQQNIYGAPPLPVPNGPAVGPPPQTNYYQGYSMPPPQQQQQQPYGNYGMPPP
+SHDQGYGSQPPIPMNQSYGRYQTSIPPPPPQQQIPQGYGRYQAGPPPQPPSQTPMDQQQL
+LSAIQNLPP
+
+>YPL085W Chr16 (387067..393654) [6588 bp; 2195 aa] {ON}  SEC16COPII vesicle coat protein required for ER transport vesicle budding; Sec16p is bound to the periphery of ER membranes and may act to stabilize initial COPII complexes; interacts with Sec23p; Sec24p and Sec31p START=2077 END=2145
+PPPPPIVKRKDGGPKTKPRSGPINNSLPPVHATSVIPNNPITGEPLPIKTSPSPTGPNPN
+NSPSPSSP
+

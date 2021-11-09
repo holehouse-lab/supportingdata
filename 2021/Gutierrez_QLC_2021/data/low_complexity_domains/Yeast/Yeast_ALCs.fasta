@@ -1,0 +1,189 @@
+>YAL035W Chr1 (76427..79435) [3009 bp; 1002 aa] {ON}  FUN12GTPase; required for general translation initiation by promoting Met-tRNAiMet binding to ribosomes and ribosomal subunit joining; homolog of bacterial IF2 START=109 END=172
+AARKKAQQQAQKEKNKELNKQNVEKAAAEKAAAEKSQKSKGESDKPSASAKKPAKKVPAG
+LAA
+
+>YBL047C Chr2 complement(127895..132040) [4146 bp; 1381 aa] {ON}  EDE1Endocytic protein; involved in a network of interactions with other endocytic proteins; binds membranes in a ubiquitin-dependent manner; may also bind ubiquitinated membrane-associated proteins; interacts with Cmk2 and functions upstream of CMK2 in regulating non-apoptotic cell death START=515 END=602
+AQPPPVPKHASSPVKRTASTTLPQVPNFSVFSMPAGAATSAATGAAVGAAVGAAALGASA
+FSRSSNNAFKNQDLFADGEASAQLSNA
+
+>YBL007C Chr2 complement(212632..216366) [3735 bp; 1244 aa] {ON}  SLA1Cytoskeletal protein binding protein required for assembly of the cortical actin cytoskeleton; interacts with proteins regulating actin dynamics and proteins required for endocytosis; found in the nucleus and cell cortex; has 3 SH3 domains START=139 END=214
+APAAAEAPAATPAAAPASAAVLPTNFLPPPQHNDRARMMQSKEDQAPDEDEEGPPPAMPA
+RPTATTETTDATAAA
+
+>YBR049C Chr2 complement(334386..336818) [2433 bp; 810 aa] {ON}  REB1RNA polymerase I enhancer binding protein; DNA binding protein which binds to genes transcribed by both RNA polymerase I and RNA polymerase II; required for termination of RNA polymerase I transcription START=585 END=621
+ASAAAAAAAAIQEQQQLLQQKQQDDDDAIAAAAAAA
+
+>YBR067C Chr2 complement(372103..372735) [633 bp; 210 aa] {ON}  TIP1Major cell wall mannoprotein with possible lipase activity; transcription is induced by heat- and cold-shock; member of the Srp1p/Tip1p family of serine-alanine-rich proteins START=104 END=207
+AAALASVSPASSEAASSSEAASSSKAASSSEATSSAAPSSSAAPSSSAAPSSSAESSSKA
+VSSSVAPTTSSVSTSTVETASNAGQRVNAGAASFGAVVAGAAA
+
+>YBR112C Chr2 complement(462870..465770) [2901 bp; 966 aa] {ON}  CYC8General transcriptional co-repressor; acts together with Tup1p; also acts as part of a transcriptional co-activator complex that recruits the SWI/SNF and SAGA complexes to promoters; can form the prion [OCT+] START=455 END=556
+AQSANATASMVQQQHPAQQTPINSSATMYSNGASPQLQAQAQAQAQAQAQAQAQAQAQAQ
+AQAQAQAQAQAQAQAQAQAQAHAQAQAQAQAQAQAQAQAQA
+
+>YDL130W Chr4 (229906..230019;230321..230527) [321 bp; 106 aa] {ON}  RPP1BRibosomal protein P1 beta; component of the ribosomal stalk; which is involved in interaction of translational elongation factors with ribosome; accumulation is regulated by phosphorylation and interaction with the P2 stalk component START=8 END=93
+AAFILADAGLEITSDNLLTITKAAGANVDNVWADVYAKALEGKDLKEILSGFHNAGPVAG
+AGAASGAAAAGGDAAAEEEKEEEAA
+
+>YDR232W Chr4 (927452..929098) [1647 bp; 548 aa] {ON}  HEM15-aminolevulinate synthase; catalyzes the first step in the heme biosynthetic pathway; an N-terminal signal sequence is required for localization to the mitochondrial matrix; expression is regulated by Hap2p-Hap3p START=6 END=62
+ARFGNSSAAVSTLNRLSTTAAPHAKNGYATATGAGAAAATATASSTHAAAAAAAAA
+
+>YDR388W Chr4 (1250186..1251634) [1449 bp; 482 aa] {ON}  RVS167Actin-associated protein with roles in endocytosis and exocytosis; interacts with Rvs161p to regulate actin cytoskeleton; endocytosis; and viability following starvation or osmotic stress; recruited to bud tips by Gyl1p and Gyp5p during polarized growth; homolog of mammalian amphiphysin START=257 END=377
+AKKGNVEEQTDALTITHFKLGYSKAKLEMTRRKYGVATAEGSPVSGASSGVGYGAGYDPA
+TATSPTPTGYGYGAAAPSYAAQPAAQYGTAAAVGTAAAVGTAAGAAAGAVPGTYPQYAAA
+
+>YDR433W Chr4 (1329600..1330040) [441 bp; 146 aa] {OFF} Dubious open reading frame unlikely to encode a functional protein; based on available experimental and comparative sequence data START=13 END=70
+ASEVAAASEAASEVASEAVSPEAASVAPEVDLVVQEVVTVAIPEVATVATPEADMVA
+
+>YDR534C Chr4 complement(1503314..1504900) [1587 bp; 528 aa] {ON}  FIT1Mannoprotein that is incorporated into the cell wall via a glycosylphosphatidylinositol (GPI) anchor; involved in the retention of siderophore-iron in the cell wall START=5 END=76
+AFVLSAITVAALGESITTTITATKNGHVYTKTVTQDATFVWAGEGAAVTSAVTEASTVAA
+TSAAAETSVAA
+
+>YEL037C Chr5 complement(81407..82603) [1197 bp; 398 aa] {ON}  RAD23Protein with ubiquitin-like N terminus; subunit of Nuclear Excision Repair Factor 2 (NEF2) with Rad4p that binds damaged DNA; enhances protein deglycosylation activity of Png1p; also involved; with Rad4p; in ubiquitylated protein turnover START=200 END=247
+AAAAEQPSTAATTAEQPAEDDLFAQAAQGGNASSGALGTTGGATDAA
+
+>YER011W Chr5 (175248..176012) [765 bp; 254 aa] {ON}  TIR1Cell wall mannoprotein of the Srp1p/Tip1p family of serine-alanine-rich proteins; expression is downregulated at acidic pH and induced by cold shock and anaerobiosis; abundance is increased in cells cultured without shaking START=104 END=251
+ALKSLNGDASSSAAPSSSAAPTSSAAPSSSAAPTSSAASSSSEAKSSSAAPSSSEAKSSS
+AAPSSSEAKSSSAAPSSSEAKSSSAAPSSTEAKITSAAPSSTGAKTSAISQITDGQIQAT
+KAVSEQTENGAAKAFVGMGAGVVAAAA
+
+>YER165W Chr5 (510373..512106) [1734 bp; 577 aa] {ON}  PAB1Poly(A) binding protein; part of the 3'-end RNA-processing complex; mediates interactions between the 5' cap structure and the 3' mRNA poly(A) tail; involved in control of poly(A) tail length; interacts with translation factor eIF-4G START=374 END=431
+ATKAITEKNQQIVAGKPLYVAIAQRKDVRRSQLAQQIQARNQMRYQQATAAAAAAAA
+
+>YGL076C Chr7 complement(364335..364964;365433..365526;365986..365996) [735 bp; 244 aa] {ON}  RPL7AProtein component of the large (60S) ribosomal subunit; nearly identical to Rpl7Bp and has similarity to E. coli L30 and rat L7 ribosomal proteins; contains a conserved C-terminal Nucleic acid Binding Domain (NDB2) START=1 END=72
+AAEKILTPESQLKKSKAQQKTAEQVAAERAARKAANKEKRAIILERNAAYQKEYETAERN
+IIQAKRDAKAA
+
+>YGL025C Chr7 complement(448764..449957) [1194 bp; 397 aa] {ON}  PGD1Subunit of the RNA polymerase II mediator complex; associates with core polymerase subunits to form the RNA polymerase II holoenzyme; essential for basal and activated transcription; direct target of Cyc8p-Tup1p transcriptional corepressor START=202 END=254
+AAAPIAAPKKPRKPRQTKKAKAQAQAQAQAQAQVYAQQSTVQTPITASMAAA
+
+>YGR279C Chr7 complement(1048798..1049958) [1161 bp; 386 aa] {ON}  SCW4Cell wall protein with similarity to glucanases; scw4 scw10 double mutants exhibit defects in mating START=7 END=130
+ASASLLSAATLAAPANHEHKDKRAVVTTTVQKQTTIIVNGAASTPVAALEENAVVNSAPA
+AATSTTSSAASVATAAASSSENNSQVSAAASPASSSAATSTQSSSSSQASSSSSSGEDVS
+SFA
+
+>YGR285C Chr7 complement(1061852..1063153) [1302 bp; 433 aa] {ON}  ZUO1Ribosome-associated chaperone; functions in ribosome biogenesis and; in partnership with Ssz1p and SSb1/2; as a chaperone for nascent polypeptide chains; contains a DnaJ domain and functions as a J-protein partner for Ssb1p and Ssb2p START=305 END=374
+AGARAEAEAKAKAEAEAKAKAESEAKANASAKADKKKAKEAAKAAKKKNKRAIRNSAKEA
+DYFGDADKA
+
+>YHR174W Chr8 (451327..452640) [1314 bp; 437 aa] {ON}  ENO2Enolase II; a phosphopyruvate hydratase that catalyzes the conversion of 2-phosphoglycerate to phosphoenolpyruvate during glycolysis and the reverse reaction during gluconeogenesis; expression is induced in response to glucose START=64 END=124
+AVNNVNNVIAAAFVKANLDVKDQKAVDDFLLSLDGTANKSKLGANAILGVSMAAARAAAA
+
+>YIL123W Chr9 (128151..129581) [1431 bp; 476 aa] {ON}  SIM1Protein of the SUN family (Sim1p; Uth1p; Nca3p; Sun4p) that may participate in DNA replication; promoter contains SCB regulation box at -300 bp indicating that expression may be cell cycle-regulated START=57 END=164
+AASEVATAATSAIITTSVLAPTSSAAAADSSASIAVSSAALAKNEKISDAAASATASTSQ
+GASSSSSSSSATSTLESSSVSSSSEEAAPTSTVVSTSSATQSSASSA
+
+>YIL011W Chr9 (333727..334536) [810 bp; 269 aa] {ON}  TIR3Cell wall mannoprotein of the Srp1p/Tip1p family of serine-alanine-rich proteins; expressed under anaerobic conditions and required for anaerobic growth START=132 END=266
+ATASSDASSASESSSAASSSASESSSAASSSASESSSAASSSASESSSAASSSASEAAKS
+SSSAKSSGSSAASSAASSASSKASSAASSSAKASSSAEKSTNSSSSATSKNAGAAMDMGF
+FSAGVGAAIAGAAA
+
+>YIR010W Chr9 (375431..377161) [1731 bp; 576 aa] {ON}  DSN1Essential component of the MIND kinetochore complex (Mtw1p Including Nnf1p-Nsl1p-Dsn1p) which joins kinetochore subunits contacting DNA to those contacting microtubules; important for chromosome segregation START=100 END=163
+AKRVENFNSSAPIADDNHSGDATANATANATANATANVNASAMPAPYMPYYYYYHPMNAP
+TPA
+
+>YJL159W Chr10 (120449..121690) [1242 bp; 413 aa] {ON}  HSP150O-mannosylated heat shock protein that is secreted and covalently attached to the cell wall via beta-1;3-glucan and disulfide bridges; required for cell wall stability; induced by heat shock; oxidative stress; and nitrogen limitation START=8 END=99
+ASALAATTLAAYAPSEPWSTLTPTATYSGGVTDYASTFGIAVQPISTTSSASSAATTASS
+KAKRAASQIGDGQVQAATTTASVSTKSTAAA
+
+>YKL217W Chr11 (22234..24084) [1851 bp; 616 aa] {ON}  JEN1Monocarboxylate/proton symporter of the plasma membrane; transport activity is dependent on the pH gradient across the membrane; mediates high-affinity uptake of carbon sources lactate; pyuvate; and acetate; and also of the micronutrient selenite; whose structure mimics that of monocarboxylates; expression and localization are tightly regulated; with transcription repression; mRNA degradation; and protein endocytosis and degradation all occurring in the presence of glucose START=480 END=538
+AELAPADARALVAGLSYQLGNLASAAASTIETQLADRYPLERDASGAVIKEDYAKVMA
+
+>YKL163W Chr11 (144401..145378) [978 bp; 325 aa] {ON}  PIR3O-glycosylated covalently-bound cell wall protein required for cell wall stability; expression is cell cycle regulated; peaking in M/G1 and also subject to regulation by the cell integrity pathway START=10 END=202
+ALAATSLAAYAPKDPWSTLTPSATYKGGITDYSSSFGIAIEAVATSASSVASSKAKRAAS
+QIGDGQVQAATTTAAVSKKSTAAAVSQITDGQVQAAKSTAAAVSQITDGQVQAAKSTAAA
+VSQITDGQVQAAKSTAAAVSQITDGQVQAAKSTAAAASQISDGQVQATTSTKAAASQITD
+GQIQASKTTSGA
+
+>YKL054C Chr11 complement(336537..338753) [2217 bp; 738 aa] {ON}  DEF1RNAPII degradation factor; forms a complex with Rad26p in chromatin; enables ubiquitination and proteolysis of RNAPII present in an elongation complex; mutant is deficient in Zip1p loading onto chromosomes during meiosis START=530 END=604
+AYGQQYQQLAQNNAQTSGNANQYNFQQGYGQAGANTAAANLTSAAAAAAASPATAHAQPQ
+QQQPYGGSFMPYYA
+
+>YKR042W Chr11 (519527..520624) [1098 bp; 365 aa] {ON}  UTH1Mitochondrial outer membrane and cell wall localized SUN family member involved in cell wall biogenesis and required for mitochondrial autophagy; involved in the oxidative stress response; life span during starvation; and cell death START=4 END=88
+ALLALSASTAVLAAPAVHHSDNHHHNDKRAVVTVTQYVNADGAVVIPAATTATSAAADGK
+VESVAAATTTLSSTAAAATTSAAA
+
+>YLR110C Chr12 complement(369697..370098) [402 bp; 133 aa] {ON}  CCW12Cell wall mannoprotein with a role in maintenance of newly synthesized areas of cell wall; localizes to periphery of small buds; septum region of larger buds; and shmoo tip START=77 END=130
+APKNGTSTAAPVTSTEAPKNTTSAAPTHSVTSYTGAAAKALPAAGALLAGAAA
+
+>YLR113W Chr12 (371620..372927) [1308 bp; 435 aa] {ON}  HOG1Mitogen-activated protein kinase involved in osmoregulation; acts via three independent osmosensors; mitophagy-specific regulator; mediates the recruitment and activation of RNA Pol II at Hot1p-dependent promoters; localization regulated by Ptp2p and Ptp3p START=356 END=430
+ATFDDQVAAATAAAAQAQAQAQAQVQLNMAAHSHNGAGTTGNDHSDIAGGNKVSDHVAAN
+DTITDYGNQAIQYA
+
+>YLR150W Chr12 (440467..441288) [822 bp; 273 aa] {ON}  STM1Protein required for optimal translation under nutrient stress; perturbs association of Yef3p with ribosomes; involved in TOR signaling; binds G4 quadruplex and purine motif triplex nucleic acid; helps maintain telomere structure START=118 END=176
+AEKEAQADAAAEIAEDAAEAEDAGKPKTAQLSLQDYLNQQANNQFNKVPEAKKVELDA
+
+>YLR236C Chr12 complement(611794..612117) [324 bp; 107 aa] {OFF} Dubious open reading frame unlikely to encode a functional protein; based on available experimental and comparative sequence data START=27 END=103
+AHSCQALCSLMAVLCASAAHRLSETFPMRLVVAREYANWGAFQHAFTRRAGASVAATSAW
+FDAVAAGTENAHMQSA
+
+>YMR008C Chr13 complement(280590..282584) [1995 bp; 664 aa] {ON}  PLB1Phospholipase B (lysophospholipase) involved in lipid metabolism; required for deacylation of phosphatidylcholine and phosphatidylethanolamine but not phosphatidylinositol START=601 END=638
+ASLSASAAAASASASASASASASASGSSTHKKNAGNA
+
+>YMR109W Chr13 (486587..490246) [3660 bp; 1219 aa] {ON}  MYO5One of two type I myosins; contains proline-rich tail homology 2 (TH2) and SH3 domains; MYO5 deletion has little effect on growth; but myo3 myo5 double deletion causes severe defects in growth and actin cytoskeleton organization START=980 END=1070
+ASSSQATRRPVSIAAAQHVPTAPASRHSKKPAPPPPGMQNKAATRRSVPNPASTLTASQS
+NARPSPPTAATRATPAATPAAAAMGSGRQA
+
+>YMR276W Chr13 (818827..819948) [1122 bp; 373 aa] {ON}  DSK2Nuclear-enriched ubiquitin-like polyubiquitin-binding protein; required for spindle pole body (SPB) duplication and for transit through the G2/M phase of the cell cycle; involved in proteolysis; interacts with the proteasome START=79 END=140
+ASAAGANNATATGAAAGTGATPNMSSGQSAGFNPLADLTSARYAGYLNMPSADMFGPDGG
+A
+
+>YMR276W Chr13 (818827..819948) [1122 bp; 373 aa] {ON}  DSK2Nuclear-enriched ubiquitin-like polyubiquitin-binding protein; required for spindle pole body (SPB) duplication and for transit through the G2/M phase of the cell cycle; involved in proteolysis; interacts with the proteasome START=261 END=322
+AGTNAGTNAGANTAANPFASLLNPALNPFANAGNAASTGMPAFDPALLASMFQPPVQASQ
+A
+
+>YNL216W Chr14 (241689..244172) [2484 bp; 827 aa] {ON}  RAP1Essential DNA-binding transcription regulator that binds at many loci; involved in either transcription activation or repression; chromatin silencing; and telomere length maintenance; conserved protein with an N-terminal BRCT domain; a central region with homology to the Myb DNA binding domain; and a C-terminal Rap1-specific protein-interaction domain (RCT domain) START=594 END=632
+AAKRARNYSSQRNVQPTANAASANAAAAAAAAASNSYA
+
+>YOL148C Chr15 complement(45760..47574) [1815 bp; 604 aa] {ON}  SPT20Subunit of the SAGA transcriptional regulatory complex; involved in maintaining the integrity of the complex; mutant displays reduced transcription elongation in the G-less-based run-on (GLRO) assay START=409 END=463
+AVSLTKNAMEIASSSSNGVRGASSSTSNSASNTRNNSLANGNQVALAAAAAAAA
+
+>YOL051W Chr15 (234940..238185) [3246 bp; 1081 aa] {ON}  GAL11Subunit of the RNA polymerase II mediator complex; associates with core polymerase subunits to form the RNA polymerase II holoenzyme; affects transcription by acting as target of activators and repressors; forms part of the tail domain of mediator START=393 END=521
+ATSATPNAAAFSQQQNASSKLYQMQQQQQAQAQAQAQAQAQAQAQAQAQAAQAAQAQAQA
+QAQAQAQAQAQAQAQAQAQAQAQAQAQAHAQHQPSQQPQQAQQQPNPLHGLTPTAKDVEV
+IKQLSLDA
+
+>YOL039W Chr15 (254297..254617) [321 bp; 106 aa] {ON}  RPP2ARibosomal protein P2 alpha; a component of the ribosomal stalk; which is involved in the interaction between translational elongation factors and the ribosome; regulates the accumulation of P1 (Rpp1Ap and Rpp1Bp) in the cytoplasm START=43 END=93
+ALEGKSVDELITEGNEKLAAVPAAGPASAGGAAAASGDAAAEEEKEEEAA
+
+>YOR010C Chr15 complement(346195..346950) [756 bp; 251 aa] {ON}  TIR2Putative cell wall mannoprotein of the Srp1p/Tip1p family of serine-alanine-rich proteins; transcription is induced by cold shock and anaerobiosis START=115 END=248
+AASSTEASSAATSSAVASSSETTSSAVASSSEATSSAVASSSEASSSAATSSAVASSSEA
+TSSTVASSTKAASSTKASSSAVSSAVASSTKASAISQISDGQVQATSTVSEQTENGAAKA
+VIGMGAGVMAAAA
+
+>YOR065W Chr15 (447439..448368) [930 bp; 309 aa] {ON}  CYT1Cytochrome c1; component of the mitochondrial respiratory chain; expression is regulated by the heme-activated; glucose-repressed Hap2p/3p/4p/5p CCAAT-binding complex START=9 END=75
+AQRTLSKSFYSTATGAASKSGKLTQKLVTAGVAAAGITASTLLYADSLTAEAMTAAEHGL
+HAPAYA
+
+>YOR383C Chr15 complement(1060441..1061055) [615 bp; 204 aa] {ON}  FIT3Mannoprotein that is incorporated into the cell wall via a glycosylphosphatidylinositol (GPI) anchor; involved in the retention of siderophore-iron in the cell wall START=5 END=111
+ALVLSAVAATALAESITTTITATKNGHVYTKTVTQDATFVWGGEDSYASSTSAAESSAAE
+TSAAETSAAATTSAAATTSAAETSSAAETSSADEGSGSSITTTITA
+
+>YOR383C Chr15 complement(1060441..1061055) [615 bp; 204 aa] {ON}  FIT3Mannoprotein that is incorporated into the cell wall via a glycosylphosphatidylinositol (GPI) anchor; involved in the retention of siderophore-iron in the cell wall START=149 END=200
+AATSSASTTATTTAETSSSATSSSTAELSSYTGAADAITAGTGLMGAALAA
+
+>YPL231W Chr16 (108652..114315) [5664 bp; 1887 aa] {ON}  FAS2Alpha subunit of fatty acid synthetase; which catalyzes the synthesis of long-chain saturated fatty acids; contains the acyl-carrier protein domain and beta-ketoacyl reductase; beta-ketoacyl synthase and self-pantetheinylation activities START=53 END=156
+AGMAQRTLKNKYESYDAALSLHREILCYSKDAKEIYYTPDPSELAAKEEPAKEEAPAPTP
+AASAPAPAAAAPAPVAAAAPAAAAAEIADEPVKASLLLHVLVA
+
+>YPL231W Chr16 (108652..114315) [5664 bp; 1887 aa] {ON}  FAS2Alpha subunit of fatty acid synthetase; which catalyzes the synthesis of long-chain saturated fatty acids; contains the acyl-carrier protein domain and beta-ketoacyl reductase; beta-ketoacyl synthase and self-pantetheinylation activities START=267 END=347
+ALSNEPAARLGSEADAKAFLDSMAQKYASIVGVDLSSAASASGAAGAGAAAGAAMIDAGA
+LEEITKDHKVLARQQLQVLA
+
+>YPL198W Chr16 (173152..173162;173572..173665;174073..174702) [735 bp; 244 aa] {ON}  RPL7BProtein component of the large (60S) ribosomal subunit; nearly identical to Rpl7Ap and has similarity to E. coli L30 and rat L7 ribosomal proteins; contains a conserved C-terminal Nucleic acid Binding Domain (NDB2) START=17 END=79
+AQQKTAEQIAAERAARKAANKEKRAIILERNAAYQKEYETAERNIIQAKRDAKAAGSYYV
+EA
+
+>YPL042C Chr16 complement(473040..474707) [1668 bp; 555 aa] {ON}  SSN3Cyclin-dependent protein kinase; component of RNA polymerase II holoenzyme; involved in phosphorylation of the RNA polymerase II C-terminal domain; involved in glucose repression START=506 END=544
+ASGITAGAAANALGGLGVNRRILAAAAAAAAAVSGNNA
+
+>YPL036W Chr16 (482843..485686) [2844 bp; 947 aa] {ON}  PMA2Plasma membrane H+-ATPase; isoform of Pma1p; involved in pumping protons out of the cell; regulator of cytoplasmic pH and plasma membrane potential START=5 END=61
+AKQYKEKPSKEYLHASDGDDPANNSAASSSSSSSTSTSASSSAAAVPRKAAAASAA
+
+>YPL016W Chr16 (521014..524958) [3945 bp; 1314 aa] {ON}  SWI1Subunit of the SWI/SNF chromatin remodeling complex; regulates transcription by remodeling chromatin; required for transcription of many genes; including ADH1; ADH2; GAL1; HO; INO1 and SUC2; can form the prion [SWI+]; human homolog ARID1A is a candidate tumor suppressor gene in breast cancer START=524 END=568
+AAALANANNNINSASSAPTPAAPGASVPATAAPGTEAGIVPVSA
+
+>YPR104C Chr16 complement(733623..736433) [2811 bp; 936 aa] {ON}  FHL1Regulator of ribosomal protein (RP) transcription; has forkhead associated domain that binds phosphorylated proteins; recruits coactivator Ifh1p or corepressor Crf1p to RP gene promoters; also has forkhead DNA-binding domain though in vitro DNA binding assays give inconsistent results; computational analyses suggest it binds DNA directly at highly active RP genes and indirectly through Rap1p motifs at others; suppresses RNA pol III and splicing factor prp4 mutants START=642 END=720
+AAILTQALAMTINQVTQAAKNKGITGNPLTALMDKNPQHLNLILAAAVNAATAKVTKGEV
+KQLVNPETTAAAALAAKA
+

@@ -1,0 +1,187 @@
+>YBL075C Chr2 complement(84499..86448) [1950 bp; 649 aa] {ON}  SSA3ATPase involved in protein folding and the response to stress; plays a role in SRP-dependent cotranslational protein-membrane targeting and translocation; member of the heat shock protein 70 (HSP70) family; localized to the cytoplasm START=598 END=642
+GIANPIMTKFYGAGAGAGPGAGESGGFPGSMPNSGATGGGEDTG
+
+>YBR069C Chr2 complement(376574..378433) [1860 bp; 619 aa] {ON}  TAT1Amino acid transport protein for valine; leucine; isoleucine; and tyrosine; low-affinity tryptophan and histidine transporter; overexpression confers FK506 and FTY720 resistance START=104 END=158
+GTGIGTGLLVGNGQVLGTAGPAGLVLGYGIASIMLYCIIQAAGELGLCYAGLTG
+
+>YCL011C Chr3 complement(102075..103358) [1284 bp; 427 aa] {ON}  GBP2Poly(A+) RNA-binding protein; involved in the export of mRNAs from the nucleus to the cytoplasm; similar to Hrb1p and Npl3p; also binds single-stranded telomeric repeat sequence in vitro START=40 END=102
+GNGSRRQRRDRGSRFNDRYDQSYGGSRYHDDRNWPPRRGGRGRGGSRSFRGGRGGGRGRT
+LG
+
+>YCR076C Chr3 complement(249293..250045) [753 bp; 250 aa] {ON}  FUB1Putative protein of unknown function; interacts physically with multiple subunits of the 20S proteasome and genetically with genes encoding 20S core particle and 19S regulatory particle subunits; exhibits boundary activity which blocks the propagation of heterochromatic silencing; contains a PI31 proteasome regulator domain and sequence similarity with human PSMF1; a proteasome inhibitor; not an essential gene START=215 END=248
+GWMPGSKYDEPFGPGSGGFGGSGSGGFGGSGSG
+
+>YDL014W Chr4 (427364..428347) [984 bp; 327 aa] {ON}  NOP1Nucleolar protein; component of the small subunit processome complex; which is required for processing of pre-18S rRNA; has similarity to mammalian fibrillarin START=5 END=133
+GSRGGSRGGSRGGFGGRGGSRGGARGGSRGGFGGRGGSRGGARGGSRGGFGGRGGSRGGA
+RGGSRGGRGGAAGGARGGAKVVIEPHRHAGVYIARGKEDLLVTKNMAPGESVYGEKRISV
+EEPSKEDG
+
+>YDR242W Chr4 (946807..948456) [1650 bp; 549 aa] {ON}  AMD2Putative amidase START=193 END=251
+GYTYNSINLSFSSGGSSGGEGSLIGAHGSLLGLGTDIGGSIRIPSSYQGLFGLKPTFG
+
+>YDR432W Chr4 (1328783..1330027) [1245 bp; 414 aa] {ON}  NPL3RNA-binding protein that promotes elongation; regulates termination; and carries poly(A) mRNA from nucleus to cytoplasm; has a role in repressing translation initiation by binding eIF4G; required for pre-mRNA splicing; dissociation from mRNAs promoted by Mtr10p; phosphorylated by Sky1p in the cytoplasm START=284 END=395
+GGFRGRGGFRGGFRGGFRGGFSRGGFGGPRGGFGGPRGGYGGYSRGGYGGYSRGGYGGSR
+GGYDSPRGGYDSPRGGYSRGGYGGPRNDYGPPRGSYGGSRGGYDGPRGDYG
+
+>YER190C-A Chr5 complement(574804..575379) [576 bp; 191 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; completely overlaps the verified ORF YRF1-2/YER190W; identified by gene-trapping; expression analysis; and homology START=12 END=159
+GVLLGTSVGTFSGSGISAGVGASSGSGISAGVGASSGSSTSVGVGTFGGSSTSVGVGTFG
+GSSTSVGVGTFSGSRTSPDVDAGSGSSTSPDVGAGSGSSISAGVGTFSGSRTSPDVDAGS
+GSSTSPDVGAGSGSSISAGVGSRIGTG
+
+>YFL067W Chr6 (836..1363) [528 bp; 175 aa] {OFF} Protein of unknown function; down-regulated at low calcium levels START=12 END=121
+GVLLGTSVGAGSGSSISPDVDAGSGSRTSPDVDAGSGSRISAGVGTFSGSSTSPDVDAGS
+GSSTSPDVGAGSGSSISAGVGSRIGTGIGSRIGTGIGTGIGSRISTSIG
+
+>YFL034W Chr6 (65477..68698) [3222 bp; 1073 aa] {ON} Putative integral membrane protein that interacts with Rpp0p; which is a component of the ribosomal stalk START=549 END=616
+GGSLVLGLSGGLLAPVIGGGIAAGLSTIGITGATSFLTGVGGTTVVAVSSTAIGANIGAR
+GMSKRMG
+
+>YFL016C Chr6 complement(104701..106236) [1536 bp; 511 aa] {ON}  MDJ1Co-chaperone that stimulates the ATPase activity of the HSP70 protein Ssc1p; involved in protein folding/refolding in the mitochodrial matrix; required for proteolysis of misfolded proteins; member of the HSP40 (DnaJ) family of chaperones START=124 END=216
+GPAAFGGGGAAGGAGGGSGSPFGSQFHDFSGFTSAGGSPFGGINFEDLFGAAFGGGGRGS
+GGASRSSSMFRQYRGDPIEIVHKVSFKDAVFG
+
+>YFL010C Chr6 complement(115108..115743) [636 bp; 211 aa] {ON}  WWM1WW domain containing protein of unknown function; binds to Mca1p; a caspase-related protease that regulates H2O2-induced apoptosis; overexpression causes G1 phase growth arrest and clonal death that is suppressed by overexpression of MCA1 START=126 END=208
+GTAPSTSKGSGHGGAMMGGLLGVGAGLLGGAMLEHAFDDHNYDGPDTVVVENNYYGDDAG
+GSDGGFDDAGGFDGGFDDGFDG
+
+>YGL172W Chr7 (180700..182118) [1419 bp; 472 aa] {ON}  NUP49FG-nucleoporin component of central core of the nuclear pore complex (NPC); contributes directly to nucleocytoplasmic transport and maintenance of the NPC permeability barrier; found in stable complex with Nic96p and two other FG-nucleoproteins (Nsp1p and Nup57p) START=2 END=128
+GLNKASSTPAGGLFGQASGASTGNANTGFSFGGTQTGQNTGPSTGGLFGAKPAGSTGGLG
+ASFGQQQQQSQTNAFGGSATTGGGLFGNKPNNTANTGGGLFGANSNSNSGSLFGSNNAQT
+SRGLFG
+
+>YGR119C Chr7 complement(728046..729671) [1626 bp; 541 aa] {ON}  NUP57FG-nucleoporin component of central core of the nuclear pore complex (NPC); contributes directly to nucleocytoplasmic transport and maintenance of the NPC permeability barrier; found in stable complex with Nic96p and two other FG-nucleoproteins (Nsp1p and Nup49p) START=2 END=223
+GFSGSNNGFGNKPAGSTGFSFGQNNNNTNTQPSASGFGFGGSQPNSGTATTGGFGANQAT
+NTFGSNQQSSTGGGLFGNKPALGSLGSSSTTASGTTATGTGLFGQQTAQPQQSTIGGGLF
+GNKPTTTTGGLFGNSAQNNSTTSGGLFGNKVGSTGSLMGGNSTQNTSNMNAGGLFGAKPQ
+NTTATTGGLFGSKPQGSTTNGGLFGSGTQNNNTLGGGGLFG
+
+>YGR159C Chr7 complement(806412..807656) [1245 bp; 414 aa] {ON}  NSR1Nucleolar protein that binds nuclear localization sequences; required for pre-rRNA processing and ribosome biogenesis START=350 END=408
+GGRGGSRGFGGRGGGRGGNRGFGGRGGARGGRGGFRPSGSGANTAPLGRSRNTASFAG
+
+>YGR178C Chr7 complement(851047..853215) [2169 bp; 722 aa] {ON}  PBP1Component of glucose deprivation induced stress granules; involved in P-body-dependent granule assembly; similar to human ataxin-2; interacts with Pab1p to regulate mRNA polyadenylation; interacts with Mkt1p to regulate HO translation START=638 END=712
+GSNGAEEGGGNISPHVPAGFMAAGPGAPMGAFGYPGGIPFQGMMGSGPSGMPANGSAMHS
+HGHSRNYHQTSHHG
+
+>YGR296C-A Chr7 complement(1088870..1089445) [576 bp; 191 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; completely overlaps TEL07R START=12 END=159
+GVLLGTSVGTFSGSGISAGVGASSGSGISAGVGASSGSSTSVGVGTFGGSSTSVGVGTFG
+GSSTSVGVGTFSGSRTSPDVDAGSGSSTSPDVGAGSGSSISAGVGTFSGSRTSPDVDAGS
+GSSTSPDVGAGSGSSISAGVGSRIGTG
+
+>YHL034C Chr8 complement(33193..34077) [885 bp; 294 aa] {ON}  SBP1Protein that binds eIF4G and has a role in repression of translation; has an RGG motif; found in cytoplasmic P bodies; found associated with small nucleolar RNAs snR10 and snR11 START=120 END=170
+GQMQRGGFRGRGGFRGRGGFRGGFRGGYRGGFRGRGNFRGRGGARGGFNG
+
+>YHR089C Chr8 complement(282681..283298) [618 bp; 205 aa] {ON}  GAR1Protein component of the H/ACA snoRNP pseudouridylase complex; involved in the modification and cleavage of the 18S pre-rRNA START=129 END=203
+GPPKPKNKKKRSGAPGGRGGASMGRGGSRGGFRGGRGGSSFRGGRGGSSFRGGSRGGSFR
+GGSRGGSRGGFRGG
+
+>YHR165W-A Chr8 (436647..436958) [312 bp; 103 aa] {OFF} Dubious ORF unlikely to encode a functional protein; based on available experimental and comparative sequence data START=23 END=97
+GGGGGGGNVKSTISSAFISKLLGGGGGGGRNVSSFTDDGTIGLSSSSISYPGGGGGGGGS
+AKSLSSSKPGGGGG
+
+>YHR168W Chr8 (440377..441933) [1557 bp; 518 aa] {ON}  MTG2Putative GTPase; member of the Obg family; peripheral protein of the mitochondrial inner membrane that associates with the large ribosomal subunit; required for mitochondrial translation; possibly via a role in ribosome assembly START=88 END=142
+GNFVDVRIVKCKSGAGGSGAVSFFRDAGRSIGPPDGGDGGAGGSVYIQAVAGLG
+
+>YJL143W Chr10 (147101..147577) [477 bp; 158 aa] {ON}  TIM17Essential subunit of the Translocase of the Inner Mitochondrial membrane (TIM23 complex); with Tim23p; contributes to the architecture and function of the import channel; may link the import motor to the core TIM23 complex START=18 END=70
+GGAFAMGAIGGVVWHGIKGFRNSPLGERGSGAMSAIKARAPVLGGNFGVWGG
+
+>YJL055W Chr10 (333357..334094) [738 bp; 245 aa] {ON} Putative protein of unknown function; proposed to be involved in the metabolism of purine and pyrimidine base analogues; deletion mutants are sensitive to HAP and AHA; overexpression confers resistance to 5-FOA and 5-FU START=6 END=64
+GGNSSRGGQVGGKSVCVYCGSSFGAKALYSESAEELGALFHKLGWKLVYGGGTTGLMG
+
+>YKL215C Chr11 complement(26827..30687) [3861 bp; 1286 aa] {ON}  OXP15-oxoprolinase; enzyme is ATP-dependent and functions as a dimer; similar to mouse Oplah gene; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm START=1228 END=1282
+GPHGIKGGQDGSRGENLWVRHSTGALINVGGKNTIYAQPGDRFIIKTPGGGGFG
+
+>YKL117W Chr11 (220324..220974) [651 bp; 216 aa] {ON}  SBA1Co-chaperone that binds to and regulates Hsp90 family chaperones; important for pp60v-src activity in yeast; homologous to the mammalian p23 proteins and like p23 can regulate telomerase activity START=136 END=196
+GNDAAQGMDFSQMMGGAGGAGGAGGMDFSQMMGGAGGAGSPDMAQLQQLLAQSGGNLDMG
+
+>YLR191W Chr12 (537272..538432) [1161 bp; 386 aa] {ON}  PEX13Integral peroxisomal membrane protein required for translocation of peroxisomal matrix proteins; interacts with the PTS1 signal recognition factor Pex5p and the PTS2 signal recognition factor Pex7p; forms a complex with Pex14p and Pex17p START=68 END=161
+GTYGESNTIPGIYGNSNYGIPYDNNPYSMNSIYGNSIGRYGYGGSYYGNNYGSFYGGGYG
+AGAGYGMNNGSGLGESTKATFQLIESLIGAVTG
+
+>YLR338W Chr12 (804346..805203) [858 bp; 285 aa] {OFF}  OPI9Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; partially overlaps the verified ORF VRP1/YLR337C START=9 END=178
+GVGGGGGACGGLLTCVGRDAEGKGGADTLGREILELFLWWLLCAGLTEGICGLFCGTFGA
+EAPDNGSGGAGDDGTMGIGGAAEDGISGIGGAEDEGILGTAGAGDNGALGMGGAATDGTA
+PGIGGALADGEGLVLALLLICFNFGIPPAKISPNCGAPIPGIGGADIEG
+
+>YLR398C Chr12 complement(915156..919019) [3864 bp; 1287 aa] {ON}  SKI2Ski complex component and putative RNA helicase; mediates 3'-5' RNA degradation by the cytoplasmic exosome; null mutants have superkiller phenotype of increased viral dsRNAs and are synthetic lethal with mutations in 5'-3' mRNA decay START=541 END=608
+GESAKGAPSKTDNGRGGSTARGGRGGSNTRDGRGGRGNSTRGGANRGGSRGAGAIGSNKR
+KFFTQDG
+
+>YML133W-A Chr13 (1610..2185) [576 bp; 191 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; completely overlaps the uncharacterized ORF YML133C START=12 END=159
+GVLLGTSVGTFSGSGISAGVGASSGSGISAGVGASSGSSTSVGVGTFGGSSTSVGVGTFG
+GSSTSVGVGTFSGSRTSPDVDAGSGSSTSPDVGAGSGSSISAGVGTFSGSRTSPDVDAGS
+GSSTSPDVGAGSGSSISAGVGSRIGTG
+
+>YML059C Chr13 complement(153219..158258) [5040 bp; 1679 aa] {ON}  NTE1Serine esterase; homolog of human neuropathy target esterase (NTE); Nte1p-mediated phosphatidylcholine turnover influences transcription factor Opi1p localization; affecting transcriptional regulation of phospholipid biosynthesis genes START=1367 END=1426
+GQAIGLVLGGGGARGISHLGVIQAIEEQGIPVDVIGGTSIGSFVGGLYAKDYDLVPIYG
+
+>YML017W Chr13 (236588..236591;236954..238731) [1782 bp; 593 aa] {ON}  PSP2Asn rich cytoplasmic protein that contains RGG motifs; high-copy suppressor of group II intron-splicing defects of a mutation in MRS2 and of a conditional mutation in POL1 (DNA polymerase alpha); possible role in mitochondrial mRNA splicing START=522 END=579
+GFLGQGNNDSIRNNGRGNYNSSGMNGGSRGRGFGRGRGFGRGAYNNRGSRGGRGSSG
+
+>YML010W Chr13 (247677..250868) [3192 bp; 1063 aa] {ON}  SPT5Component of the universally conserved Spt4/5 complex (DSIF complex); the complex has multiple roles in concert with RNA polymerases I and II; including regulation of transcription elongation; RNA processing; quality control; and transcription-coupled DNA repair START=851 END=1062
+GGEGITYDELVNRRGRVPQARMGPSYVSAPRNMATGGIAAGAAATSSGLSGGMTPGWSSF
+DGGKTPAVNAHGGSGGGGVSSWGGASTWGGQGNGGASAWGGAGGGASAWGGQGTGATSTW
+GGASAWGNKSSWGGASTWASGGESNGAMSTWGGTGDRSAYGGASTWGGNNNNKSTRDGGA
+SAWGNQDDGNRSAWNNQGNKSNYGGNSTWGG
+
+>YMR006C Chr13 complement(277561..279681) [2121 bp; 706 aa] {ON}  PLB2Phospholipase B (lysophospholipase) involved in phospholipid metabolism; displays transacylase activity in vitro; overproduction confers resistance to lysophosphatidylcholine START=101 END=156
+GIACSGGGYRAMLGGAGMIAAMDNRTDGANEHGLGGLLQSSTYLSGLSGGNWLTG
+
+>YMR047C Chr13 complement(363364..366705) [3342 bp; 1113 aa] {ON}  NUP116FG-nucleoporin component of central core of the nuclear pore complex (NPC); contributes directly to nucleocytoplasmic transport and maintenance of the NPC permeability barrier; forms a stable association with Nup82p; Gle2p and two other FG-nucleoporins (Nsp1p and Nup159p) START=163 END=462
+GRKFGTSQNGTGTTFNNPQGTTNTGFGIMGNNNSTTSATTGGLFGQKPATGMFGTGTGSG
+GGFGSGATNSTGLFGSSTNLSGNSAFGANKPATSGGLFGNTTNNPTNGTNNTGLFGQQNS
+NTNGGLFGQQQNSFGANNVSNGGAFGQVNRGAFPQQQTQQGSGGIFGQSNANANGGAFGQ
+QQGTGALFGAKPASGGLFGQSAGSKAFGMNTNPTGTTGGLFGQTNQQQSGGGLFGQQQNS
+NAGGLFGQNNQSQNQSGLFGQQNSSNAFGQPQQQGGLFGSKPAGGLFGQQQGASTFASG
+
+>YMR214W Chr13 (695350..696483) [1134 bp; 377 aa] {ON}  SCJ1One of several homologs of bacterial chaperone DnaJ; located in the ER lumen where it cooperates with Kar2p to mediate maturation of proteins START=87 END=192
+GADAVKNGGGGGGPGGPGAGGFHDPFDIFERMFQGGHGGPGGGFGQRQRQRGPMIKVQEK
+LSLKQFYSGSSIEFTLNLNDECDACHGSGSADGKLAQCPDCQGRG
+
+>YNL339W-A Chr14 (1517..2092) [576 bp; 191 aa] {OFF} Identified by gene-trapping; microarray-based expression analysis; and genome-wide homology searching START=12 END=159
+GVLLGTSVGTFSGSGISAGVGASSGSGISAGVGASSGSSTSVGVGTFGGSSTSVGVGTFG
+GSSTSVGVGTFSGSRTSPDVDAGSGSSTSPDVGAGSGSSISAGVGTFSGSRTSPDVDAGS
+GSSTSPDVGAGSGSSISAGVGSRIGTG
+
+>YNL288W Chr14 (90303..91424) [1122 bp; 373 aa] {ON}  CAF40Evolutionarily conserved subunit of the CCR4-NOT complex involved in controlling mRNA initiation; elongation and degradation; binds Cdc39p START=9 END=79
+GNGAGVNMGGGGPSTNNPGSMSMPGVPTSMGPGMNQQIPSGGPMLMGNTPNNNNSNENGE
+NNGNNGNNGG
+
+>YNL208W Chr14 (254418..255017) [600 bp; 199 aa] {ON} Protein of unknown function; may interact with ribosomes; based on co-purification experiments; authentic; non-tagged protein is detected in purified mitochondria in high-throughput studies; potential orthologs found in other fungi START=98 END=196
+GNSNFGGAPQGGHNNHHRQDNNNNNGGFGGPGGPGGQGFGRQGPQGFGGPGPQEFGGPGG
+QGFGGPNPQEFGGPGGQGFGGPNPQEFGGQGRQGFNGG
+
+>YNL112W Chr14 (413639..414911;415914..416281) [1641 bp; 546 aa] {ON}  DBP2Essential ATP-dependent RNA helicase of the DEAD-box protein family; involved in nonsense-mediated mRNA decay and rRNA processing START=498 END=542
+GGGHPRYGGGRGGRGGYGRRGGYGGGRGGYGGNRQRDGGWGNRG
+
+>YNL064C Chr14 complement(505868..507097) [1230 bp; 409 aa] {ON}  YDJ1Type I HSP40 co-chaperone involved in regulation of the HSP90 and HSP70 functions; involved in protein translocation across membranes; member of the DnaJ family START=69 END=154
+GEDGLSGAGGAGGFPGGGFGFGDDIFSQFFGAGGAQRPRGPQRGKDIKHEISASLEELYK
+GRTAKLALNKQILCKECEGRGGKKG
+
+>YNL007C Chr14 complement(618507..619565) [1059 bp; 352 aa] {ON}  SIS1Type II HSP40 co-chaperone that interacts with the HSP70 protein Ssa1p; not functionally redundant with Ydj1p due to due to substrate specificity; shares similarity with bacterial DnaJ proteins START=67 END=166
+GLEAARSGGPSFGPGGPGGAGGAGGFPGGAGGFSGGHAFSNEDAFNIFSQFFGGSSPFGG
+ADDSGFSFSSYPSGGGAGMGGMPGGMGGMHGGMGGMPGG
+
+>YOL020W Chr15 (286172..287950) [1779 bp; 592 aa] {ON}  TAT2High affinity tryptophan and tyrosine permease; overexpression confers FK506 and FTY720 resistance START=92 END=151
+GGSIGTGLFVGSGKAIAEGGPLGVVIGWAIAGSQIIGTIHGLGEITVRFPVVGAFANYG
+
+>YOR086C Chr15 complement(483219..486779) [3561 bp; 1186 aa] {ON}  TCB1Lipid-binding ER protein; enriched at ER-plasma membrane contact sites; contains three calcium and lipid binding domains; non-tagged protein also localizes to mitochondria; C-termini of Tcb1p; Tcb2p and Tcb3p interact START=1130 END=1180
+GDIASKGLGTGLKAGTTVIGGGVGAIGKIKKGVFGGLGSLTNHKKNHEMG
+
+>YOR204W Chr15 (722911..724725) [1815 bp; 604 aa] {ON}  DED1ATP-dependent DEAD (Asp-Glu-Ala-Asp)-box RNA helicase; required for translation initiation of all yeast mRNAs; mutations in human DEAD-box DBY are a frequent cause of male infertility START=19 END=108
+GYVPPHLRGKPRSARNNSSNYNNNNGGYNGGRGGGSFFSNNRRGGYGNGGFFGGNNGGSR
+SNGRSGGRWIDGKHVPAPRNEKAEIAIFG
+
+>YOR204W Chr15 (722911..724725) [1815 bp; 604 aa] {ON}  DED1ATP-dependent DEAD (Asp-Glu-Ala-Asp)-box RNA helicase; required for translation initiation of all yeast mRNAs; mutations in human DEAD-box DBY are a frequent cause of male infertility START=537 END=597
+GSRSNSRRGGFGRNNNRDYRKAGGASAGGWGSSRSRDNSFRGGSGWGSDSKSSGWGNSGG
+
+>YPL283W-A Chr16 (1426..2001) [576 bp; 191 aa] {OFF} Identified by gene-trapping; microarray-based expression analysis; and genome-wide homology searching START=12 END=159
+GVLLGTSVGTFSGSGISAGVGASSGSGISAGVGASSGSSTSVGVGTFGGSSTSVGVGTFG
+GSSTSVGVGTFSGSRTSPDVDAGSGSSTSPDVGAGSGSSISAGVGTFSGSRTSPDVDAGS
+GSSTSPDVGAGSGSSISAGVGSRIGTG
+
+>YPL207W Chr16 (159909..162341) [2433 bp; 810 aa] {ON}  TYW1Iron-sulfer protein required for synthesis of Wybutosine modified tRNA; Wybutosine is a modified guanosine found at the 3'-position adjacent to the anticodon of phenylalanine tRNA which supports reading frame maintenance by stabilizing codon-anticodon interactions; induction by Yap5p in response to iron provides protection from high iron toxicity; overexpression results in increased cellular iron START=72 END=124
+GGKKTGGCCSDKKNGGGKGGGCCSSKGGKKGGCCSSKGGKKGGCCSSKKNIG
+
+>YPL119C Chr16 complement(324411..326264) [1854 bp; 617 aa] {ON}  DBP1Putative ATP-dependent RNA helicase of the DEAD-box protein family; mutants show reduced stability of the 40S ribosomal subunit scanning through 5' untranslated regions of mRNAs START=550 END=610
+GGRTRGGGGFFNSRNNGSRDYRKHGGNGSFGSTRPRNTGTSNWGSIGGGFRNDNEKNGYG
+

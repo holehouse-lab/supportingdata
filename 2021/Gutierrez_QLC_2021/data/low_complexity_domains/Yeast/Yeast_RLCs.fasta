@@ -1,0 +1,57 @@
+>YCL011C Chr3 complement(102075..103358) [1284 bp; 427 aa] {ON}  GBP2Poly(A+) RNA-binding protein; involved in the export of mRNAs from the nucleus to the cytoplasm; similar to Hrb1p and Npl3p; also binds single-stranded telomeric repeat sequence in vitro START=2 END=118
+RELGMYGNDRSRSRSPVRRRLSDDRDRYDDYNDSSSNNGNGSRRQRRDRGSRFNDRYDQS
+YGGSRYHDDRNWPPRRGGRGRGGSRSFRGGRGGGRGRTLGPIVERDLERQFDATKR
+
+>YDL013W Chr4 (429067..430926) [1860 bp; 619 aa] {ON}  SLX5Subunit of the Slx5-Slx8 SUMO-targeted ubiquitin ligase (STUbL) complex; stimulated by SUMO-modified substrates; contains a RING domain and two SIMs (SUMO-interacting motifs); forms SUMO-dependent nuclear foci; including DNA repair centers START=240 END=306
+RARRESRMRMSRRIAERQRRVQQQRVSSDENISTSIRLQSIRERIQSYTPDIRSAFHRAE
+SLHEFR
+
+>YGR162W Chr7 (824059..826917) [2859 bp; 952 aa] {ON}  TIF4631Translation initiation factor eIF4G; subunit of the mRNA cap-binding protein complex (eIF4F) that also contains eIF4E (Cdc33p); interacts with Pab1p and with eIF4A (Tif1p); also has a role in biogenesis of the large ribosomal subunit START=487 END=560
+RGNRSRDSGRFGNNSSRGHDFRNTSVRNMDDRANSRTSSKRRSKRMNDDRRSNRSYTSRR
+DRERGSYRNEEKR
+
+>YHL034C Chr8 complement(33193..34077) [885 bp; 294 aa] {ON}  SBP1Protein that binds eIF4G and has a role in repression of translation; has an RGG motif; found in cytoplasmic P bodies; found associated with small nucleolar RNAs snR10 and snR11 START=109 END=173
+REIHIKRARTPGQMQRGGFRGRGGFRGRGGFRGGFRGGYRGGFRGRGNFRGRGGARGGFN
+GQKR
+
+>YHR131C Chr8 complement(365340..367892) [2553 bp; 850 aa] {ON} Putative protein of unknown function; GFP-fusion protein localizes to the cytoplasm; overexpression causes cell cycle delay or arrest; contains a PH domain and binds phosphatidylinositols and other lipids in a large-scale study START=311 END=379
+REYPDYRIVPRRRRRRRRRRRRRRHTHRSESSMGSFSQRFIRSNSRPDLIQRYSTGSSTN
+NNTTIRER
+
+>YIL154C Chr9 complement(53981..55021) [1041 bp; 346 aa] {ON}  IMP2'Transcriptional activator involved in maintenance of ion homeostasis and protection against DNA damage caused by bleomycin and other oxidants; contains a C-terminal leucine-rich repeat START=36 END=92
+RGHRERGRSKKKRGERDSNVSSLSRSRSRASSRSRVREEEFLKWTVLRQDPSMRLR
+
+>YJL118W Chr10 (191639..192298) [660 bp; 219 aa] {ON} Putative protein of unknown function; may interact with ribosomes; based on co-purification experiments; YJL18W is a non-essential gene; deletion enhances the toxicity of heterologously expressed human alpha-synuclein START=102 END=161
+RLCTLGHAVLRVKKRKTEERQPCSPIIQHTHVKRRKRPRLRIVAIKRKRRRRRPHRIER
+
+>YLR029C Chr12 complement(201976..202590) [615 bp; 204 aa] {ON}  RPL15AProtein component of the large (60S) ribosomal subunit; nearly identical to Rpl15Bp and has similarity to rat L15 ribosomal protein; binds to 5.8 S rRNA START=11 END=73
+RKKQSDVLRFLQRVRVWEYRQKNVIHRAARPTRPDKARRLGYKAKQGFVIYRVRVRRGNR
+KR
+
+>YLR457C Chr12 complement(1055812..1056771) [960 bp; 319 aa] {ON}  NBP1Spindle pole body (SPB) component; required for the insertion of the duplication plaque into the nuclear membrane during SPB duplication; essential for bipolar spindle formation; component of the Mps2p-Bbp1p complex START=15 END=86
+RDDGRKREYGSLDEVRKRSALRSRRKQMRPTGKSVLKRPRKVTDRKTEEKIRTNRRKTPK
+RRLTKIFQTIR
+
+>YMR121C Chr13 complement(509734..510348) [615 bp; 204 aa] {ON}  RPL15BProtein component of the large (60S) ribosomal subunit; nearly identical to Rpl15Ap and has similarity to rat L15 ribosomal protein; binds to 5.8 S rRNA START=11 END=73
+RKKQSDVLRFLQRVRVWEYRQKNVIHRAARPTRPDKARRLGYKAKQGFVIYRVRVRRGNR
+KR
+
+>YNL004W Chr14 (622915..622944;623287..624621) [1365 bp; 454 aa] {ON}  HRB1Poly(A+) RNA-binding protein; involved in the export of mRNAs from the nucleus to the cytoplasm; similar to Gbp2p and Npl3p START=5 END=157
+RGSENNNRSRSRSRSPVRRRMSDDHGYERDNHLSRRSGNYNGRRKFADTYRGSRDRGEYR
+GGRERSDYRERERFNNRDNPRSRDRYDDRRRGRDVTGRYGNRRDDYPRSFRSRHNTRDDS
+RRGGFGSSGARGDYGPLLARELDSTYEEKVNR
+
+>YOR042W Chr15 (408425..409660) [1236 bp; 411 aa] {ON}  CUE5Protein containing a CUE domain that binds ubiquitin; which may facilitate intramolecular monoubiquitination; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm in a punctate pattern START=154 END=213
+RKNPEAPARRRQTQLEQDELLARQLDEQFNSSHSRRRNRDRATRSMHEQRRRRHNPNER
+
+>YOR053W Chr15 (427817..428158) [342 bp; 113 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; partially overlaps the verified gene VHS3/YOR054C START=21 END=108
+RLHLRLRHLHRRRRRRHHRRHHRRHHHHRRRRRRRRRRRRRHHRHHHHRHRRRRHYLHLY
+HQYRSSYYHPPHRYLHPLLLPFPQKHR
+
+>YOR290C Chr15 complement(855147..860258) [5112 bp; 1703 aa] {ON}  SNF2Catalytic subunit of the SWI/SNF chromatin remodeling complex involved in transcriptional regulation; contains DNA-stimulated ATPase activity; functions interdependently in transcriptional activation with Snf5p and Snf6p START=1489 END=1547
+RTAGKTSVKSARTSTRGRGRGRGRGRGRGRGRGRPPKARNGLDYVRTPAAATSPIDIR
+
+>YOR309C Chr15 complement(896698..897078) [381 bp; 126 aa] {OFF} Dubious open reading frame unlikely to encode a protein; based on available experimental and comparative sequence data; partially overlaps the verified gene NOP58 START=7 END=105
+RLLLILNPILMMKRKKRKKRKKRRERETMMKIPRILKKLRRKRRTRRKRRKRRKRRRRKR
+RKRRRKRSPRKRRKRRNKDAFYILIISDPSRSLLFGFR
+
