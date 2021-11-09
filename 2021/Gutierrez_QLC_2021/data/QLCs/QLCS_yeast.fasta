@@ -1,415 +1,532 @@
->sp|Q03823|YM35_YEAST Uncharacterized protein YMR160W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YMR160W PE=1 SV=1, QLCS_START=4 QLCS_END=21
-QQKQDKQLQHQTQEQQQ
-
->sp|P21957|OPI1_YEAST Transcriptional repressor OPI1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=OPI1 PE=1 SV=1, QLCS_START=285 QLCS_END=310
-QQQQQQQQQQQQQLLQQQLLQQQQQ
-
->sp|P39081|PCF11_YEAST Protein PCF11 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PCF11 PE=1 SV=2, QLCS_START=233 QLCS_END=253
-QQQQQQQQQQQQQQQQQQQQ
-
->sp|P38129|TAF5_YEAST Transcription initiation factor TFIID subunit 5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TAF5 PE=1 SV=1, QLCS_START=34 QLCS_END=48
-QQPQQQSQGQSQQQ
-
->sp|P25042|ROX1_YEAST Repressor ROX1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ROX1 PE=1 SV=1, QLCS_START=101 QLCS_END=123
-QQQQQQQKEQQQQKQSQPQLQQ
-
->sp|Q12151|UPC2_YEAST Sterol uptake control protein 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UPC2 PE=1 SV=1, QLCS_START=221 QLCS_END=241
-QLQQQQQVQQQSQPQTQAQQ
-
->sp|Q12151|UPC2_YEAST Sterol uptake control protein 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=UPC2 PE=1 SV=1, QLCS_START=288 QLCS_END=337
-QQQLQYQLHQQLQLQQHQQVQLQQYQQLRQEQHQQVQQQQQEQLQQYQQ
-
->sp|P34761|WHI3_YEAST Protein WHI3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=WHI3 PE=1 SV=1, QLCS_START=246 QLCS_END=262
-QQQSQQQQQQPQQPQQ
-
->sp|Q08157|YOL19_YEAST Uncharacterized membrane protein YOL019W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YOL019W PE=1 SV=1, QLCS_START=448 QLCS_END=465
-QQRLQPQQQQPQQQYHQ
-
->sp|Q06488|RSC2_YEAST Chromatin structure-remodeling complex subunit RSC2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RSC2 PE=1 SV=1, QLCS_START=695 QLCS_END=712
-QHQLQRLQQQQHQYQQQ
-
->sp|Q06251|YL177_YEAST Uncharacterized protein YLR177W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YLR177W PE=1 SV=1, QLCS_START=153 QLCS_END=169
-QKQQQQQQQQQQQQQQ
-
->sp|P39523|YM11_YEAST Uncharacterized protein YMR124W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YMR124W PE=1 SV=2, QLCS_START=366 QLCS_END=381
-QQISQRQQQQQQQLQ
-
->sp|Q99395|YP229_YEAST Uncharacterized protein YPL229W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YPL229W PE=1 SV=1, QLCS_START=39 QLCS_END=51
-QQQQQQQQQQQQ
-
->sp|P53438|SOK2_YEAST Protein SOK2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SOK2 PE=1 SV=1, QLCS_START=70 QLCS_END=94
-QYYQQPQSQSQQQLQSQPQMYQVQ
-
->sp|P53438|SOK2_YEAST Protein SOK2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SOK2 PE=1 SV=1, QLCS_START=205 QLCS_END=219
-QQQQHQQQQQLQAQ
-
->sp|Q12489|YD012_YEAST Cysteine-rich and transmembrane domain-containing protein YDL012C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YDL012C PE=1 SV=1, QLCS_START=45 QLCS_END=73
-QQQQQQYQQQPQYYQQQQPQYYQQHPQQ
-
->sp|P48568|YD186_YEAST Uncharacterized protein YDL186W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YDL186W PE=4 SV=1, QLCS_START=239 QLCS_END=252
-QTQQQQQQRQQQQ
-
->sp|Q08831|VTS1_YEAST Protein VTS1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=VTS1 PE=1 SV=1, QLCS_START=86 QLCS_END=101
-QPLQQQQQQQQQQQQ
-
->sp|P16649|TUP1_YEAST General transcriptional corepressor TUP1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TUP1 PE=1 SV=2, QLCS_START=96 QLCS_END=118
-QQQRQQQQQQQVQQHLQQQQQQ
-
->sp|P16649|TUP1_YEAST General transcriptional corepressor TUP1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TUP1 PE=1 SV=2, QLCS_START=180 QLCS_END=198
-QQQLPQQQLQQQQLQQQQ
-
->sp|P38931|SSN2_YEAST Mediator of RNA polymerase II transcription subunit 13 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SSN2 PE=1 SV=2, QLCS_START=1120 QLCS_END=1136
-QQQQMQQQQQQQQQQQ
-
->sp|P09547|SWI1_YEAST SWI/SNF chromatin-remodeling complex subunit SWI1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SWI1 PE=1 SV=1, QLCS_START=336 QLCS_END=372
-QQKQQQRFQALQQQQQQQQNQQQQNQQPQQQQQQQQ
-
->sp|P18888|SNF6_YEAST Transcription regulatory protein SNF6 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SNF6 PE=1 SV=1, QLCS_START=263 QLCS_END=276
-QQQQQQDLQQQQQ
-
->sp|P38216|YBM6_YEAST Uncharacterized protein YBR016W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YBR016W PE=1 SV=1, QLCS_START=40 QLCS_END=52
-QQQQQYYQQQQQ
-
->sp|P14680|YAK1_YEAST Dual specificity protein kinase YAK1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YAK1 PE=1 SV=1, QLCS_START=70 QLCS_END=85
-QQQQQQQQQQQQNSQ
-
->sp|P11746|MCM1_YEAST Pheromone receptor transcription factor OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=MCM1 PE=1 SV=2, QLCS_START=121 QLCS_END=136
-QRQQPQQQQPQQQQQ
-
->sp|P11746|MCM1_YEAST Pheromone receptor transcription factor OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=MCM1 PE=1 SV=2, QLCS_START=185 QLCS_END=209
-QNSQPQQQQQQQPQQQMSQQQMSQ
-
->sp|P11746|MCM1_YEAST Pheromone receptor transcription factor OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=MCM1 PE=1 SV=2, QLCS_START=220 QLCS_END=245
-QQSQPQQQQQQQQQLQQQQQQQQQQ
-
->sp|P47069|MPS3_YEAST Spindle pole body assembly component MPS3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=MPS3 PE=1 SV=2, QLCS_START=390 QLCS_END=401
-QQQQQQQQVQQ
-
->sp|Q03790|NUP53_YEAST Nucleoporin NUP53 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NUP53 PE=1 SV=1, QLCS_START=23 QLCS_END=41
-QGQHEQQKQQEQLEQQKQ
-
->sp|Q08601|MCA1_YEAST Metacaspase-1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=MCA1 PE=1 SV=2, QLCS_START=28 QLCS_END=58
-QQYGQQYGQQYEQQYGQQYGQQNDQQFSQQ
-
->sp|P32831|NGR1_YEAST Negative growth regulatory protein NGR1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NGR1 PE=1 SV=2, QLCS_START=277 QLCS_END=298
-QLQEQQQQQQQLQQQHQQLDQ
-
->sp|P32831|NGR1_YEAST Negative growth regulatory protein NGR1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NGR1 PE=1 SV=2, QLCS_START=484 QLCS_END=495
-QQQQQQQQQQQ
-
->sp|Q12518|ENT1_YEAST Epsin-1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ENT1 PE=1 SV=1, QLCS_START=210 QLCS_END=227
-QDLQRMQQQQGQQQLQQ
-
->sp|Q12518|ENT1_YEAST Epsin-1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ENT1 PE=1 SV=1, QLCS_START=244 QLCS_END=262
-QFQLQQQQQQQQQQLQQQ
-
->sp|P32521|PAN1_YEAST Actin cytoskeleton-regulatory complex protein PAN1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PAN1 PE=1 SV=2, QLCS_START=12 QLCS_END=22
-QQQQQQQQQQ
-
->sp|P32521|PAN1_YEAST Actin cytoskeleton-regulatory complex protein PAN1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PAN1 PE=1 SV=2, QLCS_START=1083 QLCS_END=1126
-QPTQPVQSTQPVQPTQPVQPTQPVQPTQPVQPTQPVQPTQPVQ
-
->sp|P46974|RSF2_YEAST Respiration factor 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RSF2 PE=1 SV=1, QLCS_START=423 QLCS_END=433
-QQQQQQQQQQ
-
->sp|P22579|SIN3_YEAST Transcriptional regulatory protein SIN3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SIN3 PE=1 SV=2, QLCS_START=499 QLCS_END=519
-QAQAQAQAQAQVEQQKQQQQ
-
->sp|P22082|SNF2_YEAST Transcription regulatory protein SNF2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SNF2 PE=1 SV=1, QLCS_START=206 QLCS_END=234
-QQAQMQQAQFQAQQAQQAQQAQQAQQAQ
-
->sp|Q03761|TAF12_YEAST Transcription initiation factor TFIID subunit 12 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TAF12 PE=1 SV=1, QLCS_START=243 QLCS_END=282
-QQQRVQQQRVQQQQQQQQQQQQQQQQQQQQQQQRQGQNQ
-
->sp|P36138|YK25_YEAST Uncharacterized protein YKR045C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YKR045C PE=1 SV=2, QLCS_START=98 QLCS_END=108
-QQQQQQQQQQ
-
->sp|Q12139|YP022_YEAST Zinc finger protein YPR022C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YPR022C PE=1 SV=1, QLCS_START=158 QLCS_END=187
-QQAQQPQQVQQSQQPQQIQQLQQLQFPQQ
-
->sp|Q12139|YP022_YEAST Zinc finger protein YPR022C OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YPR022C PE=1 SV=1, QLCS_START=301 QLCS_END=316
-QQQQQQQQQQQQQQQ
-
->sp|Q12132|USV1_YEAST Nutrient and stress factor 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=USV1 PE=1 SV=1, QLCS_START=184 QLCS_END=197
-QRQQQHQQQQHQQ
-
->sp|P37263|YC16_YEAST UPF0743 protein YCR087C-A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YCR087C-A PE=1 SV=1, QLCS_START=68 QLCS_END=85
-QKQKQQQKQQQKQHQHQ
-
->sp|P34758|SCD5_YEAST Protein SCD5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SCD5 PE=1 SV=1, QLCS_START=822 QLCS_END=835
-QQVHQQQQQQQQQ
-
->sp|P38886|RPN10_YEAST 26S proteasome regulatory subunit RPN10 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RPN10 PE=1 SV=3, QLCS_START=247 QLCS_END=266
-QQQQQQDQPEQSEQPEQHQ
-
->sp|P25367|RNQ1_YEAST [PIN+] prion protein RNQ1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RNQ1 PE=1 SV=2, QLCS_START=152 QLCS_END=171
-QGQGQGQGQGQGQGQGQGQ
-
->sp|P25367|RNQ1_YEAST [PIN+] prion protein RNQ1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RNQ1 PE=1 SV=2, QLCS_START=281 QLCS_END=319
-QTQSNQQQYNQQGQNNQQQYQQQGQNYQHQQQGQQQQQ
-
->sp|O13577|DIF1_YEAST Damage-regulated import facilitator 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DIF1 PE=1 SV=1, QLCS_START=15 QLCS_END=32
-QLQQQQQQQEQQQQQQQ
-
->sp|Q06337|EAF1_YEAST Chromatin modification-related protein EAF1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=EAF1 PE=1 SV=2, QLCS_START=907 QLCS_END=925
-QQQQLKQHQIQQQRQQLQ
-
->sp|P19659|MED15_YEAST Mediator of RNA polymerase II transcription subunit 15 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GAL11 PE=1 SV=3, QLCS_START=146 QLCS_END=161
-QQQQQQQQQQQQRRQ
-
->sp|P19659|MED15_YEAST Mediator of RNA polymerase II transcription subunit 15 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GAL11 PE=1 SV=3, QLCS_START=415 QLCS_END=480
-QMQQQQQAQAQAQAQAQAQAQAQAQAQAAQAAQAQAQAQAQAQAQAQAQAQAQAQAQAQA
-QAQAQ
-
->sp|P19659|MED15_YEAST Mediator of RNA polymerase II transcription subunit 15 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GAL11 PE=1 SV=3, QLCS_START=673 QLCS_END=696
-QQQQQQQQQQQQQQQQQQQQQQQ
-
->sp|P40356|MED3_YEAST Mediator of RNA polymerase II transcription subunit 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PGD1 PE=1 SV=2, QLCS_START=346 QLCS_END=362
-QQQQQQQQQQQQPQPQ
-
->sp|P32505|NAB2_YEAST Nuclear polyadenylated RNA-binding protein NAB2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NAB2 PE=1 SV=1, QLCS_START=105 QLCS_END=116
-QQQQQQQQQQQ
-
->sp|P32505|NAB2_YEAST Nuclear polyadenylated RNA-binding protein NAB2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NAB2 PE=1 SV=1, QLCS_START=120 QLCS_END=164
-QQQPQQQPQQQPQQQPQQQPQQQPQQQPQQQPQQQPQLQPLQPQ
-
->sp|P38996|NAB3_YEAST Nuclear polyadenylated RNA-binding protein 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NAB3 PE=1 SV=1, QLCS_START=768 QLCS_END=784
-QQQQQQQQQQQQQQQQ
-
->sp|P33417|IXR1_YEAST Intrastrand cross-link recognition protein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=IXR1 PE=1 SV=2, QLCS_START=51 QLCS_END=73
-QFQAQPQQQQQQQQQQQQQQQQ
-
->sp|P33417|IXR1_YEAST Intrastrand cross-link recognition protein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=IXR1 PE=1 SV=2, QLCS_START=105 QLCS_END=118
-QSQQQQQQQQQQQ
-
->sp|P33417|IXR1_YEAST Intrastrand cross-link recognition protein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=IXR1 PE=1 SV=2, QLCS_START=287 QLCS_END=324
-QQQMQQQLQLQQQQQLQQQQQLQQQHQLQQQQQLQQQ
-
->sp|P33417|IXR1_YEAST Intrastrand cross-link recognition protein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=IXR1 PE=1 SV=2, QLCS_START=564 QLCS_END=580
-QQQPLQQQQQQQQQQQ
-
->sp|Q08887|NDD1_YEAST Nuclear division defective protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NDD1 PE=1 SV=1, QLCS_START=95 QLCS_END=113
-QQIQQQQQQQQQQQQQQQ
-
->sp|P40358|JEM1_YEAST DnaJ-like chaperone JEM1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=JEM1 PE=1 SV=3, QLCS_START=508 QLCS_END=525
-QQYFQQQQQQQQHQRHQ
-
->sp|P52593|NU188_YEAST Nucleoporin NUP188 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NUP188 PE=1 SV=1, QLCS_START=532 QLCS_END=545
-QQQQQQQQQNGQQ
-
->sp|P39008|POP2_YEAST Poly(A) ribonuclease POP2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=POP2 PE=1 SV=2, QLCS_START=80 QLCS_END=91
-QQQQQQQQQQQ
-
->sp|P39008|POP2_YEAST Poly(A) ribonuclease POP2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=POP2 PE=1 SV=2, QLCS_START=111 QLCS_END=126
-QQQQQQQQQQQQQQQ
-
->sp|P39008|POP2_YEAST Poly(A) ribonuclease POP2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=POP2 PE=1 SV=2, QLCS_START=357 QLCS_END=370
-QLQQSSQQQQQQQ
-
->sp|P54785|MOT3_YEAST Transcriptional activator/repressor MOT3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=MOT3 PE=1 SV=1, QLCS_START=7 QLCS_END=35
-QQQQQQRQQHQQQQHQQQQHQHQHQQQQ
-
->sp|P18480|SNF5_YEAST SWI/SNF chromatin-remodeling complex subunit SNF5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SNF5 PE=1 SV=3, QLCS_START=162 QLCS_END=188
-QQQVQRQIEQQKGQQTAQTQLEQQRQ
-
->sp|P18480|SNF5_YEAST SWI/SNF chromatin-remodeling complex subunit SNF5 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SNF5 PE=1 SV=3, QLCS_START=215 QLCS_END=279
-QIQQQQQKQQQQQQQHQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQGQIPQSQ
-QVPQ
-
->sp|Q07800|PSR1_YEAST Phosphatase PSR1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PSR1 PE=1 SV=1, QLCS_START=151 QLCS_END=183
-QKKQQQQQQQQSQPQPQPQSQSQSQSQSQSQQ
-
->sp|P53919|NAF1_YEAST H/ACA ribonucleoprotein complex non-core subunit NAF1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=NAF1 PE=1 SV=1, QLCS_START=473 QLCS_END=488
-QQQQQQHQYQHQHQQ
-
->sp|P50896|PSP1_YEAST Protein PSP1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PSP1 PE=1 SV=2, QLCS_START=347 QLCS_END=359
-QQQQQQPQQPQQ
-
->sp|Q07807|PUF3_YEAST mRNA-binding protein PUF3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PUF3 PE=1 SV=1, QLCS_START=397 QLCS_END=418
-QQQQQQQQQQQQEDQQQQQQQ
-
->sp|P32588|PUB1_YEAST Nuclear and cytoplasmic polyadenylated RNA-binding protein PUB1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PUB1 PE=1 SV=4, QLCS_START=441 QLCS_END=453
-QQQQQQQQQQQQ
-
->sp|Q05166|NUP59_YEAST Nucleoporin ASM4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ASM4 PE=1 SV=1, QLCS_START=18 QLCS_END=49
+>YAL021C Chr1 complement(110846..113359) [2514 bp; 837 aa] {ON}  CCR4Component of the CCR4-NOT transcriptional complex; which is involved in regulation of gene expression; component of the major cytoplasmic deadenylase; which is involved in mRNA poly(A) tail shortening START=159 END=245
+QLHLAAVSAQSLGQPNIYARQNAMKKYLATQQAQQAQQQAQQQAQQQVPGPFGPGPQAAP
+PALQPTDFQQSHIAEASKSLVDCTKQ
+
+>YBL051C Chr2 complement(122753..124759) [2007 bp; 668 aa] {ON}  PIN4Protein involved in G2/M phase progression and response to DNA damage; interacts with Rad53p; contains an RNA recognition motif; a nuclear localization signal; and several SQ/TQ cluster domains; hyperphosphorylated in response to DNA damage START=454 END=508
+QGQFSMQPTLTSPKMNIHHSSQYNSADQPQQPQPQTQQNVQSAAQQQQSFLRQQ
+
+>YBR016W Chr2 (270247..270633) [387 bp; 128 aa] {ON} Tail-anchored plasma membrane protein containing a conserved CYSTM module; predicted to be palmitoylated; has similarity to hydrophilins; which are involved in the adaptive response to hyperosmotic conditions START=15 END=104
+QYSRPSNPPPSSAHQNKTQERGYPPQQQQQYYQQQQQHPGYYNQQGYNQQGYNQQGYNQQ
+GYNQQGYNQQGYNQQGHQQPVYVQQQPPQ
+
+>YBR059C Chr2 complement(356861..360187) [3327 bp; 1108 aa] {ON}  AKL1Ser-Thr protein kinase; member (with Ark1p and Prk1p) of the Ark kinase family; involved in endocytosis and actin cytoskeleton organization START=589 END=747
+QQQGQRYQQAQNQTGTQGNTFPDESQYQSRVEQQQQQQDQPKGPANYSQRNFYTGRDRSN
+KPMQLGGTIAGDSGNRRVNFQNISQNYATNSQSGYLPSQNSPAIPMVRPVISMNQQQAQQ
+IQAQQLQAQQMQAKQQMQAKQQMQVQQQLQVQQQMQIQ
+
+>YBR108W Chr2 (454822..457665) [2844 bp; 947 aa] {ON}  AIM3Protein interacting with Rvs167p; null mutant is viable and displays elevated frequency of mitochondrial genome loss START=94 END=398
+QKTYTGQQQQQMPNGQASYAFQGAYQGQPGAGSTEQSQYAQPQYNQYPQQQLQQGVMPQQ
+QQLQQGVVPQQPPIYGEQVPPYGSNSNATSYQSLPQQNQPQNAIPSQVSLNSASQQSTGF
+VSQNLQYGTQSSNPAPSPSFQNGLQCHQQPQYVSHGSTNLGQSQFPSGQQQQPTTQFGQQ
+VLPSPAQPQQQQQGQPLPPPRGQVILPAPGEPLSNGFGQQQQQQQQQQQPLNQNNALLPQ
+MNVEGVSGMAAVQPVYGQAMSSTTNMQDSNPSYGASPMQGQPPVGGQPPVPVRMQPQPPQ
+PMQQ
+
+>YBR112C Chr2 complement(462870..465770) [2901 bp; 966 aa] {ON}  CYC8General transcriptional co-repressor; acts together with Tup1p; also acts as part of a transcriptional co-activator complex that recruits the SWI/SNF and SAGA complexes to promoters; can form the prion [OCT+] START=6 END=43
+QTIMEQPAQQQQQQQQQQQQQQQQAAVPQQPLDPLTQ
+
+>YBR112C Chr2 complement(462870..465770) [2901 bp; 966 aa] {ON}  CYC8General transcriptional co-repressor; acts together with Tup1p; also acts as part of a transcriptional co-activator complex that recruits the SWI/SNF and SAGA complexes to promoters; can form the prion [OCT+] START=437 END=682
+QPTLQPNDQGNPLNTRISAQSANATASMVQQQHPAQQTPINSSATMYSNGASPQLQAQAQ
+AQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAHAQAQAQAQAQAQAQAQAQAQ
+QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQLQPLPRQQLQQKGVSVQMLNPQQGQPYITQ
+PTVIQAHQLQPFSTQAMEHPQSSQLPPQQQQLQSVQHPQQLQGQPQAQAPQPLIQHNVEQ
+NVLPQ
+
+>YBR135W Chr2 (504854..505306) [453 bp; 150 aa] {ON}  CKS1Cyclin-dependent protein kinase regulatory subunit and adaptor; modulates proteolysis of M-phase targets through interactions with the proteasome; role in transcriptional regulation; recruiting proteasomal subunits to target gene promoters START=117 END=148
+QQQQQQQQQQQQQQQQHQTQSISNDMQVPPQ
+
+>YBR198C Chr2 complement(616127..618523) [2397 bp; 798 aa] {ON}  TAF5Subunit (90 kDa) of TFIID and SAGA complexes; involved in RNA polymerase II transcription initiation and in chromatin modification START=2 END=48
+QKQSTNQNQNGTHQPQPVKNQRTNNAAGANSGQQPQQQSQGQSQQQ
+
+>YBR212W Chr2 (647886..649904) [2019 bp; 672 aa] {ON}  NGR1RNA binding protein that negatively regulates growth rate; interacts with the 3' UTR of the mitochondrial porin (POR1) mRNA and enhances its degradation; overexpression impairs mitochondrial function; interacts with Dhh1p to mediate POR1 mRNA decay; expressed in stationary phase START=259 END=315
+QGRALRVAYATPRNNMMLQLQEQQQQQQQLQQQHQQLDQEDNNGPLLIKTANNLIQ
+
+>YBR289W Chr2 (779667..782384) [2718 bp; 905 aa] {ON}  SNF5Subunit of the SWI/SNF chromatin remodeling complex involved in transcriptional regulation; functions interdependently in transcriptional activation with Snf2p and Snf6p START=30 END=313
+QIPQQLYQSLTPQQLQMIQQRHQQLLRSRLQQQQQQQQQTSPPPQTHQSPPPPPQQSQPI
+ANQSATSTPPPPPAPHNLHPQIGQVPLAPAPINLPPQIAQLPLATQQQVLNKLRQQAIAK
+NNPQVVNAITVAQQQVQRQIEQQKGQQTAQTQLEQQRQLLVQQQQQQQLRNQIQRQQQQQ
+FRHHVQIQQQQQKQQQQQQQHQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQGQ
+IPQSQQVPQVRSMSGQPPTNVQPTIGQLPQLPKLNLPKYQTIQ
+
+>YCL028W Chr3 (70150..71367) [1218 bp; 405 aa] {ON}  RNQ1[PIN(+)] prion; an infectious protein conformation that is generally an ordered protein aggregate START=220 END=319
+QNSNNSQQGYNQSYQNGNQNSQGYNNQQYQGGNGGYQQQQGQSGGAFSSLASMAQSYLGG
+GQTQSNQQQYNQQGQNNQQQYQQQGQNYQHQQQGQQQQQ
+
+>YCR077C Chr3 complement(250238..252628) [2391 bp; 796 aa] {ON}  PAT1Topoisomerase II-associated deadenylation-dependent mRNA-decapping factor; also required for faithful chromosome transmission; maintenance of rDNA locus stability; and protection of mRNA 3'-UTRs from trimming; functionally linked to Pab1p START=122 END=192
+QSTMAPAPAPQQMAPLQPILSMQDLERQQRQMQQQFMNFHAMGHPQGLPQGPPQQQFPMQ
+PASGQPGPSQ
+
+>YCR084C Chr3 complement(260311..262452) [2142 bp; 713 aa] {ON}  TUP1General repressor of transcription; forms complex with Cyc8p; involved in the establishment of repressive chromatin structure through interactions with histones H3 and H4; appears to enhance expression of some genes START=85 END=131
+QRDHQIASLTVQQQRQQQQQQQVQQHLQQQQQQLAAASASVPVAQQ
+
+>YCR084C Chr3 complement(260311..262452) [2142 bp; 713 aa] {ON}  TUP1General repressor of transcription; forms complex with Cyc8p; involved in the establishment of repressive chromatin structure through interactions with histones H3 and H4; appears to enhance expression of some genes START=156 END=202
+QASRPNLVGSQLPTTTLPVVSSNAQQQLPQQQLQQQQLQQQQPPPQ
+
+>YCR093W Chr3 (280117..286443) [6327 bp; 2108 aa] {ON}  CDC39Component of the CCR4-NOT complex; which has multiple roles in regulating mRNA levels including regulation of transcription and destabilizing mRNAs by deadenylation; basal transcription factor START=1008 END=1058
+QQQTEQQRQIILMQQHQQQMLIYQQRQQQQQQRQQQQQHHISANTIADQQ
+
+>YCR093W Chr3 (280117..286443) [6327 bp; 2108 aa] {ON}  CDC39Component of the CCR4-NOT complex; which has multiple roles in regulating mRNA levels including regulation of transcription and destabilizing mRNAs by deadenylation; basal transcription factor START=1293 END=1395
+QNVGLTQPQQQQAQMPTQILTSEQIRAQQQQQQLQKSRLNQPSQSAQPPGVNVPNPQGGI
+AAVQSDLEQNQRVLVHLMDILVSQIKENATKNNLAELGDQNQ
+
+>YDL161W Chr4 (167714..169078) [1365 bp; 454 aa] {ON}  ENT1Epsin-like protein involved in endocytosis and actin patch assembly and functionally redundant with Ent2p; binds clathrin via a clathrin-binding domain motif at C-terminus START=189 END=349
+QDEDYETALQLSKEEEELKRLQDLQRMQQQQGQQQLQQPMYYDIFGNPITPEEYAQFQLQ
+QQQQQQQQQLQQQPMYYDVFGNPITPEELAQFQQQQQLQEQQYLASMQQQQQAMSNNPFA
+KSEQSSSSPKRNQLVAASSPQQLQQQKQQEPLIQNRTGNQ
+
+>YDL160C Chr4 complement(170410..171930) [1521 bp; 506 aa] {ON}  DHH1Cytoplasmic DExD/H-box helicase; stimulates mRNA decapping; coordinates distinct steps in mRNA function and decay; interacts with both the decapping and deadenylase complexes; may have a role in mRNA export and translation; C-terminus of Dhh1p interacts with Ngr1p and promotes POR1; but not EDC1 mRNA decay START=433 END=505
+QQSYHQQAIPQQQLPSQQQFAIPPQQHHPQFMVPPSHQQQQAYPPPQMPSQQGYPPQQEH
+FMAMPPGQSQPQ
+
+>YDL106C Chr4 complement(270222..271901) [1680 bp; 559 aa] {ON}  PHO2Homeobox transcription factor; regulatory targets include genes involved in phosphate metabolism; binds cooperatively with Pho4p to the PHO5 promoter; phosphorylation of Pho2p facilitates interaction with Pho4p START=22 END=77
+QHDQQQQQQQQHDQQHNQQQQPQPQPIQTQNLEHDHDQHTNDMSASSNASDSGPQ
+
+>YDL088C Chr4 complement(298417..300003) [1587 bp; 528 aa] {ON}  ASM4FG-nucleoporin component of central core of the nuclear pore complex (NPC); contributes directly to nucleocytoplasmic transport START=18 END=49
 QAPQTTQMFQSQSQLQPQPQPQPQQQQQHLQ
 
->sp|P32862|RGT1_YEAST Glucose transport transcription regulator RGT1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RGT1 PE=1 SV=1, QLCS_START=307 QLCS_END=324
-QQQSQPQAHQQKLQQGQ
+>YDL012C Chr4 complement(431108..431386;431473..431517) [324 bp; 107 aa] {ON} Tail-anchored plasma membrane protein containing a conserved CYSTM module; possibly involved in response to stress; may contribute to non-homologous end-joining (NHEJ) based on ydl012c htz1 double null phenotype START=36 END=80
+QSQQNYYPPQQQQQQYQQQPQYYQQQQPQYYQQHPQQPIYVQQQ
 
->sp|Q12505|SKS1_YEAST Serine/threonine-protein kinase SKS1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SKS1 PE=1 SV=1, QLCS_START=375 QLCS_END=411
-QEQQQQQQQQQQQVQEQEQEQKQEQIQNQEQAQQQQ
+>YDR099W Chr4 (653607..654428) [822 bp; 273 aa] {ON}  BMH214-3-3 protein; minor isoform; controls proteome at post-transcriptional level; binds proteins and DNA; involved in regulation of many processes including exocytosis; vesicle transport; Ras/MAPK signaling; and rapamycin-sensitive signaling START=223 END=268
+QLLRDNLTLWTSDISESGQEDQQQQQQQQQQQQQQQQQAPAEQTQ
 
->sp|Q00772|SLT2_YEAST Mitogen-activated protein kinase SLT2/MPK1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SLT2 PE=1 SV=2, QLCS_START=369 QLCS_END=391
-QRQLQLQQQQQQQQQQQQQQQQ
+>YDR145W Chr4 (746738..748357) [1620 bp; 539 aa] {ON}  TAF12Subunit (61/68 kDa) of TFIID and SAGA complexes; involved in RNA polymerase II transcription initiation and in chromatin modification; similar to histone H2A START=239 END=282
+QESTQQQRVQQQRVQQQQQQQQQQQQQQQQQQQQQQQRQGQNQ
 
->sp|P40485|SLM1_YEAST Phosphatidylinositol 4,5-bisphosphate-binding protein SLM1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SLM1 PE=1 SV=1, QLCS_START=44 QLCS_END=63
-QQQQQQQQQQQQQQQQQQQ
+>YDR172W Chr4 (808324..810381) [2058 bp; 685 aa] {ON}  SUP35Translation termination factor eRF3; has a role in mRNA deadenylation and decay; altered protein conformation creates the [PSI(+)] prion that alters translational fidelity and results in a nonsense suppressor phenotype START=5 END=135
+QGNNQQNYQQYSQNGNQQQGNNRYQGYQAYNAQAQPAGGYYQNYQGYSGYQQGGYQQYNP
+DAGYQQQYNPQGGYQQYNPQGGYQQQFNPQGGRGNYKNFNYNNNLQGYQAGFQPQSQGMS
+LNDFQKQQKQ
 
->sp|P53894|CBK1_YEAST Serine/threonine-protein kinase CBK1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CBK1 PE=1 SV=1, QLCS_START=22 QLCS_END=34
-QQQDQQHQQQQQ
+>YDR210W Chr4 (871074..871301) [228 bp; 75 aa] {ON} Predicted tail-anchored plasma membrane protein containing a conserved CYSTM module; related proteins in other organisms may be involved in response to stress; green fluorescent protein (GFP)-fusion protein localizes to the cell periphery START=2 END=49
+QQQGYYQQGPPQQGYYQQGPPQQGYYQQGPPQQGYPQQQPVYVQQGQ
 
->sp|P53894|CBK1_YEAST Serine/threonine-protein kinase CBK1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CBK1 PE=1 SV=1, QLCS_START=213 QLCS_END=250
-QQQQQLQYQQQQQQQQQQQHMQIQQQQQQQQQQQQSQ
+>YDR213W Chr4 (889751..892492) [2742 bp; 913 aa] {ON}  UPC2Sterol regulatory element binding protein; induces transcription of sterol biosynthetic genes and of DAN/TIR gene products; Ecm22p homolog; relocates from intracellular membranes to perinuclear foci on sterol depletion START=284 END=397
+QNYTQQQLQYQLHQQLQLQQHQQVQLQQYQQLRQEQHQQVQQQQQEQLQQYQQHFLQQQQ
+QVLLQQEQQPNDEEGGVQEENSKKVKEGPLQSQTSETTLNSDAATLQADALSQ
 
->sp|P38080|AKL1_YEAST Serine/threonine-protein kinase AKL1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=AKL1 PE=1 SV=1, QLCS_START=703 QLCS_END=747
-QQQAQQIQAQQLQAQQMQAKQQMQAKQQMQVQQQLQVQQQMQIQ
+>YDR228C Chr4 complement(921926..923806) [1881 bp; 626 aa] {ON}  PCF11mRNA 3' end processing factor; essential component of cleavage and polyadenylation factor IA (CF IA); involved in pre-mRNA 3' end processing and in transcription termination; binds C-terminal domain of largest subunit of RNA pol II (Rpo21p); required for gene looping START=175 END=303
+QPNDEKLKMKLLVLSQLKQELKREKLTLNALKQVQMQLRQVFSQDQQVLQERMRYHELQQ
+QQQQQQQQQQQQQQQQQQYHETKDMVGSYTQNSNSAIPLFGNNSDTTNQQNSLSSSLFGN
+ISGVESFQ
 
->sp|P31384|CCR4_YEAST CCR4-Not complex 3'-5'-exoribonuclease subunit Ccr4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CCR4 PE=1 SV=2, QLCS_START=14 QLCS_END=24
+>YDR293C Chr4 complement(1045640..1049392) [3753 bp; 1250 aa] {ON}  SSD1Translational repressor with a role in polar growth and wall integrity; regulated by Cbk1p phosphorylation to effect bud-specific translational control and localization of specific mRNAs; interacts with TOR pathway components; contains a functional N-terminal nuclear localization sequence and nucleocytoplasmic shuttling appears to be critical to Ssd1p function START=12 END=81
+QEPNNMFVQTTGGGKNAPKQIHVAHRRSQSELTNLMIEQFTLQKQLEQVQAQQQQLMAQQ
+QQLAQQTGQ
+
+>YDR359C Chr4 complement(1191936..1194884) [2949 bp; 982 aa] {ON}  EAF1Component of the NuA4 histone acetyltransferase complex; acts as a platform for assembly of NuA4 subunits into the native complex; required for initiation of pre-meiotic DNA replication; likely due to its requirement for expression of IME1 START=907 END=952
+QQQQLKQHQIQQQRQQLQEESSHVQQLQQLQPGSQAPPPKSSPSQ
+
+>YDR443C Chr4 complement(1345676..1349938) [4263 bp; 1420 aa] {ON}  SSN2Subunit of the RNA polymerase II mediator complex; associates with core polymerase subunits to form the RNA polymerase II holoenzyme; required for stable association of Srb10p-Srb11p kinase; essential for transcriptional regulation START=1120 END=1136
+QQQQMQQQQQQQQQQQ
+
+>YDR486C Chr4 complement(1427431..1428120) [690 bp; 229 aa] {ON}  VPS60Cytoplasmic and vacuolar membrane protein involved in late endosome to vacuole transport; required for normal filament maturation during pseudohyphal growth; may function in targeting cargo proteins for degradation; interacts with Vta1p START=14 END=69
+QLLQESNQSMNQAQQSLSNRISQLDTQIAQLNFQLQNIQKNLQRSNNKQPSLRKQ
+
+>YEL036C Chr5 complement(83050..84552) [1503 bp; 500 aa] {ON}  ANP1Subunit of the alpha-1;6 mannosyltransferase complex; type II membrane protein; has a role in retention of glycosyltransferases in the Golgi; involved in osmotic sensitivity and resistance to aminonitrophenyl propanediol START=445 END=473
+QQQQQQQQQQQQQQQQQQQQQQLDGNPQ
+
+>YER018C Chr5 complement(191959..192624) [666 bp; 221 aa] {ON}  SPC25Component of the evolutionarily conserved kinetochore-associated Ndc80 complex (Ndc80p-Nuf2p-Spc24p-Spc25p); involved in chromosome segregation; spindle checkpoint activity and kinetochore clustering START=17 END=99
+QKDVAQVLARQQNHARQQLQQFQAEMRQLHNQHQHLIDELQRLATQRTALQQQIHAAQQA
+TNTTREQWRSYHERESELSRRQ
+
+>YER109C Chr5 complement(375215..377614) [2400 bp; 799 aa] {ON}  FLO8Transcription factor required for flocculation; diploid filamentous growth; and haploid invasive growth; genome reference strain S288C and most laboratory strains have a mutation in this gene START=17 END=59
+QPYMASQYKQDLQSNIAMATNSEQQRQQQQQQQQQQQQWINQ
+
+>YFL024C Chr6 complement(87847..90345) [2499 bp; 832 aa] {ON}  EPL1Subunit of NuA4; an essential histone H4/H2A acetyltransferase complex; conserved region at N-terminus is essential for interaction with the NPC (nucleosome core particle); homologous to Drosophila Enhancer of Polycomb START=435 END=482
+QLEDKSSRLTKQQQQQLLQQQQQQQQNALKTENGKQLANASSSSTSQ
+
+>YFL024C Chr6 complement(87847..90345) [2499 bp; 832 aa] {ON}  EPL1Subunit of NuA4; an essential histone H4/H2A acetyltransferase complex; conserved region at N-terminus is essential for interaction with the NPC (nucleosome core particle); homologous to Drosophila Enhancer of Polycomb START=714 END=798
+QNEYGIKFSDEPARLNQISNDTQVIRFGTMLGTKSYEQLREATIKYRRDYITRLKQKHIQ
+HLQQQQQQQQQQQQQAQQQKQKSQ
+
+>YFL010C Chr6 complement(115108..115743) [636 bp; 211 aa] {ON}  WWM1WW domain containing protein of unknown function; binds to Mca1p; a caspase-related protease that regulates H2O2-induced apoptosis; overexpression causes G1 phase growth arrest and clonal death that is suppressed by overexpression of MCA1 START=63 END=123
+QQADQAPPPYSSQSTPQVQAGAQAQQPRYYQPQQPQYPQYPQQQRYYPQQAPMPAAAPQQ
+
+>YFR008W Chr6 (160535..161200) [666 bp; 221 aa] {ON}  FAR7Protein involved in recovery from cell cycle arrest in response to pheromone; in a Far1p-independent pathway; interacts with Far3p; Far8p; Far9p; Far10p; and Far11p START=3 END=50
+QINVLSMQQQQQQQQQQQQVYMSPQAENLNHMYLLVNKLVKQLRENQ
+
+>YGL237C Chr7 complement(52731..53528) [798 bp; 265 aa] {ON}  HAP2Subunit of the heme-activated; glucose-repressed Hap2p/3p/4p/5p CCAAT-binding complex; a transcriptional activator and global regulator of respiratory gene expression; contains sequences sufficient for both complex assembly and DNA binding START=119 END=167
+QQQQQQQQQQQQQQLVVQAQYTQNQPNLQSDVLGTAIAEQPFYVNAKQ
+
+>YGL192W Chr7 (142246..144048) [1803 bp; 600 aa] {ON}  IME4Probable mRNA N6-adenosine methyltransferase required for entry into meiosis; transcribed in diploid cells; haploids repress IME4 transcription via production of antisense IME4 transcripts; antisense transcription is repressed in diploids START=540 END=600
+QPSKLQQQHQQQYWNNMDMGSGKYYAEAKQNPMNQKHTPFESKQQQKQQFQTLNNLYFAQ
+
+>YGL181W Chr7 (157906..159096) [1191 bp; 396 aa] {ON}  GTS1Protein involved in Arf3p regulation and in transcription regulation; localizes to the nucleus and to endocytic patches; contains an N-terminal Zn-finger and ArfGAP homology domain; a C-terminal glutamine-rich region; and a UBA (ubiquitin associated) domain; gts1 mutations affect budding; cell size; heat tolerance; sporulation; life span; ultradian rhythms; endocytosis; expression oscillates in a pattern similar to metabolic oscillations START=285 END=396
+QAKPAVFDGTLQQYYDPATGMIYVDQQQYAMAMQQQQQQQQQLAVAQAQAQAQAQAQAQV
+QAQAQAQAQAQAQAQQIQMQQLQMQQQQQAPLSFQQMSQGGNLPQGYFYTQ
+
+>YGL172W Chr7 (180700..182118) [1419 bp; 472 aa] {ON}  NUP49FG-nucleoporin component of central core of the nuclear pore complex (NPC); contributes directly to nucleocytoplasmic transport and maintenance of the NPC permeability barrier; found in stable complex with Nic96p and two other FG-nucleoproteins (Nsp1p and Nup57p) START=237 END=289
+QQQQLQQQPQMQCALQNLSQLPITPMTRISELPPQIRQEIEQLDQYIQKQVQ
+
+>YGL122C Chr7 complement(278946..280523) [1578 bp; 525 aa] {ON}  NAB2Nuclear polyadenylated RNA-binding protein required for nuclear mRNA export and poly(A) tail length control; binds nuclear pore protein Mlp1p; autoregulates mRNA levels; related to human hnRNPs; nuclear localization sequence binds Kap104p START=68 END=172
+QTAFFALEALQQGESAENIVSKIRMMNAQSLGQSDIAQQQQQQQQQQQPDIAQQQPQQQP
+QQQPQQQPQQQPQQQPQQQPQQQPQQQPQLQPLQPQLGTQNAMQ
+
+>YGL071W Chr7 (372012..374084) [2073 bp; 690 aa] {ON}  AFT1Transcription factor involved in iron utilization and homeostasis; binds the consensus site PyPuCACCCPu and activates the expression of target genes in response to changes in iron availability; in iron-replete conditions activity is negatively regulated by Grx3p; Grx4p; and Fra2p; which regulate Aft1p translocation from the nucleus to the cytoplasm START=590 END=657
+QNGPHGSQHPIDFQHVDHRHLSSNEPQVRSHQYGPQQQPPQQLQYHQNQPHDGHNHEQHQ
+TVQKDMQ
+
+>YGL066W Chr7 (377609..379582) [1974 bp; 657 aa] {ON}  SGF73SAGA complex subunit; has a role in anchoring the deubiquitination module into SAGA and SLIK complexes; involved in preinitiation complex assembly at promoters; human ortholog ataxin-7 is associated with spinocerebellar ataxia diseases; mutant displays reduced transcription elongation in the G-less-based run-on (GLRO) assay START=434 END=493
+QPINHLTNQNLNPKQIQRLQQQRALQAQLLSQQQQQQQQQQQHHSPQAQAQASTQQPTQ
+
+>YGL066W Chr7 (377609..379582) [1974 bp; 657 aa] {ON}  SGF73SAGA complex subunit; has a role in anchoring the deubiquitination module into SAGA and SLIK complexes; involved in preinitiation complex assembly at promoters; human ortholog ataxin-7 is associated with spinocerebellar ataxia diseases; mutant displays reduced transcription elongation in the G-less-based run-on (GLRO) assay START=516 END=575
+QIQQQQQQQQHKSQDTGLTPLEIQSQQQKLRQQQLQQQKFEAAASYLANATKLMQESNQ
+
+>YGL035C Chr7 complement(431548..433062) [1515 bp; 504 aa] {ON}  MIG1Transcription factor involved in glucose repression; sequence specific DNA binding protein containing two Cys2His2 zinc finger motifs; regulated by the SNF1 kinase and the GLC7 phosphatase START=393 END=444
+QNHLHFSSSSPDFQKELNNRLLNVQQQQQEQHTLLQSQNTSNQSQNQNQNQ
+
+>YGR009C Chr7 complement(509047..511002) [1956 bp; 651 aa] {ON}  SEC9t-SNARE protein important for fusion of secretory vesicles with the plasma membrane; similar to but not functionally redundant with Spo20p; SNAP-25 homolog START=372 END=452
+QQQQQQWFMDEQQQQQQHFNATNNQYGDQRGYKTFEEIQKEEEARQQQEEDEAVDEIKQE
+IKFTKQSSVASTRNTLKMAQ
+
+>YGR083C Chr7 complement(644860..646815) [1956 bp; 651 aa] {ON}  GCD2Delta subunit of the translation initiation factor eIF2B; the guanine-nucleotide exchange factor for eIF2; activity subsequently regulated by phosphorylated eIF2; first identified as a negative regulator of GCN4 expression START=44 END=98
+QEKAAKRAAMKQANGISIEQQQQQAQMKKEKKQLQREQQQKREQKQKNANKKKQ
+
+>YGR136W Chr7 (762428..763153) [726 bp; 241 aa] {ON}  LSB1Protein containing an N-terminal SH3 domain; binds Las17p; which is a homolog of human Wiskott-Aldrich Syndrome protein involved in actin patch assembly and actin polymerization START=143 END=205
+QYPSQQVSAPYAPPAGYMQAPPPQQQQAPLPYPPPFTNYYQQPQQQYAPPSQQAPVEAQP
+QQ
+
+>YGR241C Chr7 complement(974875..976581) [1707 bp; 568 aa] {ON}  YAP1802Protein involved in clathrin cage assembly; binds Pan1p and clathrin; homologous to Yap1801p; member of the AP180 protein family START=305 END=400
+QKKLEQIREQKRLLEQQLQNQQLLISPTVPQDAYNPFGSQQQDLNNDTFSFEPTQPQMTA
+QVPQPTANPFLIPQQQQQALQLTSASTMPQPSEIQ
+
+>YGR241C Chr7 complement(974875..976581) [1707 bp; 568 aa] {ON}  YAP1802Protein involved in clathrin cage assembly; binds Pan1p and clathrin; homologous to Yap1801p; member of the AP180 protein family START=463 END=560
+QQQQNFQNSPNPFTLQQAQTTPILAHSQTGNPFQAQNVVTSPMGTYMTNPVAGQLQYAST
+GAQQQPQMMQGQQTGYVMVPTAFVPINQQQQQQQHQQ
+
+>YHL025W Chr8 (54851..55849) [999 bp; 332 aa] {ON}  SNF6Subunit of the SWI/SNF chromatin remodeling complex involved in transcriptional regulation; functions interdependently in transcriptional activation with Snf2p and Snf5p START=238 END=284
+QYHEAKERIRQKEVTAGEAQDEASLQQQQQQDLQQQQQVVTTVASQ
+
+>YHL020C Chr8 complement(66242..67456) [1215 bp; 404 aa] {ON}  OPI1Transcriptional regulator of a variety of genes; phosphorylation by protein kinase A stimulates Opi1p function in negative regulation of phospholipid biosynthetic genes; involved in telomere maintenance START=281 END=310
+QKVEQQQQQQQQQQQQQLLQQQLLQQQQQ
+
+>YHR030C Chr8 complement(168890..170344) [1455 bp; 484 aa] {ON}  SLT2Serine/threonine MAP kinase; involved in regulating maintenance of cell wall integrity; progression through the cell cycle; and nuclear mRNA retention in heat shock; required for mitophagy and pexophagy; affects recruitment of mitochondria to the phagophore assembly site (PAS); regulated by the PKC1-mediated signaling pathway START=348 END=391
+QMVIQEVQDFRLFVRQPLLEEQRQLQLQQQQQQQQQQQQQQQQ
+
+>YHR135C Chr8 complement(372694..374310) [1617 bp; 538 aa] {ON}  YCK1Palmitoylated plasma membrane-bound casein kinase I isoform; shares redundant functions with Yck2p in morphogenesis; proper septin assembly; endocytic trafficking; provides an essential function overlapping with that of Yck2p START=390 END=533
+QLQMQQLQMQQLQQQQQQQQYAQKTEADMRNSQYKPKLDPTSYEAYQHQTQQKYLQEQQK
+RQQQQKLQEQQLQEQQLQQQQQQQQQLRATGQPPSQPQAQTQSQQFGARYQPQQQPSAAL
+RTPEQHPNDDNSSLAASHKGFFQ
+
+>YHR149C Chr8 complement(394455..396659) [2205 bp; 734 aa] {ON}  SKG6Integral membrane protein that localizes primarily to growing sites such as the bud tip or the cell periphery; potential Cdc28p substrate; Skg6p interacts with Zds1p and Zds2p START=485 END=564
+QPLNYQDQYQQQEQSPVYNGHTQYPGNGYSGNPQQQGYTAQFVQNPQWYGVPTPQQQQHN
+HPQTLETIGELPTPAYLAQ
+
+>YHR161C Chr8 complement(420373..422286) [1914 bp; 637 aa] {ON}  YAP1801Protein involved in clathrin cage assembly; binds Pan1p and clathrin; homologous to Yap1802p; member of the AP180 protein family START=489 END=579
+QNTNMPLQQQIISNPFQNQTYNQQQFQQQKMPLSSINSVMTTPTSMQGSMNIPQRFDKME
+FQAHYTQNHLQQQQQQQQQQQQQQQQQPQQ
+
+>YHR186C Chr8 complement(475999..480672) [4674 bp; 1557 aa] {ON}  KOG1Subunit of TORC1; a rapamycin-sensitive complex involved in growth control that contains Tor1p or Tor2p; Lst8p and Tco89p; contains four HEAT repeats and seven WD-40 repeats; may act as a scaffold protein to couple TOR and its effectors START=501 END=532
+QSRKSISLQSSQQQLQQQQQQQQQFTGFFEQ
+
+>YHR186C Chr8 complement(475999..480672) [4674 bp; 1557 aa] {ON}  KOG1Subunit of TORC1; a rapamycin-sensitive complex involved in growth control that contains Tor1p or Tor2p; Lst8p and Tco89p; contains four HEAT repeats and seven WD-40 repeats; may act as a scaffold protein to couple TOR and its effectors START=812 END=889
+QDAEVILRLQQEFEEQYQQLHSQLQHLQNQSHLQQQQSQQQQQHLEQQQMKIEKQIRHCQ
+VMQNQLEVIDLRKLKRQ
+
+>YIL109C Chr9 complement(157385..160165) [2781 bp; 926 aa] {ON}  SEC24Component of the Sec23p-Sec24p heterodimer of the COPII vesicle coat; required for cargo selection during vesicle formation in ER to Golgi transport; homologous to Sfb2p and Sfb3p START=10 END=75
+QAQLQYGQNATPLQQPAQFMPPQDPAAAGMSYGQMGMPPQGAVPSMGQQQFLTPAQEQLH
+QQIDQ
+
+>YIL105C Chr9 complement(167581..169641) [2061 bp; 686 aa] {ON}  SLM1Phosphoinositide PI4;5P(2) binding protein; forms a complex with Slm2p; acts downstream of Mss4p in a pathway regulating actin cytoskeleton organization in response to stress; phosphorylated by the TORC2 complex START=16 END=109
+QQQLNLQHLHNLQQHTRSMTSADHANVLQQQQQQQQQQQQQQQQQQQSASFQNGSLTSDI
+NQQSYLNGQPVPSTSNSTFQNNRTLTMNSGGLQ
+
+>YIR006C Chr9 complement(365466..369908) [4443 bp; 1480 aa] {ON}  PAN1Part of actin cytoskeleton-regulatory complex Pan1p-Sla1p-End3p; associates with actin patches on the cell cortex; promotes protein-protein interactions essential for endocytosis; binds to and activates the Arp2/3 complex in vitro; previously thought to be a subunit of poly(A) ribonuclease START=5 END=78
+QQQGMGYQQQQQQQQQQPNGFYPQQQQGQSSNQPQGQPQPQQQMAFNQPQATGIGGMPQS
+FGNSFSSMPQQPQ
+
+>YIR006C Chr9 complement(365466..369908) [4443 bp; 1480 aa] {ON}  PAN1Part of actin cytoskeleton-regulatory complex Pan1p-Sla1p-End3p; associates with actin patches on the cell cortex; promotes protein-protein interactions essential for endocytosis; binds to and activates the Arp2/3 complex in vitro; previously thought to be a subunit of poly(A) ribonuclease START=135 END=230
+QQPQLQSIQPQGTGYYQAANTANVHSVQPLQSQGTGYYVSTPNLISSNQTQQPLQAQGTG
+YYQSQPQQVPPPQQAQSLQPLKPQQTGFYLQPQNQ
+
+>YIR023W Chr9 (399777..402689) [2913 bp; 970 aa] {ON}  DAL81Positive regulator of genes in multiple nitrogen degradation pathways; contains DNA binding domain but does not appear to bind the dodecanucleotide sequence present in the promoter region of many genes involved in allantoin catabolism START=55 END=104
+QHLANDHPNILREKGGSQQQQHQQQQQQQQQQQQQQQQQSLDTLLHHYQ
+
+>YJL141C Chr10 complement(147967..150390) [2424 bp; 807 aa] {ON}  YAK1Serine-threonine protein kinase; component of a glucose-sensing system that inhibits growth in response to glucose availability; upon nutrient deprivation Yak1p phosphorylates Pop2p to regulate mRNA deadenylation; the co-repressor Crf1p to inhibit transcription of ribosomal genes; and the stress-responsive transcription factors Hsf1p and Msn2p; nuclear localization negatively regulated by the Ras/PKA signaling pathway in the presence of glucose START=55 END=109
+QGSQRSPQQQHQNHHQQQQQQQQQQQQNSQFCFVNPWNEEKVTNSQQNLVYPPQ
+
+>YJL073W Chr10 (303181..305118) [1938 bp; 645 aa] {ON}  JEM1DnaJ-like chaperone required for nuclear membrane fusion during mating; localizes to the ER membrane; exhibits genetic interactions with KAR2 START=492 END=525
+QKQLQTYKEHKHRNFNQQYFQQQQQQQQHQRHQ
+
+>YJL019W Chr10 (402897..404945) [2049 bp; 682 aa] {ON}  MPS3Nuclear envelope protein required for SPB duplication and nuclear fusion; localizes to the SPB half bridge and at telomeres during meiosis; required with Ndj1p and Csm4p for meiotic bouquet formation and telomere-led rapid prophase movement START=357 END=429
+QYIDKDYFIQEMNRRLQSNKQEIWEEITNRLETQQQQQQQQVQQDYSNVPQQYSSILMKR
+LIHQIYNSNQHQ
+
+>YJR091C Chr10 complement(595061..598336) [3276 bp; 1091 aa] {ON}  JSN1Member of the Puf family of RNA-binding proteins; interacts with mRNAs encoding membrane-associated proteins; involved in localizing the Arp2/3 complex to mitochondria; overexpression causes increased sensitivity to benomyl START=430 END=490
+QQPPQFLLNSQGLPLGLENNNLQPQPLLQEQLFNGAVTFQQQGNVSIPVFNQQSQQSQHQ
+
+>YKL088W Chr11 (275283..276998) [1716 bp; 571 aa] {ON}  CAB3Subunit of a phosphopantothenoylcysteine decarboxylase (PPCDC; Cab3p; Sis2p; Vhs3p) complex; which catalyzes the third step of coenzyme A biosynthesis; null mutant lethality is complemented by E. coli coaBC START=146 END=197
+QQQQQEQLQQNQQQEEQQKAQLQEQNQRAKQQEEVKQIQEQVQKKQTERQQ
+
+>YKL068W Chr11 (310199..313078) [2880 bp; 959 aa] {ON}  NUP100FG-nucleoporin component of central core of the nuclear pore complex (NPC); contributes directly to nucleocytoplasmic transport and maintenance of the NPC permeability barrier and is involved in gene tethering at the nuclear periphery; homologous to Nup116p START=336 END=390
+QNNQQQGSGLFGQNSQTSGSSGLFGQNNQKQPNTFTQSNTGIGLFGQNNNQQQQ
+
+>YKL054C Chr11 complement(336537..338753) [2217 bp; 738 aa] {ON}  DEF1RNAPII degradation factor; forms a complex with Rad26p in chromatin; enables ubiquitination and proteolysis of RNAPII present in an elongation complex; mutant is deficient in Zip1p loading onto chromosomes during meiosis START=375 END=561
+QANTVPQPQQQSQQPQQPQQPQQPQQPQQPQQQQQPQQPQQPQQQLQQQQQQQQQPVQAQ
+AQAQEEQLSQNYYTQQQQQQYAQQQHQLQQQYLSQQQQYAQQQQQHPQPQSQQPQSQQSP
+QSQKQGNNVAAQQYYMYQNQFPGYSYPGMFDSQGYAYGQQYQQLAQNNAQTSGNANQYNF
+QQGYGQ
+
+>YKL054C Chr11 complement(336537..338753) [2217 bp; 738 aa] {ON}  DEF1RNAPII degradation factor; forms a complex with Rad26p in chromatin; enables ubiquitination and proteolysis of RNAPII present in an elongation complex; mutant is deficient in Zip1p loading onto chromosomes during meiosis START=587 END=718
+QPQQQQPYGGSFMPYYAHFYQQSFPYGQPQYGVAGQYPYQLPKNNYNYYQTQNGQEQQSP
+NQGVAQHSEDSQQKQSQQQQQQQPQGQPQPEVQMQNGQPVNPQQQMQFQQYYQFQQQQQQ
+AAAAAAAAAQQ
+
+>YKL038W Chr11 (365605..369117) [3513 bp; 1170 aa] {ON}  RGT1Glucose-responsive transcription factor that regulates expression of several glucose transporter (HXT) genes in response to glucose; binds to promoters and acts both as a transcriptional activator and repressor START=300 END=357
+QPQLPPPQQQSQPQAHQQKLQQGQNLYSYSQFSQQQPYNPSISSFGQFAANGFHSRQ
+
+>YKL032C Chr11 complement(380065..381858) [1794 bp; 597 aa] {ON}  IXR1Protein that binds DNA containing intrastrand cross-links formed by cisplatin; contains two HMG (high mobility group box) domains; which confer the ability to bend cisplatin-modified DNA; mediates aerobic transcriptional repression of COX5b START=8 END=118
+QDDASNSNLLNIGQDHSLQYQGLEHNDSQYRDASHQTPHQYLNQFQAQPQQQQQQQQQQQ
+QQQQQAPYQGHFQQSPQQQQQNVYYPLPPQSLTQPTSQSQQQQQQQQQQQ
+
+>YKL032C Chr11 complement(380065..381858) [1794 bp; 597 aa] {ON}  IXR1Protein that binds DNA containing intrastrand cross-links formed by cisplatin; contains two HMG (high mobility group box) domains; which confer the ability to bend cisplatin-modified DNA; mediates aerobic transcriptional repression of COX5b START=280 END=359
+QPQLTHHQQQMQQQLQLQQQQQLQQQQQLQQQHQLQQQQQLQQQHHHLQQQQQQQQHPVV
+KKLSSTQSRIERRKQLKKQ
+
+>YLL013C Chr12 complement(122075..124714) [2640 bp; 879 aa] {ON}  PUF3Protein of the mitochondrial outer surface; links the Arp2/3 complex with the mitochore during anterograde mitochondrial movement; also binds to and promotes degradation of mRNAs for select nuclear-encoded mitochondrial proteins START=397 END=418
+QQQQQQQQQQQQEDQQQQQQQ
+
+>YLL010C Chr12 complement(129330..130613) [1284 bp; 427 aa] {ON}  PSR1Plasma membrane associated protein phosphatase involved in the general stress response; required along with binding partner Whi2p for full activation of STRE-mediated gene expression; possibly through dephosphorylation of Msn2p START=139 END=209
+QEKGDAVKDTSRQKKQQQQQQQQSQPQPQPQSQSQSQSQSQSQQRGPTVQVSSDHLIQDM
+NLSRVSSSSQ
+
+>YLR095C Chr12 complement(329677..332115) [2439 bp; 812 aa] {ON}  IOC2Member of a complex (Isw1b) with Isw1p and Ioc4p that exhibits nucleosome-stimulated ATPase activity and acts within coding regions to coordinate transcription elongation with termination and processing; contains a PHD finger motif START=760 END=807
+QQTGSKTVPQAPQAPQTSQASIQPQQQQQQQQQQQPLHPKEQNFHFQ
+
+>YLR177W Chr12 (511054..512940) [1887 bp; 628 aa] {ON} Putative protein of unknown function; phosphorylated by Dbf2p-Mob1p in vitro; some strains contain microsatellite polymophisms at this locus; YLR177W is not an essential gene START=148 END=169
+QKYYPQKQQQQQQQQQQQQQQ
+
+>YLR187W Chr12 (524865..527945) [3081 bp; 1026 aa] {ON}  SKG3Protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cell periphery; cytoplasm; bud; and bud neck; potential Cdc28p substrate; similar to Caf120p and Skg4p START=903 END=962
+QPMQQGGNSSMYSFQSSQHRFHSSQQRQNQSLSFRNNTYGSGNNQNTFHPSPQLQQQPQ
+
+>YLR206W Chr12 (554578..556419) [1842 bp; 613 aa] {ON}  ENT2Epsin-like protein required for endocytosis and actin patch assembly and functionally redundant with Ent1p; contains clathrin-binding motif at C-terminus START=162 END=433
+QRTRSNPHDSSPSYQDDLEKALEESRITAQEDEQRRRELAQYDDEDPDFQAALQLSKEEE
+ELKQLQELQRLQKQQQSLSQFQAPLQQQQPQQQPAYYDIFGNPISQDEYLQYQYQQDQEQ
+AMAQQRWLDQQQEQQQLAEQQYFQQQQQAAAAASALQQQQTAANMQQQQQQPADFQQPLP
+TGSNNPFSMDNLERQKQEQQHAQLQRQQEEARQQQEQLKLQQLQRQQQEEAQLHQKRQEE
+AQLQQQQAQLLQQQAQFQQQQPLKQTRTGNQ
+
+>YLR206W Chr12 (554578..556419) [1842 bp; 613 aa] {ON}  ENT2Epsin-like protein required for endocytosis and actin patch assembly and functionally redundant with Ent1p; contains clathrin-binding motif at C-terminus START=465 END=606
+QHTKTGTFINSQGTGYKQVTNEPKNNPFLSNQYTGLPSTNIVPTQTGYGFGNQPQSPPTN
+SPQQNPTGISYSQPQQQQQPQQQPQYMQNFQQQQPQYAQNFQQQPQYTQNYQQQPQYIQP
+HQQQQQQQQQQQQQQGYTPDQ
+
+>YLR228C Chr12 complement(600019..602463) [2445 bp; 814 aa] {ON}  ECM22Sterol regulatory element binding protein; regulates transcription of sterol biosynthetic genes; contains Zn[2]-Cys[6] binuclear cluster; homologous to Upc2p; relocates from intracellular membranes to perinuclear foci on sterol depletion START=109 END=145
+QQQQQQLHHQQEQQFRQQQQVQLQQQLLPHVGTDEQ
+
+>YLR357W Chr12 (841331..844000) [2670 bp; 889 aa] {ON}  RSC2Component of the RSC chromatin remodeling complex; required for expression of mid-late sporulation-specific genes; involved in telomere maintenance START=666 END=732
+QNAIGQQQIPLSRVGSPGAGGPLTVQGLKQHQLQRLQQQQHQYQQQKRSQASRYNIPTII
+DDLTSQ
+
+>YLR437C Chr12 complement(1011622..1012023) [402 bp; 133 aa] {ON}  DIF1Protein that regulates the nuclear localization of ribonucleotide reductase Rnr2p and Rnr4p subunits; phosphorylated by Dun1p in response to DNA damage and degraded; N-terminal half has similarity to S. pombe Spd1 protein START=3 END=81
+QLEWASSLVPKRQLQQQQQQQEQQQQQQQDFHKDQLMTVGMRIRQRVDQGYASRTPSTSD
+ASLQPGVIRDYSSVIVPQ
+
+>YML113W Chr13 (44045..44791) [747 bp; 248 aa] {ON}  DAT1DNA binding protein that recognizes oligo(dA).oligo(dT) tracts; Arg side chain in its N-terminal pentad Gly-Arg-Lys-Pro-Gly repeat is required for DNA-binding; not essential for viability START=105 END=127
+QSFMDQQQQQQQQQQQQLLQQQ
+
+>YMR016C Chr13 complement(303236..305593) [2358 bp; 785 aa] {ON}  SOK2Nuclear protein that plays a regulatory role in the cyclic AMP (cAMP)-dependent protein kinase (PKA) signal transduction pathway; negatively regulates pseudohyphal differentiation; homologous to several transcription factors START=18 END=98
+QESNMSAVSNSESTIGQSTQQQQQQQQYLGQSVQPLMPVSYQYVVPEQWPYPQYYQQPQS
+QSQQQLQSQPQMYQVQESFQ
+
+>YMR043W Chr13 (353871..354731) [861 bp; 286 aa] {ON}  MCM1Transcription factor involved in cell-type-specific transcription and pheromone response; plays a central role in the formation of both repressor and activator complexes START=121 END=285
+QRQQPQQQQPQQQQQVLNAHANSLGHLNQDQVPAGALKQEVKSQLLGGANPNQNSMIQQQ
+QHHTQNSQPQQQQQQQPQQQMSQQQMSQHPRPQQGIPHPQQSQPQQQQQQQQQLQQQQQQ
+QQQQPLTGIHQPHQQAFANAASPYLNAEQNAAYQQYFQEPQQGQ
+
+>YMR047C Chr13 complement(363364..366705) [3342 bp; 1113 aa] {ON}  NUP116FG-nucleoporin component of central core of the nuclear pore complex (NPC); contributes directly to nucleocytoplasmic transport and maintenance of the NPC permeability barrier; forms a stable association with Nup82p; Gle2p and two other FG-nucleoporins (Nsp1p and Nup159p) START=385 END=520
+QTNQQQSGGGLFGQQQNSNAGGLFGQNNQSQNQSGLFGQQNSSNAFGQPQQQGGLFGSKP
+AGGLFGQQQGASTFASGNAQNNSIFGQNNQQQQSTGGLFGQQNNQSQSQPGGLFGQTNQN
+NNQPFGQNGLQQPQQ
+
+>YMR047C Chr13 complement(363364..366705) [3342 bp; 1113 aa] {ON}  NUP116FG-nucleoporin component of central core of the nuclear pore complex (NPC); contributes directly to nucleocytoplasmic transport and maintenance of the NPC permeability barrier; forms a stable association with Nup82p; Gle2p and two other FG-nucleoporins (Nsp1p and Nup159p) START=691 END=740
+QSTNAGGLFQNNTSTNTSGGGLFSQPSQSMAQSQNALQQQQQQQRLQIQ
+
+>YMR070W Chr13 (409154..410626) [1473 bp; 490 aa] {ON}  MOT3Transcriptional repressor and activator with two C2-H2 zinc fingers; involved in repression of a subset of hypoxic genes by Rox1p; repression of several DAN/TIR genes during aerobic growth; and repression of ergosterol biosynthetic genes in response to hyperosmotic stress; contributes to recruitment of the Tup1p-Cyc8p general repressor to promoters; involved in positive transcriptional regulation of CWP2 and other genes; can form the [MOT3+] prion START=7 END=56
+QQQQQQRQQHQQQQHQQQQHQHQHQQQQHTILQNVSNTNNIGSDSLASQ
+
+>YMR124W Chr13 (514456..517287) [2832 bp; 943 aa] {ON} Protein of unknown function; GFP-fusion protein localizes to the cell periphery; cytoplasm; bud; and bud neck; interacts with Crm1p in two-hybrid assay; YMR124W is not an essential gene; predicted to have a role in organelle organization START=52 END=117
+QPSSVPQQQQQQQQYYRNGMNEAPIQAPLQQRQIPMQNYSQQQRQQQQYNFEYSNPHMNE
+IPLMQ
+
+>YMR124W Chr13 (514456..517287) [2832 bp; 943 aa] {ON} Protein of unknown function; GFP-fusion protein localizes to the cell periphery; cytoplasm; bud; and bud neck; interacts with Crm1p in two-hybrid assay; YMR124W is not an essential gene; predicted to have a role in organelle organization START=304 END=401
+QFRQPQQQRMLPMNNYNNHPGQFQNTPPVMPSGQQPPQQPRTLSLTNGPRYSPQNPRPFA
+GHQQISQRQQQQQQQLQLHPMSEGYRTMSLQSQNVPQ
+
+>YMR160W Chr13 (575066..577516) [2451 bp; 816 aa] {ON} Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the membrane of the vacuole; mutant has enhanced sensitivity to overexpression of mutant huntingtin; YMR160W is not an essential gene START=4 END=37
+QQKQDKQLQHQTQEQQQIREDQQEVPPQRPRQQ
+
+>YMR164C Chr13 complement(587274..589550) [2277 bp; 758 aa] {ON}  MSS11Transcription factor involved in regulation of invasive growth and starch degradation; controls the activation of MUC1 and STA2 in response to nutritional signals START=235 END=338
+QNSANFAPDTAINSDIAGQQYATINLHKHFNDLQSPAQPQQSSQQQIQQPQHQPQHQPQQ
+QQQQQQQQQQQQQQQQQQQQQQQQQQQQHQQQQQTPYPIVNPQ
+
+>YMR164C Chr13 complement(587274..589550) [2277 bp; 758 aa] {ON}  MSS11Transcription factor involved in regulation of invasive growth and starch degradation; controls the activation of MUC1 and STA2 in response to nutritional signals START=361 END=433
+QQFNAQTQSSMFSDQQRFFQYQLHHQNQGQAPSFQQSQSGRFDDMNAMKMFFQQQALQQN
+SLQQNLGNQNYQ
+
+>YNL298W Chr14 (68915..71443) [2529 bp; 842 aa] {ON}  CLA4Cdc42p-activated signal transducing kinase of the PAK (p21-activated kinase) family; along with Ste20p and Skm1p; involved in septin ring assembly; vacuole inheritance; cytokinesis; sterol uptake regulation; phosphorylates Cdc3p and Cdc10p START=327 END=393
+QSNIPRHLQNVPNQQYPKMRNGHSPTNGQFPRGPMHPNNSQRSLQQQQQQQQQQKQQHQQ
+YPYHHQ
+
+>YNL251C Chr14 complement(172588..174315) [1728 bp; 575 aa] {ON}  NRD1RNA-binding protein; subunit of Nrd1 complex (Nrd1p-Nab3p-Sen1p); complex interacts with the exosome to mediate 3&#8242; end formation of some mRNAs; snRNAs; snoRNAs; and CUTs; interacts with the C-terminal domain of the RNA polymerase II large subunit (Rpo21p); preferentially at phosphorylated Ser5; to direct transcription termination of non-polyadenylated transcripts; H3K4 trimethylation of transcribed regions by Set1p enhances recruitment of Nrd1p to those sites; START=515 END=574
+QQYVQPMMQQPYGYAPNQPLPSQGPAAAAPPVPQQQFDPTAQLNSLMNMLNQQQQQQQQ
+
+>YNL243W Chr14 (188051..190957) [2907 bp; 968 aa] {ON}  SLA2Transmembrane actin-binding protein involved in membrane cytoskeleton assembly and cell polarization; adaptor protein that links actin to clathrin and endocytosis; present in the actin cortical patch of the emerging bud tip; dimer in vivo START=349 END=529
+QATAQMQPDFWANQQAQFANEQNRLEQERVQQLQQQQAQQELFQQQLQKAQQDMMNMQLQ
+QQNQHQNDLIALTNQYEKDQALLQQYDQRVQQLESEITTMDSTASKQLANKDEQLTALQD
+QLDVWERKYESLAKLYSQLRQEHLNLLPRFKKLQLKVNSAQESIQKKEQLEHKLKQKDLQ
+
+>YNL197C Chr14 complement(267608..269593) [1986 bp; 661 aa] {ON}  WHI3RNA binding protein that sequesters CLN3 mRNA in cytoplasmic foci; cytoplasmic retention factor for Cdc28p and associated cyclins; regulates cell fate and dose-dependently regulates the critical cell size required for passage through Start START=228 END=309
+QRSRFSFSDPFSNDSPLSQQQSQQQQQQPQQPQQHSTQKHSPQQCNQQQVNSSIPLSSQG
+QVIGLHSNHSHQDLSVESTIQ
+
+>YNL161W Chr14 (332597..334867) [2271 bp; 756 aa] {ON}  CBK1Serine/threonine protein kinase of the the RAM signaling network; Ndr/LATS family member; binds regulatory subunit Mob2p; involved in regulation of cellular morphogenesis; polarized growth; and septum destruction; phosphorylation by Cbk1p regulates localization and activity of Ace2p transcription factor and Ssd1p translational repressor; Cbk1p activity is regulated by both phosphorylation and specific localization START=22 END=72
+QQQDQQHQQQQQYANEMNPYQQIPRPPAAGFSSNYMKEQGSHQSLQEHLQ
+
+>YNL161W Chr14 (332597..334867) [2271 bp; 756 aa] {ON}  CBK1Serine/threonine protein kinase of the the RAM signaling network; Ndr/LATS family member; binds regulatory subunit Mob2p; involved in regulation of cellular morphogenesis; polarized growth; and septum destruction; phosphorylation by Cbk1p regulates localization and activity of Ace2p transcription factor and Ssd1p translational repressor; Cbk1p activity is regulated by both phosphorylation and specific localization START=188 END=254
+QRLQQEQENVQVQQQLSQAQQQNSRQQQQQLQYQQQQQQQQQQQHMQIQQQQQQQQQQQQ
+SQSPVQ
+
+>YNL154C Chr14 complement(343636..345276) [1641 bp; 546 aa] {ON}  YCK2Palmitoylated plasma membrane-bound casein kinase I isoform; shares redundant functions with Yck1p in morphogenesis; proper septin assembly; endocytic trafficking; provides an essential function overlapping with that of Yck1p START=399 END=451
+QYSSPDHHHHYNQQQQQQQAQAQAQAQAQAKVQQQQLQQAQAQQQANRYQLQ
+
+>YNL154C Chr14 complement(343636..345276) [1641 bp; 546 aa] {ON}  YCK2Palmitoylated plasma membrane-bound casein kinase I isoform; shares redundant functions with Yck1p in morphogenesis; proper septin assembly; endocytic trafficking; provides an essential function overlapping with that of Yck1p START=474 END=528
+QQQTQQKYAQQQQKQMQQKSKQFANTGANGQTNKYPYNAQPTANDEQNAKNAAQ
+
+>YNL124W Chr14 (392892..394370) [1479 bp; 492 aa] {ON}  NAF1RNA-binding protein required for the assembly of box H/ACA snoRNPs and thus for pre-rRNA processing; forms a complex with Shq1p and interacts with H/ACA snoRNP components Nhp2p and Cbf5p; similar to Gar1p START=418 END=488
+QQSFMPMTQSQPPLPYGVPPMNQMQNPMYIQPPPQAPPQGNGNFQQVMELHQILLQQQQQ
+QHQYQHQHQQ
+
+>YNL027W Chr14 (579580..581616) [2037 bp; 678 aa] {ON}  CRZ1Transcription factor that activates transcription of genes involved in stress response; nuclear localization is positively regulated by calcineurin-mediated dephosphorylation START=105 END=172
+QSLYKPDLPQQQLQQQQLQQQQQQQQQQQQQQQKQTPTLKVEQSDTFQWDDILTPADNQH
+RPSLTNQ
+
+>YNL016W Chr14 (602907..604268) [1362 bp; 453 aa] {ON}  PUB1Poly (A)+ RNA-binding protein; abundant mRNP-component protein that binds mRNA and is required for stability of many mRNAs; component of glucose deprivation induced stress granules; involved in P-body-dependent granule assembly START=387 END=453
+QAAVCIVALANFPFQGRNLRTGWGKERSNFMPQQQQQGGQPLIMNDQQQPVMSEQQQQQQ
+QQQQQQ
+
+>YNR006W Chr14 (636986..638854) [1869 bp; 622 aa] {ON}  VPS27Endosomal protein that forms a complex with Hse1p; required for recycling Golgi proteins; forming lumenal membranes and sorting ubiquitinated proteins destined for degradation; has Ubiquitin Interaction Motifs which bind ubiquitin (Ubi4p) START=429 END=488
+QQLQSINLSQQYTLPQVPSDPYNYLTENVQNPAESYQTPPLQQLSSHQYKPQQDVSRQQ
+
+>YNR052C Chr14 complement(719346..720647) [1302 bp; 433 aa] {ON}  POP2RNase of the DEDD superfamily; subunit of the Ccr4-Not complex that mediates 3' to 5' mRNA deadenylation START=1 END=91
+QSMNVQPRVLAVGGEQFFSQRQASEQHQQQNMGPQVYSPKVNRARMFPQGMPVNTINGSV
+NQEMNNAYLLKQKNEPLLTQQQQQQQQQQQ
+
+>YNR052C Chr14 complement(719346..720647) [1302 bp; 433 aa] {ON}  POP2RNase of the DEDD superfamily; subunit of the Ccr4-Not complex that mediates 3' to 5' mRNA deadenylation START=111 END=145
+QQQQQQQQQQQQQQQGVGLNRPLASQLPKHLTNQ
+
+>YOL148C Chr15 complement(45760..47574) [1815 bp; 604 aa] {ON}  SPT20Subunit of the SAGA transcriptional regulatory complex; involved in maintaining the integrity of the complex; mutant displays reduced transcription elongation in the G-less-based run-on (GLRO) assay START=68 END=104
+QIQQLQQRQRLLLQQRLLEQQRKQQALQNYEAQFYQ
+
+>YOL123W Chr15 (87844..89448) [1605 bp; 534 aa] {ON}  HRP1Subunit of cleavage factor I; a five-subunit complex required for the cleavage and polyadenylation of pre-mRNA 3' ends; RRM-containing heteronuclear RNA binding protein and hnRNPA/B family member that binds to poly (A) signal sequences START=348 END=405
+QGDFNQMYQNPMMGGYNPMMNPQAMTDYYQKMQEYYQQMQKQTGMDYTQMYQQQMQQ
+
+>YOL051W Chr15 (234940..238185) [3246 bp; 1081 aa] {ON}  GAL11Subunit of the RNA polymerase II mediator complex; associates with core polymerase subunits to form the RNA polymerase II holoenzyme; affects transcription by acting as target of activators and repressors; forms part of the tail domain of mediator START=126 END=350
+QMFLNQQAQARQQVAQQLRNQQQQQQQQQQQQRRQLTPQQQQLVNQMKVAPIPKQLLQRI
+PNIPPNINTWQQVTALAQQKLLTPQDMEAAKEVYKIHQQLLFKARLQQQQAQAQAQANNN
+NNGLPQNGNINNNINIPQQQQMQPPNSSANNNPLQQQSSQNTVPNVLNQINQIFSPEEQR
+SLLQEAIETCKNFEKTQLGSTMTEPVKQSFIRKYINQKALRKIQ
+
+>YOL051W Chr15 (234940..238185) [3246 bp; 1081 aa] {ON}  GAL11Subunit of the RNA polymerase II mediator complex; associates with core polymerase subunits to form the RNA polymerase II holoenzyme; affects transcription by acting as target of activators and repressors; forms part of the tail domain of mediator START=405 END=497
+QQQNASSKLYQMQQQQQAQAQAQAQAQAQAQAQAQAQAAQAAQAQAQAQAQAQAQAQAQA
+QAQAQAQAQAQAQAQAHAQHQPSQQPQQAQQQ
+
+>YOL051W Chr15 (234940..238185) [3246 bp; 1081 aa] {ON}  GAL11Subunit of the RNA polymerase II mediator complex; associates with core polymerase subunits to form the RNA polymerase II holoenzyme; affects transcription by acting as target of activators and repressors; forms part of the tail domain of mediator START=654 END=696
+QQNMQQSLQQMQHLQQLKMQQQQQQQQQQQQQQQQQQQQQQQ
+
+>YOL004W Chr15 (316938..321548) [4611 bp; 1536 aa] {ON}  SIN3Component of the Sin3p-Rpd3p histone deacetylase complex; involved in transcriptional repression and activation of diverse processes; including mating-type switching and meiosis; involved in the maintenance of chromosomal integrity START=479 END=519
+QQVQHAQQHAQQQHEAQMHAQAQAQAQAQAQVEQQKQQQQ
+
+>YOR066W Chr15 (449436..451325) [1890 bp; 629 aa] {ON}  MSA1Activator of G1-specific transcription factors; MBF and SBF; involved in regulation of the timing of G1-specific gene transcription and cell cycle initiation; localization is cell-cycle dependent and regulated by Cdc28p phosphorylation START=445 END=498
+QLQAQLEAQVQVQSQSNSPTQRQQQQRQFQIPPPHINMNSSPPQINIASPPHQ
+
+>YOR106W Chr15 (519121..519972) [852 bp; 283 aa] {ON}  VAM3Syntaxin-like vacuolar t-SNARE that functions with Vam7p in vacuolar protein trafficking; mediates docking/fusion of late transport intermediates with the vacuole; has an acidic di-leucine sorting signal and C-terminal transmembrane region START=141 END=208
+QDPESSYISIKVNEQSPLLHNEGQHQLQLQEEQEQQQQGLSQEELDFQTIIHQERSQQIG
+RIHTAVQ
+
+>YOR113W Chr15 (534075..536819) [2745 bp; 914 aa] {ON}  AZF1Zinc-finger transcription factor; involved in induction of CLN3 transcription in response to glucose; genetic and physical interactions indicate a possible role in mitochondrial transcription or genome maintenance START=6 END=57
+QFMGPTQAGQNESQNQSSGEAGEQNQEHGQGPTPILNQSQPASSQPQHQQQ
+
+>YOR113W Chr15 (534075..536819) [2745 bp; 914 aa] {ON}  AZF1Zinc-finger transcription factor; involved in induction of CLN3 transcription in response to glucose; genetic and physical interactions indicate a possible role in mitochondrial transcription or genome maintenance START=115 END=188
+QPPDLSQIGRGFSIVNNLFPQQQQLQNQHRQQQQQQQQQSHQQPPFKTPSFSTGLTGSSS
+QYQFLPRNDNTSQ
+
+>YOR197W Chr15 (717086..718384) [1299 bp; 432 aa] {ON}  MCA1Ca2+-activated cysteine protease; may cleave specific substrates during stress response; involved in regulation of apoptosis upon H2O2 treatment; contributes to clearance of insoluble protein aggregates during normal growth; may be involved in cell cycle progression; similar to mammalian caspases; but exists as a monomer due to an extra pair of anti-parallel beta-strands that form a continuous beta-sheet with the 6 caspase-common beta-strands; blocking potential dimerization START=19 END=58
+QRPMAPPPNQQYGQQYGQQYEQQYGQQYGQQNDQQFSQQ
+
+>YOR267C Chr15 complement(822588..824867) [2280 bp; 759 aa] {ON}  HRK1Protein kinase implicated in activation of the plasma membrane H(+)-ATPase Pma1p in response to glucose metabolism; plays a role in ion homeostasis START=623 END=671
+QNNPQQQQQQQQQQQQQQQQQQQQHHHHQHQNQDKAHSIASDNKSSQQ
+
+>YOR290C Chr15 complement(855147..860258) [5112 bp; 1703 aa] {ON}  SNF2Catalytic subunit of the SWI/SNF chromatin remodeling complex involved in transcriptional regulation; contains DNA-stimulated ATPase activity; functions interdependently in transcriptional activation with Snf5p and Snf6p START=178 END=281
+QPQNRSLQEHNIQDSNVMPGSQINSPMPQQAQMQQAQFQAQQAQQAQQAQQAQQAQARLQ
+QGRRLPMTMFTAEQSELLKAQITSLKCLVNRKPIPFEFQAVIQ
+
+>YOR329C Chr15 complement(936731..939349) [2619 bp; 872 aa] {ON}  SCD5Protein required for normal actin organization and endocytosis; targeting subunit for protein phosphatase type 1; undergoes Crm1p-dependent nuclear-cytoplasmic shuttling; multicopy suppressor of clathrin deficiency START=594 END=701
+QNTLPQHQQSHLLSPQNTIPQHQRSQLISPQNTFTQNQPILSPQHTYSNNQATMISPQNT
+YTNNQQQPQHLPPPPPPRAQQQQQGAIVPPQHMYSNVQKQNNLVPTQ
+
+>YOR329C Chr15 complement(936731..939349) [2619 bp; 872 aa] {ON}  SCD5Protein required for normal actin organization and endocytosis; targeting subunit for protein phosphatase type 1; undergoes Crm1p-dependent nuclear-cytoplasmic shuttling; multicopy suppressor of clathrin deficiency START=758 END=835
+QNTSAAMNNTQSHQTYIQQQQQQQTQQRIYGGQLSQMQQHPGQLHLNNSDIHSQPNKPNY
+GMLGQQVHQQQQQQQQQ
+
+>YOR359W Chr15 (1011189..1012760) [1572 bp; 523 aa] {ON}  VTS1Post-transcriptional gene regulator; flap-structured DNA-binding and RNA-binding protein; shows genetic interactions with Vti1p; a v-SNARE involved in cis-Golgi membrane traffic; stimulates Dna2p endonuclease activity; contains a SAM domain START=31 END=101
+QSSAINKNNPGSNSGNNQGNSSVTANVLSPQSHSMSLNDMLDQQSFMLDTAGTRAQPLQQ
 QQQQQQQQQQ
 
->sp|P31384|CCR4_YEAST CCR4-Not complex 3'-5'-exoribonuclease subunit Ccr4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CCR4 PE=1 SV=2, QLCS_START=189 QLCS_END=206
-QQAQQAQQQAQQQAQQQ
+>YOR372C Chr15 complement(1034807..1036471) [1665 bp; 554 aa] {ON}  NDD1Transcriptional activator essential for nuclear division; localized to the nucleus; essential component of the mechanism that activates the expression of a set of late-S-phase-specific genes START=95 END=113
+QQIQQQQQQQQQQQQQQQ
 
->sp|P32629|ANP1_YEAST Mannan polymerase II complex ANP1 subunit OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ANP1 PE=1 SV=3, QLCS_START=445 QLCS_END=467
-QQQQQQQQQQQQQQQQQQQQQQ
+>YPL229W Chr16 (117067..117687) [621 bp; 206 aa] {ON} Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; YPL229W is not an essential gene START=31 END=65
+QNFKYDRLQQQQQQQQQQQQNRTASSLQQPQQQQ
 
->sp|P29311|BMH1_YEAST Protein BMH1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BMH1 PE=1 SV=4, QLCS_START=245 QLCS_END=256
-QQQQQQHQQQQ
+>YPL223C Chr16 complement(128632..129138) [507 bp; 168 aa] {ON}  GRE1Hydrophilin essential in dessication-rehydration process; stress induced (osmotic; ionic; oxidative; heat shock and heavy metals); regulated by the HOG pathway START=27 END=84
+QTRQQRHEKHQQREFRNQGSKADPYGEENQGNFPQRQQPQSNLGGNTQFGGNDFQQQ
 
->sp|P46997|JJJ2_YEAST J protein JJJ2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=JJJ2 PE=1 SV=2, QLCS_START=239 QLCS_END=252
-QQQQQQQQQQQQQ
+>YPL204W Chr16 (164276..165760) [1485 bp; 494 aa] {ON}  HRR25Protein kinase involved in regulating diverse events including vesicular trafficking; DNA repair; and chromosome segregation; binds the CTD of RNA pol II; homolog of mammalian casein kinase 1delta (CK1delta) START=394 END=490
+QQQPQQQVQSSQPQPQPQQLQQQPNGQRPNYYPEPLLQQQQRDSQEQQQQVPMATTRATQ
+YPPQINSNNFNTNQASVPPQMRSNPQQPPQDKPAGQ
 
->sp|Q12072|IOC2_YEAST ISWI one complex protein 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=IOC2 PE=1 SV=1, QLCS_START=782 QLCS_END=795
-QPQQQQQQQQQQQ
+>YPL203W Chr16 (166256..167398) [1143 bp; 380 aa] {ON}  TPK2cAMP-dependent protein kinase catalytic subunit; promotes vegetative growth in response to nutrients via the Ras-cAMP signaling pathway; partially redundant with Tpk1p and Tpk3p; localizes to P-bodies during stationary phase START=8 END=71
+QPVGQTIQQQNVNTYGQGVLQPHHDLQQRQQQQQQRQHQQLLTSQLPQKSLVSKGKYTLH
+DFQ
 
->sp|P06774|HAP2_YEAST Transcriptional activator HAP2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=HAP2 PE=1 SV=1, QLCS_START=119 QLCS_END=133
-QQQQQQQQQQQQQQ
+>YPL190C Chr16 complement(185317..187725) [2409 bp; 802 aa] {ON}  NAB3RNA-binding protein; subunit of Nrd1 complex (Nrd1p-Nab3p-Sen1p); complex interacts with the exosome to mediate 3&#8242; end formation of some mRNAs; snRNAs; snoRNAs; and CUTs; required for termination of non-poly(A) transcripts and efficient splicing START=589 END=728
+QTNYYQGYSMPPPQQQQQQPYGNYGMPPPSHDQGYGSQPPIPMNQSYGRYQTSIPPPPPQ
+QQIPQGYGRYQAGPPPQPPSQTPMDQQQLLSAIQNLPPNVVSNLLSMAQQQQQQPHAQQQ
+LVGLIQSMQGQAPQQQQQQ
 
->sp|P43592|FAR7_YEAST Factor arrest protein 7 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=FAR7 PE=1 SV=1, QLCS_START=10 QLCS_END=22
-QQQQQQQQQQQQ
+>YPL190C Chr16 complement(185317..187725) [2409 bp; 802 aa] {ON}  NAB3RNA-binding protein; subunit of Nrd1 complex (Nrd1p-Nab3p-Sen1p); complex interacts with the exosome to mediate 3&#8242; end formation of some mRNAs; snRNAs; snoRNAs; and CUTs; required for termination of non-poly(A) transcripts and efficient splicing START=749 END=801
+QNISAKPSAPPMSHQPPPPQQQQQQQQQQQQQQQQPAGNNVQSLLDSLAKLQ
 
->sp|P34730|BMH2_YEAST Protein BMH2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=BMH2 PE=1 SV=3, QLCS_START=241 QLCS_END=261
-QEDQQQQQQQQQQQQQQQQQ
+>YPL153C Chr16 complement(261727..264192) [2466 bp; 821 aa] {ON}  RAD53Protein kinase; required for cell-cycle arrest in response to DNA damage; activated by trans autophosphorylation when interacting with hyperphosphorylated Rad9p; also interacts with ARS1 and plays a role in initiation of DNA replication START=473 END=530
+QSYGDFSQISLSQSLSQQKLLENMDDAQYEFVKAQRKLQMEQQLQEQDQEDQDGKIQ
 
->sp|P41696|AZF1_YEAST Asparagine-rich zinc finger protein AZF1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=AZF1 PE=1 SV=1, QLCS_START=135 QLCS_END=158
-QQQQLQNQHRQQQQQQQQQSHQQ
+>YPL032C Chr16 complement(488887..491364) [2478 bp; 825 aa] {ON}  SVL3Protein of unknown function; mutant phenotype suggests a potential role in vacuolar function; green fluorescent protein (GFP)-fusion protein localizes to the cell periphery; cytoplasm; bud; and bud neck START=356 END=427
+QILQSLQKSQKNESALQTQITSLQGQISKLRQELLMQAKQHEMETNELKEKHQVALKAQA
+QAQAQAQSQAQ
 
->sp|P36076|CAB3_YEAST Coenzyme A biosynthesis protein 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CAB3 PE=1 SV=1, QLCS_START=146 QLCS_END=173
-QQQQQEQLQQNQQQEEQQKAQLQEQNQ
+>YPL026C Chr16 complement(500675..502183) [1509 bp; 502 aa] {ON}  SKS1Putative serine/threonine protein kinase; involved in the adaptation to low concentrations of glucose independent of the SNF3 regulated pathway START=375 END=411
+QEQQQQQQQQQQQVQEQEQEQKQEQIQNQEQAQQQQ
 
->sp|P20486|CKS1_YEAST Cyclin-dependent kinases regulatory subunit OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CKS1 PE=1 SV=1, QLCS_START=117 QLCS_END=137
-QQQQQQQQQQQQQQQQHQTQ
+>YPL016W Chr16 (521014..524958) [3945 bp; 1314 aa] {ON}  SWI1Subunit of the SWI/SNF chromatin remodeling complex; regulates transcription by remodeling chromatin; required for transcription of many genes; including ADH1; ADH2; GAL1; HO; INO1 and SUC2; can form the prion [SWI+]; human homolog ARID1A is a candidate tumor suppressor gene in breast cancer START=336 END=408
+QQKQQQRFQALQQQQQQQQNQQQQNQQPQQQQQQQQNPKFLQSQRQQQQRSILQSLNPAL
+QEKISTELNNKQ
 
->sp|P29295|HRR25_YEAST Casein kinase I homolog HRR25 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=HRR25 PE=1 SV=1, QLCS_START=394 QLCS_END=417
-QQQPQQQVQSSQPQPQPQQLQQQ
+>YPR022C Chr16 complement(603911..607312) [3402 bp; 1133 aa] {ON} Putative transcription factor; as suggested by computational analysis; green fluorescent protein (GFP)-fusion protein localizes to both the cytoplasm and the nucleus and is induced in response to the DNA-damaging agent MMS START=149 END=226
+QESKFRPFLQQAQQPQQVQQSQQPQQIQQLQQLQFPQQLRAPLQQPMLQQQMHPQQASPT
+FPSYDPRIRNNGQNGNQ
 
->sp|P38873|KOG1_YEAST Target of rapamycin complex 1 subunit KOG1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=KOG1 PE=1 SV=2, QLCS_START=509 QLCS_END=525
-QSSQQQLQQQQQQQQQ
+>YPR022C Chr16 complement(603911..607312) [3402 bp; 1133 aa] {ON} Putative transcription factor; as suggested by computational analysis; green fluorescent protein (GFP)-fusion protein localizes to both the cytoplasm and the nucleus and is induced in response to the DNA-damaging agent MMS START=254 END=320
+QNMNINPAVQQQRYQDRNFASSSYQQPLQPLTQDQQQEQYFQQQKLAQQQQQQQQQQQQQ
+QQLPPQ
 
->sp|P23292|KC12_YEAST Casein kinase I homolog 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YCK2 PE=1 SV=1, QLCS_START=411 QLCS_END=428
-QQQQQQQAQAQAQAQAQ
+>YPR065W Chr16 (679693..680799) [1107 bp; 368 aa] {ON}  ROX1Heme-dependent repressor of hypoxic genes; contains an HMG domain that is responsible for DNA bending activity START=93 END=123
+QLLLKEIEQQQQQQQKEQQQQKQSQPQLQQ
 
->sp|P23292|KC12_YEAST Casein kinase I homolog 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YCK2 PE=1 SV=1, QLCS_START=431 QLCS_END=444
-QQQQLQQAQAQQQ
+>YPR154W Chr16 (834565..835212) [648 bp; 215 aa] {ON}  PIN3Protein that induces appearance of [PIN+] prion when overproduced START=125 END=181
+QYKAQELQQIPTQNSAASSYQQQPFPPPSTNYYQQPQQQPQQAPPPQQQQQQQQHQ
 
->sp|P06245|KAPB_YEAST cAMP-dependent protein kinase type 2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=TPK2 PE=1 SV=2, QLCS_START=34 QLCS_END=48
-QQRQQQQQQRQHQQ
-
->sp|P0CE41|HAP1_YEAST Heme-responsive zinc finger transcription factor HAP1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=HAP1 PE=1 SV=1, QLCS_START=176 QLCS_END=189
-QQQQQQQQQEQQQ
-
->sp|Q08732|HRK1_YEAST Serine/threonine-protein kinase HRK1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=HRK1 PE=1 SV=1, QLCS_START=627 QLCS_END=647
-QQQQQQQQQQQQQQQQQQQQ
-
->sp|P23291|KC11_YEAST Casein kinase I homolog 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YCK1 PE=1 SV=1, QLCS_START=390 QLCS_END=413
-QLQMQQLQMQQLQQQQQQQQYAQ
-
->sp|P23291|KC11_YEAST Casein kinase I homolog 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YCK1 PE=1 SV=1, QLCS_START=445 QLCS_END=476
-QEQQKRQQQQKLQEQQLQEQQLQQQQQQQQQ
-
->sp|P43572|EPL1_YEAST Enhancer of polycomb-like protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=EPL1 PE=1 SV=1, QLCS_START=446 QLCS_END=461
-QQQQQLLQQQQQQQQ
-
->sp|P43572|EPL1_YEAST Enhancer of polycomb-like protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=EPL1 PE=1 SV=1, QLCS_START=773 QLCS_END=798
-QHLQQQQQQQQQQQQQAQQQKQKSQ
-
->sp|P40956|GTS1_YEAST Protein GTS1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=GTS1 PE=1 SV=2, QLCS_START=331 QLCS_END=374
-QAQAQAQAQAQAQVQAQAQAQAQAQAQAQQIQMQQLQMQQQQQ
-
->sp|P18852|GBG_YEAST Guanine nucleotide-binding protein subunit gamma OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=STE18 PE=1 SV=1, QLCS_START=10 QLCS_END=22
-QQPQEQQQQQQQ
-
->sp|P48562|CLA4_YEAST Serine/threonine-protein kinase CLA4 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CLA4 PE=1 SV=1, QLCS_START=371 QLCS_END=387
-QQQQQQQQQQKQQHQQ
-
->sp|Q05785|ENT2_YEAST Epsin-2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ENT2 PE=1 SV=1, QLCS_START=403 QLCS_END=423
-QLQQQQAQLLQQQAQFQQQQ
-
->sp|Q05785|ENT2_YEAST Epsin-2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ENT2 PE=1 SV=1, QLCS_START=537 QLCS_END=600
-QPQQQQQPQQQPQYMQNFQQQQPQYAQNFQQQPQYTQNYQQQPQYIQPHQQQQQQQQQQQ
-QQQ
-
->sp|P21657|DAL81_YEAST Transcriptional activator protein DAL81 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DAL81 PE=1 SV=3, QLCS_START=72 QLCS_END=94
-QQQQHQQQQQQQQQQQQQQQQQ
-
->sp|P21657|DAL81_YEAST Transcriptional activator protein DAL81 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DAL81 PE=1 SV=3, QLCS_START=226 QLCS_END=240
-QQQQQQQQQQQRIQ
-
->sp|P38856|AP18A_YEAST Clathrin coat assembly protein AP180A OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YAP1801 PE=1 SV=1, QLCS_START=559 QLCS_END=579
-QQQQQQQQQQQQQQQQQPQQ
-
->sp|Q05958|ECM22_YEAST Sterol regulatory element-binding protein ECM22 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ECM22 PE=1 SV=1, QLCS_START=118 QLCS_END=135
-QQEQQFRQQQQVQLQQQ
-
->sp|Q05958|ECM22_YEAST Sterol regulatory element-binding protein ECM22 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ECM22 PE=1 SV=1, QLCS_START=252 QLCS_END=271
-QQPQLQQQNQQIPQQQGTQ
-
->sp|P38153|AP3M_YEAST AP-3 complex subunit mu OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=APM3 PE=1 SV=2, QLCS_START=166 QLCS_END=184
-QQAVQLPQQRQQQLQQNQ
-
->sp|P13483|DATI_YEAST Oligo(A)/oligo(T)-binding protein OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DAT1 PE=1 SV=1, QLCS_START=110 QLCS_END=127
-QQQQQQQQQQQQLLQQQ
-
->sp|Q06628|ATG13_YEAST Autophagy-related protein 13 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=ATG13 PE=1 SV=1, QLCS_START=305 QLCS_END=338
-QPQFQQQQQPQQQQQQQQQQQRQHQVQTQQQRQ
-
->sp|P35732|DEF1_YEAST RNA polymerase II degradation factor 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DEF1 PE=1 SV=1, QLCS_START=381 QLCS_END=445
-QPQQQSQQPQQPQQPQQPQQPQQPQQQQQPQQPQQPQQQLQQQQQQQQQPVQAQAQAQEE
-QLSQ
-
->sp|P35732|DEF1_YEAST RNA polymerase II degradation factor 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DEF1 PE=1 SV=1, QLCS_START=449 QLCS_END=466
-QQQQQQYAQQQHQLQQQ
-
->sp|P35732|DEF1_YEAST RNA polymerase II degradation factor 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DEF1 PE=1 SV=1, QLCS_START=469 QLCS_END=500
-QQQQYAQQQQQHPQPQSQQPQSQQSPQSQKQ
-
->sp|P35732|DEF1_YEAST RNA polymerase II degradation factor 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DEF1 PE=1 SV=1, QLCS_START=658 QLCS_END=676
-QQKQSQQQQQQQPQGQPQ
-
->sp|P35732|DEF1_YEAST RNA polymerase II degradation factor 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=DEF1 PE=1 SV=1, QLCS_START=689 QLCS_END=707
-QQQMQFQQYYQFQQQQQQ
-
->sp|P53968|CRZ1_YEAST Transcriptional regulator CRZ1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CRZ1 PE=1 SV=1, QLCS_START=114 QLCS_END=140
-QQQLQQQQLQQQQQQQQQQQQQQQKQ
-
->sp|P14922|CYC8_YEAST General transcriptional corepressor CYC8 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CYC8 PE=1 SV=2, QLCS_START=11 QLCS_END=30
-QPAQQQQQQQQQQQQQQQQ
-
->sp|P14922|CYC8_YEAST General transcriptional corepressor CYC8 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CYC8 PE=1 SV=2, QLCS_START=490 QLCS_END=535
-QLQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQAQ
-
->sp|P14922|CYC8_YEAST General transcriptional corepressor CYC8 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CYC8 PE=1 SV=2, QLCS_START=538 QLCS_END=589
-QAQAQAQAQAQAQAQAQAQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQLQ
-
->sp|P14922|CYC8_YEAST General transcriptional corepressor CYC8 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CYC8 PE=1 SV=2, QLCS_START=644 QLCS_END=668
-QQQQLQSVQHPQQLQGQPQAQAPQ
-
->sp|P38266|AIM3_YEAST Altered inheritance of mitochondria protein 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=AIM3 PE=1 SV=3, QLCS_START=129 QLCS_END=148
-QSQYAQPQYNQYPQQQLQQ
-
->sp|P38266|AIM3_YEAST Altered inheritance of mitochondria protein 3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=AIM3 PE=1 SV=3, QLCS_START=312 QLCS_END=323
-QQQQQQQQQQQ
-
->sp|Q03825|MSS11_YEAST Transcription activator MSS11 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=MSS11 PE=1 SV=1, QLCS_START=272 QLCS_END=329
-QPQQSSQQQIQQPQHQPQHQPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQHQQQQQ
-
->sp|P25655|NOT1_YEAST General negative regulator of transcription subunit 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=CDC39 PE=1 SV=3, QLCS_START=1031 QLCS_END=1046
-QQRQQQQQQRQQQQQ
-
->sp|P53165|SGF73_YEAST SAGA-associated factor 73 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SGF73 PE=1 SV=1, QLCS_START=465 QLCS_END=476
-QQQQQQQQQQQ
-
->sp|P07269|PHO2_YEAST Regulatory protein PHO2 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=PHO2 PE=1 SV=1, QLCS_START=22 QLCS_END=52
-QHDQQQQQQQQHDQQHNQQQQPQPQPIQTQ
+>YPR185W Chr16 (907218..909434) [2217 bp; 738 aa] {ON}  ATG13Regulatory subunit of the Atg1p signaling complex; stimulates Atg1p kinase activity; required for vesicle formation during autophagy and the cytoplasm-to-vacuole targeting (Cvt) pathway; involved in Atg9p; Atg23p; and Atg27p cycling START=285 END=338
+QGPQNQPEQEGQSDQDIGKRQPQFQQQQQPQQQQQQQQQQQRQHQVQTQQQRQ
 
