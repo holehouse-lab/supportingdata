@@ -14,12 +14,14 @@ As a sanity check we ran a `diff` between the PDB files from the first AF2 UniPr
 		diff ${d} ../../UP000005640_9606_HUMAN/${d2} >> all_diff.txt
 	done
 
-The `all_diff.txt` file is here, but spoiler alert is that the following three proteins chained:
+The `all_diff.txt` file is here, but spoiler alert is that the following three proteins changed:
 
-* Q04741
-* P11586
-* Q9Y2G2
+* Q04741 (Homeobox protein EMX1; EMX1)
+* P11586 (C-1-tetrahydrofolate synthase, cytoplasmic, MTHFD1)
+* Q9Y2G2 (Caspase recruitment domain-containing protein 8, CARD8)
 
-And a tiny subset of Arg residues had `NH1` and `NH2` atoms flipped around. 
+*Probably* because the actual sequences in UniProt changed.
+
+In addition, a  subset of Arg residues had the order of the hydrogen `NH1` and `NH2` atoms flipped around in the PDB file, which obviously does not have any impact on structure, but just FYI.
 
 Other than that no real changes.
