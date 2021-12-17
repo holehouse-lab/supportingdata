@@ -7,7 +7,15 @@
 As a sanity check we ran a `diff` between the PDB files from the first AF2 UniProt dump (V1) and the second AF2 UniProt dump for the human proteome. Specifcally, 
 
 
-	# run from inside a directory where the v2 files where unpacked
+
+
+
+	#/bin/zsh
+	
+	
+	# run from inside a directory where the AF2 v2 files were unpacked. The V1 files
+	# were unpacked in a directory that is at the relative location of 
+	# ../../UP000005640_9606_HUMAN/
 	for d in *pdb 
 	do
 		d2=$(echo $d | sed "s/v2/v1/g")
