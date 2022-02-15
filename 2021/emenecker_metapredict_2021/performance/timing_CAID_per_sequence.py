@@ -17,6 +17,8 @@ import numpy as np
 # Documentation available here:
 # https://protfasta.readthedocs.io/en/latest/
 
+LEGACY=True
+
 print('Reading in CAID sequences...')
 disprot_data = protfasta.read_fasta('../data/CAID/CAID_DisProt_Dataset.fasta')
 
@@ -42,7 +44,7 @@ for idx in ordered_ids:
     for i in range(number_of_iterations):        
 
         start = time.time()
-        cur_dis = meta.predict_disorder(s)
+        cur_dis = meta.predict_disorder(s, legacy = LEGACY)
         end = time.time()
         loop_time = end - start
         per_protein_time[idx].append(loop_time)
@@ -51,6 +53,13 @@ for idx in ordered_ids:
 
 
 print('DONE')
-with open('per_protein_times.csv', 'w') as fh:
-    for idx in ordered_ids:
-        fh.write(f'{idx}, {per_protein_time[idx]}\n')
+
+if LEGACY is True:
+    with open('per_protein_times.csv', 'w') as fh:
+        for idx in ordered_ids:
+            fh.write(f'{idx}, {per_protein_time[idx]}\n')
+
+else:
+    with open('per_protein_times_metapredict_v2.csv', 'w') as fh:
+        for idx in ordered_ids:
+            fh.write(f'{idx}, {per_protein_time[idx]}\n')

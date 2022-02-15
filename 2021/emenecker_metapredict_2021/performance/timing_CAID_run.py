@@ -14,6 +14,7 @@ import numpy as np
 
 print('Reading in CAID sequences...')
 disprot_data = protfasta.read_fasta('../data/CAID/CAID_DisProt_Dataset.fasta')
+LEGACY=True
 
 number_of_iterations = 3
 
@@ -28,7 +29,7 @@ for i in range(0, number_of_iterations):
     # cycle through each sequence and predict disorder (note we're not saving it!)
     for idx in disprot_data:
         s = disprot_data[idx]
-        cur_dis = meta.predict_disorder(s)
+        cur_dis = meta.predict_disorder(s, legacy=LEGACY)
 
     # end timer
     end = time.time()
@@ -49,6 +50,12 @@ for idx in disprot_data:
 mean_time = np.mean(loops)
 std_error = np.std(loops)/np.sqrt(number_of_iterations)
 
-print('Mean time = %i seconds +/- %i (stderr)'%(mean_time, std_error))
-print('Average of %i residues per second' % (number_of_residues/mean_time))
-
+if LEGACY is True:
+    print('Using metapredict in legacy mode:')
+    print('Mean time = %i seconds +/- %i (stderr)'%(mean_time, std_error))
+    print('Average of %i residues per second' % (number_of_residues/mean_time))
+else:
+    print('Using metapredict with v2 mode:')
+    print('Mean time = %i seconds +/- %i (stderr)'%(mean_time, std_error))
+    print('Average of %i residues per second' % (number_of_residues/mean_time))
+    
