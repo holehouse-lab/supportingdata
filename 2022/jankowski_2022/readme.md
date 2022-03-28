@@ -15,3 +15,28 @@ This repository contains additional information for the *in preparation* manuscr
 For more information on the files in this directory, please contact alex. For information on the remainder of the paper, please contact Jen!
 
 Additional contents can and will be added to this repository as needed. 
+
+## Reproducing analyses & figures:
+
+The sequence and bioinformatic analyses in this manuscript were carried out using Python. To reproduce these analyses and figures download this entire repository, and open the Jupyter Notebook `jankowski_et_al_computational_analyses_and_figures.ipynb`. Then run through the code sequentially, one cell at a time. Depending on how the repository was downloaded, you may need to update some of the filepaths in the notebook to point to the files contained in the /data directory.
+
+### Software requirements:
+**OS Requirements**
+These analyses have been tested on the following systems:
+* macOS: Big Sur (11.2.3)
+* Linux: Ubuntu 18.04
+
+**Python dependencies**
+Analyses use standard Python scientific computing packages:
+```
+numpy
+scipy
+pandas
+seaborn
+matplotlib
+```
+Additionally, you will also need the *protfasta* and *localCIDER* packages:
+```
+pip install protfasta
+pip install localcider
+```
