@@ -35,7 +35,7 @@ pandas
 seaborn
 matplotlib
 ```
-Additionally, you will also need the *protfasta* and *localCIDER* packages:
+Additionally, you will also need the *protfasta*, *localCIDER* and *metapredict* packages:
 ```
 pip install protfasta
 pip install localcider
