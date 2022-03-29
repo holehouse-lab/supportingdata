@@ -41,5 +41,3 @@ pip install protfasta
 pip install localcider
 pip install metapredict
 ```
-
-TODO: Something about housetools - sequence conservation
