@@ -18,7 +18,7 @@ Additional contents can and will be added to this repository as needed.
 
 ## Reproducing analyses & figures:
 
-The sequence and bioinformatic analyses in this manuscript were carried out using Python. To reproduce these analyses and figures download this entire repository, and open the Jupyter Notebook `jankowski_et_al_computational_analyses_and_figures.ipynb`. Then run through the code sequentially, one cell at a time. Depending on how the repository was downloaded, you may need to update some of the filepaths in the notebook to point to the files contained in the `/data` directory.
+The sequence and bioinformatic analyses in this manuscript were carried out using Python (version 3.7). To reproduce these analyses and figures download this entire repository, and open the Jupyter Notebook `jankowski_et_al_computational_analyses_and_figures.ipynb`. Then run through the code sequentially, one cell at a time. Depending on how the repository was downloaded, you may need to update some of the filepaths in the notebook to point to the files contained in the `/data` directory.
 
 ### Software requirements:
 **OS Requirements**
