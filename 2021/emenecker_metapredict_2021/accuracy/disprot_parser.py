@@ -1,9 +1,6 @@
 import protfasta
 import metapredict as meta
 
-DISPROT_SEQ = 'data/disprot-2018-11-seq.fasta'
-DISPROT_DIS = 'data/disprot-2018-11-disorder.fasta'
-DISPROT_PDB = 'data/pdb-atleast.fasta'
 
 
 ########################################################################################
@@ -161,7 +158,7 @@ def parse_file(fn):
 # ..................................................................................
 #
 #
-def parse_disprot(verbose=False):
+def parse_disprot(verbose=False, datadir='data'):
     """
     Function that parses the disprot database. Note this reads three files DISPROT_* filenames defined as
     constant variables in this file at the top. As such, it doesn't actually take any arguments but is 
@@ -185,6 +182,11 @@ def parse_disprot(verbose=False):
 
 
     """
+
+    DISPROT_SEQ = f'{datadir}/disprot-2018-11-seq.fasta'
+    DISPROT_DIS = f'{datadir}/disprot-2018-11-disorder.fasta'
+    DISPROT_PDB = f'{datadir}/pdb-atleast.fasta'
+
 
     # ----------------------------------------
     def convert_to_list(ls):
@@ -300,11 +302,15 @@ def parse_disprot(verbose=False):
 
     return database
 
+    
+
 
 # ..................................................................................
 #
 #
-def extract_binary_disorder(seq, threshold=0.42):
+def extract_binary_disorder(seq, 
+                            threshold=None, 
+                            mode='legacy'):
     """
     This function takes an amino acid sequence and returns a binary disorder list
     where each residue is assigned either disordered or ordered as defined by
@@ -316,7 +322,17 @@ def extract_binary_disorder(seq, threshold=0.42):
         Amino acid sequence
 
     threshold : float
-        Threshold value passed to metapredicts disorder prediction algorithm
+        Threshold value passed to metapredicts disorder prediction algorithm. 
+        If not provided default values for the methods are used
+
+    mode : str
+        Selector for the method used. Valid optoins are:
+
+            legacy (original metapredict)
+
+            v2 (new hybrid method that combines metapredict and ppLDDT)
+
+        Default = 'legacy'
 
     Parameters
     -------------
@@ -326,7 +342,15 @@ def extract_binary_disorder(seq, threshold=0.42):
 
     """
     
-    f = meta.predict_disorder_domains(seq, disorder_threshold=threshold)
+    if mode == 'legacy':
+        f = meta.predict_disorder_domains(seq, disorder_threshold=threshold, legacy=True)
+    elif mode == 'v2':        
+        f = meta.predict_disorder_domains(seq, disorder_threshold=threshold)
+    else:
+        raise Exception('Modes must be legacy or v2')
+
+    # get IDR boundaries
+    idrs = f.disordered_domain_boundaries
     binary_scores = []
 
     # for each position in the sequence
@@ -338,7 +362,7 @@ def extract_binary_disorder(seq, threshold=0.42):
         # for each set of disorder boundaries identified by metapredict ask if
         # the curret position is within the boundaries- if yes set found
         # to True
-        for d in f[2]:
+        for d in idrs:
             if i >= d[0] and i < d[1]:
                 binary_scores.append(1)
                 found =True
