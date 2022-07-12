@@ -2,12 +2,8 @@
 ##### Last updated 2021-12-16
 
 
-
 #### `diff` between V2 and V1 PDB files for human proteome
-As a sanity check we ran a `diff` between the PDB files from the first AF2 UniProt dump (V1) and the second AF2 UniProt dump for the human proteome. Specifcally, 
-
-
-
+As a sanity check we ran a `diff` between the PDB files from the first AF2 UniProt dump (V1, summer 2021) and the second AF2 UniProt dump (December 2021) for the human proteome. Specifically, 
 
 
 	#/bin/zsh
