@@ -1,0 +1,135 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20220712)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.6399963 Released 2022-03-22
+Analyzed List:	Client Text Box Input (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Homo sapiens - REFLIST (20589)	Client Text Box Input (201)	Client Text Box Input (expected)	Client Text Box Input (over/under)	Client Text Box Input (fold Enrichment)	Client Text Box Input (raw P-value)	Client Text Box Input (FDR)
+modification of postsynaptic structure (GO:0099010)	7	3	.07	+	43.90	1.02E-04	1.61E-02
+histone H3-K4 monomethylation (GO:0097692)	9	3	.09	+	34.14	1.84E-04	2.57E-02
+regulation of nucleotide-excision repair (GO:2000819)	28	6	.27	+	21.95	8.13E-07	1.85E-04
+nucleosome disassembly (GO:0006337)	19	4	.19	+	21.56	6.50E-05	1.08E-02
+protein-DNA complex disassembly (GO:0032986)	21	4	.21	+	19.51	9.15E-05	1.48E-02
+positive regulation of transcription initiation from RNA polymerase II promoter (GO:0060261)	59	10	.58	+	17.36	1.18E-09	3.94E-07
+regulation of G0 to G1 transition (GO:0070316)	37	6	.36	+	16.61	3.43E-06	7.07E-04
+mRNA splice site selection (GO:0006376)	31	5	.30	+	16.52	2.37E-05	4.28E-03
+positive regulation of myoblast differentiation (GO:0045663)	45	7	.44	+	15.93	6.58E-07	1.54E-04
+positive regulation of DNA-templated transcription, initiation (GO:2000144)	66	10	.64	+	15.52	3.13E-09	9.61E-07
+regulation of transcription initiation from RNA polymerase II promoter (GO:0060260)	67	10	.65	+	15.29	3.56E-09	1.07E-06
+regulation of DNA-templated transcription, initiation (GO:2000142)	77	10	.75	+	13.30	1.20E-08	3.17E-06
+RNA polymerase II preinitiation complex assembly (GO:0051123)	57	7	.56	+	12.58	2.77E-06	5.95E-04
+mRNA transcription by RNA polymerase II (GO:0042789)	43	5	.42	+	11.91	9.82E-05	1.57E-02
+transcription preinitiation complex assembly (GO:0070897)	69	8	.67	+	11.88	7.89E-07	1.82E-04
+regulation of stem cell population maintenance (GO:2000036)	71	8	.69	+	11.54	9.63E-07	2.16E-04
+histone H3-K4 methylation (GO:0051568)	46	5	.45	+	11.13	1.32E-04	1.98E-02
+positive regulation of stem cell population maintenance (GO:1902459)	47	5	.46	+	10.90	1.44E-04	2.10E-02
+positive regulation of double-strand break repair (GO:2000781)	87	9	.85	+	10.60	3.87E-07	9.33E-05
+internal peptidyl-lysine acetylation (GO:0018393)	126	13	1.23	+	10.57	9.79E-10	3.49E-07
+mRNA transcription (GO:0009299)	49	5	.48	+	10.45	1.73E-04	2.44E-02
+internal protein amino acid acetylation (GO:0006475)	128	13	1.25	+	10.40	1.17E-09	3.98E-07
+peptidyl-lysine acetylation (GO:0018394)	129	13	1.26	+	10.32	1.28E-09	4.17E-07
+histone acetylation (GO:0016573)	120	12	1.17	+	10.24	6.08E-09	1.67E-06
+transcription initiation from RNA polymerase II promoter (GO:0006367)	84	8	.82	+	9.76	3.09E-06	6.53E-04
+intrinsic apoptotic signaling pathway by p53 class mediator (GO:0072332)	53	5	.52	+	9.66	2.43E-04	3.31E-02
+regulation of myoblast differentiation (GO:0045661)	77	7	.75	+	9.31	1.72E-05	3.17E-03
+spliceosomal complex assembly (GO:0000245)	56	5	.55	+	9.15	3.08E-04	4.09E-02
+protein acetylation (GO:0006473)	148	13	1.44	+	9.00	5.96E-09	1.67E-06
+histone lysine methylation (GO:0034968)	78	6	.76	+	7.88	1.65E-04	2.35E-02
+regulation of mitotic metaphase/anaphase transition (GO:0030071)	91	7	.89	+	7.88	4.68E-05	8.15E-03
+DNA-templated transcription, initiation (GO:0006352)	118	9	1.15	+	7.81	4.09E-06	8.32E-04
+regulation of metaphase/anaphase transition of cell cycle (GO:1902099)	94	7	.92	+	7.63	5.68E-05	9.67E-03
+transcription by RNA polymerase II (GO:0006366)	270	20	2.64	+	7.59	7.52E-12	3.37E-09
+regulation of mitotic sister chromatid separation (GO:0010965)	96	7	.94	+	7.47	6.43E-05	1.08E-02
+positive regulation of DNA repair (GO:0045739)	126	9	1.23	+	7.32	6.75E-06	1.32E-03
+protein acylation (GO:0043543)	188	13	1.84	+	7.08	8.42E-08	2.13E-05
+regulation of double-strand break repair (GO:2000779)	134	9	1.31	+	6.88	1.08E-05	2.08E-03
+regulation of sister chromatid segregation (GO:0033045)	105	7	1.03	+	6.83	1.09E-04	1.70E-02
+histone methylation (GO:0016571)	105	7	1.03	+	6.83	1.09E-04	1.68E-02
+chromatin remodeling (GO:0006338)	275	18	2.68	+	6.70	5.76E-10	2.15E-07
+regulation of chromosome separation (GO:1905818)	109	7	1.06	+	6.58	1.36E-04	2.01E-02
+peptidyl-lysine modification (GO:0018205)	307	18	3.00	+	6.01	3.00E-09	9.40E-07
+regulation of DNA repair (GO:0006282)	210	12	2.05	+	5.85	1.80E-06	3.98E-04
+positive regulation of leukocyte differentiation (GO:1902107)	176	10	1.72	+	5.82	1.39E-05	2.67E-03
+positive regulation of hemopoiesis (GO:1903708)	176	10	1.72	+	5.82	1.39E-05	2.63E-03
+positive regulation of lymphocyte differentiation (GO:0045621)	126	7	1.23	+	5.69	3.17E-04	4.14E-02
+transcription, DNA-templated (GO:0006351)	417	23	4.07	+	5.65	5.36E-11	2.21E-08
+nucleic acid-templated transcription (GO:0097659)	418	23	4.08	+	5.64	5.61E-11	2.26E-08
+positive regulation of response to DNA damage stimulus (GO:2001022)	164	9	1.60	+	5.62	4.88E-05	8.40E-03
+regulation of chromosome segregation (GO:0051983)	129	7	1.26	+	5.56	3.63E-04	4.62E-02
+RNA biosynthetic process (GO:0032774)	428	23	4.18	+	5.50	8.76E-11	3.35E-08
+regulation of T cell differentiation (GO:0045580)	173	9	1.69	+	5.33	7.22E-05	1.18E-02
+protein-DNA complex subunit organization (GO:0071824)	250	13	2.44	+	5.33	1.81E-06	3.94E-04
+histone modification (GO:0016570)	401	20	3.91	+	5.11	5.35E-09	1.52E-06
+chromatin organization (GO:0006325)	590	27	5.76	+	4.69	5.85E-11	2.29E-08
+regulation of lymphocyte differentiation (GO:0045619)	202	9	1.97	+	4.56	2.21E-04	3.07E-02
+positive regulation of transcription by RNA polymerase II (GO:0045944)	1251	55	12.21	+	4.50	3.73E-21	3.65E-18
+protein-DNA complex assembly (GO:0065004)	212	9	2.07	+	4.35	3.11E-04	4.10E-02
+regulation of response to DNA damage stimulus (GO:2001020)	310	13	3.03	+	4.30	1.67E-05	3.12E-03
+positive regulation of RNA metabolic process (GO:0051254)	1828	72	17.85	+	4.03	1.79E-25	2.55E-22
+regulation of leukocyte differentiation (GO:1902105)	306	12	2.99	+	4.02	6.60E-05	1.09E-02
+positive regulation of nucleic acid-templated transcription (GO:1903508)	1696	66	16.56	+	3.99	7.33E-23	8.84E-20
+positive regulation of transcription, DNA-templated (GO:0045893)	1696	66	16.56	+	3.99	7.33E-23	8.21E-20
+positive regulation of RNA biosynthetic process (GO:1902680)	1702	66	16.62	+	3.97	8.84E-23	9.23E-20
+positive regulation of nucleobase-containing compound metabolic process (GO:0045935)	2034	76	19.86	+	3.83	1.15E-25	1.80E-22
+positive regulation of DNA metabolic process (GO:0051054)	302	11	2.95	+	3.73	2.46E-04	3.33E-02
+regulation of transcription by RNA polymerase II (GO:0006357)	2619	95	25.57	+	3.72	2.11E-32	3.30E-28
+positive regulation of macromolecule biosynthetic process (GO:0010557)	1920	66	18.74	+	3.52	4.72E-20	4.11E-17
+regulation of hemopoiesis (GO:1903706)	386	13	3.77	+	3.45	1.44E-04	2.11E-02
+negative regulation of transcription by RNA polymerase II (GO:0000122)	969	32	9.46	+	3.38	2.44E-09	7.79E-07
+negative regulation of transcription, DNA-templated (GO:0045892)	1313	43	12.82	+	3.35	3.26E-12	1.65E-09
+negative regulation of nucleic acid-templated transcription (GO:1903507)	1315	43	12.84	+	3.35	3.43E-12	1.68E-09
+negative regulation of RNA biosynthetic process (GO:1902679)	1317	43	12.86	+	3.34	3.60E-12	1.66E-09
+positive regulation of cellular biosynthetic process (GO:0031328)	2024	66	19.76	+	3.34	6.94E-19	5.43E-16
+positive regulation of biosynthetic process (GO:0009891)	2062	66	20.13	+	3.28	1.77E-18	1.32E-15
+negative regulation of macromolecule biosynthetic process (GO:0010558)	1522	48	14.86	+	3.23	4.99E-13	2.79E-10
+negative regulation of RNA metabolic process (GO:0051253)	1427	44	13.93	+	3.16	1.21E-11	5.29E-09
+regulation of transcription, DNA-templated (GO:0006355)	3455	105	33.73	+	3.11	3.86E-30	2.02E-26
+regulation of nucleic acid-templated transcription (GO:1903506)	3456	105	33.74	+	3.11	3.96E-30	1.55E-26
+negative regulation of cellular biosynthetic process (GO:0031327)	1581	48	15.43	+	3.11	1.90E-12	9.95E-10
+regulation of RNA biosynthetic process (GO:2001141)	3465	105	33.83	+	3.10	4.93E-30	1.55E-26
+negative regulation of biosynthetic process (GO:0009890)	1610	48	15.72	+	3.05	3.59E-12	1.70E-09
+regulation of DNA metabolic process (GO:0051052)	538	16	5.25	+	3.05	1.02E-04	1.61E-02
+chromosome organization (GO:0051276)	942	28	9.20	+	3.04	2.27E-07	5.55E-05
+regulation of RNA metabolic process (GO:0051252)	3753	111	36.64	+	3.03	2.16E-31	1.69E-27
+negative regulation of nucleobase-containing compound metabolic process (GO:0045934)	1551	45	15.14	+	2.97	4.83E-11	2.05E-08
+nucleobase-containing compound biosynthetic process (GO:0034654)	813	23	7.94	+	2.90	6.59E-06	1.31E-03
+regulation of macromolecule biosynthetic process (GO:0010556)	3932	109	38.39	+	2.84	3.47E-28	7.77E-25
+regulation of nucleobase-containing compound metabolic process (GO:0019219)	4059	112	39.63	+	2.83	4.54E-29	1.19E-25
+mRNA metabolic process (GO:0016071)	598	16	5.84	+	2.74	3.27E-04	4.23E-02
+regulation of cellular biosynthetic process (GO:0031326)	4095	109	39.98	+	2.73	1.12E-26	2.20E-23
+regulation of biosynthetic process (GO:0009889)	4155	109	40.56	+	2.69	3.87E-26	6.74E-23
+heterocycle biosynthetic process (GO:0018130)	885	23	8.64	+	2.66	2.46E-05	4.38E-03
+aromatic compound biosynthetic process (GO:0019438)	895	23	8.74	+	2.63	2.92E-05	5.14E-03
+positive regulation of nitrogen compound metabolic process (GO:0051173)	3142	79	30.67	+	2.58	2.06E-16	1.34E-13
+regulation of gene expression (GO:0010468)	4833	115	47.18	+	2.44	3.65E-24	4.77E-21
+positive regulation of cellular metabolic process (GO:0031325)	3329	79	32.50	+	2.43	5.39E-15	3.38E-12
+peptidyl-amino acid modification (GO:0018193)	890	21	8.69	+	2.42	3.27E-04	4.20E-02
+negative regulation of nitrogen compound metabolic process (GO:0051172)	2399	56	23.42	+	2.39	7.08E-10	2.58E-07
+positive regulation of macromolecule metabolic process (GO:0010604)	3507	81	34.24	+	2.37	9.62E-15	5.80E-12
+organic cyclic compound biosynthetic process (GO:1901362)	1023	23	9.99	+	2.30	2.36E-04	3.24E-02
+regulation of cell cycle (GO:0051726)	1122	25	10.95	+	2.28	1.34E-04	2.00E-02
+RNA metabolic process (GO:0016070)	1442	32	14.08	+	2.27	1.94E-05	3.54E-03
+negative regulation of cellular metabolic process (GO:0031324)	2539	55	24.79	+	2.22	1.03E-08	2.80E-06
+negative regulation of macromolecule metabolic process (GO:0010605)	2751	59	26.86	+	2.20	4.20E-09	1.24E-06
+positive regulation of metabolic process (GO:0009893)	3816	81	37.25	+	2.17	1.01E-12	5.45E-10
+regulation of nitrogen compound metabolic process (GO:0051171)	5689	119	55.54	+	2.14	1.93E-20	1.78E-17
+regulation of primary metabolic process (GO:0080090)	5847	119	57.08	+	2.08	2.42E-19	2.00E-16
+negative regulation of metabolic process (GO:0009892)	2968	59	28.98	+	2.04	5.67E-08	1.46E-05
+regulation of cellular metabolic process (GO:0031323)	6040	119	58.97	+	2.02	3.05E-18	2.17E-15
+regulation of macromolecule metabolic process (GO:0060255)	6190	119	60.43	+	1.97	2.52E-17	1.72E-14
+regulation of metabolic process (GO:0019222)	6720	119	65.60	+	1.81	1.80E-14	1.05E-11
+regulation of developmental process (GO:0050793)	2463	42	24.05	+	1.75	2.99E-04	4.00E-02
+positive regulation of cellular process (GO:0048522)	5740	97	56.04	+	1.73	1.13E-09	3.95E-07
+negative regulation of cellular process (GO:0048523)	4867	80	47.51	+	1.68	4.27E-07	1.01E-04
+positive regulation of biological process (GO:0048518)	6255	101	61.06	+	1.65	5.02E-09	1.46E-06
+negative regulation of biological process (GO:0048519)	5288	82	51.62	+	1.59	3.23E-06	6.75E-04
+regulation of cellular process (GO:0050794)	11275	149	110.07	+	1.35	1.97E-08	5.16E-06
+regulation of biological process (GO:0050789)	11735	151	114.56	+	1.32	1.28E-07	3.17E-05
+biological regulation (GO:0065007)	12469	153	121.73	+	1.26	4.14E-06	8.32E-04
+small molecule metabolic process (GO:0044281)	1616	3	15.78	-	.19	1.60E-04	2.30E-02
+G protein-coupled receptor signaling pathway (GO:0007186)	1221	1	11.92	-	.08	1.18E-04	1.79E-02
