@@ -1,0 +1,182 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20220712)
+Annotation Version and Release Date:	PANTHER version 17.0 Released 2022-02-22
+Analyzed List:	Client Text Box Input (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+PANTHER GO-Slim Biological Process	Homo sapiens - REFLIST (20589)	Client Text Box Input (1176)	Client Text Box Input (expected)	Client Text Box Input (over/under)	Client Text Box Input (fold Enrichment)	Client Text Box Input (raw P-value)	Client Text Box Input (FDR)
+regulation of mRNA splicing, via spliceosome (GO:0048024)	48	26	2.74	+	9.48	4.63E-15	8.56E-13
+regulation of mRNA processing (GO:0050684)	58	29	3.31	+	8.75	6.19E-16	1.53E-13
+mRNA cis splicing, via spliceosome (GO:0045292)	8	4	.46	+	8.75	2.96E-03	4.21E-02
+regulation of RNA splicing (GO:0043484)	75	37	4.28	+	8.64	8.47E-20	2.35E-17
+alternative mRNA splicing, via spliceosome (GO:0000380)	31	13	1.77	+	7.34	3.38E-07	2.28E-05
+regulation of alternative mRNA splicing, via spliceosome (GO:0000381)	27	11	1.54	+	7.13	3.41E-06	1.54E-04
+calcium ion import (GO:0070509)	40	16	2.28	+	7.00	2.56E-08	2.37E-06
+calcium ion transmembrane import into cytosol (GO:0097553)	38	15	2.17	+	6.91	8.02E-08	6.60E-06
+calcium ion transport into cytosol (GO:0060402)	39	15	2.23	+	6.73	1.06E-07	8.37E-06
+mRNA splicing, via spliceosome (GO:0000398)	176	66	10.05	+	6.57	9.32E-29	5.18E-26
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)	176	66	10.05	+	6.57	9.32E-29	4.14E-26
+RNA splicing, via transesterification reactions (GO:0000375)	176	66	10.05	+	6.57	9.32E-29	3.45E-26
+cytosolic calcium ion transport (GO:0060401)	47	17	2.68	+	6.33	3.13E-08	2.78E-06
+regulation of synaptic plasticity (GO:0048167)	25	9	1.43	+	6.30	5.85E-05	1.62E-03
+positive regulation of translation (GO:0045727)	28	10	1.60	+	6.25	2.41E-05	8.35E-04
+RNA splicing (GO:0008380)	221	77	12.62	+	6.10	1.23E-31	1.37E-28
+mRNA processing (GO:0006397)	229	79	13.08	+	6.04	3.41E-32	7.58E-29
+positive regulation of cellular amide metabolic process (GO:0034250)	30	10	1.71	+	5.84	3.91E-05	1.17E-03
+microtubule depolymerization (GO:0007019)	18	6	1.03	+	5.84	1.43E-03	2.33E-02
+regulation of microtubule polymerization or depolymerization (GO:0031110)	24	7	1.37	+	5.11	1.11E-03	1.87E-02
+regulation of mRNA metabolic process (GO:1903311)	110	32	6.28	+	5.09	3.78E-12	5.25E-10
+regulation of microtubule cytoskeleton organization (GO:0070507)	39	11	2.23	+	4.94	5.83E-05	1.64E-03
+mRNA metabolic process (GO:0016071)	316	88	18.05	+	4.88	5.18E-30	3.84E-27
+positive regulation of mRNA metabolic process (GO:1903313)	49	13	2.80	+	4.64	2.19E-05	7.83E-04
+mRNA transport (GO:0051028)	34	9	1.94	+	4.63	4.06E-04	8.50E-03
+RNA transport (GO:0050658)	51	13	2.91	+	4.46	3.13E-05	1.01E-03
+nucleic acid transport (GO:0050657)	51	13	2.91	+	4.46	3.13E-05	9.92E-04
+establishment of RNA localization (GO:0051236)	51	13	2.91	+	4.46	3.13E-05	9.78E-04
+RNA export from nucleus (GO:0006405)	48	12	2.74	+	4.38	7.35E-05	2.01E-03
+RNA localization (GO:0006403)	56	14	3.20	+	4.38	1.88E-05	6.97E-04
+mRNA export from nucleus (GO:0006406)	33	8	1.88	+	4.24	1.37E-03	2.28E-02
+calcium ion transmembrane transport (GO:0070588)	80	19	4.57	+	4.16	1.25E-06	6.93E-05
+regulation of microtubule-based process (GO:0032886)	58	13	3.31	+	3.92	9.74E-05	2.51E-03
+RNA processing (GO:0006396)	481	102	27.47	+	3.71	1.94E-26	6.14E-24
+positive regulation of gene expression (GO:0010628)	126	26	7.20	+	3.61	1.65E-07	1.22E-05
+nucleobase-containing compound transport (GO:0015931)	64	13	3.66	+	3.56	2.28E-04	5.27E-03
+positive regulation of cytosolic calcium ion concentration (GO:0007204)	85	17	4.86	+	3.50	3.13E-05	9.64E-04
+calcium ion transport (GO:0006816)	99	19	5.65	+	3.36	1.81E-05	7.19E-04
+microtubule polymerization or depolymerization (GO:0031109)	47	9	2.68	+	3.35	2.91E-03	4.16E-02
+nuclear export (GO:0051168)	67	12	3.83	+	3.14	1.05E-03	1.79E-02
+chromatin organization (GO:0006325)	118	21	6.74	+	3.12	1.83E-05	7.15E-04
+regulation of cytosolic calcium ion concentration (GO:0051480)	100	17	5.71	+	2.98	1.82E-04	4.29E-03
+regulation of trans-synaptic signaling (GO:0099177)	93	15	5.31	+	2.82	6.95E-04	1.29E-02
+modulation of chemical synaptic transmission (GO:0050804)	93	15	5.31	+	2.82	6.95E-04	1.27E-02
+regulation of anatomical structure morphogenesis (GO:0022603)	103	16	5.88	+	2.72	6.73E-04	1.26E-02
+cellular calcium ion homeostasis (GO:0006874)	140	21	8.00	+	2.63	1.63E-04	3.98E-03
+calcium ion homeostasis (GO:0055074)	142	21	8.11	+	2.59	3.07E-04	6.62E-03
+regulation of cytoskeleton organization (GO:0051493)	135	19	7.71	+	2.46	8.48E-04	1.51E-02
+positive regulation of RNA metabolic process (GO:0051254)	287	40	16.39	+	2.44	1.46E-06	7.90E-05
+actin filament organization (GO:0007015)	201	28	11.48	+	2.44	5.01E-05	1.46E-03
+cellular divalent inorganic cation homeostasis (GO:0072503)	154	21	8.80	+	2.39	5.72E-04	1.12E-02
+positive regulation of macromolecule biosynthetic process (GO:0010557)	270	36	15.42	+	2.33	1.65E-05	6.64E-04
+supramolecular fiber organization (GO:0097435)	318	42	18.16	+	2.31	2.76E-06	1.30E-04
+divalent inorganic cation homeostasis (GO:0072507)	159	21	9.08	+	2.31	7.90E-04	1.43E-02
+positive regulation of nucleobase-containing compound metabolic process (GO:0045935)	309	40	17.65	+	2.27	6.96E-06	3.03E-04
+actin cytoskeleton organization (GO:0030036)	294	38	16.79	+	2.26	1.26E-05	5.28E-04
+positive regulation of cellular biosynthetic process (GO:0031328)	279	36	15.94	+	2.26	2.31E-05	8.12E-04
+chromosome organization (GO:0051276)	256	33	14.62	+	2.26	5.73E-05	1.63E-03
+positive regulation of biosynthetic process (GO:0009891)	282	36	16.11	+	2.24	2.68E-05	9.01E-04
+actin filament-based process (GO:0030029)	304	38	17.36	+	2.19	2.86E-05	9.46E-04
+cellular metal ion homeostasis (GO:0006875)	179	22	10.22	+	2.15	1.49E-03	2.40E-02
+cellular cation homeostasis (GO:0030003)	200	24	11.42	+	2.10	1.47E-03	2.37E-02
+cellular ion homeostasis (GO:0006873)	203	24	11.59	+	2.07	1.64E-03	2.62E-02
+positive regulation of nitrogen compound metabolic process (GO:0051173)	559	64	31.93	+	2.00	8.45E-07	5.07E-05
+cytoskeleton organization (GO:0007010)	723	81	41.30	+	1.96	6.74E-08	5.76E-06
+cellular chemical homeostasis (GO:0055082)	215	24	12.28	+	1.95	3.51E-03	4.66E-02
+neuron development (GO:0048666)	236	26	13.48	+	1.93	3.37E-03	4.61E-02
+positive regulation of nucleic acid-templated transcription (GO:1903508)	237	26	13.54	+	1.92	3.43E-03	4.67E-02
+positive regulation of transcription, DNA-templated (GO:0045893)	237	26	13.54	+	1.92	3.43E-03	4.64E-02
+positive regulation of RNA biosynthetic process (GO:1902680)	237	26	13.54	+	1.92	3.43E-03	4.62E-02
+positive regulation of macromolecule metabolic process (GO:0010604)	608	66	34.73	+	1.90	3.42E-06	1.52E-04
+positive regulation of cellular metabolic process (GO:0031325)	617	64	35.24	+	1.82	2.01E-05	7.32E-04
+negative regulation of RNA metabolic process (GO:0051253)	304	31	17.36	+	1.79	3.28E-03	4.52E-02
+microtubule cytoskeleton organization (GO:0000226)	373	38	21.30	+	1.78	1.27E-03	2.13E-02
+positive regulation of metabolic process (GO:0009893)	680	68	38.84	+	1.75	3.30E-05	1.00E-03
+cell development (GO:0048468)	383	38	21.88	+	1.74	2.10E-03	3.19E-02
+RNA metabolic process (GO:0016070)	2410	236	137.65	+	1.71	1.73E-15	3.85E-13
+protein phosphorylation (GO:0006468)	423	41	24.16	+	1.70	2.39E-03	3.49E-02
+microtubule-based process (GO:0007017)	488	47	27.87	+	1.69	1.27E-03	2.13E-02
+nucleic acid metabolic process (GO:0090304)	2686	256	153.42	+	1.67	1.74E-15	3.50E-13
+anatomical structure morphogenesis (GO:0009653)	485	46	27.70	+	1.66	1.73E-03	2.70E-02
+gene expression (GO:0010467)	2894	262	165.30	+	1.59	1.76E-13	3.00E-11
+nucleobase-containing compound metabolic process (GO:0006139)	2928	261	167.24	+	1.56	1.07E-12	1.70E-10
+regulation of gene expression (GO:0010468)	2106	187	120.29	+	1.55	6.86E-09	6.92E-07
+heterocycle metabolic process (GO:0046483)	2978	261	170.10	+	1.53	6.77E-12	8.84E-10
+cellular aromatic compound metabolic process (GO:0006725)	2989	261	170.73	+	1.53	9.77E-12	1.21E-09
+regulation of RNA metabolic process (GO:0051252)	1853	161	105.84	+	1.52	3.50E-07	2.28E-05
+regulation of nucleobase-containing compound metabolic process (GO:0019219)	1911	165	109.15	+	1.51	3.03E-07	2.10E-05
+organic cyclic compound metabolic process (GO:1901360)	3041	262	173.70	+	1.51	3.24E-11	3.78E-09
+regulation of macromolecule metabolic process (GO:0060255)	2533	209	144.68	+	1.44	1.46E-07	1.12E-05
+cellular nitrogen compound metabolic process (GO:0034641)	3265	269	186.49	+	1.44	1.21E-09	1.28E-07
+regulation of primary metabolic process (GO:0080090)	2384	193	136.17	+	1.42	2.04E-06	1.08E-04
+regulation of nitrogen compound metabolic process (GO:0051171)	2359	190	134.74	+	1.41	2.94E-06	1.36E-04
+negative regulation of biological process (GO:0048519)	1122	90	64.09	+	1.40	2.07E-03	3.19E-02
+regulation of metabolic process (GO:0019222)	2659	213	151.88	+	1.40	1.02E-06	5.78E-05
+regulation of cellular metabolic process (GO:0031323)	2470	193	141.08	+	1.37	1.62E-05	6.65E-04
+organelle organization (GO:0006996)	1879	145	107.32	+	1.35	4.33E-04	8.83E-03
+macromolecule metabolic process (GO:0043170)	4815	364	275.02	+	1.32	8.71E-09	8.41E-07
+cellular component organization or biogenesis (GO:0071840)	2644	198	151.02	+	1.31	1.27E-04	3.16E-03
+regulation of cellular biosynthetic process (GO:0031326)	1875	140	107.10	+	1.31	1.88E-03	2.91E-02
+cellular component organization (GO:0016043)	2518	188	143.82	+	1.31	2.28E-04	5.23E-03
+regulation of cellular macromolecule biosynthetic process (GO:2000112)	1849	138	105.61	+	1.31	2.09E-03	3.20E-02
+regulation of macromolecule biosynthetic process (GO:0010556)	1853	138	105.84	+	1.30	2.13E-03	3.17E-02
+regulation of biosynthetic process (GO:0009889)	1881	140	107.44	+	1.30	2.26E-03	3.33E-02
+nitrogen compound metabolic process (GO:0006807)	5018	353	286.62	+	1.23	1.85E-05	6.97E-04
+biological regulation (GO:0065007)	5616	386	320.77	+	1.20	4.83E-05	1.43E-03
+primary metabolic process (GO:0044238)	5251	359	299.93	+	1.20	1.61E-04	3.98E-03
+cellular metabolic process (GO:0044237)	5332	364	304.55	+	1.20	1.73E-04	4.13E-03
+regulation of biological process (GO:0050789)	5162	350	294.84	+	1.19	4.32E-04	8.88E-03
+organic substance metabolic process (GO:0071704)	5685	380	324.72	+	1.17	5.68E-04	1.13E-02
+regulation of cellular process (GO:0050794)	4940	327	282.16	+	1.16	3.65E-03	4.79E-02
+metabolic process (GO:0008152)	5907	387	337.40	+	1.15	2.10E-03	3.15E-02
+cellular process (GO:0009987)	10019	640	572.26	+	1.12	1.23E-04	3.10E-03
+response to stimulus (GO:0050896)	3119	136	178.15	-	.76	6.51E-04	1.24E-02
+establishment of localization (GO:0051234)	1993	84	113.84	-	.74	3.58E-03	4.72E-02
+transport (GO:0006810)	1962	79	112.07	-	.70	9.76E-04	1.68E-02
+vesicle-mediated transport (GO:0016192)	815	25	46.55	-	.54	7.90E-04	1.44E-02
+response to stress (GO:0006950)	920	27	52.55	-	.51	1.65E-04	3.99E-03
+response to chemical (GO:0042221)	818	24	46.72	-	.51	4.36E-04	8.79E-03
+cellular response to chemical stimulus (GO:0070887)	581	16	33.19	-	.48	1.69E-03	2.69E-02
+response to external stimulus (GO:0009605)	575	15	32.84	-	.46	8.46E-04	1.51E-02
+membrane organization (GO:0061024)	557	13	31.81	-	.41	3.24E-04	6.91E-03
+small molecule metabolic process (GO:0044281)	648	15	37.01	-	.41	7.71E-05	2.09E-03
+vesicle organization (GO:0016050)	421	8	24.05	-	.33	3.29E-04	6.95E-03
+vesicle budding from membrane (GO:0006900)	257	4	14.68	-	.27	2.25E-03	3.33E-02
+lipid metabolic process (GO:0006629)	419	6	23.93	-	.25	3.10E-05	1.01E-03
+cellular lipid metabolic process (GO:0044255)	367	5	20.96	-	.24	1.04E-04	2.66E-03
+regulation of immune response (GO:0050776)	221	3	12.62	-	.24	2.78E-03	4.00E-02
+regulation of immune system process (GO:0002682)	339	4	19.36	-	.21	8.75E-05	2.31E-03
+defense response to other organism (GO:0098542)	262	2	14.96	-	.13	9.36E-05	2.44E-03
+monocarboxylic acid metabolic process (GO:0032787)	152	1	8.68	-	.12	3.51E-03	4.69E-02
+cellular response to cytokine stimulus (GO:0071345)	157	1	8.97	-	.11	3.76E-03	4.91E-02
+activation of immune response (GO:0002253)	158	1	9.02	-	.11	2.41E-03	3.50E-02
+response to cytokine (GO:0034097)	169	1	9.65	-	.10	1.71E-03	2.69E-02
+response to external biotic stimulus (GO:0043207)	339	2	19.36	-	.10	2.53E-06	1.30E-04
+response to other organism (GO:0051707)	339	2	19.36	-	.10	2.53E-06	1.28E-04
+biological process involved in interspecies interaction between organisms (GO:0044419)	339	2	19.36	-	.10	2.53E-06	1.25E-04
+response to biotic stimulus (GO:0009607)	340	2	19.42	-	.10	2.58E-06	1.25E-04
+immune system process (GO:0002376)	694	4	39.64	-	.10	1.63E-12	2.42E-10
+immune response (GO:0006955)	541	3	30.90	-	.10	5.50E-10	6.11E-08
+defense response (GO:0006952)	375	2	21.42	-	.09	3.91E-07	2.48E-05
+positive regulation of immune response (GO:0050778)	190	1	10.85	-	.09	5.54E-04	1.11E-02
+innate immune response (GO:0045087)	203	1	11.59	-	.09	2.58E-04	5.85E-03
+response to bacterium (GO:0009617)	204	1	11.65	-	.09	2.60E-04	5.84E-03
+positive regulation of immune system process (GO:0002684)	254	1	14.51	-	.07	1.84E-05	7.05E-04
+carboxylic acid metabolic process (GO:0019752)	314	1	17.94	-	.06	8.95E-07	5.23E-05
+oxoacid metabolic process (GO:0043436)	318	1	18.16	-	.06	5.88E-07	3.63E-05
+organic acid metabolic process (GO:0006082)	333	1	19.02	-	.05	2.73E-07	1.96E-05
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains (GO:0002460)	142	0	8.11	-	 < 0.01	6.01E-04	1.17E-02
+lymphocyte mediated immunity (GO:0002449)	147	0	8.40	-	 < 0.01	6.45E-04	1.23E-02
+leukocyte mediated immunity (GO:0002443)	154	0	8.80	-	 < 0.01	4.32E-04	8.96E-03
+production of molecular mediator of immune response (GO:0002440)	125	0	7.14	-	 < 0.01	2.10E-03	3.17E-02
+B cell activation (GO:0042113)	118	0	6.74	-	 < 0.01	3.14E-03	4.44E-02
+positive regulation of leukocyte activation (GO:0002696)	137	0	7.83	-	 < 0.01	9.09E-04	1.60E-02
+regulation of leukocyte activation (GO:0002694)	157	0	8.97	-	 < 0.01	2.72E-04	6.03E-03
+leukocyte activation (GO:0045321)	198	0	11.31	-	 < 0.01	2.49E-05	8.50E-04
+generation of precursor metabolites and energy (GO:0006091)	119	0	6.80	-	 < 0.01	3.21E-03	4.46E-02
+B cell mediated immunity (GO:0019724)	118	0	6.74	-	 < 0.01	3.14E-03	4.41E-02
+positive regulation of cell activation (GO:0050867)	137	0	7.83	-	 < 0.01	9.09E-04	1.59E-02
+regulation of cell activation (GO:0050865)	159	0	9.08	-	 < 0.01	2.78E-04	6.04E-03
+immune effector process (GO:0002252)	182	0	10.40	-	 < 0.01	8.71E-05	2.33E-03
+adaptive immune response (GO:0002250)	165	0	9.42	-	 < 0.01	1.84E-04	4.30E-03
+humoral immune response (GO:0006959)	158	0	9.02	-	 < 0.01	2.74E-04	6.02E-03
+inflammatory response (GO:0006954)	139	0	7.94	-	 < 0.01	9.40E-04	1.63E-02
+lymphocyte activation (GO:0046649)	188	0	10.74	-	 < 0.01	5.72E-05	1.65E-03
+positive regulation of lymphocyte activation (GO:0051251)	132	0	7.54	-	 < 0.01	1.40E-03	2.31E-02
+immunoglobulin mediated immune response (GO:0016064)	118	0	6.74	-	 < 0.01	3.14E-03	4.38E-02
+regulation of lymphocyte activation (GO:0051249)	148	0	8.45	-	 < 0.01	6.63E-04	1.25E-02
+cell activation (GO:0001775)	212	0	12.11	-	 < 0.01	1.12E-05	4.79E-04
+cellular amino acid metabolic process (GO:0006520)	142	0	8.11	-	 < 0.01	6.01E-04	1.16E-02
