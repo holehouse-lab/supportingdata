@@ -23,3 +23,5 @@ Simulations run on wildtype PopZ (full-length).
 `subtraj.xtc` - sub-sampled trajectory of 5000 conformations, the full (26,847) conformation ensemble is available on literally any request, reasonable or otherwise [it's just too big for GitHub ]. 
 
 `foxs_scattering_data.dat` - synthetic scattering data generate on the the ensemble using the FOXS program
+
+`interaction_between_linker_and_od.csv` - per-simulation average interaction score between the oligomerization domain residues (residues 110-176) and the linker residues (residues 25-110).

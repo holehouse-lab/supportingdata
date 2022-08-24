@@ -23,3 +23,5 @@ Sequence below for clarity
 `full.pdb` - topology PDB file of full-length PopZ
 
 `subtraj.xtc` - sub-sampled trajectory of 5000 conformations, the full (45,000) conformation ensemble is available on literally any request, reasonable or otherwise [it's just too big for GitHub]. 
+
+`interaction_between_linker_and_od.csv` - per-simulation average interaction score between the oligomerization domain residues (residues 110-176) and the linker residues (residues 25-110).
