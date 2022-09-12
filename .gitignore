@@ -1,6 +1,7 @@
 .DS_Store
 .ipynb_checkpoints/
 
+__pycache__/
 
 # special cases
 2021/emenecker_metapredict_2021/accuracy/data_real/
