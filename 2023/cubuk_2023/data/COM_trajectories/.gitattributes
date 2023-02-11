@@ -1,0 +1,16 @@
+COM_15.xtc filter=lfs diff=lfs merge=lfs -text
+COM_180.xtc filter=lfs diff=lfs merge=lfs -text
+COM_25.xtc filter=lfs diff=lfs merge=lfs -text
+COM_30.pdb filter=lfs diff=lfs merge=lfs -text
+COM_35.pdb filter=lfs diff=lfs merge=lfs -text
+COM_10.pdb filter=lfs diff=lfs merge=lfs -text
+COM_10.xtc filter=lfs diff=lfs merge=lfs -text
+COM_30.xtc filter=lfs diff=lfs merge=lfs -text
+COM_15.pdb filter=lfs diff=lfs merge=lfs -text
+COM_20.xtc filter=lfs diff=lfs merge=lfs -text
+COM_35.xtc filter=lfs diff=lfs merge=lfs -text
+COM_40.xtc filter=lfs diff=lfs merge=lfs -text
+COM_180.pdb filter=lfs diff=lfs merge=lfs -text
+COM_20.pdb filter=lfs diff=lfs merge=lfs -text
+COM_25.pdb filter=lfs diff=lfs merge=lfs -text
+COM_40.pdb filter=lfs diff=lfs merge=lfs -text

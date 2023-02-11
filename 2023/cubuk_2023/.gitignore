@@ -1,0 +1,14 @@
+data/bound_and_unbound_trajectories/rU25_bound_traj.pdb
+data/bound_and_unbound_trajectories/rU25_bound_traj.xtc
+data/bound_and_unbound_trajectories/rU25_unbound_traj.pdb
+data/bound_and_unbound_trajectories/rU25_unbound_traj.xtc
+data/bound_and_unbound_trajectories/rU10_bound_traj.pdb
+data/bound_and_unbound_trajectories/rU10_bound_traj.xtc
+data/bound_and_unbound_trajectories/rU10_unbound_traj.pdb
+data/bound_and_unbound_trajectories/rU10_unbound_traj.xtc
+data/rna_protein_contacts/NMR_data/CSP_data_10mer_final.csv
+data/rna_protein_contacts/NMR_data/CSP_data_10mer_final.csv
+data/rna_protein_contacts/NMR_data/FIG3A_CSP_data.xlsx
+
+
+.DS_Store
