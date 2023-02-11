@@ -7,23 +7,29 @@ This repository contains additional information for the manuscript
 
 Jared Lalmansingh, Alex Keeley, Kiersten M. Ruff, Rohit V. Pappu, Alex S. Holehouse
 
-For more information on the simulation data, please contact alex directly.
+For more information on the simulation data, please contact Alex or Jared directly!
+
+## Important links:
+
+#### [1. SOURSOP documentation](https://soursop.readthedocs.io/)
+#### [2. SOURSOP GitHub repo](https://soursop.readthedocs.io/)
 
 ## Contents
 ### `/notebooks`
-A collection of notebooks for analysis
+A collection of notebooks offering examples of analysis 
 
-### `/data`
-
+## Data used 
 The SOURSOP paper re-analyzes a set of simulations performed by several different authors (see references below). 
 
 Links to full IDP ensemble trajectories for the CAMPARI-generated  Monte Carlo simulation ensembles used in this paper are provided below. If these ensembles are used, PLEASE CITE the original papers (no need to cite this paper).
+
 To access these trajectories [please click here](https://www.dropbox.com/sh/0cnrsodeatrsk9n/AADozaFr6T7VfEa1wfRgtPAQa?dl=0)
 
 For the molecular dynamics simulations using [Amber99-disp](https://github.com/paulrobustelli/Force-Fields), ensembles were taken from Robustelli et al. 2019, and the full trajectories can be obtained from D.E. Shaw after agreeing to their license agreement (and as such, we cannot re-distribute them). However, Excluded Volume (EV) simulations are provided.
 
-The list below reflects the mapping of different trajectories used to different papers.
+For CAMPARI simulations full simulations are provided
 
+The list below reflects the mapping of different trajectories used to different papers.
 
 * p27 - Das, Huang and Phillips PNAS 2016 [CAMPARI, ABSINTH, MC]
 * ash1 - Martin & Holehouse et al. JACS 2016 [CAMPARI, ABSINTH, MC]
@@ -36,31 +42,6 @@ The list below reflects the mapping of different trajectories used to different 
 * hnRNPA1 - Martin, Holehouse & Peran et al. Science 2020 [CAMPARI, ABSINTH, MC]
 * p53\_1\_91 – Holehouse & Sukenik JCTC 2020 [CAMPARI, ABSINTH, MC]
 * p53\_1\_91_S15E\_T18E\_S20E – This paper [CAMPARI, ABSINTH, MC]
-
-#### 
-
-
-#### 
-*
-
-#### 
-
-*
-*
-*
-*
-
-#### 
-* 
-
-#### 
-* hnRNPA1
-
-#### 
-
-
-
-
 
 ## References
 
