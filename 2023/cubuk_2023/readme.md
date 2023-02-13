@@ -2,11 +2,13 @@
 ###### Last updated 2023-02-10
 
 ## Overview
-This repository contains additional information for the upcoming manuscript from Cubuk et al.
+This repository contains additional information for the upcoming manuscript from Cubuk et al. 2023:
 
 **Title**: The disordered N-terminal tail of SARS CoV-2 Nucleocapsid protein forms a dynamic complex with RNA
 
 **Authors:** Jasmine Cubuk, Jhullian J. Alston, J. Jeremías Incicco, Alex S. Holehouse, Kathleen B Hall, Melissa Brereton, Andrea Soranno
+
+**Preprint link**: [https://doi.org/10.1101/2023.02.10.527914](https://doi.org/10.1101/2023.02.10.527914)
 
 ## Contact
 For questions regarding the files in this repository and the simulations in general, please contact Alex (alex dot holehouse at wustl dot edu) or J Alston (alstonj at wustl dot edu). For any other questions related to the paper, please contact Andrea Soranno.
@@ -16,7 +18,7 @@ For questions regarding the files in this repository and the simulations in gene
 * `/data` - A subset of the data used for the analysis in the paper
 * `/figure_5` - all code for generating all panels of Figure 5.
 * `/figure_9D` - all code for generating Fig. 9D
-* * `misc/` - directory for miscellaneous stuff, including `build_files.sh` which shows how the shared Zenodo trajectory deposition file is built.
+*  `misc/` - directory for miscellaneous stuff, including `build_files.sh` which shows how the shared Zenodo trajectory deposition file is built.
 * `/smFRET` - contains data for smFRET binding experiments
 * `/supplementary_figures` - mostly code for generating the supplementary figures (with a couple of exceptions).
 
@@ -46,10 +48,10 @@ For questions regarding the files in this repository and the simulations in gene
 All Mpipi simulations were run using LAMMPS with input files and settings identical to those provided in the original [Mpipi implementation](https://figshare.com/articles/dataset/Code_and_Data_for_Physics-driven_coarse-grained_model_for_biomolecular_phase_separation_with_near-quantitative_accuracy_/16772812). 
 
 ## Simulation trajectories
-We provide full trajectories of all simulations discussed in this paper
+We provide full trajectories of all simulations discussed in this paper at the following Zenodo repository:
+[https://zenodo.org/record/7631327](https://zenodo.org/record/7631327).
 
-
-
+If you plan to use these simulations for future scientific exploration please let us know, as we are continuing to follow up on our initial manuscript. 
 
 ## Software requirements:
 #### OS requirements
