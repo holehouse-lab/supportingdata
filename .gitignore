@@ -1,6 +1,8 @@
 .DS_Store
 .ipynb_checkpoints/
 
+_*
+
 __pycache__/
 
 # special cases
