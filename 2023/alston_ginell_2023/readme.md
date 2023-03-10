@@ -6,7 +6,7 @@ This repository contains additional information for the upcoming manuscript from
 
 **Title**: The analytical Flory random coil is a simple-to-use reference model for unfolded and disordered proteins 
 
-**Authors:** Jhullian J. Alston, Garrett M. Ginell, ..., Alex T. Keeley2,3, Alex S. Holehouse
+**Authors:** Jhullian J. Alston, Garrett M. Ginell, Andrea Soranno, Alex S. Holehouse
 
 **Preprint link**: 
 
