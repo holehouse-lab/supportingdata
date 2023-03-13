@@ -2,25 +2,21 @@
 ###### Last updated 2023-02-26
 
 ## Overview
-This repository contains additional information for the upcoming manuscript from Altson & Ginell et al. 
+This repository contains additional information for the upcoming manuscript from Alston & Ginell et al. 
 
 **Title**: The analytical Flory random coil is a simple-to-use reference model for unfolded and disordered proteins 
 
 **Authors:** Jhullian J. Alston, Garrett M. Ginell, Andrea Soranno, Alex S. Holehouse
 
-**Preprint link**: 
+**Preprint link**: TBC
 
 ## Contact
 For questions regarding the files in this repository and the simulations in general, please contact Alex (alex dot holehouse at wustl dot edu).
 
 ## Contents:
+The content here is pretty self-explanatory. Each figure has its own directory with one or more notebook(s) that generate panels from the paper. In a couple of places, explicit FRC trajectories are also shared.
 
 
-## Figure-to-directory mapping
-
-#### Main text figure
-
-#### Supplementary text figure
 
 ## Software requirements:
 #### OS requirements
@@ -37,7 +33,7 @@ Our notebooks use standard Python scientific tools:
 * matplotlib - [installation guidelines](https://matplotlib.org/stable/users/installing/index.html)
 * pandas - [installation guidelines](https://pandas.pydata.org/docs/getting_started/install.html)
 
-Additionally, you they also require [mdtraj](https://mdtraj.org/), and [soursop](https://soursop.readthedocs.io/) 
+Additionally, you they also require [mdtraj](https://mdtraj.org/), [soursop](https://soursop.readthedocs.io/), and [afrc](https://afrc.readthedocs.io/).
 
 * **mdtraj** can be installed through conda 
 
@@ -47,6 +43,9 @@ Additionally, you they also require [mdtraj](https://mdtraj.org/), and [soursop]
 
 		pip install soursop
 
+* And `afrc` can be installed using `pip` as
+
+		pip install afrc
 
 ## References
 
