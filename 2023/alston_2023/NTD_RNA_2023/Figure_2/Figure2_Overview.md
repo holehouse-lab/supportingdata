@@ -13,7 +13,7 @@ The distances between the COM of the GS10-RBD and rU25 are plotted over the cour
 C.
 Example in Jupyter-Notebook Figure_2.ipnyb
 COM-COM distances from B are plotted as a histogram and show a bimodal distribution that correlate with the bound and unbound states of the protein. The distributions are fitted with dual Gaussians. A distance threshold, which separates bound and unbound frames, is determined by minimizing the overlap of the two populations.
-
+Note-The comtraj.xtc files for GS10 GS25 RBD and SCO2 are deposited on zeonodo at XXX
 
 D.
 Schematic
