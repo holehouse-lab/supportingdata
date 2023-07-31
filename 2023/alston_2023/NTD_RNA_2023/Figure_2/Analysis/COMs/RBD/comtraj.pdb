@@ -1,0 +1,9 @@
+REMARK   1 CREATED WITH MDTraj 1.9.5, 2023-07-17
+CRYST1  300.000  300.000  300.000  90.00  90.00  90.00 P 1           1 
+MODEL        0
+ATOM      1  CA   CM A   0     153.011 151.237 149.614  1.00  0.00           C  
+TER       2       CM A   0
+ATOM      3  CA   CM B   1     135.088 143.866 151.885  1.00  0.00           C  
+TER       4       CM B   1
+ENDMDL
+END
