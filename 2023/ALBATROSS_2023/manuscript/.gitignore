@@ -1,0 +1,7 @@
+
+# local files not passed 
+fig_5/fig_5_bonus.ipynb
+fig_5/fig_5_revisions.ipynb
+
+# added so we avoid comiting this big file
+fig_5/shprd_re_vector_track.tsv
