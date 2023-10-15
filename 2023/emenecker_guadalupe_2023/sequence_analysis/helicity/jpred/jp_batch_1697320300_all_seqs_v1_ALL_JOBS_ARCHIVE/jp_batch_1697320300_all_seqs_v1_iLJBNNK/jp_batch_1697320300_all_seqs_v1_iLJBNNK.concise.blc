@@ -1,0 +1,78 @@
+>QUERY
+>UniRef90_E6X5Z2
+>UniRef90_A2U452
+>
+>
+>
+>lupas_21
+>lupas_14
+>lupas_28
+>jnet
+>conf
+>sol25
+>sol5
+>sol0
+>jhmm
+>jpssm
+ * iteration 1
+ K K       8     
+ R P       9     
+ K E       8     
+ S G       8     
+ N Y       8     
+ R K       7     
+ R E       7     
+ RRR       7     
+ PPA       6     
+ PPP       5     
+ RRR       1     
+ RED       0     
+ KS        0     
+ NNN       0     
+ NDN       1     
+ KRR       4     
+ KGG       7     
+ RRR       6     
+ PDD       3    H
+ NNN       3    H
+ RRR       2    H
+ RGG       2    H
+ RRR       2    H
+ QDD       2    H
+ QNN       3    H
+ RRR       1     
+ KGG       4     
+ RRR       6     
+ NDD       6     
+ NNN       6     
+ PRK       3     
+ QQR       3     
+ DDD       4     
+ DDD       5     
+ ERR       5     
+ NKK       6     
+ PPP       7     
+ ERR       7     
+ DGE       7     
+ DDR       7     
+ NKK       5     
+ NKE       0     
+ DED       3    H
+ DD        2    H
+ E         2    H
+ Q         1    H
+ Q         1    H
+ D         2    H
+ E         1    H
+ E         1    H
+ Q         2    H
+ H         3    H
+ E         3    H
+ D         0     
+ E         5     
+ P         7     
+ Q         4     
+ E         5     
+ E         8     
+ E         9     
+ *

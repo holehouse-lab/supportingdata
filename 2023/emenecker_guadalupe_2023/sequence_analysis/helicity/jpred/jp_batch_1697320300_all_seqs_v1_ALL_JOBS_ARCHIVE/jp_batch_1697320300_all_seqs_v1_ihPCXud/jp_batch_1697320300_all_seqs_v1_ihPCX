@@ -1,0 +1,14 @@
+%!PS-Adobe-2.0
+%%Creator: ALSCRIPT Version 2.07d - 2nd August 2011
+%%Title: Alscript Output
+% Barton, G. J. (1993)
+% ALSCRIPT - A Tool to format multiple sequence alignments
+% Protein Engineering, 6, 37-40
+%
+/P {moveto show} def
+/L {moveto lineto stroke} def
+/ML {moveto lineto lineto lineto lineto} def
+2 setlinecap
+/C99 {1.000000 1.000000 1.000000 setrgbcolor } def
+/C100 {0.000000 0.000000 0.000000 setrgbcolor } def
+120 currentscreen 3 -1 roll pop setscreen

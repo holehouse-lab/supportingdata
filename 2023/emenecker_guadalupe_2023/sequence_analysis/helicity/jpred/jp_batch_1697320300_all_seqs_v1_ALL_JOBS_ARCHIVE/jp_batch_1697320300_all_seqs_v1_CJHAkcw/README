@@ -1,0 +1,19 @@
+Filename                                                             Description
+--------                                                             -----------
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.align                        PSIBLAST alignment with gaps and redundancy removed in FASTA format
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.als                          Alscript command file. Used to generate PS/PDF outputjp_batch_1697320300_all_seqs_v1_CJHAkcw.blast.gz                     PSIBLAST output (compressed)
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.coils.csv                    The output from coils in CSV format
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.coilseq.lupas_14             The output from coils using a window length of 14
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.coilseq.lupas_21             The output from coils using a window length of 21
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.coilseq.lupas_28             The output from coils using a window length of 28
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.concise                      The prediction in pseudo-CSV format, including the coiled-coil prediction, solvent accessiblity and the sequence alignment
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.concise.blc                  A BLC file of the prediction and alignment
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.fasta                        Input query sequence in FASTA format
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.hmm                          The HHMer2 profile of the alignment
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.html                         A HTML file of the prediction and alignment
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.jalview                      A Jalview annotation file to be read in with the .align file to view the predictions in Jalview
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.jnet                         The output from Jnet
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.profile                      PSIBLAST profile
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.seq                          Your sequence
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.simple.html                  The brief HTML output of the query sequence and prediction only
+jp_batch_1697320300_all_seqs_v1_CJHAkcw.svg.html                     A Jalview generated SVG file with summary of the results.

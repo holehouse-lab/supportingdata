@@ -1,0 +1,138 @@
+BATCHRELATED: jp_batch_1697320300_all_seqs_v1_myQLyU7.seq
+BATCHRELATED Time stamp: 1697320300 and Query Name: all_seqs_v1
+BATCHRELATED Submitted number of jobs: 32
+## Running Jpred Server version 4.0.0 ##
+
+--Query: seq_25
+--Part of batch submission (name: all_seqs_v1, n(jobs): 32)
+--/homes/www-jpred/live4/bin/webrun -ipline 71.11.108.173 -log /homes/www-jpred/live4/public_html/results/jp_batch_1697320300_all_seqs_v1_myQLyU7/LOG -sequence /homes/www-jpred/live4/public_html/results/jp_batch_1697320300_all_seqs_v1_myQLyU7/jp_batch_1697320300_all_seqs_v1_myQLyU7.seq -format seq -id jp_batch_1697320300_all_seqs_v1_myQLyU7 -email alex.holehouse@wustl.edu
+--TIMEOUT set at 10800 seconds
+--Started work on jp_batch_1697320300_all_seqs_v1_myQLyU7 at Sat Oct 14 22:51:47 2023
+--On machine c6100-5-4.cluster.lifesci.dundee.ac.uk
+--format = seq
+>>10% complete
+SequenceBased_CheckingCache
+--Running Jpred pipeline
+--CMD /homes/www-jpred/live4/jpred/jpred --seq jp_batch_1697320300_all_seqs_v1_myQLyU7.fasta --output jp_batch_1697320300_all_seqs_v1_myQLyU7 --db uniref90 --pred-nohits --verbose
+DB is global.
+Host: c6100-5-4
+path: jp_batch_1697320300_all_seqs_v1_myQLyU7.fasta
+output: jp_batch_1697320300_all_seqs_v1_myQLyU7
+db: uniref90
+Changed DB to local.
+Time STEP0: 0
+Running PSI-BLAST on query against 'uniref.filt'...
+[blastpgp] WARNING:  [000.000]  posPurgeMatches: Due to purging near identical sequences, only the query is used to construct the position-specific score matrix
+
+
+JPRED: no PSI-BLAST hits found. Continuing with single query sequence only.
+
+Time STEP1: 51
+>>50% complete
+Running HMMer on query...
+hmmbuild - build a hidden Markov model from an alignment
+HMMER 2.3.2 (Oct 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Alignment file:                    jp_batch_1697320300_all_seqs_v1_myQLyU7.fasta
+File format:                       a2m
+Search algorithm configuration:    Multiple domain (hmmls)
+Model construction strategy:       Fast/ad hoc (gapmax 1.00)
+Null model used:                   (default)
+Prior used:                        (default)
+Sequence weighting method:         BLOSUM filter at 0.62 id
+New HMM file:                      /tmp/21922756.1.c6100.q/AKlHnP58_x 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Alignment:           #1
+Number of sequences: 1
+Number of columns:   60
+
+Determining effective sequence number    ... done. [1]
+Weighting sequences heuristically        ... done.
+Constructing model architecture          ... done.
+Converting counts to probabilities       ... done.
+Setting model name, etc.                 ... done. [jp_batch_1697320300_all_seqs_v1_myQLyU7]
+
+Constructed a profile HMM (length 60)
+Average score:      179.46 bits
+Minimum score:      179.46 bits
+Maximum score:      179.46 bits
+Std. deviation:       0.00 bits
+
+Finalizing model configuration           ... done.
+Saving model to file                     ... done.
+//
+
+hmmconvert - convert between profile HMM file formats
+HMMER 2.3.2 (Oct 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Input HMM file:           /tmp/21922756.1.c6100.q/AKlHnP58_x
+Output HMM file:          /tmp/21922756.1.c6100.q/GEIziUAjC5
+Converting to:            GCG Profile .prf
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ - converted jp_batch_1697320300_all_seqs_v1_myQLyU7
+
+1 HMM(s) converted and written to /tmp/21922756.1.c6100.q/GEIziUAjC5
+>>70% complete
+Running JNet using the generated inputs from HMM only...
+Jnet 2.3.1
+Found HMM profile data
+Running final predictions!
+
+
+WARNING!: Only using the HMM profile
+Accuracy will average 79.6%
+
+Jpred Finished
+>>80% complete
+--Running ncoils and multicoil
+       1 sequences       60 aas        0 in coil
+       1 sequences       60 aas        0 in coil
+       1 sequences       60 aas        0 in coil
+>>90% complete
+--creating output
+"JNETALIGN" data not present
+"JNETPSSM" data not present
+
+ALSCRIPT  (ALignment to PostScript)
+ALSCRIPT Version 2.07d - 2nd August 2011
+
+See ALSCRIPT.DOC for details
+
+Please Reference: Barton, G. J. (1993), Protein Engineering, 6, 37-40.
+
+By: G. J. Barton
+
+Copyright: Geoffrey J. Barton (1992,1997)
+email: geoff@compbio.dundee.ac.uk
+
+Initial Defaults:
+Maximum number of sequences:	 500 	(Change using MAX_NSEQ command)
+Maximum sequence length:	 8000 	(Change using MAX_SEQ_LEN command)
+Maximum identifier length:	 50 	(Change using MAX_ID_LEN command)
+ALscript Command File: jp_batch_1697320300_all_seqs_v1_myQLyU7.als
+Starting ALSCRIPT
+SILENT_MODE
+Max No. of sequences now:	50
+U7.CONCISE.PSUnrecognised Step 1 command: Success
+sh: jp_batch_1697320300_all_seqs_v1_myQLyU7.concise.ps: No such file or directory
+--tarring up the data
+>>100% complete
+--Finished work on jp_batch_1697320300_all_seqs_v1_myQLyU7 at Sat Oct 14 22:52:39 2023
+--Execution time on jp_batch_1697320300_all_seqs_v1_myQLyU7 is 52 seconds
+gzip: 2.fasta.gz: No such file or directory
+mv: cannot stat `2.fasta': No such file or directory
+found jp_batch_1697320300_all_seqs_v1_myQLyU7.fasta
+Java version: 1.6.0_32
+amd64 Linux 2.6.32-754.el6.x86_64
+Opening file: jp_batch_1697320300_all_seqs_v1_myQLyU7.fasta
+14-Oct-2023 22:52:40 jalview.util.MessageManager <clinit>
+INFO: Getting messages for lang: en_GB
+java.awt.HeadlessException
+Added jp_batch_1697320300_all_seqs_v1_myQLyU7.concise
+Creating HTML image: svg.html

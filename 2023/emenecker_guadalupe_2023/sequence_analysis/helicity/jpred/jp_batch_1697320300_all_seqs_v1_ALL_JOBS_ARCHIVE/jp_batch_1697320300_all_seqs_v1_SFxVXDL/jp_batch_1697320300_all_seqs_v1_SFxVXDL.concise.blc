@@ -1,0 +1,85 @@
+>QUERY
+>UniRef90_Q6FIU8
+>UniRef90_A2F8E4
+>UniRef90_A2F8E4
+>UniRef90_F3S2U8
+>UniRef90_UPI00034C833B
+>UniRef90_UPI00034C833B
+>UniRef90_UPI00034C833B
+>UniRef90_UPI00034C833B
+>UniRef90_I2H3E2
+>
+>
+>
+>lupas_21
+>lupas_14
+>lupas_28
+>jnet
+>conf
+>sol25
+>sol5
+>sol0
+>jhmm
+>jpssm
+ * iteration 1
+ QD  E    E       9     
+ ND  Q    E       9     
+ NNNNN    D       8     
+ NLNNR    T       7     
+ QKEET    K       4     
+ QEKKE    E       4     
+ QKTTQQQQQK       4     
+ NENNNNNNND       0     
+ QTDDRTTTTT       0     
+ QDVVTQQQQD       0     
+ NNSSEGGGGQ       1     
+ QQQQQQQQQQ       0     
+ NINNNNNNNL       3    H
+ NENNRGGGGD       0     
+ QNEETLLLLN       2     
+ NQKKESSSS        5     
+ NNTTQQQQQS       7     
+ NNNNNNNNNG       7     
+ QEDDRTTTTD       6     
+ NSIITQQQQN       3     
+ NESSEGGGGD      H0    H
+ NDQQQQQQQD      H1    H
+ NVNNNNNNNV      H0B   H
+ QQNNRTTTTQ      H0    H
+ NAEETQQQQA      H1    H
+ QAKKEGGGGN       1    H
+ NETTQQQQQD      H1    H
+ NNNNNNNNNE      H5   HH
+ QEDDRTTTTE      H6   HH
+ QQDDTQQQQD      H7   HH
+ QQSSEGGGGK      H6   HH
+ QEQQQQQQQE      H4   HH
+ NNNNNNNNNN      H2   HH
+ QGNNRTTTTG      H0   HH
+ QDEETQQQQE       0   H 
+ QESSEAAAAN       5     
+ NGGGQQQQQE       7     
+ NSKKNNNNNN       7     
+ NNDDRTTTTA       7     
+ QKNNTQQQQS       7     
+ QEEEEAAAAK       7     
+ QPKKQQQQQE       7     
+ NDSSNNNNND       6     
+ NSNNRTTTTT       4     
+ QKEETQQQQQ      H2   H 
+ QERREEEEEQ      H0   HH
+ NEIIQQQQQD      H0   HH
+ NNNNNNNNNN      H1   H 
+ NNEERTTTTD      H0   HH
+ NESSTQQQQN      H1   HH
+ QDAAEEEEED      H0   HH
+ QQQQQQQQQK      H3   H 
+ QQDDNNNNNN       0   H 
+ NNNNRTTTTN       4     
+ NDEETQQQQE       1   H 
+ NSKKEEEEEE       2   H 
+ QEQQQQQQQQ       3   H 
+ NNNNNNNNNN       8     
+ NQEER    N       9     
+ NN               9     
+ *

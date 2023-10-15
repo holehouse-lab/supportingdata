@@ -1,0 +1,82 @@
+>QUERY
+>UniRef90_I1GBZ6
+>UniRef90_I1GBZ6
+>UniRef90_A5K548
+>UniRef90_K6UKB0
+>UniRef90_I1G5M8
+>UniRef90_I2N2I9
+>
+>
+>
+>lupas_21
+>lupas_14
+>lupas_28
+>jnet
+>conf
+>sol25
+>sol5
+>sol0
+>jhmm
+>jpssm
+ * iteration 1
+ T  SS         8     
+ H  AA         9     
+ N  NN         8     
+ H  HHH        8     
+ H  HQH        7     
+ S  G E        7     
+ T  Q A        7     
+ G  GGGG       7     
+ T  SSYT       7     
+ GDDAVTS       7     
+ HHHNNSN       7     
+ HHHHHLV       7     
+ HHHHHSH       7B    
+ GPPGGSG       7B    
+ SRRSTST       7     
+ HDDAADT       7     
+ SSSNNSD       7     
+ HHHQHKN       7     
+ THHHHYH       7     
+ H  GGYG       7     
+ T  STQT       7     
+ T  AATT       7B    
+ S  NNND       7     
+ HRRQHQN       7     
+ HYYHHYH       7B    
+ GPPGGSG       7B    
+ TPPSTPT       7     
+ GGGAAAT       7B    
+ GGGNNGD       7     
+ GSSQHQN       7     
+ HHHHHHH       7     
+ GGGGGGG       7     
+ GGGSTGT       7     
+ SSSAAST       7B    
+ TSSNNSD       7     
+ TDDQHDN       7     
+ QNNHHNH       7     
+ SYYGAYG       7     
+ HQQSSQT       7     
+ SPPAAPT       7     
+ NGGNNGD       7     
+ GGGGAGG       7B    
+ SSSSSST       7     
+ TSSAAST       7     
+ GNNNNND       7     
+ QQQQHQN       7     
+ HYYHQYH       7     
+ GSSGGSG       7     
+ SSSSSSP       7     
+ SGGAAGA       7     
+ GGGNNGG       7     
+ P  PPPH       7B    
+ P  TTPP       7     
+ P  EEP        7     
+ P  PAD        7     
+ P  PPP        7     
+ P  PP         7     
+ P  SN         8     
+ A  SS         8     
+ P             9     
+ *

@@ -1,0 +1,91 @@
+>QUERY
+>UniRef90_UPI0003EAAADE
+>UniRef90_Q8LMA9
+>UniRef90_H6P886
+>UniRef90_W2C0G6
+>UniRef90_L0R439
+>UniRef90_L0R439
+>UniRef90_R0HFM6
+>UniRef90_UPI0002B48748
+>UniRef90_UPI0002B48748
+>UniRef90_UPI0002B48748
+>UniRef90_Q5TKJ8
+>UniRef90_H2A4S4
+>UniRef90_B2K765
+>UniRef90_UPI000395B088
+>UniRef90_Q5WMQ7
+>
+>
+>
+>lupas_21
+>lupas_14
+>lupas_28
+>jnet
+>conf
+>sol25
+>sol5
+>sol0
+>jhmm
+>jpssm
+ * iteration 1
+ R RRQKK    RRR R       9     
+ E GADEE    GAD G       9     
+ K GKKTT    GNN G       8     
+ R RGNVV    RGTNR       8     
+ SQSGNNN    SGNNS       8     
+ GNNDTDD    SDRQS       7     
+ QREKRTT    EKDWE       5     
+ NDDKNNN    DKNNN       0     
+ KRQRQEE    RPTDR       3    H
+ NNHNDII    DRNHR       3    H
+ QQHNKQQ NNNRNRQH       3    H
+ NNHNNHH NNNDDDND       3    H
+ NTNQSNNTQQQNQNDN       3    H
+ RSRGTSSNYYYRRTPR       3    H
+ QQHRRHHQSSSHRNRH       3    H
+ QRNDNQQADDDNDRNN       0     
+ QLRNQNNAKKKYDDDR       3     
+ QDRRGQQTQQQHRRQH       3     
+ DPDSKHHEDDDDSDRD       5     
+ NNHNDNNNNNNHNNDR       5     
+ QQDRNDDNAAADRTED       1     
+ NNNDKHHINNNDNNQD       0     
+ QTRRQQQQQQQRRRWR       0     
+ ENEQSEEEVVVEQDNE       1     
+ QQQEQGGPSSSWGNDQ       4     
+ NRRNGNNNNNNRNTHR       5     
+ QLTAKQQQKKKVSSRT       5     
+ NGPQNHHEQQQPQRNP       1     
+ DQDNNNNDDDDGNDDD       1     
+ NNDNTDDNNNNDNNHD       1     
+ NRARRQQGAAATRAGI       2     
+ QNGKNQQ NNNGKNNG       4     
+ QQRQQEE QQQRQRDR       6     
+ NNGRGDD    GNDHG       7     
+ QRRDKNN    RKGQH       7     
+ NNQRNQQN   RRANR       7     
+ NQHNNHHN   HNNDH       7     
+ DSDSTQQTVVVNSRH        7     
+ NPGQREEHSSSDQDQ        7     
+ NNDNNDDENNNDNNN        5     
+ NLDHQNNNKKKDHSN        0     
+ NNNNDQQNKKKNNNQ        3    H
+ KTGRKHHQEEEGRRT        3    H
+ NNDRNNNADDDDRDT        3    H
+ NQRDNGGDSSSRDND        3    H
+ QSRQQQQNQQQRQSH        3    H
+ QLQQSQQGQQQWRGQ        3    H
+ DDDRKEEDDDDDDR         3    H
+ NQNDNDDNNNNNNDN        3    H
+ NNNNNNNIDDDNRND        3    H
+ QQGRTQQQNNNGHVH        3    H
+ QSGQRSSERRRRDSR        3    H
+ RPRRKAASNNNRNRN        3    H
+ NNRDSEENNNNRRED        2     
+ QQQQQQQQVVVQQGQ        2     
+ ENNRGKKEKKK QRQ        3     
+ KQ NKDDDQQQ  EN        7     
+ DK DE  NDDD  DD        9     
+ KQ RK  RIII  QR        9     
+ DN N   DDDD            9     
+ *

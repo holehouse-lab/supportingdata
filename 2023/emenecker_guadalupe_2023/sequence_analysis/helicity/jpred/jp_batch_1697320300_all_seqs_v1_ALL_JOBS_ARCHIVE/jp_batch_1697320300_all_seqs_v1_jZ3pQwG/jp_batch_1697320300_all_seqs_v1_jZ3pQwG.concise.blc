@@ -1,0 +1,77 @@
+>QUERY
+>UniRef90_L0R439
+>
+>
+>
+>lupas_21
+>lupas_14
+>lupas_28
+>jnet
+>conf
+>sol25
+>sol5
+>sol0
+>jhmm
+>jpssm
+ * iteration 1
+ K        9     
+ R        9     
+ K        9     
+ K        8     
+ S        7     
+ G        6     
+ HH       2     
+ HN      H0    H
+ KS      H1    H
+ HH      H2    H
+ QQ      H2    H
+ QE      H2    H
+ HG      H2    H
+ RN      H2    H
+ QQ      H9   HH
+ QH      H3    H
+ QN      H4   HH
+ ND      H2   HH
+ KH      H0    H
+ QQ       0   H 
+ NE       2     
+ NG       6     
+ NN       7     
+ RQ       8     
+ NH       7     
+ NN       6     
+ QD       2    H
+ NQ      H4   HH
+ KQ      H8   HH
+ QE      H8   HH
+ QD      H7   HH
+ QN      H7   HH
+ QQ      H6   HH
+ HH      H1    H
+ HN       1    H
+ NG       2    H
+ QQ       2    H
+ KQ       2    H
+ QE       1    H
+ ND       2    H
+ NN       2     
+ QQ       3     
+ RH       5     
+ NN       7     
+ NG       7     
+ PQ       7     
+ NQ       7     
+ RE       7     
+ ND       7     
+ NN       7     
+ NQ       7     
+ HS       7     
+ RA       6     
+ HE       5     
+ PQ       3     
+ KK       2     
+ KD       4     
+ RQ       6     
+ KE       9     
+ R        9     
+ *

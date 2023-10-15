@@ -1,0 +1,148 @@
+BATCHRELATED: jp_batch_1697320300_all_seqs_v1_SFxVXDL.seq
+BATCHRELATED Time stamp: 1697320300 and Query Name: all_seqs_v1
+BATCHRELATED Submitted number of jobs: 32
+## Running Jpred Server version 4.0.0 ##
+
+--Query: seq_1
+--Part of batch submission (name: all_seqs_v1, n(jobs): 32)
+--/homes/www-jpred/live4/bin/webrun -ipline 71.11.108.173 -log /homes/www-jpred/live4/public_html/results/jp_batch_1697320300_all_seqs_v1_SFxVXDL/LOG -sequence /homes/www-jpred/live4/public_html/results/jp_batch_1697320300_all_seqs_v1_SFxVXDL/jp_batch_1697320300_all_seqs_v1_SFxVXDL.seq -format seq -id jp_batch_1697320300_all_seqs_v1_SFxVXDL -email alex.holehouse@wustl.edu
+--TIMEOUT set at 10800 seconds
+--Started work on jp_batch_1697320300_all_seqs_v1_SFxVXDL at Sat Oct 14 22:48:02 2023
+--On machine c6100-2-2.cluster.lifesci.dundee.ac.uk
+--format = seq
+>>10% complete
+SequenceBased_CheckingCache
+--Running Jpred pipeline
+--CMD /homes/www-jpred/live4/jpred/jpred --seq jp_batch_1697320300_all_seqs_v1_SFxVXDL.fasta --output jp_batch_1697320300_all_seqs_v1_SFxVXDL --db uniref90 --pred-nohits --verbose
+DB is global.
+Host: c6100-2-2
+path: jp_batch_1697320300_all_seqs_v1_SFxVXDL.fasta
+output: jp_batch_1697320300_all_seqs_v1_SFxVXDL
+db: uniref90
+Changed DB to local.
+Time STEP0: 0
+Running PSI-BLAST on query against 'uniref.filt'...
+[blastpgp] WARNING:  [000.000]  posPurgeMatches: Due to purging near identical sequences, only the query is used to construct the position-specific score matrix
+
+Time STEP1: 72
+Time STEP2: 72
+>>40% complete
+Untruncating the PSIBLAST alignments...
+Unmasking the alignments...
+Converting sequences to the same case...
+Remove excessive sequences...
+Remove sequences which too long or short...
+Remove redundant sequences...
+Removing gaps in the query sequence...
+Outputting cleaned-up PSI_BLAST alignment...
+Time STEP3: 72
+Output the PSSM matrix from the PSI-BLAST profile...
+>>50% complete
+Time STEP4: 72
+Running HMMer on sequences found by PSI-BLAST...
+hmmbuild - build a hidden Markov model from an alignment
+HMMER 2.3.2 (Oct 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Alignment file:                    /tmp/21922775.1.c6100.q/olFPEAN7mg
+File format:                       a2m
+Search algorithm configuration:    Multiple domain (hmmls)
+Model construction strategy:       Fast/ad hoc (gapmax 1.00)
+Null model used:                   (default)
+Prior used:                        (default)
+Sequence weighting method:         BLOSUM filter at 0.62 id
+New HMM file:                      /tmp/21922775.1.c6100.q/F3rwMoa13B 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Alignment:           #1
+Number of sequences: 10
+Number of columns:   60
+
+Determining effective sequence number    ... done. [7]
+Weighting sequences heuristically        ... done.
+Constructing model architecture          ... done.
+Converting counts to probabilities       ... done.
+Setting model name, etc.                 ... done. [olFPEAN7mg]
+
+Constructed a profile HMM (length 60)
+Average score:      105.25 bits
+Minimum score:       85.68 bits
+Maximum score:      144.34 bits
+Std. deviation:      18.20 bits
+
+Finalizing model configuration           ... done.
+Saving model to file                     ... done.
+//
+
+hmmconvert - convert between profile HMM file formats
+HMMER 2.3.2 (Oct 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Input HMM file:           /tmp/21922775.1.c6100.q/F3rwMoa13B
+Output HMM file:          /tmp/21922775.1.c6100.q/3tPpPHbf4P
+Converting to:            GCG Profile .prf
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ - converted olFPEAN7mg
+
+1 HMM(s) converted and written to /tmp/21922775.1.c6100.q/3tPpPHbf4P
+>>70% complete
+Time STEP5: 72
+Running JNet using the generated inputs from HMM and PSI-BLAST...
+Jnet 2.3.1
+Found HMM profile data
+Found PSSM profile file
+Running final predictions!
+
+
+Both PSIBLAST and HMM profiles were found
+Accuracy will average 82.0%
+
+Jpred Finished
+Time STEP6: 72
+>>80% complete
+--Running ncoils and multicoil
+       1 sequences       60 aas        0 in coil
+       1 sequences       60 aas        0 in coil
+       1 sequences       60 aas        0 in coil
+>>90% complete
+--creating output
+"JNETALIGN" data not present
+
+ALSCRIPT  (ALignment to PostScript)
+ALSCRIPT Version 2.07d - 2nd August 2011
+
+See ALSCRIPT.DOC for details
+
+Please Reference: Barton, G. J. (1993), Protein Engineering, 6, 37-40.
+
+By: G. J. Barton
+
+Copyright: Geoffrey J. Barton (1992,1997)
+email: geoff@compbio.dundee.ac.uk
+
+Initial Defaults:
+Maximum number of sequences:	 500 	(Change using MAX_NSEQ command)
+Maximum sequence length:	 8000 	(Change using MAX_SEQ_LEN command)
+Maximum identifier length:	 50 	(Change using MAX_ID_LEN command)
+ALscript Command File: jp_batch_1697320300_all_seqs_v1_SFxVXDL.als
+Starting ALSCRIPT
+SILENT_MODE
+Max No. of sequences now:	50
+DL.CONCISE.PSUnrecognised Step 1 command: Success
+sh: jp_batch_1697320300_all_seqs_v1_SFxVXDL.concise.ps: No such file or directory
+--tarring up the data
+>>100% complete
+--Finished work on jp_batch_1697320300_all_seqs_v1_SFxVXDL at Sat Oct 14 22:49:15 2023
+--Execution time on jp_batch_1697320300_all_seqs_v1_SFxVXDL is 73 seconds
+found jp_batch_1697320300_all_seqs_v1_SFxVXDL.fasta
+Java version: 1.6.0_32
+amd64 Linux 2.6.32-754.el6.x86_64
+Opening file: jp_batch_1697320300_all_seqs_v1_SFxVXDL.fasta
+14-Oct-2023 22:49:17 jalview.util.MessageManager <clinit>
+INFO: Getting messages for lang: en_GB
+java.awt.HeadlessException
+Added jp_batch_1697320300_all_seqs_v1_SFxVXDL.concise
+Creating HTML image: svg.html

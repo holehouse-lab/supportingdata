@@ -1,0 +1,92 @@
+>QUERY
+>UniRef90_B9Q4Z8
+>UniRef90_B9Q4Z8
+>UniRef90_G3ARW7
+>UniRef90_Q6FIU8
+>UniRef90_G0VCX2
+>UniRef90_L1J8Z3
+>UniRef90_Q54XQ9
+>UniRef90_G0WE42
+>UniRef90_UPI0001758A03
+>UniRef90_UPI0001758A03
+>UniRef90_UPI00046C08FE
+>UniRef90_Q7RIF6
+>UniRef90_V7AQT3
+>UniRef90_K0TEP4
+>UniRef90_F4RDB5
+>UniRef90_X6NWF0
+>
+>
+>
+>lupas_21
+>lupas_14
+>lupas_28
+>jnet
+>conf
+>sol25
+>sol5
+>sol0
+>jhmm
+>jpssm
+ * iteration 1
+ DDD  E EE  EED          9     
+ KEE  D RE  DKKK         9     
+ DDD  DDDD  ADDD         8     
+ ASS  SKPS  EGKQ         6     
+ HKK  KDFKQQNNDH         3     
+ DDD DEEEEDDDDED         4     
+ KEE EKKNKFFNEDA         5     
+ R  GGNRYNNNGNKS         6     
+ HHHHSSDQTDDDDAK K       7     
+ NSSGNDETDLLNENG N       7     
+ KKKPKKELQEEEKAQ K       7     
+ EDDDEDEDNDDYDND E       7     
+ DEEAPMDTMAADEAD D       7     
+ NNNNDNGQNEEDKE  N       7     
+ NSSLSQNINNNNDV  N       7     
+ KKKDKTLDKDDTED  K       7     
+ DDDEEDDDENNGNGD E       7     
+ DEEDEDGDDGGDDDA D       7     
+ QDDKNQKEQDDNEEP K       5     
+ NNNNNDDDDNNENDP E       0     
+ EKKEEEENDEEYDEEED       3    H
+ DDDEDDDDEYYDENQDK       3    H
+ EEEQQEEQEDDEKEQHE       3    H
+ QDDQQQDPNDDEDGDQD       3    H
+ NNNENNQQNNNNEGNEN       3    H
+ DKKGDDEDETTGNGDDE       3    H
+ DDDDSGRDGGGEDDQLD       3    H
+ DDDSEDDNDDDEEEEDN       1     
+ NSSNNNGNNNNINDNQA       5     
+ NKKNQNKNNEEGDNGED       3     
+ NDDENGDEGYYNEDEDK       4     
+ QEEQGEQSEDDGKVSQK       3    H
+ DDDDDKDNNEEEDENHQ       3    H
+ ESSKEEEEEEEDEEEGE       2    H
+ KKKKQSKQGNNYNKQED       1    H
+ NDDEENDISGGNDQDDK       1    H
+ QEEEQQQEQEEEEKSKK       1    H
+ RDDHDEESDEEEKHEDD       2    H
+ DSSQLMKNDIIDDGMKK       3    H
+ DEEGDEDEDGGGEEIDE       3     
+ NDDNNEGDNNNNNGNNN       3    H
+ QEEDEQKIKEEEDEDQK       3    H
+ EKKEEKDEPEEDEDDHE       3    H
+ RPPESDDNEDDAKETRD       3    H
+ ERRKGQEKAGGEKGEES       3    H
+ NSSSEDDDENNGGDDDE       3    H
+ QDDGEVQEQEEYNGKKE       3    H
+ DEEDDDEDDDDDEDYDK       4    H
+ EEESVEKVEAADKKEEK       1     
+ D  DGDDEDEEVNDDDN       5     
+ N  EQKGNKGGEGEKEV       6     
+ Q  KQNKK YYQENNQE       4    H
+ D  KEADD DDTIKDDD       3    H
+ D  SDDEE DDENG TE       3    H
+ D  DEDDD VVDYD ED       2    H
+ Q  EVVEV EENSK EE       1   EH
+ Q  EVEEE QQTED SV       1   E 
+ R  KNN N TTENK DN       3     
+ D   DD K EED   LE       8     
+ D   E  D DDE   D        9     
+ *

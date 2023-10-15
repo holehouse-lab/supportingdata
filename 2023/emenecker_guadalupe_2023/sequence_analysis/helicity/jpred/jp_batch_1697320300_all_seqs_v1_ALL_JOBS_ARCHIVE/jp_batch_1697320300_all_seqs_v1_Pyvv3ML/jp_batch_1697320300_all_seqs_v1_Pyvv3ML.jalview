@@ -1,0 +1,14 @@
+JALVIEW_ANNOTATION
+# Created by concise2jalview using 'jp_batch_1697320300_all_seqs_v1_Pyvv3ML.concise' as input
+
+NO_GRAPH	Lupas_21	Coiled-coil prediction windowed over 21 residues	-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+NO_GRAPH	Lupas_14	Coiled-coil prediction windowed over 14 residues	-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+NO_GRAPH	Lupas_28	Coiled-coil prediction windowed over 28 residues	-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+NO_GRAPH	jnetpred	Final secondary structure prediction by Jnet	|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+BAR_GRAPH	JNETCONF	Confidence of Jnet prediction 0 (low) -> 9 (high)	9|8|6|5|4|0|1|1|2|4|6|7|7|7|7|7|7|5|0|3|3|3|3|3|3|2|3|3|3|3|3|3|3|3|3|3|3|3|0|4|3|5|5|3|4|2|2|3|3|5|6|6|6|5|5|6|7|8|9|9
+NO_GRAPH	JNETSOL25	Jnet solvent relative accessibility prediction at 25% cut-off	-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+NO_GRAPH	JNETSOL5	Jnet solvent relative accessibility prediction at 5% cut-off	-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+NO_GRAPH	JNETSOL0	Jnet solvent relative accessibility prediction at 0% cut-off	-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+NO_GRAPH	JNETHMM	Jnet prediction using HMMer profiles	|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+NO_GRAPH	JNETPSSM	Jnet prediction using PSSM profiles	|||||||||||||||||||H|H|H|H|H|H|H|H|H|H|H|H|H|H|H|H|H|H|H||||||||||||||||||||||
+NO_GRAPH	JNETJURY	Positions where Jnet predictions do not agree	 | | | | | | | | | | | | | | | | | | |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*| | | | | | | | | | | | | | | | | | | | | | 
