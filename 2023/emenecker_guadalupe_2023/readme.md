@@ -43,9 +43,11 @@ No special hardware is required and GOOSE will run on both macOS or Linux. In pr
 * [GOOSE GitHub repository](https://github.com/idptools/goose) - open source code for GOOSE, along with installation instructions 
 * [GOOSE Documentation](https://goose.readthedocs.io/) - Documentation on how to use GOOSE for the design of disordered proteins
 * [GOOSE Colab Notebook](https://colab.research.google.com/drive/1U9B-TfoNEZbbjhPUG5lrMPS0JL0nDB3o?usp=sharing) - Colab notebook enabling simple design problems to be solved in the cloud
+* [Additional analysis scripts](https://github.com/sukeniklab/emenecker_guadalupe_2023) - Additional code used for the figures.
 
 ## Content
 
-`bioinformatics/` - scripts and data for bioinformatic analysis
+`bioinformatics/` - scripts and data for bioinformatic analysis (specifically proteome-wide analysis)
+`sequence_analysis` - scripts and data for some of the sequence analysis 
 
 ##
