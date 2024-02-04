@@ -1,14 +1,19 @@
 # IDR-omes
-##### Last updated 2023-05-08
+##### Last updated 2024-02-04
 
-The files here are FASTA files with that contain all predicted IDRS in a proteome for a given organism.
+## Full human IDR-ome 
+We often consider the human proteome as the human reference proteome, which typically is around ~24,000 amino acid sequences that correspond to the reviewed protein sequences in UniProt and then corresponding 'canonical' isoform for each of the canonical protein coding genes in the human proteome.
 
-In general, we recommend interacting with large-scale IDR annotations as [Domains in SHEPHARD files](http://dx.doi.org/10.1101/2022.09.18.508433).
+However, many proteins exist as alternative isoforms, and many additional genes are not considered reviewed. 
 
-However, the [ABATROSS colab notebook](https://colab.research.google.com/github/holehouse-lab/ALBATROSS-colab/blob/main/example_notebooks/polymer_property_predictors.ipynb) provides some nice tools for interactively exploring large datasets, so we provide the IDRs here so you can predict sequence-derived properties using these files and then explore in your browser.
+Using ALBATROSS, we took the COMPLETE set of human proteins (both reviewed and unreviewed, all isoforms), which corresponds to 104,557 different protein-coding sequences and 
 
-If there's a specific organism or set of IDRs you like to see, please let us know.
+1. Predicted all IDRs (142,222 IDRs )
+2. Calculated amino acid properties for those IDRs, and
+3. Predicted ensemble-average conformational properties for those IDRs
 
-### Contents
-#### 1. human_idrome.fasta
-Human IDR-ome with 33,563 IDRs (as predicted using [metapredict V2](http://dx.doi.org/10.1101/2022.06.06.494887). In the colab predicting all radii of gyration takes ~40 seconds.
+The resulting full IDR-ome (`IDRome_uniprotkb_proteome_UP000005640_2024_02_04.csv`) is provided here as a single large CSV file that can be opened in Excel or easily parsed into your favorite analysis software.
+
+In addition, we include the complete set of protein sequences used here (`uniprotkb_proteome_UP000005640_2024_02_04.fasta.gz`) as a reference.
+
+Note you can re-create this file in a couple of minutes using the [ALBATROSS-colab IDR-ome constructor notebook](https://github.com/holehouse-lab/ALBATROSS-colab)
