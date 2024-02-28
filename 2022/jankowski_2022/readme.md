@@ -20,7 +20,7 @@ Additional contents can and will be added to this repository as needed.
 
 ## Reproducing analyses & figures:
 
-The sequence and bioinformatic analyses in this manuscript were carried out using Python (version 3.7). To reproduce these analyses and figures download this entire repository, and open the Jupyter Notebook `jankowski_et_al_computational_analyses_and_figures.ipynb`. Then run through the code sequentially, one cell at a time. Depending on how the repository was downloaded, you may need to update some of the filepaths in the notebook to point to the files contained in the `/data` directory.
+The sequence and bioinformatic analyses in this manuscript were carried out using Python (version 3.8). To reproduce these analyses and figures download this entire repository, and open the Jupyter Notebook `jankowski_et_al_computational_analyses_and_figures.ipynb`. Then run through the code sequentially, one cell at a time. Depending on how the repository was downloaded, you may need to update some of the filepaths in the notebook to point to the files contained in the `/data` directory.
 
 ### Software requirements:
 #### OS requirements
@@ -38,9 +38,9 @@ Analyses use standard Python scientific computing packages (specific versions ar
 * seaborn - [installation guidelines](https://seaborn.pydata.org/installing.html)
 * matplotlib - [installation guidelines](https://matplotlib.org/stable/users/installing/index.html)
 
-Additionally, you will also need the [protfasta](https://protfasta.readthedocs.io/en/latest/), [localCIDER](http://pappulab.github.io/localCIDER/) and [metapredict](https://github.com/idptools/metapredict) packages. These can be installed using `pip`:
+Additionally, you will also need the [protfasta](https://protfasta.readthedocs.io/en/latest/), [localCIDER](http://pappulab.github.io/localCIDER/) and [metapredict](https://github.com/idptools/metapredict) (version 2.2) packages. These can be installed using `pip`:
 
 	pip install protfasta
 	pip install localcider
-	pip install metapredict
+	pip install metapredict==2.2
 

@@ -1,20 +1,46 @@
-## Simulation information for Jankowski et al.
+## Additional Supporting Information
 ###### Last updated 2022-03-29
 
-The two subdirectories here contain information from the simulations (`/data`) and to enable re-running the simulations (`/input_files`).
+This repository contains additional information for the *under review* manuscript:
+
+**The formation of a fuzzy complex in the negative arm regulates the robustness of the circadian clock.**
+
+Jankowski, M. S., Griffith, D., Shastry, D. G., Pelham, J. F., Ginell, G. M., Thomas, J., Karande, P., Holehouse, A. S., & Hurley, J. M. (2022). In bioRxiv (p. 2022.01.04.474980). [https://doi.org/10.1101/2022.01.04.474980](https://doi.org/10.1101/2022.01.04.474980)
 
 
-## Software
-Simulations were run using version 2.0 of the CAMPARI simulation engine, although equivalent results are obtained running using version 3.0 and version 4.0.
+## Contents:
 
-CAMPARI can be installed by following the installation instructions provided  here: [http://campari.sourceforge.net/](http://campari.sourceforge.net/).
+* Jupyter notebook containing code to recreate certain manuscript figures
+* `/data` folder containing various data files used for bioinformatics
+* `/simulations` folder containing data and analysis for simulations
 
-Once installed, simulations can be run using the keyfiles in the subdirectories simply using
+For more information on the files in this directory, please contact [Alex or Dan](http://holehouse.wustl.edu/). For information on the remainder of the paper, please contact [Jen](https://homepages.rpi.edu/~hurlej2/lab_members.html)!
 
-	campari -k keyfile.kf
-	
-Assuming the `campari` binary is in the user's PATH. 
+Additional contents can and will be added to this repository as needed. 
 
-Expected run time for simulations is on the order 3-4 days using standard hardware (single CPU, ~1 GB RAM).
+## Reproducing analyses & figures:
 
-The expected output is a collection of files which includes an .xtc trajectory file.
+The sequence and bioinformatic analyses in this manuscript were carried out using Python (version 3.7). To reproduce these analyses and figures download this entire repository, and open the Jupyter Notebook `jankowski_et_al_computational_analyses_and_figures.ipynb`. Then run through the code sequentially, one cell at a time. Depending on how the repository was downloaded, you may need to update some of the filepaths in the notebook to point to the files contained in the `/data` directory.
+
+### Software requirements:
+#### OS requirements
+The sequence analyses have been tested on the following systems:
+
+* **macOS**: Big Sur (11.2.3) and Monterey (12.2.1)
+* **Linux**: Ubuntu 18.04
+
+#### Python dependencies
+Analyses use standard Python scientific computing packages (specific versions are named in the `jankowski_et_al_computational_analyses_and_figures.ipynb` notebook:
+
+* numpy - [installation guidelines](https://numpy.org/install/)
+* scipy - [installation guidelines](https://scipy.org/install/)
+* pandas - [installation guidelines](https://pandas.pydata.org/docs/getting_started/install.html)
+* seaborn - [installation guidelines](https://seaborn.pydata.org/installing.html)
+* matplotlib - [installation guidelines](https://matplotlib.org/stable/users/installing/index.html)
+
+Additionally, you will also need the [protfasta](https://protfasta.readthedocs.io/en/latest/), [localCIDER](http://pappulab.github.io/localCIDER/) and [metapredict](https://github.com/idptools/metapredict) packages. These can be installed using `pip`:
+
+	pip install protfasta
+	pip install localcider
+	pip install metapredict
+
