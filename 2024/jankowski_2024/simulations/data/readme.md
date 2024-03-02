@@ -1,7 +1,7 @@
 ## Simulation data
 ###### Last updated 2024-03-01
 
-This directory contains output from the all-atom simulations performed in Jankowski *et al.* (in press at Nature Communications).
+This directory contains output from the all-atom simulations performed in Jankowski *et al.* (in press at Nature Communications). 
 
 Output from all-atom simulations performed using the standard ABSINTH forcefield are provided under the following directories:
 

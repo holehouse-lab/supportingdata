@@ -1,28 +1,31 @@
 ## Simulation information for Jankowski et al.
-###### Last updated 2021-12-22
+###### Last updated 2024-03-02
 
-This directory contains key information for running all-atom CAMPARI simulations of residues 754 to 803 in [*N. crassa* FRQ](https://www.uniprot.org/uniprot/P19970).
+This directory contains key information for running all-atom CAMPARI simulations of residues 754 to 803 (FFD region) in [*N. crassa* FRQ long isoform](https://www.uniprot.org/uniprot/P19970).
 
-Simulations were run using V2 of CAMPARI, although equivalent results should be achieved for other versions.
+Simulations were run using the ABSINTH implicit solvent model [1].
+
+The sequences simulated here are:
+
+* WT: `PIAKEVMEPSGLGGVLPDDHFVMLVTTRRVVRPILQRQLSRSTTSEDTAE`
+* AA: `PIAKEVMEPSGLGGVLPDDHFVMLVTTAAVVRPILQRQLSRSTTSEDTAE`
+* HH: `PIAKEVMEPSGLGGVLPDDHFVMLVTTHHVVRPILQRQLSRSTTSEDTAE`
+* HH_PRO:`PIAKEVMEPSGLGGVLPDDHFVMLVTTH*H*VVRPILQRQLSRSTTSEDTAE` - `H*` means protonated histidine.
+* FCD\_WT: `TPDGLLPHHIVMTDKEKKKLVVRRLEQLFTGKISGRNMQRNQSMPSMDAP`
+* FCD\_KKK_AAA: `TPDGLLPHHIVMTDKEAAALVVRRLEQLFTGKISGRNMQRNQSMPSMDAP`
+
+
+Simulations were run using V2 of CAMPARI, although equivalent results should be achieved for other versions, and we'd recommend using V4, ALTHOUGH this almost certainly will necessitate some small changes to the keyfile 
 
 * Normal simulations were run using the `full_keyfile.key`
 * Excluded volume (EV) simulations were run using the `ev_keyfile.key`
 
-
-In both cases, the `abs3.5_opls_unofficial.prm` parameters were used, which consist of the standard ABSINTH forcfield with the updated ion parameters of [Mao et al](https://aip.scitation.org/doi/10.1063/1.4742068) [1].
+In both cases, the `abs3.5_opls_unofficial.prm` parameters were used, which consist of the standard ABSINTH forcfield with the updated ion parameters of [Mao et al](https://aip.scitation.org/doi/10.1063/1.4742068) [2].
 
 An example of an input sequence file (`wildtype_seq.in`) is provided. For mutants, changing the appropriate arginine residues to alanine (ALA), neutral histidine (HIE) or protonated histidine (HIP) can be done with a standard text editor. If the peptide net charge changes (i.e. ARG to ALA or ARG to HIE) then a compensatory change in the number of free ions should also be made (i.e. addition of two NA+ ions).
 
-#### Wildtype sequence
-<p style="font-family:Courier;font-size: 14px"><span style="color:#cf30b7">P</span><span style="color:#171616">I</span><span style="color:#171616">A</span><span style="color:#2900f5">K</span><span style="color:#ff0d0d">E</span><span style="color:#171616">V</span><span style="color:#171616">M</span><span style="color:#ff0d0d">E</span><span style="color:#cf30b7">P</span><span style="color:#04700d">S</span> <span style="color:#04700d">G</span><span style="color:#171616">L</span><span style="color:#04700d">G</span><span style="color:#04700d">G</span><span style="color:#171616">V</span><span style="color:#171616">L</span><span style="color:#cf30b7">P</span><span style="color:#ff0d0d">D</span><span style="color:#ff0d0d">D</span><span style="color:#04700d">H</span> <span style="color:#ff9d00">F</span><span style="color:#171616">V</span><span style="color:#171616">M</span><span style="color:#171616">L</span><span style="color:#171616">V</span><span style="color:#04700d">T</span><span style="color:#04700d">T</span><span style="color:#2900f5">R</span><span style="color:#2900f5">R</span><span style="color:#171616">V</span> <span style="color:#171616">V</span><span style="color:#2900f5">R</span><span style="color:#cf30b7">P</span><span style="color:#171616">I</span><span style="color:#171616">L</span><span style="color:#04700d">Q</span><span style="color:#2900f5">R</span><span style="color:#04700d">Q</span><span style="color:#171616">L</span><span style="color:#04700d">S</span> <span style="color:#2900f5">R</span><span style="color:#04700d">S</span><span style="color:#04700d">T</span><span style="color:#04700d">T</span><span style="color:#04700d">S</span><span style="color:#ff0d0d">E</span><span style="color:#ff0d0d">D</span><span style="color:#04700d">T</span><span style="color:#171616">A</span><span style="color:#ff0d0d">E</span></p>
-
-
-#### RR783AA sequence
-<p style="font-family:Courier;font-size: 14px"><span style="color:#cf30b7">P</span><span style="color:#171616">I</span><span style="color:#171616">A</span><span style="color:#2900f5">K</span><span style="color:#ff0d0d">E</span><span style="color:#171616">V</span><span style="color:#171616">M</span><span style="color:#ff0d0d">E</span><span style="color:#cf30b7">P</span><span style="color:#04700d">S</span> <span style="color:#04700d">G</span><span style="color:#171616">L</span><span style="color:#04700d">G</span><span style="color:#04700d">G</span><span style="color:#171616">V</span><span style="color:#171616">L</span><span style="color:#cf30b7">P</span><span style="color:#ff0d0d">D</span><span style="color:#ff0d0d">D</span><span style="color:#04700d">H</span> <span style="color:#ff9d00">F</span><span style="color:#171616">V</span><span style="color:#171616">M</span><span style="color:#171616">L</span><span style="color:#171616">V</span><span style="color:#04700d">T</span><span style="color:#04700d">T</span><span style="color:#171616">A</span><span style="color:#171616">A</span><span style="color:#171616">V</span> <span style="color:#171616">V</span><span style="color:#2900f5">R</span><span style="color:#cf30b7">P</span><span style="color:#171616">I</span><span style="color:#171616">L</span><span style="color:#04700d">Q</span><span style="color:#2900f5">R</span><span style="color:#04700d">Q</span><span style="color:#171616">L</span><span style="color:#04700d">S</span> <span style="color:#2900f5">R</span><span style="color:#04700d">S</span><span style="color:#04700d">T</span><span style="color:#04700d">T</span><span style="color:#04700d">S</span><span style="color:#ff0d0d">E</span><span style="color:#ff0d0d">D</span><span style="color:#04700d">T</span><span style="color:#171616">A</span><span style="color:#ff0d0d">E</span></p>
-
-#### RR783HH sequence
-<p style="font-family:Courier;font-size: 14px"><span style="color:#cf30b7">P</span><span style="color:#171616">I</span><span style="color:#171616">A</span><span style="color:#2900f5">K</span><span style="color:#ff0d0d">E</span><span style="color:#171616">V</span><span style="color:#171616">M</span><span style="color:#ff0d0d">E</span><span style="color:#cf30b7">P</span><span style="color:#04700d">S</span> <span style="color:#04700d">G</span><span style="color:#171616">L</span><span style="color:#04700d">G</span><span style="color:#04700d">G</span><span style="color:#171616">V</span><span style="color:#171616">L</span><span style="color:#cf30b7">P</span><span style="color:#ff0d0d">D</span><span style="color:#ff0d0d">D</span><span style="color:#04700d">H</span> <span style="color:#ff9d00">F</span><span style="color:#171616">V</span><span style="color:#171616">M</span><span style="color:#171616">L</span><span style="color:#171616">V</span><span style="color:#04700d">T</span><span style="color:#04700d">T</span><span style="color:#04700d">H</span><span style="color:#04700d">H</span><span style="color:#171616">V</span> <span style="color:#171616">V</span><span style="color:#2900f5">R</span><span style="color:#cf30b7">P</span><span style="color:#171616">I</span><span style="color:#171616">L</span><span style="color:#04700d">Q</span><span style="color:#2900f5">R</span><span style="color:#04700d">Q</span><span style="color:#171616">L</span><span style="color:#04700d">S</span> <span style="color:#2900f5">R</span><span style="color:#04700d">S</span><span style="color:#04700d">T</span><span style="color:#04700d">T</span><span style="color:#04700d">S</span><span style="color:#ff0d0d">E</span><span style="color:#ff0d0d">D</span><span style="color:#04700d">T</span><span style="color:#171616">A</span><span style="color:#ff0d0d">E</span></p>
-
 
 ## References
-[1] Mao, A. H., & Pappu, R. V. (2012). Crystal lattice properties fully determine short-range interaction parameters for alkali and halide ions. The Journal of Chemical Physics, 137(6), 064104.
+[1] Vitalis, A. & Pappu, R. V. ABSINTH: A new continuum solvation model for simulations of polypeptides in aqueous solutions. J. Comput. Chem. 30, 673–699 (2009).
+
+[2] Mao, A. H., & Pappu, R. V. (2012). Crystal lattice properties fully determine short-range interaction parameters for alkali and halide ions. The Journal of Chemical Physics, 137(6), 064104.
