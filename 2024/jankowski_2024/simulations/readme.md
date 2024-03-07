@@ -1,7 +1,7 @@
 ## Simulation Supporting Information
-###### Last updated 2024-03-02
+###### Last updated 2024-03-06
 
-This directory describes content for simulation component of the paper "*The interaction between a disordered clock protein and its partner turns an hourglass into a persistent circadian oscillator*" by Jankowski et al. (in press at Nature Communications).
+This directory describes content for simulation component of the paper "***Disordered clock protein interactions and charge blocks turn an hourglass into a persistent circadian oscillator***" by Jankowski et al. (in press at Nature Communications).
 
 ## Contents:
 

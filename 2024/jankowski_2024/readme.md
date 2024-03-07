@@ -1,9 +1,9 @@
 ## Additional Supporting Information
-###### Last updated 2024-02-29
+###### Last updated 2024-03-06
 
 This repository contains additional information for the *in press* manuscript:
 
-**The interaction between a disordered clock protein and its partner turns an hourglass into a persistent circadian oscillator**
+**Disordered clock protein interactions and charge blocks turn an hourglass into a persistent circadian oscillator**
 
 Jankowski, M. S., Griffith, D., Shastry, D. G., Pelham, J. F., Ginell, G. M., Thomas, J., Karande, P., Holehouse, A. S., & Hurley, J. M. *In Press* at Nature Communications
 
@@ -12,6 +12,8 @@ Jankowski, M. S., Griffith, D., Shastry, D. G., Pelham, J. F., Ginell, G. M., Th
 * Jupyter notebook containing code to recreate certain manuscript figures (`jankowski_et_al_computational_analyses_and_figures.ipynb`)
 * `/data` folder containing various data files used for bioinformatic analysis
 * `/simulations` folder containing data and analysis for simulations, including scripts to generate all simulation-associated figures.
+* **NB**: In the Zenodo repository (but not on GitHub) the FULL set of all simulations is provided in `simulations/jankowski_et_al_2024.zip`
+
 
 For more information on the files in this directory, please contact [Alex or Dan](http://holehouse.wustl.edu/). For information on the remainder of the paper, please contact [Jen](https://homepages.rpi.edu/~hurlej2/lab_members.html)!
 
