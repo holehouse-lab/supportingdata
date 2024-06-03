@@ -1,0 +1,3590 @@
+# The abs3.5_opls_unofficial.prm file combines Albert's ion parameters with the abs3.2_opls.prm file
+# from Andreas' parameter update on 2015/10/27 (this date comes out of the CVS parameter
+# docs). 
+#
+# Specifically, this file differes from the abs3.2_opls.prm in terms of
+#
+# 1) Na, K, Cs, Cl, Br, I values for FOS, self:self epislon, self:self sigma, and ionic radii
+#
+# 2) FOS of formate (based on Matt's calculations, rather than speculation)
+#
+#--------------------------------------------------------------------------#
+# LICENSE INFO:                                                            #
+#--------------------------------------------------------------------------#
+#    This file is part of CAMPARI.                                         #
+#                                                                          #
+#    Version 2.0                                                           #
+#                                                                          #
+#    Copyright (C) 2014, The CAMPARI development team (current and former  #
+#                        contributors)                                     #
+#                        Andreas Vitalis, Adam Steffen, Rohit Pappu, Hoang #
+#                        Tran, Albert Mao, Xiaoling Wang, Jose Pulido,     #
+#                        Nicholas Lyle, Nicolas Bloechliger                #
+#                                                                          #
+#    Website: http://sourceforge.net/projects/campari/                     #
+#                                                                          #
+#    CAMPARI is free software: you can redistribute it and/or modify       #
+#    it under the terms of the GNU General Public License as published by  #
+#    the Free Software Foundation, either version 3 of the License, or     #
+#    (at your option) any later version.                                   #
+#                                                                          #
+#    CAMPARI is distributed in the hope that it will be useful,            #
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of        #
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         #
+#    GNU General Public License for more details.                          #
+#                                                                          #
+#    You should have received a copy of the GNU General Public License     #
+#    along with CAMPARI.  If not, see <http://www.gnu.org/licenses/>.      #
+#--------------------------------------------------------------------------#
+# AUTHORSHIP INFO:                                                         #
+#--------------------------------------------------------------------------#
+#                                                                          #
+# MAIN AUTHOR:   Andreas Vitalis                                           #
+# CONTRIBUTIONS: Adam Steffen                                              #
+#                                                                          #
+#--------------------------------------------------------------------------#
+
+      #############################
+      ##                         ##
+      ##  Literature References  ##
+      ##                         ##
+      #############################
+
+#####################################################################
+#                                                                   #
+# Combination of OPLS (charges, essential bonded parameters)        #
+# and ABSINTH LJ paradigm and parameters w/ lowered free            #
+# energies of solvation for charged groups as published             #
+#                                                                   #
+#####################################################################
+
+
+##############################################################################
+#
+# W. L. Jorgensen, J. Tirado-Rives
+# "The OPLS Force Field for Proteins. Energy Minimizations for Crystals of
+# Cyclic Peptides and Crambin"
+# J. Am. Chem. Soc., 1988, 110, 1657-1666
+#
+# W. L. Jorgensen, D. S. Maxwell, J. Tirado-Rives
+# "Development and Testing of the OPLS All-Atom Force Field on Conformational
+# Energetics and Properties of Organic Liquids"
+# J. Am. Chem. Soc., 1996, 118 (45) 11225-11236
+#
+# G. A. Kaminski, R. A. Friesner, J. Tirado-Rives, W. L. Jorgensen
+# "Evaluation and Reparametrization of the OPLS-AA Force Field for Proteins
+# via Comparison with Accurate Quantum Chemical Calculations on Peptides"
+# J. Phys. Chem. B, 2001, 105 (28), 6474-6487
+#
+# J. Aqvist, "Ion-Water Interaction Potentials Derived from Free Energy
+# Perturbation Simulations", J. Phys. Chem., 94, 8021-8024 (1990)
+# [Alkaline Earth Ions, radii adapted for AMBER combining rule]
+#
+# A. Vitalis, R. V. Pappu:
+# "ABSINTH: a new continuum solvation model for simulations of polypeptides
+# in aqueous solutions."
+# Journal of Computational Chemistry, 30, p673-699 (2009)
+#
+# A. Radhakrishnan, A. Vitalis, A. H. Mao, A. T. Steffen, R. V. Pappu.
+# "Improved Atomistic Monte Carlo Simulations Demonstrate That Poly-l-Proline
+# Adopts Heterogeneous Ensembles of Conformations of Semi-Rigid Segments
+# Interrupted by Kinks."
+# Journal of Physical Chemistry B, 116, p6862-6871 (2012)
+#
+# A.H. Mao, R.V. Pappu
+# Crystal Lattice Properties Fully Determine Short-Range Interaction Parameters for Alkali and Halide Ions
+# Journal of Chemical Physics, 137: 064104(1-9) (2012)
+#
+##############################################################################
+
+
+
+      #############################
+      ##                         ##
+      ##  Atom Type Definitions  ##
+      ##                         ##
+      #############################
+
+
+atom      1    N       "SP2 Nitrogen"              7     14.007     3
+atom      2    C       "SP3 Carbon"                6     12.011     4
+atom      3    C       "SP2 Carbon"                6     12.011     3
+atom      4    HN      "Hydrogen Atom"             1      1.008     1
+atom      5    O       "SP Oxygen"                 8     15.999     1
+atom      6    O       "SP2 Oxygen"                8     15.999     2
+atom      7    S       "Sulfur Atom"              16     32.066     2
+atom      8    N       "SP3 Nitrogen"              7     14.007     4
+atom      9    H       "Hydrogen Atom"             1      1.008     1
+atom     10    N       "Imidazole Nitrogen"        7     14.007     2
+atom     11    N       "Proline SP2 Nitrogen"      7     14.007     3
+atom     12    NA      "Sodium Ion"               11     22.990     0
+atom     13    CL      "Chloride Ion"             17     35.453     0
+atom     14    OW      "SPC Water Oxygen"          8     15.999     2
+atom     15    HW      "SPC Water Hydrogen"        1      1.008     1
+atom     16    OW      "TIP3P Water Oxygen"        8     15.999     2
+atom     17    HW      "TIP3P Water Hydrogen"      1      1.008     1
+atom     18    OW      "TIP4P Water Oxygen"        8     15.999     3
+atom     19    MW      "TIP4P Water Charge"        0       0.00     1
+atom     20    K       "Potassium Ion"            19     39.098     0
+atom     21    BR      "Bromide Ion"              35     79.904     0
+atom     22    CS      "Caesium Ion"              55    132.905     0
+atom     23    I       "Iodide Ion"               53    126.905     0
+atom     24    P       "P in Phosphate"           15     30.974     4
+atom     25    OW      "TIP4P-Ew Water Oxygen"     8     15.999     3
+atom     26    OW      "TIP5P Water Oxygen"        8     15.999     4
+atom     27    C       "Proline Methylene C"       6     12.011     4
+atom     28    H       "Proline Methylene H"       1      1.008     1
+atom     29    O       "SP2 Oxygen(-)"             8     15.999     1
+atom     30    S       "Sulfur(-) Atom"           16     32.066     1
+
+
+      #######################################
+      ##                                   ##
+      ##  sigma parameters in Angstroms    ##
+      ##                                   ##
+      #######################################
+
+contact          1    1    2.70
+contact          1    4    1.85
+contact          2    2    3.30
+contact          3    3    3.00
+contact          4    4    2.00
+contact          4    5    1.85
+contact          4    6    2.00
+contact          4    7    2.30
+contact          4    8    1.85
+contact          4    10   2.10
+contact          4    11   1.85
+contact          4    14   2.0828241419
+contact          4    16   2.075305
+contact          4    18   2.076825
+contact          4    25   2.082175
+contact          4    26   2.06
+contact          4    29   2.00
+contact          4    30   2.30
+contact          5    5    2.70
+contact          6    6    3.00
+contact          7    7    3.60
+contact          8    8    2.70
+contact          9    9    2.00
+contact          10   10   3.20
+contact          11   11   2.70
+contact          12   12   2.497
+contact          13   13   4.612
+contact          14   14   3.1656482837
+# contact          14   15   2.0827
+contact          15   15   2.00
+contact          16   16   3.15061
+# contact          16   17   2.0753
+contact          17   17   2.00
+contact          18   18   3.15365
+contact          19   19   2.00
+contact          20   20   3.184
+contact          21   21   4.812
+contact          22   22   3.440
+contact          23   23   5.197
+contact          24   24   3.6
+contact          25   25   3.16435
+contact          26   26   3.12
+contact          27   27   3.498
+contact          28   28   2.12
+contact          29   29   3.00
+contact          30   30   3.60
+
+
+      ####################################
+      ##                                ##
+      ##  epsilon params in kcal/mol    ##
+      ##                                ##
+      ####################################
+
+interact         1    1    0.15
+interact         2    2    0.1
+interact         3    3    0.1
+interact         4    4    0.025
+interact         5    5    0.2
+interact         6    6    0.15
+interact         7    7    0.3
+interact         8    8    0.15
+interact         9    9    0.025
+interact         10   10   0.15
+interact         11   11   0.15
+interact         12   12   0.07826
+interact         13   13   0.02502
+interact         14   14   0.1553937103
+interact         15   15   0.0
+interact         16   16   0.1521
+interact         17   17   0.0
+interact         18   18   0.1550
+interact         19   19   0.0
+interact         20   20   0.1183
+interact         21   21   0.03596
+interact         22   22   0.5013
+interact         23   23   0.04220
+interact         24   24   0.3
+interact         25   25   0.162750
+interact         26   26   0.16
+interact         27   27   0.01
+interact         28   28   0.0025
+interact         29   29   0.2
+interact         30   30   0.3
+
+
+      ########################################
+      ##                                    ##
+      ##  non-LJ atomic radii in Angstroms  ##
+      ##                                    ##
+      ########################################
+
+radius           12     1.16
+radius           13     1.67
+radius           20     1.52
+radius           21     1.82
+radius           22     1.81
+radius           23     2.06
+
+
+      ####################################
+      ##                                ##
+      ##  atomic charges in units of e  ##
+      ##                                ##
+      ####################################
+
+
+
+      ##  atomic charges in units of e  ##
+charge     1     "Aliphatic CH"         0.0
+charge     2     "Generic H"            0.06
+charge     3     "Carbonyl-C"           0.5
+charge     4     "Carbonyl-O"          -0.5
+charge     5     "Prim. Amide-N"       -0.76
+charge     6     "Sec. Amide-N"        -0.5
+charge     7     "Tert. Amide-N"       -0.14
+charge     8     "Prim. Amide-H"        0.38
+charge     9     "Sec. Amide-H"         0.3
+charge    10     "Sec. Amide-NC(CCC)"   0.2
+charge    11     "Sec. Amide-NC(HCC)"   0.14
+charge    12     "Sec. Amide-NC(HHC)"   0.08
+charge    13     "Sec. Amide-NC(HHH)"   0.02
+charge    14     "Tert. Amide-NC(HCC)"  0.01
+charge    15     "Tert. Amide-NC(HHC)" -0.05
+charge    16     "Tert. Amide-NC(HHH)" -0.11
+charge    17     "1. Amine(+)-N"       -0.3
+charge    18     "1. Amine(+)-H"        0.33
+charge    19     "1. Amine(+)-NC(HHH)"  0.13
+charge    20     "1. Amine(+)-NC(HHC)"  0.19
+charge    21     "1. Amine(+)-NC(HCC)"  0.25
+charge    22     "1. Amine(+)-NC(CCC)"  0.31
+charge    23     "1. Amine-N"          -0.9
+charge    24     "1. Amine-H"           0.36
+charge    25     "1. Amine-NC(HHH)"     0.00
+charge    26     "1. Amine-NC(HHC)"     0.06
+charge    27     "1. Amine-NC(HCC)"     0.12
+charge    28     "1. Amine-NC(CCC)"     0.18
+charge    29     "Carboxyl(-)-C"        0.7
+charge    30     "Carboxyl(-)-O"       -0.8
+charge    31     "Am. (-)-COOC(HHC)"   -0.02
+charge    32     "Am. (-)-COOC(HCC)"    0.04
+charge    33     "Am. (-)-COOC(CCC)"    0.1
+charge    34     "Im. (-)-COOC(HCC)"   -0.09
+charge    35     "AA (+/-)-CA(HH)"      0.09
+charge    36     "AA (+/-)-CA(HC)"      0.15
+charge    37     "AA (+/-)-CA(CC)"      0.21
+charge    38     "IA (+/-)-COOC(HCC)"   0.15
+charge    39     "CA (+/-)-COOC(HHH)"  -0.28
+charge    40     "CA (+/-)-COOC(HHC)"  -0.22
+charge    41     "1./2. Alcohol-O"     -0.683
+charge    42     "1./2. Alcohol-H"      0.418
+charge    43     "Alcohol-OC(HHC)"      0.145
+charge    44     "Alcohol-OC(HCC)"      0.205
+charge    45     "Methanol C"           0.085
+charge    46     "Methanol HC"          0.06
+charge    47     "1. Thiol-S"          -0.335
+charge    48     "1. Thiol-H"           0.155
+charge    49     "1. Thiol-SC(HHC)"     0.06
+charge    50     "Disulfide S-S"       -0.2175
+charge    51     "Disulfide SS-C(HHC)"  0.0975
+charge    52     "Phenol O"            -0.585
+charge    53     "Phenol H"             0.435
+charge    54     "Phenol HO-C"          0.15
+charge    55     "Indol-N (TRP NE1)"   -0.57
+charge    56     "Indol-H (TRP HE1)"    0.42
+charge    57     "TRP CE2"              0.13
+charge    58     "TRP CG"               0.075
+charge    59     "TRP CD2"             -0.055
+charge    60     "Proline(+)-N"        -0.20
+charge    61     "Proline(+)-H"         0.31
+charge    62     "Proline(+)-NC(HHC)"   0.17
+charge    63     "Proline(+)-NC(HCC)"   0.23
+charge    64     "Imidazole-N(CC)"     -0.564
+charge    65     "Imidazole-H(N)"       0.326
+charge    66     "Imidazole-N(CCH)"    -0.291
+charge    67     "Imidazole-C(NNH)"     0.182
+charge    68     "Imidazole-C(NCH)"     0.504
+charge    69     "Imidazole-C((NH)CH)" -0.261
+charge    70     "Aryl-H"               0.183
+charge    71     "HIE/D/P/PHE/TYR CB"  -0.297
+charge    72     "Imidazole(+)-N"      -0.54
+charge    73     "Imidazole(+)-H(N)"    0.46
+charge    74     "Imidazole(+)-C(NN)"   0.385
+charge    75     "Imidazole(+)-C(CN)"   0.215
+charge    76     "Thioether RSR"       -0.335
+charge    77     "Thioether RS-C(HHC)"  0.0475
+charge    78     "Thioether RS-C(HHH)" -0.0125
+charge    79     "GDN-N"               -0.8
+charge    80     "GDN-H(N)"             0.46
+charge    81     "GDN-C"                0.64
+charge    82     "N-sub. GDN-N(RH)"    -0.7
+charge    83     "N-sub. GDN-H(RN)"     0.44
+charge    84     "N-sub. GDN-CH2-"      0.19
+charge    85     "N-sub. GDN-CH2-CH2"  -0.05
+charge    86     "Monovalent cation"    1.0
+charge    87     "Monovalent anion"    -1.0
+charge    88     "Urea-N"              -0.542
+charge    89     "Urea-H(N)"            0.333
+charge    90     "Urea-C"               0.142
+charge    91     "Urea-O"              -0.39
+charge    92     "Ammonium(+)-N"       -0.4
+charge    93     "Ammonium(+)-H"        0.35
+charge    94     "SPC Water-O"         -0.82
+charge    95     "SPC Water-H"          0.41
+charge    96     "TIP3P Water-O"       -0.834
+charge    97     "TIP3P Water-H"        0.417
+charge    98     "TIP4P Water-O(M)"    -1.04
+charge    99     "TIP4P Water-H"        0.52
+charge   100     "Aliphatic CH3"       -0.18
+charge   101     "Aliphatic CH2"       -0.12
+charge   102     "Aliphatic CH"        -0.06
+charge   103     "Methane: CH4"        -0.24
+charge   104     "Aryl CH"             -0.115
+charge   105     "IME/D/PCR/TOL CB"    -0.065
+charge   106     "HIE/D HE1"            0.098
+charge   107     "TYR CB"              -0.005
+charge   108     "Aryl HC"              0.115
+charge   109     "IMD/IME CT"          -0.357
+charge   110     "TIP5P Water-LP"      -0.241
+charge   111     "TIP5P Water-H"        0.241
+charge   112     "TIP4P-Ew Water-O(M)" -1.04844
+charge   113     "TIP4P-Ew Water-H"     0.52422
+charge   114     "3. Amine(+)-N"        0.1  # subst. ammonium parameters adopted from Nagy
+charge   115     "3. Amine(+)-H"        0.36
+charge   116     "3. Amine(+)-NC(HHH)" -0.3
+charge   117     "3. Amine(+)-NC(HHC)" -0.14
+charge   118     "3. Amine(+)-NCH(XY)"  0.16
+charge   119     "4. Amine(+)-N"        0.04 # minimally adjusted from Jorgensen/Gao
+charge   120     "4. Amine(+)-NC(HHH)" -0.36
+charge   121     "4. Amine(+)-NC(HHC)" -0.16
+charge   122     "4. Amine(+)-NCH(HH)"  0.2
+charge   123     "2. Amine(+)-N"       -0.06
+charge   124     "2. Amine(+)-H"        0.36
+charge   125     "2. Amine(+)-NC(HHH)" -0.25
+charge   126     "2. Amine(+)-NC(HHC)" -0.11
+charge   127     "2. Amine(+)-NCH(XY)"  0.14
+charge   128     "C-Acid: R-COOH"       0.52
+charge   129     "C-Acid: O=COHR"      -0.44
+charge   130     "C-Acid: (H)O-COR"    -0.53
+charge   131     "C-Acid: HOCOR"        0.45
+charge   132     "C-Acid: C(H2)-COOH"  -0.12
+
+
+
+      ####################################
+      ##                                ##
+      ##  group-based free energies of  ##
+      ##           solvation            ##
+      ##                                ##
+      ####################################
+
+fos              NA+ -88.67112810707457
+fos              K+  -71.22370936902485
+fos              CS+ -60.46845124282982
+fos              CL- -89.14913957934989
+fos              BR- -82.69598470363289
+fos              I-  -74.33078393881453
+
+fos              NH4 -85.2
+fos              AC- -77.3
+fos              GDN -85.0   # speculation (this should probably be closer to -65)
+fos              1MN -76.4
+fos              2MN -68.6
+fos              LCP -102.8  # from Marcus 1991
+fos              NO3 -71.7   # from Marcus 1991; Cramer/Truhlar 1992 has -65
+
+fos              SPC -6.325
+fos              T3P -6.325
+fos              T4P -6.325
+fos              T5P -6.325
+fos              T4E -6.325
+
+fos              NMA -10.1
+fos              NMF -10.0
+fos              ACA -9.7
+fos              PPA -9.4
+fos              DMA -8.5
+fos              FOA -11.8   # the value given by Matt (comp.) (was -10.5)
+fos              URE -10.8   # computational estimate for KB urea in TIP3P
+
+fos              O2  2.0
+fos              CH4 1.9
+fos              MOH -5.1
+fos              PCR -6.1
+fos              PRP 2.0
+fos              IBU 2.3
+fos              NBU 2.2
+fos              MSH -1.2
+fos              EOH -5.0
+fos              EMT -1.4
+fos              TOL -0.8
+fos              IMD -10.3
+fos              IME -10.3
+fos              BEN -0.9
+fos              NAP -2.4
+fos              MIN -5.9
+fos              PUR -6.5    # guess
+
+fos              ALA 1.9
+fos              ABA 1.8
+fos              VAL 2.0
+fos              NVA 2.0
+fos              LEU 2.3
+fos              ILE 2.2
+fos              NLE 2.2
+fos              AIB 3.8     # 2xCH4 might not be the best model here 
+fos              PRO 2.0
+fos              MET -1.4
+
+fos              SER -5.1
+fos              THR -5.0
+fos              CYS -1.2
+fos              ASN -9.7
+fos              GLN -9.4
+fos              HYP -4.8
+fos              ASH -6.7
+fos              GLH -6.5
+fos              LYD -4.3
+fos              KAC -8.1   # based on NMA and propane
+
+fos              PHE -0.8
+fos              TYR -6.1
+fos              HIE -10.3   # straight from Wolfenden
+fos              HID -10.3
+fos              TRP -5.9
+
+fos              ASP -107.3
+fos              GLU -107.3  # speculation
+fos              LYS -100.9
+fos              ORN -100.9
+fos              DAB -100.9
+fos              ARG -100.9  # speculation (this should probably be closer to -95)
+fos              HIP -95.0   # guess (pyrrole has -61.4, piperazine -66.0 -> Truhlar/Kelly)
+fos              CYX -100.   # next 5 are all guesses
+fos              TYO -95.
+fos              PTR -106.1
+fos              SEP -105.1
+fos              TPO -105.0
+fos              KM1 -96.6  # based on dimethylammonium (hovers around -68)
+fos              KM2 -89.7  # based on trimethylammonium (hovers around -62)
+fos              KM3 -68.2  # from Marcus: there TMA(+) does indeed have only -38.2
+
+fos              LINK_CC -0.87         # inference from Et-S-S-Et and Met-S-Met
+
+fos              PEP_BB -10.1
+fos              PEP_PRO_BB -8.5
+fos              PEP_BB_NH2 -9.7
+fos              PEP_BB_FOR -10.0
+fos              PEP_PRO_BB_FOR -8.5   # speculation
+fos              PEP_CCT -107.3
+fos              PEP_UCT -6.7
+fos              PEP_CNT -106.5
+fos              PEP_PRO_CNT -98.6
+fos              PEP_UNT -4.5
+fos              PEP_PRO_UNT -3.9
+
+fos              CYT -20.1             # calc.
+fos              URA -14.2             # calc.
+fos              THY -12.8             # calc.
+fos              ADE -15.0             # calc.
+fos              GUA -23.7             # calc.
+
+fos              XXC -17.1             # calc. + 3.0
+fos              XXU -11.2             # calc. + 3.0
+fos              XXT -9.8              # calc. + 3.0
+fos              XXA -12.0             # calc. + 3.0
+fos              XXG -20.7             # calc. + 3.0
+
+fos              NUC_PO4 -100.0        # speculation
+fos              NUC_HPO4 -105.0       # speculation
+fos              NUC_SUG_0 -3.5
+fos              NUC_SUG_1 -6.5        # speculation
+fos              NUC_SUG_2 -9.5        # speculation
+fos              NUC_SUG_3 -12.5       # speculation
+
+
+      #######################
+      ##                   ##
+      ##  bond parameters  ##
+      ##  1) harmonic      ##
+      ##  2) morse         ##
+      ##                   ##
+      #######################
+
+bond        1     1    268.0   1.5290
+bond        2     1    340.0   1.0900
+bond        3     1    317.0   1.5100
+bond        4     1    320.0   1.4100
+bond        5     1    222.0   1.8100
+bond        6     1    317.0   1.5220
+bond        7     1    337.0   1.4490
+bond        8     1    367.0   1.4710
+bond        9     1    337.0   1.4630
+bond       10     1    317.0   1.4950
+bond       11     1    317.0   1.5040
+bond       12     1    166.0   2.0380
+bond       13     1    527.2   1.0000
+bond       14     1    469.0   1.4000
+bond       15     1    367.0   1.0800
+bond       16     1    450.0   1.3640
+bond       17     1    546.0   1.3520
+bond       18     1    428.0   1.3800
+bond       19     1    477.0   1.3430
+bond       20     1    447.0   1.4190
+bond       21     1    388.0   1.4590
+bond       22     1    427.0   1.3810
+bond       23     1    488.0   1.3350
+bond       24     1    553.0   0.9450
+bond       25     1    520.0   1.3700
+bond       26     1    529.6   0.9572
+bond       27     1    274.0   1.3360
+bond       28     1    410.0   1.3940
+bond       29     1    570.0   1.2290
+bond       30     1    490.0   1.3350
+bond       31     1    434.0   1.0100
+bond       32     1    656.0   1.2500
+bond       33     1    481.0   1.3400
+bond       34     2    300.0   1.5000   15.0
+bond       35     1    469.0   1.4040
+bond       36     1    350.0   1.4480
+
+
+      #######################
+      ##                   ##
+      ##  angle parameters ##
+      ##  1) harmonic      ##
+      ##  2) urey-bradley  ##
+      ##     (dbl harmon.) ##
+      ##                   ##
+      #######################
+
+angle       1     1    58.35   112.70
+angle       2     1    37.50   110.70
+angle       3     1    63.00   114.00
+angle       4     1    50.00   109.50
+angle       5     1    50.00   108.60
+angle       6     1    50.00   114.70
+angle       7     1    63.00   111.10
+angle       8     1    80.00   109.70
+angle       9     1    80.00   111.20
+angle      10     1    63.00   115.60
+angle      11     1    63.00   114.00
+angle      12     1    33.00   107.80
+angle      13     1    35.00   109.50
+angle      14     1    63.00   110.10
+angle      15     1    70.00   120.00
+angle      16     1    63.00   120.00
+angle      17     1    35.00   120.00
+angle      18     1    85.00   120.00
+angle      19     1    35.00   121.60
+angle      20     1    70.00   108.70
+angle      21     1    55.00   108.50
+angle      22     1    35.00   113.00
+angle      23     1    44.00    96.00
+angle      24     1    62.00    98.90
+angle      25     1    68.00   103.70
+angle      26     1    80.00   120.40
+angle      27     1    70.00   116.60
+angle      28     1    80.00   122.90
+angle      29     2    37.95   109.47  39.9  1.6330
+angle      30     1    40.00   115.00
+angle      31     1    50.00   118.00
+angle      32     1    50.00   121.90
+angle      33     1    38.00   118.40
+angle      34     1    35.00   119.80
+angle      35     1    70.00   117.00
+angle      36     1    80.00   126.00
+angle      37     1    50.00   113.00
+angle      38     1    35.00   118.40
+angle      39     1    50.00   123.20
+angle      40     1    70.00   125.00
+angle      41     1    70.00   128.60
+angle      42     1    85.00   106.40
+angle      43     1    85.00   134.90
+angle      44     1    85.00   116.20
+angle      45     1    85.00   108.80
+angle      46     1    85.00   122.70
+angle      47     1    70.00   132.80
+angle      48     1    70.00   104.40
+angle      49     1    70.00   111.60
+angle      50     1    35.00   123.10
+angle      51     1    35.00   120.00
+angle      52     1    70.00   109.80
+angle      53     1    70.00   110.75
+angle      54     1    70.00   130.70
+angle      55     1    70.00   124.50
+angle      56     1    35.00   128.20
+angle      57     1    70.00   111.00
+angle      58     1    70.00   121.60
+angle      59     1    35.00   130.70
+angle      60     1    70.00   106.30
+angle      61     1    70.00   110.00
+angle      62     2    34.05   104.52  38.25  1.5139
+angle      63     1    80.00   117.00
+angle      64     1    80.00   121.50
+angle      65     1    80.00   121.00
+angle      66     1    70.00   108.00
+angle      67     1    56.20   109.47
+angle      68     1    43.40   106.40
+
+
+      ############################
+      ##                        ##
+      ##  torsional parameters  ##
+      ##  1) Ryckaert-Bellemans ##
+      ##  2) harmonic           ##
+      ##                        ##
+      ############################
+
+torsion    1    1     0.70000     0.35000     0.05000     0.40000     0.00000     0.00000
+torsion    2    1     0.15000    -0.45000     0.00000     0.60000     0.00000     0.00000
+torsion    3    1     0.81850     0.92250     0.62000     0.51600     0.00000     0.00000
+torsion    4    1    -1.01200    -1.72600     0.45600     1.17000     0.00000     0.00000
+torsion    5    1    -0.18300    -0.64700     0.96200     1.42600     0.00000     0.00000
+torsion    6    1    -2.17100    -2.33200     0.82500     0.98600     0.00000     0.00000
+torsion    7    1     1.37950     0.63850     0.22900     0.97000     0.00000     0.00000
+torsion    8    1     1.31150    -0.00650     0.00000     1.31800     0.00000     0.00000
+torsion    9    1     0.15000    -0.45000     0.00000     0.60000     0.00000     0.00000
+torsion   10    1     0.23100    -0.69300     0.00000     0.92400     0.00000     0.00000
+torsion   11    1     0.23400    -0.70200     0.00000     0.93600     0.00000     0.00000
+torsion   12    1     0.22600    -0.67800     0.00000     0.90400     0.00000     0.00000
+torsion   13    1    -0.03800     0.11400     0.00000    -0.15200     0.00000     0.00000
+torsion   14    1     0.23200    -0.69600     0.00000     0.92800     0.00000     0.00000
+torsion   15    1    -0.11250     0.33750     0.00000    -0.45000     0.00000     0.00000
+torsion   16    1     0.19200    -0.57600     0.00000     0.76800     0.00000     0.00000
+torsion   17    1    -3.09000    -3.09000     0.00000     0.00000     0.00000     0.00000
+torsion   18    1     2.68800     0.09500     1.46700     4.06000     0.00000     0.00000
+torsion   19    1    -3.73650    -3.56050     2.11400     1.93800     0.00000     0.00000
+torsion   20    1    -0.80100     0.08000     1.16300     0.28200     0.00000     0.00000
+torsion   21    1    -0.75750    -0.80350    -0.04600     0.00000     0.00000     0.00000
+torsion   22    1     0.29000    -0.79000    -0.50200     0.57800     0.00000     0.00000
+torsion   23    1     0.00000     0.00000     0.00000     0.00000     0.00000     0.00000
+torsion   24    1    -0.10600    -0.91600     0.17400     0.98400     0.00000     0.00000
+torsion   25    1     0.22500    -0.67500     0.00000     0.90000     0.00000     0.00000
+torsion   26    1    -0.36000    -1.28400     0.28200     1.20600     0.00000     0.00000
+torsion   27    1     0.22550    -0.67650     0.00000     0.90200     0.00000     0.00000
+torsion   28    1     0.22500    -0.55300     0.57600     1.35400     0.00000     0.00000
+torsion   29    1     0.60200    -0.43200     0.83600     1.87000     0.00000     0.00000
+torsion   30    1     0.32350    -0.97050     0.00000     1.29400     0.00000     0.00000
+torsion   31    1     0.27900    -0.83700     0.00000     1.11600     0.00000     0.00000
+torsion   32    1     1.19700     0.40600    -0.08900     0.70200     0.00000     0.00000
+torsion   33    1     2.47700     1.57900    -2.50800    -1.61000     0.00000     0.00000
+torsion   34    1     2.92050    -1.46350    -1.22200     3.16200     0.00000     0.00000
+torsion   35    1     1.58700     2.52200    -2.62100    -3.55600     0.00000     0.00000
+torsion   36    1     3.75300    -7.59000    -0.87700    10.46600     0.00000     0.00000
+torsion   37    1     1.64250     2.37650     0.73400     0.00000     0.00000     0.00000
+torsion   38    1    -2.47550     7.07150    -0.27900    -9.82600     0.00000     0.00000
+torsion   39    1    -1.36800     4.38300    -1.25100    -7.00200     0.00000     0.00000
+torsion   40    1    -0.69550     0.09250    -0.91200    -1.70000     0.00000     0.00000
+torsion   41    1     0.82000     0.00000    -0.82000     0.00000     0.00000     0.00000
+torsion   42    1     0.17350    -0.52050     0.00000     0.69400     0.00000     0.00000
+torsion   43    1     0.13050    -0.39150     0.00000     0.52200     0.00000     0.00000
+torsion   44    1     0.90850     1.66150    -0.24300    -0.99600     0.00000     0.00000
+torsion   45    1     0.08850    -0.26550     0.00000     0.35400     0.00000     0.00000
+torsion   46    1    -0.35700    -0.35700     0.00000     0.00000     0.00000     0.00000
+torsion   47    1    -0.24000     0.72000     0.00000    -0.96000     0.00000     0.00000
+torsion   48    1     0.09250    -1.32150    -0.01400     1.40000     0.00000     0.00000
+torsion   49    1     0.20950    -0.62850     0.00000     0.83800     0.00000     0.00000
+torsion   50    1    -3.69900    -2.82700     0.87200     0.00000     0.00000     0.00000
+torsion   51    1     2.36450     1.12750     0.87900     2.11600     0.00000     0.00000
+torsion   52    1    -3.88600    -2.17200     1.71400     0.00000     0.00000     0.00000
+torsion   53    1     0.81450     0.67050    -0.08600     0.05800     0.00000     0.00000
+torsion   54    1    -1.08050     0.52250     1.60300     0.00000     0.00000     0.00000
+torsion   55    1    -1.67800    -3.93100     0.67700     2.93000     0.00000     0.00000
+torsion   56    1    -0.51000    -1.34600    -0.83600     0.00000     0.00000     0.00000
+torsion   57    1     0.46000    -0.62400     0.52600     1.61000     0.00000     0.00000
+torsion   58    1     0.10100    -0.64700    -0.74800     0.00000     0.00000     0.00000
+torsion   59    1     1.07600    -0.18700    -0.38300     0.88000     0.00000     0.00000
+torsion   60    1     1.61500     0.33900    -1.27600     0.00000     0.00000     0.00000
+torsion   61    1     2.53850     0.54050    -0.95400     1.04400     0.00000     0.00000
+torsion   62    1    -0.57000     0.19200     0.76200     0.00000     0.00000     0.00000
+torsion   63    1     0.89650     0.89350    -0.19900    -0.19600     0.00000     0.00000
+torsion   64    1    -1.15400    -0.52900     0.62500     0.00000     0.00000     0.00000
+torsion   65    1    -0.03800    -0.78800    -0.56200     0.18800     0.00000     0.00000
+torsion   66    1     2.07350    -1.02950    -3.10300     0.00000     0.00000     0.00000
+torsion   67    1    -1.43850    -1.81050    -0.95800    -0.58600     0.00000     0.00000
+torsion   68    1    -1.38000    -0.80900     0.57100     0.00000     0.00000     0.00000
+torsion   69    1     2.10150     2.82850     0.25700    -0.47000     0.00000     0.00000
+torsion   70    1    -1.65350    -1.11750     0.53600     0.00000     0.00000     0.00000
+torsion   71    1     0.30500    -0.27900     0.21400     0.79800     0.00000     0.00000
+torsion   72    1     0.92150     0.83950    -0.08200     0.00000     0.00000     0.00000
+torsion   73    1     0.55750    -2.02850     0.35000     2.93600     0.00000     0.00000
+torsion   74    1     1.31400    -0.33900    -1.65300     0.00000     0.00000     0.00000
+torsion   75    1     2.44550    -0.84150    -0.95100     2.33600     0.00000     0.00000
+torsion   76    1     7.25000     0.00000    -7.25000     0.00000     0.00000     0.00000
+torsion   77    1     1.68200     0.00000    -1.68200     0.00000     0.00000     0.00000
+torsion   78    1    13.05000     0.00000   -13.05000     0.00000     0.00000     0.00000
+torsion   79    1     7.00000     0.00000    -7.00000     0.00000     0.00000     0.00000
+torsion   80    1     3.00000     0.00000    -3.00000     0.00000     0.00000     0.00000
+torsion   81    1    -0.99500    -1.60400     0.86900     1.47800     0.00000     0.00000
+torsion   82    1    -6.56150    -2.55750     7.41400     3.41000     0.00000     0.00000
+torsion   83    1     7.23900     1.15000    -6.08900     0.00000     0.00000     0.00000
+torsion   84    1     4.90000     0.00000    -4.90000     0.00000     0.00000     0.00000
+torsion   85    1     6.08900     0.00000    -6.08900     0.00000     0.00000     0.00000
+torsion   86    1    -2.27000     1.52100     2.12700    -1.66400     0.00000     0.00000
+torsion   87    1    -2.14550    18.32850    -2.05800   -22.53200     0.00000     0.00000
+torsion   88    1     3.75300    -7.59000    -0.87700    10.46600     0.00000     0.00000
+torsion   89    1     7.93600     0.00000    -7.93600     0.00000     0.00000     0.00000
+torsion   90    1     3.90000     0.00000    -3.90000     0.00000     0.00000     0.00000
+torsion   91    1     3.35000     0.00000    -3.35000     0.00000     0.00000     0.00000
+torsion   92    1     6.00000     0.00000    -6.00000     0.00000     0.00000     0.00000
+torsion   93    1     3.05000     0.00000    -3.05000     0.00000     0.00000     0.00000
+torsion   94    1     4.65000     0.00000    -4.65000     0.00000     0.00000     0.00000
+torsion   95    1     2.80000     0.00000    -2.80000     0.00000     0.00000     0.00000
+torsion   96    1     3.20000     0.00000    -3.20000     0.00000     0.00000     0.00000
+torsion   97    1    10.00000     0.00000   -10.00000     0.00000     0.00000     0.00000
+torsion   98    1    10.75000     0.00000   -10.75000     0.00000     0.00000     0.00000
+torsion   99    1     4.80000     0.00000    -4.80000     0.00000     0.00000     0.00000
+torsion  100    2    40.0         0.0
+torsion  101    1     2.20000     0.00000    -2.20000     0.00000     0.00000     0.00000
+torsion  102    1     2.00000     0.00000    -2.00000     0.00000     0.00000     0.00000
+torsion  103    1    21.00000     0.00000   -21.00000     0.00000     0.00000     0.00000
+torsion  104    1     0.40480     0.69040    -0.18240    -0.46800     0.00000     0.00000
+torsion  105    1     3.61950     0.57500    -3.04450     0.00000     0.00000     0.00000
+torsion  106    1    -0.19650    -0.26950    -0.07300     0.00000     0.00000     0.00000
+torsion  107    1    -0.30300    -0.72200     0.41700     0.83600     0.00000     0.00000
+torsion  108    1     1.16600     0.00000    -1.16600     0.00000     0.00000     0.00000
+torsion  109    1     0.82000     0.00000    -0.82000     0.00000     0.00000     0.00000
+torsion  110    1    -0.29100     0.87300     0.00000    -1.16400     0.00000     0.00000
+torsion  111    1     0.54600     0.00000    -0.54600     0.00000     0.00000     0.00000
+torsion  112    1     0.24000    -0.72000     0.00000     0.96000     0.00000     0.00000
+torsion  113    1    -0.05000     0.15000     0.00000    -0.20000     0.00000     0.00000
+torsion  114    1     1.13250     0.36450     0.31200     1.08000     0.00000     0.00000
+torsion  115    1     0.21000    -0.63000     0.00000     0.84000     0.00000     0.00000
+torsion  116    1     4.90000     0.00000    -4.90000     0.00000     0.00000     0.00000
+torsion  117    1     6.40000     1.50000    -4.90000     0.00000     0.00000     0.00000
+torsion  118    1    -0.97900    -1.21600     0.70900     0.94600     0.00000     0.00000
+torsion  119    1     0.79700     0.37100     0.67400     1.10000     0.00000     0.00000
+torsion  120    1     0.20000    -0.60000     0.00000     0.80000     0.00000     0.00000
+torsion  121    1     1.27100    -0.17500    -0.54600     0.90000     0.00000     0.00000
+
+
+      ########################################
+      ##                                    ##
+      ##  Biopolymer Atom Type Conversions  ##
+      ##                                    ##
+      ########################################
+
+biotype      1    N       "Glycine"                   1    6   19
+biotype      2    CA      "Glycine"                   2   12   36
+biotype      3    C       "Glycine"                   3    3   38
+biotype      4    HN      "Glycine"                   4    9    7
+biotype      5    O       "Glycine"                   5    4   27
+biotype      6    HA      "Glycine"                   9    2   16
+biotype      7    N       "Alanine"                   1    6   19
+biotype      8    CA      "Alanine"                   2   11   37
+biotype      9    C       "Alanine"                   3    3   38
+biotype     10    HN      "Alanine"                   4    9    7
+biotype     11    O       "Alanine"                   5    4   27
+biotype     12    HA      "Alanine"                   9    2   17
+biotype     13    CB      "Alanine"                   2  100   46
+biotype     14    HB      "Alanine"                   9    2   15
+biotype     15    N       "Valine"                    1    6   19
+biotype     16    CA      "Valine"                    2   11   37
+biotype     17    C       "Valine"                    3    3   38
+biotype     18    HN      "Valine"                    4    9    7
+biotype     19    O       "Valine"                    5    4   27
+biotype     20    HA      "Valine"                    9    2   17
+biotype     21    CB      "Valine"                    2  102   47
+biotype     22    HB      "Valine"                    9    2   17
+biotype     23    CG      "Valine"                    2  100   35
+biotype     24    HG      "Valine"                    9    2   15
+biotype     25    N       "Leucine"                   1    6   19
+biotype     26    CA      "Leucine"                   2   11   37
+biotype     27    C       "Leucine"                   3    3   38
+biotype     28    HN      "Leucine"                   4    9    7
+biotype     29    O       "Leucine"                   5    4   27
+biotype     30    HA      "Leucine"                   9    2   17
+biotype     31    CB      "Leucine"                   2  101   48
+biotype     32    HB      "Leucine"                   9    2   16
+biotype     33    CG      "Leucine"                   2  102   37
+biotype     34    HG      "Leucine"                   9    2   17
+biotype     35    CD      "Leucine"                   2  100   35
+biotype     36    HD      "Leucine"                   9    2   15
+biotype     37    N       "Isoleucine"                1    6   19
+biotype     38    CA      "Isoleucine"                2   11   37
+biotype     39    C       "Isoleucine"                3    3   38
+biotype     40    HN      "Isoleucine"                4    9    7
+biotype     41    O       "Isoleucine"                5    4   27
+biotype     42    HA      "Isoleucine"                9    2   17
+biotype     43    CB      "Isoleucine"                2  102   49
+biotype     44    HB      "Isoleucine"                9    2   17
+biotype     45    CG1     "Isoleucine"                2  101   36
+biotype     46    HG1     "Isoleucine"                9    2   16
+biotype     47    CG2     "Isoleucine"                2  100   35
+biotype     48    HG2     "Isoleucine"                9    2   15
+biotype     49    CD1     "Isoleucine"                2  100   35
+biotype     50    HD1     "Isoleucine"                9    2   15
+biotype     51    N       "Serine"                    1    6   19
+biotype     52    CA      "Serine"                    2   11   37
+biotype     53    C       "Serine"                    3    3   38
+biotype     54    HN      "Serine"                    4    9    7
+biotype     55    O       "Serine"                    5    4   27
+biotype     56    HA      "Serine"                    9    2   17
+biotype     57    CB      "Serine"                    2   43   50
+biotype     58    HB      "Serine"                    9    2   16
+biotype     59    OG      "Serine"                    6   41   29
+biotype     60    HG      "Serine"                    4   42    4
+biotype     61    N       "Threonine"                 1    6   19
+biotype     62    CA      "Threonine"                 2   11   37
+biotype     63    C       "Threonine"                 3    3   38
+biotype     64    HN      "Threonine"                 4    9    7
+biotype     65    O       "Threonine"                 5    4   27
+biotype     66    HA      "Threonine"                 9    2   17
+biotype     67    CB      "Threonine"                 2   44   51
+biotype     68    HB      "Threonine"                 9    2   17
+biotype     69    OG1     "Threonine"                 6   41   29
+biotype     70    HG1     "Threonine"                 4   42    5
+biotype     71    CG2     "Threonine"                 2  100   35
+biotype     72    HG2     "Threonine"                 9    2   15
+biotype     73    N       "Cysteine (-SH)"            1    6   19
+biotype     74    CA      "Cysteine (-SH)"            2   11   37
+biotype     75    C       "Cysteine (-SH)"            3    3   38
+biotype     76    HN      "Cysteine (-SH)"            4    9    7
+biotype     77    O       "Cysteine (-SH)"            5    4   27
+biotype     78    HA      "Cysteine (-SH)"            9    2   17
+biotype     79    CB      "Cysteine (-SH)"            2   49   52
+biotype     80    HB      "Cysteine (-SH)"            9    2   16
+biotype     81    SG      "Cysteine (-SH)"            7   47   79
+biotype     82    HG      "Cysteine (-SH)"            4   48   11
+biotype     83    N       "Cystine (-SS-)"            1    6   19
+biotype     84    CA      "Cystine (-SS-)"            2   11   37
+biotype     85    C       "Cystine (-SS-)"            3    3   38
+biotype     86    HN      "Cystine (-SS-)"            4    9    7
+biotype     87    O       "Cystine (-SS-)"            5    4   27
+biotype     88    HA      "Cystine (-SS-)"            9    2   17
+biotype     89    CB      "Cystine (-SS-)"            2   51   53
+biotype     90    HB      "Cystine (-SS-)"            9    2   16
+biotype     91    SG      "Cystine (-SS-)"            7   50   81
+biotype     92    N       "Proline"                   11   7   20
+biotype     93    CA      "Proline"                   2   14   37
+biotype     94    C       "Proline"                   3    3   38
+biotype     95    O       "Proline"                   5    4   27
+biotype     96    HA      "Proline"                   9    2   17
+biotype     97    CB      "Proline"                   27 101   54
+biotype     98    HB      "Proline"                   28   2   16
+biotype     99    CG      "Proline"                   27 101   36
+biotype    100    HG      "Proline"                   28   2   16
+biotype    101    CD      "Proline"                   27  15  155
+biotype    102    HD      "Proline"                   28   2   16
+biotype    103    N       "Phenylalanine"             1    6   19
+biotype    104    CA      "Phenylalanine"             2   11   37
+biotype    105    C       "Phenylalanine"             3    3   38
+biotype    106    HN      "Phenylalanine"             4    9    7
+biotype    107    O       "Phenylalanine"             5    4   27
+biotype    108    HA      "Phenylalanine"             9    2   17
+biotype    109    CB      "Phenylalanine"             2  107   55
+biotype    110    HB      "Phenylalanine"             9    2   16
+biotype    111    CG      "Phenylalanine"             3  104   41
+biotype    112    CD      "Phenylalanine"             3  104   40
+biotype    113    HD      "Phenylalanine"             9  108    2
+biotype    114    CE      "Phenylalanine"             3  104   40
+biotype    115    HE      "Phenylalanine"             9  108    2
+biotype    116    CZ      "Phenylalanine"             3  104   40
+biotype    117    HZ      "Phenylalanine"             9  108    2
+biotype    118    N       "Tyrosine"                  1    6   19
+biotype    119    CA      "Tyrosine"                  2   11   37
+biotype    120    C       "Tyrosine"                  3    3   38
+biotype    121    HN      "Tyrosine"                  4    9    7
+biotype    122    O       "Tyrosine"                  5    4   27
+biotype    123    HA      "Tyrosine"                  9    2   17
+biotype    124    CB      "Tyrosine"                  2  107   56
+biotype    125    HB      "Tyrosine"                  9    2   16
+biotype    126    CG      "Tyrosine"                  3  104   41
+biotype    127    CD      "Tyrosine"                  3  104   40
+biotype    128    HD      "Tyrosine"                  9  108    2
+biotype    129    CE      "Tyrosine"                  3  104   40
+biotype    130    HE      "Tyrosine"                  9  108    2
+biotype    131    CZ      "Tyrosine"                  3   54   42
+biotype    132    OH      "Tyrosine"                  6   52   31
+biotype    133    HH      "Tyrosine"                  4   53   12
+biotype    134    N       "Tryptophan"                1    6   19
+biotype    135    CA      "Tryptophan"                2   11   37
+biotype    136    C       "Tryptophan"                3    3   38
+biotype    137    HN      "Tryptophan"                4    9    7
+biotype    138    O       "Tryptophan"                5    4   27
+biotype    139    HA      "Tryptophan"                9    2   17
+biotype    140    CB      "Tryptophan"                2  101   57
+biotype    141    HB      "Tryptophan"                9    2   16
+biotype    142    CG      "Tryptophan"                3   58   73
+biotype    143    CD1     "Tryptophan"                3  104   40
+biotype    144    HD1     "Tryptophan"                9  108    2
+biotype    145    CD2     "Tryptophan"                3   59   90
+biotype    146    NE1     "Tryptophan"                1   55   24
+biotype    147    HE1     "Tryptophan"                4   56   13
+biotype    148    CE2     "Tryptophan"                3   57   91
+biotype    149    CE3     "Tryptophan"                3  104   40
+biotype    150    HE3     "Tryptophan"                9  108    2
+biotype    151    CZ2     "Tryptophan"                3  104   40
+biotype    152    HZ2     "Tryptophan"                9  108    2
+biotype    153    CZ3     "Tryptophan"                3  104   40
+biotype    154    HZ3     "Tryptophan"                9  108    2
+biotype    155    CH2     "Tryptophan"                3  104   40
+biotype    156    HH2     "Tryptophan"                9  108    2
+biotype    157    N       "Histidine (+)"             1    6   19
+biotype    158    CA      "Histidine (+)"             2   11   37
+biotype    159    C       "Histidine (+)"             3    3   38
+biotype    160    HN      "Histidine (+)"             4    9    7
+biotype    161    O       "Histidine (+)"             5    4   27
+biotype    162    HA      "Histidine (+)"             9    2   17
+biotype    163    CB      "Histidine (+)"             2  107   58
+biotype    164    HB      "Histidine (+)"             9    2   16
+biotype    165    CG      "Histidine (+)"             3   75  154
+biotype    166    ND1     "Histidine (+)"             1   72   24
+biotype    167    HD1     "Histidine (+)"             4   73   13
+biotype    168    CD2     "Histidine (+)"             3   75   92
+biotype    169    HD2     "Histidine (+)"             9  108    2
+biotype    170    CE1     "Histidine (+)"             3   74   77
+biotype    171    HE1     "Histidine (+)"             9  108    2
+biotype    172    NE2     "Histidine (+)"             1   72   24
+biotype    173    HE2     "Histidine (+)"             4   73   13
+biotype    174    N       "Histidine (HD)"            1    6   19
+biotype    175    CA      "Histidine (HD)"            2   11   37
+biotype    176    C       "Histidine (HD)"            3    3   38
+biotype    177    HN      "Histidine (HD)"            4    9    7
+biotype    178    O       "Histidine (HD)"            5    4   27
+biotype    179    HA      "Histidine (HD)"            9    2   17
+biotype    180    CB      "Histidine (HD)"            2   71   58
+biotype    181    HB      "Histidine (HD)"            9    2   16
+biotype    182    CG      "Histidine (HD)"            3   69   74
+biotype    183    ND1     "Histidine (HD)"            1   66   24
+biotype    184    HD1     "Histidine (HD)"            4   65   13
+biotype    185    CD2     "Histidine (HD)"            3   68   76
+biotype    186    HD2     "Histidine (HD)"            9   70    2
+biotype    187    CE1     "Histidine (HD)"            3   67   75
+biotype    188    HE1     "Histidine (HD)"            9  106    2
+biotype    189    NE2     "Histidine (HD)"            10  64   25
+biotype    190    N       "Histidine (HE)"            1    6   19
+biotype    191    CA      "Histidine (HE)"            2   11   37
+biotype    192    C       "Histidine (HE)"            3    3   38
+biotype    193    HN      "Histidine (HE)"            4    9    7
+biotype    194    O       "Histidine (HE)"            5    4   27
+biotype    195    HA      "Histidine (HE)"            9    2   17
+biotype    196    CB      "Histidine (HE)"            2   71   58
+biotype    197    HB      "Histidine (HE)"            9    2   16
+biotype    198    CG      "Histidine (HE)"            3   68   74
+biotype    199    ND1     "Histidine (HE)"            10  64   25
+biotype    200    CD2     "Histidine (HE)"            3   69   78
+biotype    201    HD2     "Histidine (HE)"            9   70    2
+biotype    202    CE1     "Histidine (HE)"            3   67   75
+biotype    203    HE1     "Histidine (HE)"            9  106    2
+biotype    204    NE2     "Histidine (HE)"            1   66   24
+biotype    205    HE2     "Histidine (HE)"            4   65   13
+biotype    206    N       "Aspartic Acid(-)"          1    6   19
+biotype    207    CA      "Aspartic Acid(-)"          2   11   37
+biotype    208    C       "Aspartic Acid(-)"          3    3   38
+biotype    209    HN      "Aspartic Acid(-)"          4    9    7
+biotype    210    O       "Aspartic Acid(-)"          5    4   27
+biotype    211    HA      "Aspartic Acid(-)"          9    2   17
+biotype    212    CB      "Aspartic Acid(-)"          2   40   59
+biotype    213    HB      "Aspartic Acid(-)"          9    2   16
+biotype    214    CG      "Aspartic Acid(-)"          3   29   39
+biotype    215    OD      "Aspartic Acid(-)"          5   30   28
+biotype    216    N       "Asparagine"                1    6   19
+biotype    217    CA      "Asparagine"                2   11   37
+biotype    218    C       "Asparagine"                3    3   38
+biotype    219    HN      "Asparagine"                4    9    7
+biotype    220    O       "Asparagine"                5    4   27
+biotype    221    HA      "Asparagine"                9    2   17
+biotype    222    CB      "Asparagine"                2  101   60
+biotype    223    HB      "Asparagine"                9    2   16
+biotype    224    CG      "Asparagine"                3    3   38
+biotype    225    OD1     "Asparagine"                5    4   27
+biotype    226    ND2     "Asparagine"                1    5   18
+biotype    227    HD2     "Asparagine"                4    8    6
+biotype    228    N       "Glutamic Acid(-)"          1    6   19
+biotype    229    CA      "Glutamic Acid(-)"          2   11   37
+biotype    230    C       "Glutamic Acid(-)"          3    3   38
+biotype    231    HN      "Glutamic Acid(-)"          4    9    7
+biotype    232    O       "Glutamic Acid(-)"          5    4   27
+biotype    233    HA      "Glutamic Acid(-)"          9    2   17
+biotype    234    CB      "Glutamic Acid(-)"          2  101   61
+biotype    235    HB      "Glutamic Acid(-)"          9    2   16
+biotype    236    CG      "Glutamic Acid(-)"          2   40   36
+biotype    237    HG      "Glutamic Acid(-)"          9    2   16
+biotype    238    CD      "Glutamic Acid(-)"          3   29   39
+biotype    239    OE      "Glutamic Acid(-)"          5   30   28
+biotype    240    N       "Glutamine"                 1    6   19
+biotype    241    CA      "Glutamine"                 2   11   37
+biotype    242    C       "Glutamine"                 3    3   38
+biotype    243    HN      "Glutamine"                 4    9    7
+biotype    244    O       "Glutamine"                 5    4   27
+biotype    245    HA      "Glutamine"                 9    2   17
+biotype    246    CB      "Glutamine"                 2  101   62
+biotype    247    HB      "Glutamine"                 9    2   16
+biotype    248    CG      "Glutamine"                 2  101   36
+biotype    249    HG      "Glutamine"                 9    2   16
+biotype    250    CD      "Glutamine"                 3    3   38
+biotype    251    OE1     "Glutamine"                 5    4   27
+biotype    252    NE2     "Glutamine"                 1    5   18
+biotype    253    HE2     "Glutamine"                 4    8    6
+biotype    254    N       "Methionine"                1    6   19
+biotype    255    CA      "Methionine"                2   11   37
+biotype    256    C       "Methionine"                3    3   38
+biotype    257    HN      "Methionine"                4    9    7
+biotype    258    O       "Methionine"                5    4   27
+biotype    259    HA      "Methionine"                9    2   17
+biotype    260    CB      "Methionine"                2  101   63
+biotype    261    HB      "Methionine"                9    2   16
+biotype    262    CG      "Methionine"                2   77   36
+biotype    263    HG      "Methionine"                9    2   16
+biotype    264    SD      "Methionine"                7   76   80
+biotype    265    CE      "Methionine"                2   78   35
+biotype    266    HE      "Methionine"                9    2   15
+biotype    267    N       "Lysine(+)"                 1    6   19
+biotype    268    CA      "Lysine(+)"                 2   11   37
+biotype    269    C       "Lysine(+)"                 3    3   38
+biotype    270    HN      "Lysine(+)"                 4    9    7
+biotype    271    O       "Lysine(+)"                 5    4   27
+biotype    272    HA      "Lysine(+)"                 9    2   17
+biotype    273    CB      "Lysine(+)"                 2  101   64
+biotype    274    HB      "Lysine(+)"                 9    2   16
+biotype    275    CG      "Lysine(+)"                 2  101   36
+biotype    276    HG      "Lysine(+)"                 9    2   16
+biotype    277    CD      "Lysine(+)"                 2  101   36
+biotype    278    HD      "Lysine(+)"                 9    2   16
+biotype    279    CE      "Lysine(+)"                 2   20   36
+biotype    280    HE      "Lysine(+)"                 9    2   16
+biotype    281    NZ      "Lysine(+)"                 8   17   22
+biotype    282    HZ      "Lysine(+)"                 4   18    9
+biotype    283    N       "Arginine(+)"               1    6   19
+biotype    284    CA      "Arginine(+)"               2   11   37
+biotype    285    C       "Arginine(+)"               3    3   38
+biotype    286    HN      "Arginine(+)"               4    9    7
+biotype    287    O       "Arginine(+)"               5    4   27
+biotype    288    HA      "Arginine(+)"               9    2   17
+biotype    289    CB      "Arginine(+)"               2  101   65
+biotype    290    HB      "Arginine(+)"               9    2   16
+biotype    291    CG      "Arginine(+)"               2   85   36
+biotype    292    HG      "Arginine(+)"               9    2   16
+biotype    293    CD      "Arginine(+)"               2   84   36
+biotype    294    HD      "Arginine(+)"               9    2   16
+biotype    295    NE      "Arginine(+)"               1   82   26
+biotype    296    HE      "Arginine(+)"               4   83    1
+biotype    297    CZ      "Arginine(+)"               3   81   43
+biotype    298    NH      "Arginine(+)"               1   79   26
+biotype    299    HH      "Arginine(+)"               4   80    1
+biotype    300    N       "Ornithine(+)"              1    6   19
+biotype    301    CA      "Ornithine(+)"              2   11   37
+biotype    302    C       "Ornithine(+)"              3    3   38
+biotype    303    HN      "Ornithine(+)"              4    9    7
+biotype    304    O       "Ornithine(+)"              5    4   27
+biotype    305    HA      "Ornithine(+)"              9    2   17
+biotype    306    CB      "Ornithine(+)"              2  101   66
+biotype    307    HB      "Ornithine(+)"              9    2   16
+biotype    308    CG      "Ornithine(+)"              2  101   36
+biotype    309    HG      "Ornithine(+)"              9    2   16
+biotype    310    CD      "Ornithine(+)"              2   20   36
+biotype    311    HD      "Ornithine(+)"              9    2   16
+biotype    312    NE      "Ornithine(+)"              8   17   22
+biotype    313    HE      "Ornithine(+)"              4   18    9
+biotype    314    N       "MethylAlanine (AIB)"       1    6   19
+biotype    315    CA      "MethylAlanine (AIB)"       2   10   44
+biotype    316    C       "MethylAlanine (AIB)"       3    3   38
+biotype    317    HN      "MethylAlanine (AIB)"       4    9    7
+biotype    318    O       "MethylAlanine (AIB)"       5    4   27
+biotype    319    CB      "MethylAlanine (AIB)"       2  100   46
+biotype    320    HB      "MethylAlanine (AIB)"       9    2   15
+biotype    321    N       "Pyroglutamic Acid"         0    0   20
+biotype    322    CA      "Pyroglutamic Acid"         0    0   37
+biotype    323    C       "Pyroglutamic Acid"         0    0   38
+biotype    324    HN      "Pyroglutamic Acid"         0    0    9
+biotype    325    O       "Pyroglutamic Acid"         0    0   27
+biotype    326    HA      "Pyroglutamic Acid"         0    0   17
+biotype    327    CB      "Pyroglutamic Acid"         0    0   71
+biotype    328    HB      "Pyroglutamic Acid"         0    0   16
+biotype    329    CG      "Pyroglutamic Acid"         0    0   36
+biotype    330    HG      "Pyroglutamic Acid"         0    0   16
+biotype    331    CD      "Pyroglutamic Acid"         0    0   38
+biotype    332    OE      "Pyroglutamic Acid"         0    0   32
+biotype    333    N       "N-Terminal Residue(+)"     8   17   22
+biotype    334    CA      "N-Terminal Residue(+)"     2   21   37
+biotype    335    C       "N-Terminal Residue(+)"     3    3   38
+biotype    336    HN      "N-Terminal Residue(+)"     4   18    9
+biotype    337    O       "N-Terminal Residue(+)"     5    4   27
+biotype    338    HA      "N-Terminal Residue(+)"     9    2   17
+biotype    339    N       "N-Terminal Glycine(+)"     8   17   22
+biotype    340    CA      "N-Terminal Glycine(+)"     2   20   36
+biotype    341    C       "N-Terminal Glycine(+)"     3    3   38
+biotype    342    HN      "N-Terminal Glycine(+)"     4   18    9
+biotype    343    O       "N-Terminal Glycine(+)"     5    4   27
+biotype    344    HA      "N-Terminal Glycine(+)"     9    2   16
+biotype    345    N       "N-Terminal Proline(+)"     8   60   23
+biotype    346    CA      "N-Terminal Proline(+)"     2   63   37
+biotype    347    C       "N-Terminal Proline(+)"     3    3   38
+biotype    348    HN      "N-Terminal Proline(+)"     4   61   10
+biotype    349    O       "N-Terminal Proline(+)"     5    4   27
+biotype    350    HA      "N-Terminal Proline(+)"     9    2   17
+biotype    351    CD      "N-Terminal Proline(+)"     27  62  155
+biotype    352    HD      "N-Terminal Proline(+)"     28   2   16
+biotype    353    N       "C-Terminal Residue(-)"     1    6   19
+biotype    354    CA      "C-Terminal Residue(-)"     2   32   37
+biotype    355    C       "C-Terminal Residue(-)"     3   29   39
+biotype    356    HN      "C-Terminal Residue(-)"     4    9    7
+biotype    357    OXT     "C-Terminal Residue(-)"     5   30   28
+biotype    358    HA      "C-Terminal Residue(-)"     9    2   17
+biotype    359    N       "C-Terminal Glycine(-)"     1    6   19
+biotype    360    CA      "C-Terminal Glycine(-)"     2   31   36
+biotype    361    C       "C-Terminal Glycine(-)"     3   29   39
+biotype    362    HN      "C-Terminal Glycine(-)"     4    9    7
+biotype    363    OXT     "C-Terminal Glycine(-)"     5   30   28
+biotype    364    HA      "C-Terminal Glycine(-)"     9    2   16
+biotype    365    N       "C-Terminal Proline(-)"     11   7   20
+biotype    366    CA      "C-Terminal Proline(-)"     2   34   37
+biotype    367    C       "C-Terminal Proline(-)"     3   29   39
+biotype    368    OXT     "C-Terminal Proline(-)"     5   30   28
+biotype    369    HA      "C-Terminal Proline(-)"     9    2   17
+biotype    370    CD      "C-Terminal Proline(-)"     27  15   36
+biotype    371    HD      "C-Terminal Proline(-)"     28   2   16
+biotype    372    CH3     "Acetyl N-Terminus"         2  100   35
+biotype    373    H       "Acetyl N-Terminus"         9    2   15
+biotype    374    C       "Acetyl N-Terminus"         3    3   38
+biotype    375    O       "Acetyl N-Terminus"         5    4   27
+biotype    376    C       "Formyl N-Terminus"         3    3   45
+biotype    377    H       "Formyl N-Terminus"         9    1   89
+biotype    378    O       "Formyl N-Terminus"         5    4   33
+biotype    379    N       "N-MeAmide C-Terminus"      1    6   19
+biotype    380    HN      "N-MeAmide C-Terminus"      4    9    7
+biotype    381    CH3     "N-MeAmide C-Terminus"      2   13   35
+biotype    382    H       "N-MeAmide C-Terminus"      9    2   15
+biotype    383    N       "Amide C-Terminus"          1    5   18
+biotype    384    HN      "Amide C-Terminus"          4    8    6
+biotype    385    N       "Gamma Residue"             0    6   19
+biotype    386    CA      "Gamma Residue"             0   11   37
+biotype    387    C       "Gamma Residue"             0    3   38
+biotype    388    HN      "Gamma Residue"             0    9    7
+biotype    389    O       "Gamma Residue"             0    4   27
+biotype    390    HA      "Gamma Residue"             0    2   17
+biotype    391    CB      "Gamma Residue"             0    1   67
+biotype    392    HB      "Gamma Residue"             0    1   16
+biotype    393    CG      "Gamma Residue"             0    1   35
+biotype    394    HG      "Gamma Residue"             0    1   15
+biotype    395    N       "Hydroxyproline"            0    7   20
+biotype    396    CA      "Hydroxyproline"            0   14   37
+biotype    397    C       "Hydroxyproline"            0    3   38
+biotype    398    O       "Hydroxyproline"            0    4   27
+biotype    399    HA      "Hydroxyproline"            0    2   17
+biotype    400    CB      "Hydroxyproline"            0    1   72
+biotype    401    HB      "Hydroxyproline"            0    1   16
+biotype    402    CG      "Hydroxyproline"            0   44   36
+biotype    403    HG      "Hydroxyproline"            0    2   16
+biotype    404    CD      "Hydroxyproline"            0   15   36
+biotype    405    HD      "Hydroxyproline"            0    2   16
+biotype    406    OE      "Hydroxyproline"            0   41   29
+biotype    407    HE      "Hydroxyproline"            0   42    5
+biotype    408    N       "Alpha amino N-butyric"     1    6   19
+biotype    409    CA      "Alpha amino N-butyric"     2   11   37
+biotype    410    C       "Alpha amino N-butyric"     3    3   38
+biotype    411    HN      "Alpha amino N-butyric"     4    9    7
+biotype    412    O       "Alpha amino N-butyric"     5    4   27
+biotype    413    HA      "Alpha amino N-butyric"     9    2   17
+biotype    414    CB      "Alpha amino N-butyric"     2  101   67
+biotype    415    HB      "Alpha amino N-butyric"     9    2   16
+biotype    416    CG      "Alpha amino N-butyric"     2  100   35
+biotype    417    HG      "Alpha amino N-butyric"     9    2   15
+biotype    418    N       "Norvaline"                 1    6   19
+biotype    419    CA      "Norvaline"                 2   11   37
+biotype    420    C       "Norvaline"                 3    3   38
+biotype    421    HN      "Norvaline"                 4    9    7
+biotype    422    O       "Norvaline"                 5    4   27
+biotype    423    HA      "Norvaline"                 9    2   17
+biotype    424    CB      "Norvaline"                 2  101   68
+biotype    425    HB      "Norvaline"                 9    2   16
+biotype    426    CG      "Norvaline"                 2  101   36
+biotype    427    HG      "Norvaline"                 9    2   16
+biotype    428    CD      "Norvaline"                 2  100   35
+biotype    429    HD      "Norvaline"                 9    2   15
+biotype    430    N       "Norleucine"                1    6   19
+biotype    431    CA      "Norleucine"                2   11   37
+biotype    432    C       "Norleucine"                3    3   38
+biotype    433    HN      "Norleucine"                4    9    7
+biotype    434    O       "Norleucine"                5    4   27
+biotype    435    HA      "Norleucine"                9    2   17
+biotype    436    CB      "Norleucine"                2  101   69
+biotype    437    HB      "Norleucine"                9    2   16
+biotype    438    CG      "Norleucine"                2  101   36
+biotype    439    HG      "Norleucine"                9    2   16
+biotype    440    CD      "Norleucine"                2  101   36
+biotype    441    HD      "Norleucine"                9    2   16
+biotype    442    CE      "Norleucine"                2  100   35
+biotype    443    HE      "Norleucine"                9    2   15
+biotype    444    NA      "Sodium Ion"                12  86    0
+biotype    445    CL      "Chloride Ion"              13  87    0
+biotype    446    C       "Urea"                      3   90  153
+biotype    447    O       "Urea"                      5   91   27
+biotype    448    N       "Urea"                      1   88   18
+biotype    449    HN      "Urea"                      4   89    6
+biotype    450    OW      "SPC Water"                 14  94   82
+biotype    451    HW      "SPC Water"                 15  95   83
+biotype    452    OW      "TIP3P Water"               16  96   84
+biotype    453    HW      "TIP3P Water"               17  97   85
+biotype    454    C       "N-Methyl Formamide"        3    3   45
+biotype    455    O       "N-Methyl Formamide"        5    4   33
+biotype    456    N       "N-Methyl Formamide"        1    6   19
+biotype    457    HN      "N-Methyl Formamide"        4    9    7
+biotype    458    CNT     "N-Methyl Formamide"        2   13   35
+biotype    459    HNT     "N-Methyl Formamide"        9    2   15
+biotype    460    HC      "N-Methyl Formamide"        9    1   89
+biotype    461    C       "N-Methyl Acetamide"        3    3   38
+biotype    462    O       "N-Methyl Acetamide"        5    4   27
+biotype    463    N       "N-Methyl Acetamide"        1    6   19
+biotype    464    HN      "N-Methyl Acetamide"        4    9    7
+biotype    465    CCT     "N-Methyl Acetamide"        2  100   35
+biotype    466    HCT     "N-Methyl Acetamide"        9    2   15
+biotype    467    CNT     "N-Methyl Acetamide"        2   13   35
+biotype    468    HNT     "N-Methyl Acetamide"        9    2   15
+biotype    469    C       "Acetamide"                 3    3   38
+biotype    470    O       "Acetamide"                 5    4   27
+biotype    471    N       "Acetamide"                 1    5   18
+biotype    472    HN      "Acetamide"                 4    8    6
+biotype    473    CCT     "Acetamide"                 2  100   35
+biotype    474    HCT     "Acetamide"                 9    2   15
+biotype    475    C       "Propionamide"              3    3   38
+biotype    476    O       "Propionamide"              5    4   27
+biotype    477    N       "Propionamide"              1    5   18
+biotype    478    HN      "Propionamide"              4    8    6
+biotype    479    CCT     "Propionamide"              2  101   36
+biotype    480    HCT     "Propionamide"              9    2   16
+biotype    481    CBT     "Propionamide"              2  100   35
+biotype    482    HBT     "Propionamide"              9    2   15
+biotype    483    OW      "TIP4P Water"               18   1   86
+biotype    484    HW      "TIP4P Water"               17  99   87
+biotype    485    MW      "TIP4P Water"               19  98   88
+biotype    486    OW      "TIP5P Water"               26   1   30
+biotype    487    HW      "TIP5P Water"               17 111    0
+biotype    488    MW      "TIP5P Water"               19 110    0
+biotype    489    CT      "Methane"                   2  103   34
+biotype    490    HT      "Methane"                   9    2   14
+biotype    491    C       "Formamide"                 3    3   45
+biotype    492    O       "Formamide"                 5    4   33
+biotype    493    N       "Formamide"                 1    5   18
+biotype    494    HN      "Formamide"                 4    8    6
+biotype    495    HC      "Formamide"                 9    1   89
+biotype    496    C       "N,N'-Dimethyl Acetamide"   3    3   38
+biotype    497    O       "N,N'-Dimethyl Acetamide"   5    4   27
+biotype    498    N       "N,N'-Dimethyl Acetamide"   1    7   20
+biotype    499    CCT     "N,N'-Dimethyl Acetamide"   2  100   35
+biotype    500    HCT     "N,N'-Dimethyl Acetamide"   9    2   15
+biotype    501    C1      "N,N'-Dimethyl Acetamide"   2   16   35
+biotype    502    H1      "N,N'-Dimethyl Acetamide"   9    2   15
+biotype    503    C2      "N,N'-Dimethyl Acetamide"   2   16   35
+biotype    504    H2      "N,N'-Dimethyl Acetamide"   9    2   15
+biotype    505    CT      "Methanol"                  2   45   35
+biotype    506    O       "Methanol"                  6   41   29
+biotype    507    HT      "Methanol"                  9   46   15
+biotype    508    HO      "Methanol"                  4   42    3
+biotype    509    CT      "p-Cresol"                  2  105   35
+biotype    510    HCT     "p-Cresol"                  9    2   15
+biotype    511    C1      "p-Cresol"                  3  104   41
+biotype    512    C2      "p-Cresol"                  3  104   40
+biotype    513    H2      "p-Cresol"                  9  108    2
+biotype    514    C3      "p-Cresol"                  3  104   40
+biotype    515    H3      "p-Cresol"                  9  108    2
+biotype    516    C4      "p-Cresol"                  3   54   42
+biotype    517    O       "p-Cresol"                  6   52   31
+biotype    518    HO      "p-Cresol"                  4   53   12
+biotype    519    N       "a,g-Diaminobut. Acid(+)"   1    6   19
+biotype    520    CA      "a,g-Diaminobut. Acid(+)"   2   11   37
+biotype    521    C       "a,g-Diaminobut. Acid(+)"   3    3   38
+biotype    522    HN      "a,g-Diaminobut. Acid(+)"   4    9    7
+biotype    523    O       "a,g-Diaminobut. Acid(+)"   5    4   27
+biotype    524    HA      "a,g-Diaminobut. Acid(+)"   9    2   17
+biotype    525    CB      "a,g-Diaminobut. Acid(+)"   2  101   70
+biotype    526    HB      "a,g-Diaminobut. Acid(+)"   9    2   16
+biotype    527    CG      "a,g-Diaminobut. Acid(+)"   2   20   36
+biotype    528    HG      "a,g-Diaminobut. Acid(+)"   9    2   16
+biotype    529    ND      "a,g-Diaminobut. Acid(+)"   8   17   22
+biotype    530    HD      "a,g-Diaminobut. Acid(+)"   4   18    9
+biotype    531    K       "Potassium Ion"             20  86    0
+biotype    532    BR      "Bromide Ion"               21  87    0
+biotype    533    CS      "Caesium Ion"               22  86    0
+biotype    534    I       "Iodide Ion"                23  87    0
+biotype    535    N       "Ammonium Ion"              8   92   21
+biotype    536    HN      "Ammonium Ion"              4   93    8
+biotype    537    C       "Acetate Ion"               3   29   39
+biotype    538    OXT     "Acetate Ion"               5   30   28
+biotype    539    CH3     "Acetate Ion"               2   39   35
+biotype    540    H       "Acetate Ion"               9    2   15
+biotype    541    C       "Guanidinium Ion"           3   81   43
+biotype    542    N       "Guanidinium Ion"           1   79   26
+biotype    543    HN      "Guanidinium Ion"           4   80    1
+biotype    544    N       "N-Terminal AIB(+)"         8   17   22
+biotype    545    CA      "N-Terminal AIB(+)"         2   22   44
+biotype    546    C       "N-Terminal AIB(+)"         3    3   38
+biotype    547    HN      "N-Terminal AIB(+)"         4   18    9
+biotype    548    O       "N-Terminal AIB(+)"         5    4   27
+biotype    549    N       "C-Terminal AIB(-)"         1    6   19
+biotype    550    CA      "C-Terminal AIB(-)"         2   33   44
+biotype    551    C       "C-Terminal AIB(-)"         3   29   39
+biotype    552    HN      "C-Terminal AIB(-)"         4    9    7
+biotype    553    OXT     "C-Terminal AIB(-)"         5   30   28
+biotype    554    CA      "Free Amino Acid(+/-)"      2   36   37
+biotype    555    CA      "Free GLY(+/-)"             2   35   36
+biotype    556    CA      "Free PRO(+/-)"             2   38   37
+biotype    557    CA      "Free AIB(+/-)"             2   37   44
+biotype    558    N1      "Cytosine"                  1    0  108
+biotype    559    H1      "Cytosine"                  4    0   13
+biotype    560    C2      "Cytosine"                  3    0  109
+biotype    561    O2      "Cytosine"                  5    0  110
+biotype    562    N3      "Cytosine"                  10   0  111
+biotype    563    C4      "Cytosine"                  3    0  112
+biotype    564    N4      "Cytosine"                  1    0  113
+biotype    565    H4      "Cytosine"                  4    0    6
+biotype    566    C5      "Cytosine"                  3    0  114
+biotype    567    H5      "Cytosine"                  9    0    2
+biotype    568    C6      "Cytosine"                  3    0  115
+biotype    569    H6      "Cytosine"                  9    0    2
+biotype    570    N1      "Uracil"                    1    0  116
+biotype    571    H1      "Uracil"                    4    0   13
+biotype    572    C2      "Uracil"                    3    0  117
+biotype    573    O2      "Uracil"                    5    0  118
+biotype    574    N3      "Uracil"                    1    0  119
+biotype    575    H3      "Uracil"                    4    0   13
+biotype    576    C4      "Uracil"                    3    0  120
+biotype    577    O4      "Uracil"                    5    0  121
+biotype    578    C5      "Uracil"                    3    0  122
+biotype    579    H5      "Uracil"                    9    0    2
+biotype    580    C6      "Uracil"                    3    0  123
+biotype    581    H6      "Uracil"                    9    0    2
+biotype    582    N1      "Thymine"                   1    0  124
+biotype    583    H1      "Thymine"                   4    0   13
+biotype    584    C2      "Thymine"                   3    0  125
+biotype    585    O2      "Thymine"                   5    0  126
+biotype    586    N3      "Thymine"                   1    0  127
+biotype    587    H3      "Thymine"                   4    0   13
+biotype    588    C4      "Thymine"                   3    0  128
+biotype    589    O4      "Thymine"                   5    0  129
+biotype    590    C5      "Thymine"                   3    0  130
+biotype    591    C5M     "Thymine"                   2    0   35
+biotype    592    H5M     "Thymine"                   9    0   15
+biotype    593    C6      "Thymine"                   3    0  131
+biotype    594    H6      "Thymine"                   9    0    2
+biotype    595    N1      "Adenine"                   10   0  132
+biotype    596    C2      "Adenine"                   3    0  133
+biotype    597    H2      "Adenine"                   9    0    2
+biotype    598    N3      "Adenine"                   10   0  134
+biotype    599    C4      "Adenine"                   3    0  135
+biotype    600    C5      "Adenine"                   3    0  136
+biotype    601    C6      "Adenine"                   3    0  137
+biotype    602    N6      "Adenine"                   1    0  138
+biotype    603    H6      "Adenine"                   4    0    6
+biotype    604    N7      "Adenine"                   10   0  139
+biotype    605    C8      "Adenine"                   3    0  140
+biotype    606    H8      "Adenine"                   9    0    2
+biotype    607    N9      "Adenine"                   1    0  141
+biotype    608    H9      "Adenine"                   4    0   13
+biotype    609    N1      "Guanine"                   1    0  142
+biotype    610    H1      "Guanine"                   4    0   13
+biotype    611    C2      "Guanine"                   3    0  143
+biotype    612    N2      "Guanine"                   1    0  144
+biotype    613    H2      "Guanine"                   4    0    6
+biotype    614    N3      "Guanine"                   10   0  145
+biotype    615    C4      "Guanine"                   3    0  146
+biotype    616    C5      "Guanine"                   3    0  147
+biotype    617    C6      "Guanine"                   3    0  148
+biotype    618    O6      "Guanine"                   5    0  149
+biotype    619    N7      "Guanine"                   10   0  150
+biotype    620    C8      "Guanine"                   3    0  151
+biotype    621    H8      "Guanine"                   9    0    2
+biotype    622    N9      "Guanine"                   1    0  152
+biotype    623    H9      "Guanine"                   4    0   13
+biotype    624    P       "Ribose-5'-Phosphate"       24   0   93
+biotype    625    O5P     "Ribose-5'-Phosphate"       6    0   95
+biotype    626    O3P     "Ribose-5'-Phosphate"       6    0   95
+biotype    627    OP      "Ribose-5'-Phosphate"       5    0   94
+biotype    628    C5*     "Ribose-5'-Phosphate"       2    0   96
+biotype    629    H5*     "Ribose-5'-Phosphate"       9    0   16
+biotype    630    C4*     "Ribose-5'-Phosphate"       2    0   97
+biotype    631    O4*     "Ribose-5'-Phosphate"       6    0  101
+biotype    632    H4*     "Ribose-5'-Phosphate"       9    0   17
+biotype    633    C3*     "Ribose-5'-Phosphate"       2    0   98
+biotype    634    O3*     "Ribose-5'-Phosphate"       6    0   29
+biotype    635    H3*     "Ribose-5'-Phosphate"       9    0   17
+biotype    636    HO3     "Ribose-5'-Phosphate"       4    0    5
+biotype    637    C2*     "Ribose-5'-Phosphate"       2    0   99
+biotype    638    O2*     "Ribose-5'-Phosphate"       6    0   29
+biotype    639    H2*     "Ribose-5'-Phosphate"       9    0   17
+biotype    640    HO2     "Ribose-5'-Phosphate"       4    0    5
+biotype    641    C1*     "Ribose-5'-Phosphate"       2    0  100
+biotype    642    O1*     "Ribose-5'-Phosphate"       6    0   29
+biotype    643    H1*     "Ribose-5'-Phosphate"       9    0   17
+biotype    644    HO1     "Ribose-5'-Phosphate"       4    0    5
+biotype    645    P       "dCM-5-P"                   24   0   93
+biotype    646    O5P     "dCM-5-P"                   6    0   95
+biotype    647    O3P     "dCM-5-P"                   6    0   95
+biotype    648    OP      "dCM-5-P"                   5    0   94
+biotype    649    C5*     "dCM-5-P"                   2    0   96
+biotype    650    H5*     "dCM-5-P"                   9    0   16
+biotype    651    C4*     "dCM-5-P"                   2    0  102
+biotype    652    O4*     "dCM-5-P"                   6    0  106
+biotype    653    H4*     "dCM-5-P"                   9    0   17
+biotype    654    C3*     "dCM-5-P"                   2    0  103
+biotype    655    H3*     "dCM-5-P"                   9    0   17
+biotype    656    C2*     "dCM-5-P"                   2    0  104
+biotype    657    H2*     "dCM-5-P"                   9    0   16
+biotype    658    C1*     "dCM-5-P"                   2    0  105
+biotype    659    H1*     "dCM-5-P"                   9    0   17
+biotype    660    N1      "dCM-5-P"                   1    0  108
+biotype    661    C2      "dCM-5-P"                   3    0  109
+biotype    662    O2      "dCM-5-P"                   5    0  110
+biotype    663    N3      "dCM-5-P"                   10   0  111
+biotype    664    C4      "dCM-5-P"                   3    0  112
+biotype    665    N4      "dCM-5-P"                   1    0  113
+biotype    666    H4      "dCM-5-P"                   4    0    6
+biotype    667    C5      "dCM-5-P"                   3    0  114
+biotype    668    H5      "dCM-5-P"                   9    0    2
+biotype    669    C6      "dCM-5-P"                   3    0  115
+biotype    670    H6      "dCM-5-P"                   9    0    2
+biotype    671    P       "CM-5-P"                    24   0   93
+biotype    672    O5P     "CM-5-P"                    6    0   95
+biotype    673    O3P     "CM-5-P"                    6    0   95
+biotype    674    OP      "CM-5-P"                    5    0   94
+biotype    675    C5*     "CM-5-P"                    2    0   96
+biotype    676    H5*     "CM-5-P"                    9    0   16
+biotype    677    C4*     "CM-5-P"                    2    0   97
+biotype    678    O4*     "CM-5-P"                    6    0  101
+biotype    679    H4*     "CM-5-P"                    9    0   17
+biotype    680    C3*     "CM-5-P"                    2    0   98
+biotype    681    H3*     "CM-5-P"                    9    0   17
+biotype    682    C2*     "CM-5-P"                    2    0   99
+biotype    683    O2*     "CM-5-P"                    6    0   29
+biotype    684    H2*     "CM-5-P"                    9    0   17
+biotype    685    C1*     "CM-5-P"                    2    0  100
+biotype    686    H1*     "CM-5-P"                    9    0   17
+biotype    687    N1      "CM-5-P"                    1    0  108
+biotype    688    C2      "CM-5-P"                    3    0  109
+biotype    689    O2      "CM-5-P"                    5    0  110
+biotype    690    N3      "CM-5-P"                    10   0  111
+biotype    691    C4      "CM-5-P"                    3    0  112
+biotype    692    N4      "CM-5-P"                    1    0  113
+biotype    693    H4      "CM-5-P"                    4    0    6
+biotype    694    C5      "CM-5-P"                    3    0  114
+biotype    695    H5      "CM-5-P"                    9    0    2
+biotype    696    C6      "CM-5-P"                    3    0  115
+biotype    697    H6      "CM-5-P"                    9    0    2
+biotype    698    P       "dUM-5-P"                   24   0   93
+biotype    699    O5P     "dUM-5-P"                   6    0   95
+biotype    700    O3P     "dUM-5-P"                   6    0   95
+biotype    701    OP      "dUM-5-P"                   5    0   94
+biotype    702    C5*     "dUM-5-P"                   2    0   96
+biotype    703    H5*     "dUM-5-P"                   9    0   16
+biotype    704    C4*     "dUM-5-P"                   2    0  102
+biotype    705    O4*     "dUM-5-P"                   6    0  106
+biotype    706    H4*     "dUM-5-P"                   9    0   17
+biotype    707    C3*     "dUM-5-P"                   2    0  103
+biotype    708    H3*     "dUM-5-P"                   9    0   17
+biotype    709    C2*     "dUM-5-P"                   2    0  104
+biotype    710    H2*     "dUM-5-P"                   9    0   16
+biotype    711    C1*     "dUM-5-P"                   2    0  105
+biotype    712    H1*     "dUM-5-P"                   9    0   17
+biotype    713    N1      "dUM-5-P"                   1    0  116
+biotype    714    C2      "dUM-5-P"                   3    0  117
+biotype    715    O2      "dUM-5-P"                   5    0  118
+biotype    716    N3      "dUM-5-P"                   1    0  119
+biotype    717    H3      "dUM-5-P"                   4    0   13
+biotype    718    C4      "dUM-5-P"                   3    0  120
+biotype    719    O4      "dUM-5-P"                   5    0  121
+biotype    720    C5      "dUM-5-P"                   3    0  122
+biotype    721    H5      "dUM-5-P"                   9    0    2
+biotype    722    C6      "dUM-5-P"                   3    0  123
+biotype    723    H6      "dUM-5-P"                   9    0    2
+biotype    724    P       "UM-5-P"                    24   0   93
+biotype    725    O5P     "UM-5-P"                    6    0   95
+biotype    726    O3P     "UM-5-P"                    6    0   95
+biotype    727    OP      "UM-5-P"                    5    0   94
+biotype    728    C5*     "UM-5-P"                    2    0   96
+biotype    729    H5*     "UM-5-P"                    9    0   16
+biotype    730    C4*     "UM-5-P"                    2    0   97
+biotype    731    O4*     "UM-5-P"                    6    0  101
+biotype    732    H4*     "UM-5-P"                    9    0   17
+biotype    733    C3*     "UM-5-P"                    2    0   98
+biotype    734    H3*     "UM-5-P"                    9    0   17
+biotype    735    C2*     "UM-5-P"                    2    0   99
+biotype    736    O2*     "UM-5-P"                    6    0   29
+biotype    737    H2*     "UM-5-P"                    9    0   17
+biotype    738    C1*     "UM-5-P"                    2    0  100
+biotype    739    H1*     "UM-5-P"                    9    0   17
+biotype    740    N1      "UM-5-P"                    1    0  116
+biotype    741    C2      "UM-5-P"                    3    0  117
+biotype    742    O2      "UM-5-P"                    5    0  118
+biotype    743    N3      "UM-5-P"                    1    0  119
+biotype    744    H3      "UM-5-P"                    4    0   13
+biotype    745    C4      "UM-5-P"                    3    0  120
+biotype    746    O4      "UM-5-P"                    5    0  121
+biotype    747    C5      "UM-5-P"                    3    0  122
+biotype    748    H5      "UM-5-P"                    9    0    2
+biotype    749    C6      "UM-5-P"                    3    0  123
+biotype    750    H6      "UM-5-P"                    9    0    2
+biotype    751    P       "dTM-5-P"                   24   0   93
+biotype    752    O5P     "dTM-5-P"                   6    0   95
+biotype    753    O3P     "dTM-5-P"                   6    0   95
+biotype    754    OP      "dTM-5-P"                   5    0   94
+biotype    755    C5*     "dTM-5-P"                   2    0   96
+biotype    756    H5*     "dTM-5-P"                   9    0   16
+biotype    757    C4*     "dTM-5-P"                   2    0  102
+biotype    758    O4*     "dTM-5-P"                   6    0  106
+biotype    759    H4*     "dTM-5-P"                   9    0   17
+biotype    760    C3*     "dTM-5-P"                   2    0  103
+biotype    761    H3*     "dTM-5-P"                   9    0   17
+biotype    762    C2*     "dTM-5-P"                   2    0  104
+biotype    763    H2*     "dTM-5-P"                   9    0   16
+biotype    764    C1*     "dTM-5-P"                   2    0  105
+biotype    765    H1*     "dTM-5-P"                   9    0   17
+biotype    766    N1      "dTM-5-P"                   1    0  124
+biotype    767    C2      "dTM-5-P"                   3    0  125
+biotype    768    O2      "dTM-5-P"                   5    0  126
+biotype    769    N3      "dTM-5-P"                   1    0  127
+biotype    770    H3      "dTM-5-P"                   4    0   13
+biotype    771    C4      "dTM-5-P"                   3    0  128
+biotype    772    O4      "dTM-5-P"                   5    0  129
+biotype    773    C5      "dTM-5-P"                   3    0  130
+biotype    774    C5M     "dTM-5-P"                   2    0   35
+biotype    775    H5M     "dTM-5-P"                   9    0   15
+biotype    776    C6      "dTM-5-P"                   3    0  131
+biotype    777    H6      "dTM-5-P"                   9    0    2
+biotype    778    P       "TM-5-P"                    24   0   93
+biotype    779    O5P     "TM-5-P"                    6    0   95
+biotype    780    O3P     "TM-5-P"                    6    0   95
+biotype    781    OP      "TM-5-P"                    5    0   94
+biotype    782    C5*     "TM-5-P"                    2    0   96
+biotype    783    H5*     "TM-5-P"                    9    0   16
+biotype    784    C4*     "TM-5-P"                    2    0   97
+biotype    785    O4*     "TM-5-P"                    6    0  101
+biotype    786    H4*     "TM-5-P"                    9    0   17
+biotype    787    C3*     "TM-5-P"                    2    0   98
+biotype    788    H3*     "TM-5-P"                    9    0   17
+biotype    789    C2*     "TM-5-P"                    2    0   99
+biotype    790    O2*     "TM-5-P"                    6    0   29
+biotype    791    H2*     "TM-5-P"                    9    0   17
+biotype    792    C1*     "TM-5-P"                    2    0  100
+biotype    793    H1*     "TM-5-P"                    9    0   17
+biotype    794    N1      "TM-5-P"                    1    0  124
+biotype    795    C2      "TM-5-P"                    3    0  125
+biotype    796    O2      "TM-5-P"                    5    0  126
+biotype    797    N3      "TM-5-P"                    1    0  127
+biotype    798    H3      "TM-5-P"                    4    0   13
+biotype    799    C4      "TM-5-P"                    3    0  128
+biotype    800    O4      "TM-5-P"                    5    0  129
+biotype    801    C5      "TM-5-P"                    3    0  130
+biotype    802    C5M     "TM-5-P"                    2    0   35
+biotype    803    H5M     "TM-5-P"                    9    0   15
+biotype    804    C6      "TM-5-P"                    3    0  131
+biotype    805    H6      "TM-5-P"                    9    0    2
+biotype    806    P       "dAM-5-P"                   24   0   93
+biotype    807    O5P     "dAM-5-P"                   6    0   95
+biotype    808    O3P     "dAM-5-P"                   6    0   95
+biotype    809    OP      "dAM-5-P"                   5    0   94
+biotype    810    C5*     "dAM-5-P"                   2    0   96
+biotype    811    H5*     "dAM-5-P"                   9    0   16
+biotype    812    C4*     "dAM-5-P"                   2    0  102
+biotype    813    O4*     "dAM-5-P"                   6    0  106
+biotype    814    H4*     "dAM-5-P"                   9    0   17
+biotype    815    C3*     "dAM-5-P"                   2    0  103
+biotype    816    H3*     "dAM-5-P"                   9    0   17
+biotype    817    C2*     "dAM-5-P"                   2    0  104
+biotype    818    H2*     "dAM-5-P"                   9    0   16
+biotype    819    C1*     "dAM-5-P"                   2    0  105
+biotype    820    H1*     "dAM-5-P"                   9    0   17
+biotype    821    N1      "dAM-5-P"                   10   0  132
+biotype    822    C2      "dAM-5-P"                   3    0  133
+biotype    823    H2      "dAM-5-P"                   9    0    2
+biotype    824    N3      "dAM-5-P"                   10   0  134
+biotype    825    C4      "dAM-5-P"                   3    0  135
+biotype    826    C5      "dAM-5-P"                   3    0  136
+biotype    827    C6      "dAM-5-P"                   3    0  137
+biotype    828    N6      "dAM-5-P"                   1    0  138
+biotype    829    H6      "dAM-5-P"                   4    0    6
+biotype    830    N7      "dAM-5-P"                   10   0  139
+biotype    831    C8      "dAM-5-P"                   3    0  140
+biotype    832    H8      "dAM-5-P"                   9    0    2
+biotype    833    N9      "dAM-5-P"                   1    0  141
+biotype    834    P       "AM-5-P"                    24   0   93
+biotype    835    O5P     "AM-5-P"                    6    0   95
+biotype    836    O3P     "AM-5-P"                    6    0   95
+biotype    837    OP      "AM-5-P"                    5    0   94
+biotype    838    C5*     "AM-5-P"                    2    0   96
+biotype    839    H5*     "AM-5-P"                    9    0   16
+biotype    840    C4*     "AM-5-P"                    2    0   97
+biotype    841    O4*     "AM-5-P"                    6    0  101
+biotype    842    H4*     "AM-5-P"                    9    0   17
+biotype    843    C3*     "AM-5-P"                    2    0   98
+biotype    844    H3*     "AM-5-P"                    9    0   17
+biotype    845    C2*     "AM-5-P"                    2    0   99
+biotype    846    O2*     "AM-5-P"                    6    0   29
+biotype    847    H2*     "AM-5-P"                    9    0   17
+biotype    848    C1*     "AM-5-P"                    2    0  100
+biotype    849    H1*     "AM-5-P"                    9    0   17
+biotype    850    N1      "AM-5-P"                    10   0  132
+biotype    851    C2      "AM-5-P"                    3    0  133
+biotype    852    H2      "AM-5-P"                    9    0    2
+biotype    853    N3      "AM-5-P"                    10   0  134
+biotype    854    C4      "AM-5-P"                    3    0  135
+biotype    855    C5      "AM-5-P"                    3    0  136
+biotype    856    C6      "AM-5-P"                    3    0  137
+biotype    857    N6      "AM-5-P"                    1    0  138
+biotype    858    H6      "AM-5-P"                    4    0    6
+biotype    859    N7      "AM-5-P"                    10   0  139
+biotype    860    C8      "AM-5-P"                    3    0  140
+biotype    861    H8      "AM-5-P"                    9    0    2
+biotype    862    N9      "AM-5-P"                    1    0  141
+biotype    863    P       "dGM-5-P"                   24   0   93
+biotype    864    O5P     "dGM-5-P"                   6    0   95
+biotype    865    O3P     "dGM-5-P"                   6    0   95
+biotype    866    OP      "dGM-5-P"                   5    0   94
+biotype    867    C5*     "dGM-5-P"                   2    0   96
+biotype    868    H5*     "dGM-5-P"                   9    0   16
+biotype    869    C4*     "dGM-5-P"                   2    0  102
+biotype    870    O4*     "dGM-5-P"                   6    0  106
+biotype    871    H4*     "dGM-5-P"                   9    0   17
+biotype    872    C3*     "dGM-5-P"                   2    0  103
+biotype    873    H3*     "dGM-5-P"                   9    0   17
+biotype    874    C2*     "dGM-5-P"                   2    0  104
+biotype    875    H2*     "dGM-5-P"                   9    0   16
+biotype    876    C1*     "dGM-5-P"                   2    0  105
+biotype    877    H1*     "dGM-5-P"                   9    0   17
+biotype    878    N1      "dGM-5-P"                   1    0  142
+biotype    879    H1      "dGM-5-P"                   4    0   13
+biotype    880    C2      "dGM-5-P"                   3    0  143
+biotype    881    N2      "dGM-5-P"                   1    0  144
+biotype    882    H2      "dGM-5-P"                   4    0    6
+biotype    883    N3      "dGM-5-P"                   10   0  145
+biotype    884    C4      "dGM-5-P"                   3    0  146
+biotype    885    C5      "dGM-5-P"                   3    0  147
+biotype    886    C6      "dGM-5-P"                   3    0  148
+biotype    887    O6      "dGM-5-P"                   5    0  149
+biotype    888    N7      "dGM-5-P"                   10   0  150
+biotype    889    C8      "dGM-5-P"                   3    0  151
+biotype    890    H8      "dGM-5-P"                   9    0    2
+biotype    891    N9      "dGM-5-P"                   1    0  152
+biotype    892    P       "GM-5-P"                    24   0   93
+biotype    893    O5P     "GM-5-P"                    6    0   95
+biotype    894    O3P     "GM-5-P"                    6    0   95
+biotype    895    OP      "GM-5-P"                    5    0   94
+biotype    896    C5*     "GM-5-P"                    2    0   96
+biotype    897    H5*     "GM-5-P"                    9    0   16
+biotype    898    C4*     "GM-5-P"                    2    0   97
+biotype    899    O4*     "GM-5-P"                    6    0  101
+biotype    900    H4*     "GM-5-P"                    9    0   17
+biotype    901    C3*     "GM-5-P"                    2    0   98
+biotype    902    H3*     "GM-5-P"                    9    0   17
+biotype    903    C2*     "GM-5-P"                    2    0   99
+biotype    904    O2*     "GM-5-P"                    6    0   29
+biotype    905    H2*     "GM-5-P"                    9    0   17
+biotype    906    C1*     "GM-5-P"                    2    0  100
+biotype    907    H1*     "GM-5-P"                    9    0   17
+biotype    908    N1      "GM-5-P"                    1    0  142
+biotype    909    H1      "GM-5-P"                    4    0   13
+biotype    910    C2      "GM-5-P"                    3    0  143
+biotype    911    N2      "GM-5-P"                    1    0  144
+biotype    912    H2      "GM-5-P"                    4    0    6
+biotype    913    N3      "GM-5-P"                    10   0  145
+biotype    914    C4      "GM-5-P"                    3    0  146
+biotype    915    C5      "GM-5-P"                    3    0  147
+biotype    916    C6      "GM-5-P"                    3    0  148
+biotype    917    O6      "GM-5-P"                    5    0  149
+biotype    918    N7      "GM-5-P"                    10   0  150
+biotype    919    C8      "GM-5-P"                    3    0  151
+biotype    920    H8      "GM-5-P"                    9    0    2
+biotype    921    N9      "GM-5-P"                    1    0  152
+biotype    922    P       "5'-terminal (d)XM-5-P"     24   0   93
+biotype    923    O3P     "5'-terminal (d)XM-5-P"     6    0   95
+biotype    924    HOP     "5'-terminal (d)XM-5-P"     4    0  107
+biotype    925    C3*     "3'-terminal XM-5-P"        2    0   98
+biotype    926    O3*     "3'-terminal XM-5-P"        6    0   29
+biotype    927    HO3     "3'-terminal XM-5-P"        4    0    5
+biotype    928    C3*     "3'-terminal dXM-5-P"       2    0  103
+biotype    929    O3*     "3'-terminal dXM-5-P"       6    0   29
+biotype    930    HO3     "3'-terminal dXM-5-P"       4    0    5
+biotype    931    HO2     "2'-OH in CM-5-P"           4    0    5
+biotype    932    HO2     "2'-OH in UM-5-P"           4    0    5
+biotype    933    HO2     "2'-OH in TM-5-P"           4    0    5
+biotype    934    HO2     "2'-OH in AM-5-P"           4    0    5
+biotype    935    HO2     "2'-OH in GM-5-P"           4    0    5
+biotype    936    P       "Deoxyribose-5'-P"          24   0   93
+biotype    937    O5P     "Deoxyribose-5'-P"          6    0   95
+biotype    938    O3P     "Deoxyribose-5'-P"          6    0   95
+biotype    939    OP      "Deoxyribose-5'-P"          5    0   94
+biotype    940    C5*     "Deoxyribose-5'-P"          2    0   96
+biotype    941    H5*     "Deoxyribose-5'-P"          9    0   16
+biotype    942    C4*     "Deoxyribose-5'-P"          2    0  102
+biotype    943    O4*     "Deoxyribose-5'-P"          6    0  106
+biotype    944    H4*     "Deoxyribose-5'-P"          9    0   17
+biotype    945    C3*     "Deoxyribose-5'-P"          2    0  103
+biotype    946    O3*     "Deoxyribose-5'-P"          6    0   29
+biotype    947    H3*     "Deoxyribose-5'-P"          9    0   17
+biotype    948    HO3     "Deoxyribose-5'-P"          4    0    5
+biotype    949    C2*     "Deoxyribose-5'-P"          2    0  104
+biotype    950    H2*     "Deoxyribose-5'-P"          9    0   17
+biotype    951    C1*     "Deoxyribose-5'-P"          2    0  105
+biotype    952    O1*     "Deoxyribose-5'-P"          6    0   29
+biotype    953    H1*     "Deoxyribose-5'-P"          9    0   17
+biotype    954    HO1     "Deoxyribose-5'-P"          4    0    5
+biotype    955    HOP     "Deoxyribose-5'-P"          4    0  107
+biotype    956    HOP     "Ribose-5'-Phosphate"       4    0  107
+biotype    957    O5*     "5'-Ribonucleosides"        6    0   29
+biotype    958    C5*     "5'-Ribonucleosides"        2    0   36
+biotype    959    HO5     "5'-Ribonucleosides"        4    0    4
+biotype    960    O5*     "5'-Deoxyribonucleosides"   6    0   29
+biotype    961    C5*     "5'-Deoxyribonucleosides"   2    0   36
+biotype    962    HO5     "5'-Deoxyribonucleosides"   4    0    4
+biotype    963    CT      "Propane"                   2  100   35
+biotype    964    HT      "Propane"                   9    2   15
+biotype    965    CB      "Propane"                   2  101   36
+biotype    966    HB      "Propane"                   9    2   16
+biotype    967    CT      "n-Butane"                  2  100   35
+biotype    968    HT      "n-Butane"                  9    2   15
+biotype    969    CB      "n-Butane"                  2  101   36
+biotype    970    HB      "n-Butane"                  9    2   16
+biotype    971    CT      "i-Butane"                  2  100   35
+biotype    972    HT      "i-Butane"                  9    2   15
+biotype    973    CB      "i-Butane"                  2  102   36
+biotype    974    HB      "i-Butane"                  9    2   16
+biotype    975    CT      "Toluene"                   2  105   35
+biotype    976    HT      "Toluene"                   9    2   15
+biotype    977    C1      "Toluene"                   3  104   41
+biotype    978    C2      "Toluene"                   3  104   40
+biotype    979    H2      "Toluene"                   9  108    2
+biotype    980    C3      "Toluene"                   3  104   40
+biotype    981    H3      "Toluene"                   9  108    2
+biotype    982    C4      "Toluene"                   3  104   40
+biotype    983    H4      "Toluene"                   9  108    2
+biotype    984    CT      "Ethanol"                   2  100   35
+biotype    985    HT      "Ethanol"                   9    2   15
+biotype    986    CB      "Ethanol"                   2   43   36
+biotype    987    HB      "Ethanol"                   9    2   16
+biotype    988    O       "Ethanol"                   6   41   29
+biotype    989    HO      "Ethanol"                   4   42    4
+biotype    990    CT      "Methanethiol"              2    1   35
+biotype    991    S       "Methanethiol"              7   47   79
+biotype    992    HT      "Methanethiol"              9    2   15
+biotype    993    HS      "Methanethiol"              4   48   11
+biotype    994    CNT     "Ethylmethylthioether"      2   78   35
+biotype    995    HNT     "Ethylmethylthioether"      9    2   15
+biotype    996    S       "Ethylmethylthioether"      7   76   80
+biotype    997    CB      "Ethylmethylthioether"      2   77   36
+biotype    998    HB      "Ethylmethylthioether"      9    2   16
+biotype    999    CCT     "Ethylmethylthioether"      2  100   35
+biotype   1000    HCT     "Ethylmethylthioether"      9    2   15
+biotype   1001    CT      "Methylimidazole (delta-H)" 2  105   35
+biotype   1002    HT      "Methylimidazole (delta-H)" 9    2   15
+biotype   1003    C1      "Methylimidazole (delta-H)" 3   69   74
+biotype   1004    N2      "Methylimidazole (delta-H)" 1   66   24
+biotype   1005    HN2     "Methylimidazole (delta-H)" 4   65   13
+biotype   1006    C2      "Methylimidazole (delta-H)" 3   68   76
+biotype   1007    HC2     "Methylimidazole (delta-H)" 9   70    2
+biotype   1008    C3      "Methylimidazole (delta-H)" 3   67   75
+biotype   1009    HC3     "Methylimidazole (delta-H)" 9  106    2
+biotype   1010    N3      "Methylimidazole (delta-H)" 10  64   25
+biotype   1011    CT      "Methylimidazole (eps-H)"   2  109   35
+biotype   1012    HT      "Methylimidazole (eps-H)"   9    2   15
+biotype   1013    C1      "Methylimidazole (eps-H)"   3   68   74
+biotype   1014    N2      "Methylimidazole (eps-H)"   10  64   25
+biotype   1015    C2      "Methylimidazole (eps-H)"   3   69   78
+biotype   1016    HC2     "Methylimidazole (eps-H)"   9   70    2
+biotype   1017    C3      "Methylimidazole (eps-H)"   3   67   75
+biotype   1018    HC3     "Methylimidazole (eps-H)"   9  106    2
+biotype   1019    N3      "Methylimidazole (eps-H)"   1   66   24
+biotype   1020    HN3     "Methylimidazole (eps-H)"   4   65   13
+biotype   1021    CT      "Methylindole"              2  100   35
+biotype   1022    HT      "Methylindole"              9    2   15
+biotype   1023    C3      "Methylindole"              3   58   73
+biotype   1024    C2      "Methylindole"              3  104   40
+biotype   1025    H2      "Methylindole"              9  108    2
+biotype   1026    C3A     "Methylindole"              3   59   90
+biotype   1027    N1      "Methylindole"              1   55   24
+biotype   1028    H1      "Methylindole"              4   56   13
+biotype   1029    C7A     "Methylindole"              3   57   91
+biotype   1030    C4      "Methylindole"              3  104   40
+biotype   1031    H4      "Methylindole"              9  108    2
+biotype   1032    C7      "Methylindole"              3  104   40
+biotype   1033    H7      "Methylindole"              9  108    2
+biotype   1034    C5      "Methylindole"              3  104   40
+biotype   1035    H5      "Methylindole"              9  108    2
+biotype   1036    C6      "Methylindole"              3  104   40
+biotype   1037    H6      "Methylindole"              9  108    2
+biotype   1038    N       "Methylammonium (+)"        8   17   22
+biotype   1039    HN      "Methylammonium (+)"        4   18    9
+biotype   1040    CT      "Methylammonium (+)"        2   19   35
+biotype   1041    HT      "Methylammonium (+)"        9    2   15
+biotype   1042    N       "Dimethylammonium (+)"      8  123   23
+biotype   1043    HN      "Dimethylammonium (+)"      4  124   10
+biotype   1044    CT      "Dimethylammonium (+)"      2  125   35
+biotype   1045    HT      "Dimethylammonium (+)"      9  127   15
+biotype   1046    CL      "Perchlorate (-)"           0    0  156
+biotype   1047    O       "Perchlorate (-)"           0    0  157
+biotype   1048    N       "Nitrate (-)"               0    0  158
+biotype   1049    O       "Nitrate (-)"               0    0  159
+biotype   1050    OW      "TIP4P-Ew Water"            25   1    0
+biotype   1051    HW      "TIP4P-Ew Water"            17 113    0
+biotype   1052    MW      "TIP4P-Ew Water"            19 112    0
+biotype   1053    C       "Benzene"                   3  104   40
+biotype   1054    HC      "Benzene"                   9  108    2
+biotype   1055    C1      "Naphthalene"               3    1  160 # bonded support missing
+biotype   1056    C2      "Naphthalene"               3  104   40
+biotype   1057    C3      "Naphthalene"               3  104   40
+biotype   1058    H2      "Naphthalene"               9  108    2
+biotype   1059    H3      "Naphthalene"               9  108    2
+biotype   1060    N1      "Purine"                   10    0  132
+biotype   1061    C2      "Purine"                    3    0  133
+biotype   1062    H2      "Purine"                    9    0    2
+biotype   1063    N3      "Purine"                   10    0  134
+biotype   1064    C4      "Purine"                    3    0  135
+biotype   1065    C5      "Purine"                    3    0  136
+biotype   1066    C6      "Purine"                    3    0  137
+biotype   1067    H6      "Purine"                    9    0    2
+biotype   1068    N7      "Purine"                   10    0  139
+biotype   1069    C8      "Purine"                    3    0  140
+biotype   1070    H8      "Purine"                    9    0    2
+biotype   1071    N9      "Purine"                    1    0  141
+biotype   1072    H9      "Purine"                    4    0   13
+biotype   1073    O       "Oxygen"                    5    1    0
+biotype   1074    N       "Glutamic Acid"             1    6   19
+biotype   1075    CA      "Glutamic Acid"             2   11   37
+biotype   1076    C       "Glutamic Acid"             3    3   38
+biotype   1077    HN      "Glutamic Acid"             4    9    7
+biotype   1078    O       "Glutamic Acid"             5    4   27
+biotype   1079    HA      "Glutamic Acid"             9    2   17
+biotype   1080    CB      "Glutamic Acid"             2  101   61
+biotype   1081    HB      "Glutamic Acid"             9    2   16
+biotype   1082    CG      "Glutamic Acid"             2  132   36
+biotype   1083    HG      "Glutamic Acid"             9    2   16
+biotype   1084    CD      "Glutamic Acid"             3  128   38
+biotype   1085    OE1     "Glutamic Acid"             5  129   27
+biotype   1086    OE2     "Glutamic Acid"             6  130   29
+biotype   1087    HE2     "Glutamic Acid"             4  131    4
+biotype   1088    N       "Aspartic Acid"             1    6   19
+biotype   1089    CA      "Aspartic Acid"             2   11   37
+biotype   1090    C       "Aspartic Acid"             3    3   38
+biotype   1091    HN      "Aspartic Acid"             4    9    7
+biotype   1092    O       "Aspartic Acid"             5    4   27
+biotype   1093    HA      "Aspartic Acid"             9    2   17
+biotype   1094    CB      "Aspartic Acid"             2  132   59
+biotype   1095    HB      "Aspartic Acid"             9    2   16
+biotype   1096    CG      "Aspartic Acid"             3  128   38
+biotype   1097    OD1     "Aspartic Acid"             5  129   27 # warning: error in charges in GROMACS (<= 4.5.2 at least)
+biotype   1098    OD2     "Aspartic Acid"             6  130   29
+biotype   1099    HD2     "Aspartic Acid"             4  131    4
+biotype   1100    N       "Deprotonated Lysine"       1    6   19
+biotype   1101    CA      "Deprotonated Lysine"       2   11   37
+biotype   1102    C       "Deprotonated Lysine"       3    3   38
+biotype   1103    HN      "Deprotonated Lysine"       4    9    7
+biotype   1104    O       "Deprotonated Lysine"       5    4   27
+biotype   1105    HA      "Deprotonated Lysine"       9    2   17
+biotype   1106    CB      "Deprotonated Lysine"       2  101   64
+biotype   1107    HB      "Deprotonated Lysine"       9    2   16
+biotype   1108    CG      "Deprotonated Lysine"       2  101   36
+biotype   1109    HG      "Deprotonated Lysine"       9    2   16
+biotype   1110    CD      "Deprotonated Lysine"       2  101   36
+biotype   1111    HD      "Deprotonated Lysine"       9    2   16
+biotype   1112    CE      "Deprotonated Lysine"       2   26   36
+biotype   1113    HE      "Deprotonated Lysine"       9    2   16
+biotype   1114    NZ      "Deprotonated Lysine"      11   23  161
+biotype   1115    HZ      "Deprotonated Lysine"       4   24    9 # warning: possible error in dihedral potential in GROMACS (still there)
+biotype   1116    N       "Cysteine (thiolate)"       1    0   19
+biotype   1117    CA      "Cysteine (thiolate)"       2    0   37
+biotype   1118    C       "Cysteine (thiolate)"       3    0   38
+biotype   1119    HN      "Cysteine (thiolate)"       4    0    7
+biotype   1120    O       "Cysteine (thiolate)"       5    0   27
+biotype   1121    HA      "Cysteine (thiolate)"       9    0   17
+biotype   1122    CB      "Cysteine (thiolate)"       2    0    0 # 164 bonded support missing
+biotype   1123    HB      "Cysteine (thiolate)"       9    0   16
+biotype   1124    SG      "Cysteine (thiolate)"      30    0    0 # 167 bonded support missing
+biotype   1125    N       "Tyrosine (-)"              1    0   19
+biotype   1126    CA      "Tyrosine (-)"              2    0   37
+biotype   1127    C       "Tyrosine (-)"              3    0   38
+biotype   1128    HN      "Tyrosine (-)"              4    0    7
+biotype   1129    O       "Tyrosine (-)"              5    0   27
+biotype   1130    HA      "Tyrosine (-)"              9    0   17
+biotype   1131    CB      "Tyrosine (-)"              2    0   56
+biotype   1132    HB      "Tyrosine (-)"              9    0   16
+biotype   1133    CG      "Tyrosine (-)"              3    0   41
+biotype   1134    CD      "Tyrosine (-)"              3    0   40
+biotype   1135    HD      "Tyrosine (-)"              9    0    2
+biotype   1136    CE      "Tyrosine (-)"              3    0   40
+biotype   1137    HE      "Tyrosine (-)"              9    0    2
+biotype   1138    CZ      "Tyrosine (-)"              3    0   42
+biotype   1139    OZ      "Tyrosine (-)"             29    0    0 # 162 bonded support missing
+biotype   1140    N       "Phosphotyrosine (-)"       1    0   19
+biotype   1141    CA      "Phosphotyrosine (-)"       2    0   37
+biotype   1142    C       "Phosphotyrosine (-)"       3    0   38
+biotype   1143    HN      "Phosphotyrosine (-)"       4    0    7
+biotype   1144    O       "Phosphotyrosine (-)"       5    0   27
+biotype   1145    HA      "Phosphotyrosine (-)"       9    0   17
+biotype   1146    CB      "Phosphotyrosine (-)"       2    0   56
+biotype   1147    HB      "Phosphotyrosine (-)"       9    0   16
+biotype   1148    CG      "Phosphotyrosine (-)"       3    0   41
+biotype   1149    CD      "Phosphotyrosine (-)"       3    0   40
+biotype   1150    HD      "Phosphotyrosine (-)"       9    0    2
+biotype   1151    CE      "Phosphotyrosine (-)"       3    0   40
+biotype   1152    HE      "Phosphotyrosine (-)"       9    0    2
+biotype   1153    CZ      "Phosphotyrosine (-)"       3    0   42
+biotype   1154    OZ      "Phosphotyrosine (-)"       6    0    0 # 163 bonded support missing
+biotype   1155    P       "Phosphotyrosine (-)"      24    0   93
+biotype   1156    OP      "Phosphotyrosine (-)"       5    0   94
+biotype   1157    OH      "Phosphotyrosine (-)"       6    0   95
+biotype   1158    HOP     "Phosphotyrosine (-)"       4    0  107
+biotype   1159    N       "Phosphoserine (-)"         1    0   19
+biotype   1160    CA      "Phosphoserine (-)"         2    0   37
+biotype   1161    C       "Phosphoserine (-)"         3    0   38
+biotype   1162    HN      "Phosphoserine (-)"         4    0    7
+biotype   1163    O       "Phosphoserine (-)"         5    0   27
+biotype   1164    HA      "Phosphoserine (-)"         9    0   17
+biotype   1165    CB      "Phosphoserine (-)"         2    0    0 # 165 bonded support missing
+biotype   1166    HB      "Phosphoserine (-)"         9    0   16
+biotype   1167    OG      "Phosphoserine (-)"         6    0   95
+biotype   1168    P       "Phosphoserine (-)"        24    0   93
+biotype   1169    OP      "Phosphoserine (-)"         5    0   94
+biotype   1170    OH      "Phosphoserine (-)"         6    0   95
+biotype   1171    HOP     "Phosphoserine (-)"         4    0  107
+biotype   1172    N       "Phosphothreonine (-)"      1    0   19
+biotype   1173    CA      "Phosphothreonine (-)"      2    0   37
+biotype   1174    C       "Phosphothreonine (-)"      3    0   38
+biotype   1175    HN      "Phosphothreonine (-)"      4    0    7
+biotype   1176    O       "Phosphothreonine (-)"      5    0   27
+biotype   1177    HA      "Phosphothreonine (-)"      9    0   17
+biotype   1178    CB      "Phosphothreonine (-)"      2    0    0 # 166 bonded support missing
+biotype   1179    HB      "Phosphothreonine (-)"      9    0   17
+biotype   1180    OG1     "Phosphothreonine (-)"      6    0   95
+biotype   1181    CG2     "Phosphothreonine (-)"      2    0   35
+biotype   1182    HG2     "Phosphothreonine (-)"      9    0   15
+biotype   1183    P       "Phosphothreonine (-)"     24    0   93
+biotype   1184    OP      "Phosphothreonine (-)"      5    0   94
+biotype   1185    OH      "Phosphothreonine (-)"      6    0   95
+biotype   1186    HOP     "Phosphothreonine (-)"      4    0  107
+biotype   1187    N       "Acetylated Lysine"         1    6   19
+biotype   1188    CA      "Acetylated Lysine"         2   11   37
+biotype   1189    C       "Acetylated Lysine"         3    3   38
+biotype   1190    HN      "Acetylated Lysine"         4    9    7
+biotype   1191    O       "Acetylated Lysine"         5    4   27
+biotype   1192    HA      "Acetylated Lysine"         9    2   17
+biotype   1193    CB      "Acetylated Lysine"         2  101   64
+biotype   1194    HB      "Acetylated Lysine"         9    2   16
+biotype   1195    CG      "Acetylated Lysine"         2  101   36
+biotype   1196    HG      "Acetylated Lysine"         9    2   16
+biotype   1197    CD      "Acetylated Lysine"         2  101   36
+biotype   1198    HD      "Acetylated Lysine"         9    2   16
+biotype   1199    CE      "Acetylated Lysine"         2   12   36
+biotype   1200    HE      "Acetylated Lysine"         9    2   16
+biotype   1201    NZ      "Acetylated Lysine"         1    6   19
+biotype   1202    HZ      "Acetylated Lysine"         4    9    7
+biotype   1203    CH      "Acetylated Lysine"         3    3   38
+biotype   1204    OH      "Acetylated Lysine"         5    4   27
+biotype   1205    CI      "Acetylated Lysine"         2  100   35
+biotype   1206    HI      "Acetylated Lysine"         9    2   15
+biotype   1207    N       "Mono(CH3)-Lysine(+)"       1    6   19
+biotype   1208    CA      "Mono(CH3)-Lysine(+)"       2   11   37
+biotype   1209    C       "Mono(CH3)-Lysine(+)"       3    3   38
+biotype   1210    HN      "Mono(CH3)-Lysine(+)"       4    9    7
+biotype   1211    O       "Mono(CH3)-Lysine(+)"       5    4   27
+biotype   1212    HA      "Mono(CH3)-Lysine(+)"       9    2   17
+biotype   1213    CB      "Mono(CH3)-Lysine(+)"       2  101   64
+biotype   1214    HB      "Mono(CH3)-Lysine(+)"       9    2   16
+biotype   1215    CG      "Mono(CH3)-Lysine(+)"       2  101   36
+biotype   1216    HG      "Mono(CH3)-Lysine(+)"       9    2   16
+biotype   1217    CD      "Mono(CH3)-Lysine(+)"       2  101   36
+biotype   1218    HD      "Mono(CH3)-Lysine(+)"       9    2   16
+biotype   1219    CE      "Mono(CH3)-Lysine(+)"       2  126   36
+biotype   1220    HE      "Mono(CH3)-Lysine(+)"       9  127   16
+biotype   1221    NZ      "Mono(CH3)-Lysine(+)"       8  123   23
+biotype   1222    HZ      "Mono(CH3)-Lysine(+)"       4  124   10
+biotype   1223    CH      "Mono(CH3)-Lysine(+)"       2  125   35
+biotype   1224    HH      "Mono(CH3)-Lysine(+)"       9  127   15
+biotype   1225    N       "Di(CH3)-Lysine(+)"         1    6   19
+biotype   1226    CA      "Di(CH3)-Lysine(+)"         2   11   37
+biotype   1227    C       "Di(CH3)-Lysine(+)"         3    3   38
+biotype   1228    HN      "Di(CH3)-Lysine(+)"         4    9    7
+biotype   1229    O       "Di(CH3)-Lysine(+)"         5    4   27
+biotype   1230    HA      "Di(CH3)-Lysine(+)"         9    2   17
+biotype   1231    CB      "Di(CH3)-Lysine(+)"         2  101   64
+biotype   1232    HB      "Di(CH3)-Lysine(+)"         9    2   16
+biotype   1233    CG      "Di(CH3)-Lysine(+)"         2  101   36
+biotype   1234    HG      "Di(CH3)-Lysine(+)"         9    2   16
+biotype   1235    CD      "Di(CH3)-Lysine(+)"         2  101   36
+biotype   1236    HD      "Di(CH3)-Lysine(+)"         9    2   16
+biotype   1237    CE      "Di(CH3)-Lysine(+)"         2  117   36
+biotype   1238    HE      "Di(CH3)-Lysine(+)"         9  118   16
+biotype   1239    NZ      "Di(CH3)-Lysine(+)"         8  114    0 # 168 bonded support missing
+biotype   1240    HZ      "Di(CH3)-Lysine(+)"         4  115    0 # 169 bonded support missing
+biotype   1241    CH      "Di(CH3)-Lysine(+)"         2  116   35
+biotype   1242    HH      "Di(CH3)-Lysine(+)"         9  118   15
+biotype   1243    N       "Tri(CH3)-Lysine(+)"        1    6   19
+biotype   1244    CA      "Tri(CH3)-Lysine(+)"        2   11   37
+biotype   1245    C       "Tri(CH3)-Lysine(+)"        3    3   38
+biotype   1246    HN      "Tri(CH3)-Lysine(+)"        4    9    7
+biotype   1247    O       "Tri(CH3)-Lysine(+)"        5    4   27
+biotype   1248    HA      "Tri(CH3)-Lysine(+)"        9    2   17
+biotype   1249    CB      "Tri(CH3)-Lysine(+)"        2  101   64
+biotype   1250    HB      "Tri(CH3)-Lysine(+)"        9    2   16
+biotype   1251    CG      "Tri(CH3)-Lysine(+)"        2  101   36
+biotype   1252    HG      "Tri(CH3)-Lysine(+)"        9    2   16
+biotype   1253    CD      "Tri(CH3)-Lysine(+)"        2  101   36
+biotype   1254    HD      "Tri(CH3)-Lysine(+)"        9    2   16
+biotype   1255    CE      "Tri(CH3)-Lysine(+)"        2  121   36
+biotype   1256    HE      "Tri(CH3)-Lysine(+)"        9  122   16
+biotype   1257    NZ      "Tri(CH3)-Lysine(+)"        8  119    0 # 170 bonded support missing
+biotype   1258    CH      "Tri(CH3)-Lysine(+)"        2  120   35
+biotype   1259    HH      "Tri(CH3)-Lysine(+)"        9  122   15
+
+
+####################################################
+#                                                  #
+#  The following is a list of bond length stretch  #
+#  potentials in OPLSAA/L.                         #
+#                                                  #
+####################################################
+
+# # aliphatic carbon-carbon
+bonded_type_bond     35    35     1
+bonded_type_bond     35    36     1
+bonded_type_bond     35    37     1
+bonded_type_bond     35    44     1
+bonded_type_bond     35    47     1
+bonded_type_bond     35    49     1
+bonded_type_bond     35    51     1
+bonded_type_bond     35    67     1
+bonded_type_bond     36    36     1
+bonded_type_bond     36    37     1
+bonded_type_bond     36    44     1
+bonded_type_bond     36    48     1
+bonded_type_bond     36    49     1
+bonded_type_bond     36    54     1
+bonded_type_bond     36    61     1
+bonded_type_bond     36    62     1
+bonded_type_bond     36    63     1
+bonded_type_bond     36    64     1
+bonded_type_bond     36    65     1
+bonded_type_bond     36    66     1
+bonded_type_bond     36    68     1
+bonded_type_bond     36    69     1
+bonded_type_bond     36    70     1
+bonded_type_bond     36    71     1
+bonded_type_bond     36    72     1
+bonded_type_bond     36   155     1
+bonded_type_bond     37    37     1
+bonded_type_bond     37    44     1
+bonded_type_bond     37    46     1
+bonded_type_bond     37    47     1
+bonded_type_bond     37    48     1
+bonded_type_bond     37    49     1
+bonded_type_bond     37    50     1
+bonded_type_bond     37    51     1
+bonded_type_bond     37    52     1
+bonded_type_bond     37    53     1
+bonded_type_bond     37    54     1
+bonded_type_bond     37    55     1
+bonded_type_bond     37    56     1
+bonded_type_bond     37    57     1
+bonded_type_bond     37    58     1
+bonded_type_bond     37    59     1
+bonded_type_bond     37    60     1
+bonded_type_bond     37    61     1
+bonded_type_bond     37    62     1
+bonded_type_bond     37    63     1
+bonded_type_bond     37    64     1
+bonded_type_bond     37    65     1
+bonded_type_bond     37    66     1
+bonded_type_bond     37    67     1
+bonded_type_bond     37    68     1
+bonded_type_bond     37    69     1
+bonded_type_bond     37    70     1
+bonded_type_bond     37    71     1
+bonded_type_bond     37    72     1
+bonded_type_bond     44    44     1
+bonded_type_bond     44    46     1
+# # aliphatic carbon-hydrogen
+bonded_type_bond     34    14     2
+bonded_type_bond     35    15     2
+bonded_type_bond     36    16     2
+bonded_type_bond     37    17     2
+bonded_type_bond     46    15     2
+bonded_type_bond     47    17     2
+bonded_type_bond     48    16     2
+bonded_type_bond     49    17     2
+bonded_type_bond     50    16     2
+bonded_type_bond     51    17     2
+bonded_type_bond     52    16     2
+bonded_type_bond     53    16     2
+bonded_type_bond     54    16     2
+bonded_type_bond     55    16     2
+bonded_type_bond     56    16     2
+bonded_type_bond     57    16     2
+bonded_type_bond     58    16     2
+bonded_type_bond     59    16     2
+bonded_type_bond     60    16     2
+bonded_type_bond     61    16     2
+bonded_type_bond     62    16     2
+bonded_type_bond     63    16     2
+bonded_type_bond     64    16     2
+bonded_type_bond     65    16     2
+bonded_type_bond     66    16     2
+bonded_type_bond     67    16     2
+bonded_type_bond     68    16     2
+bonded_type_bond     69    16     2
+bonded_type_bond     70    16     2
+bonded_type_bond     71    16     2
+bonded_type_bond     72    16     2
+bonded_type_bond    155    16     2
+# # aldehyde carbon-hydrogen
+bonded_type_bond     45    89     2
+# # aliphatic-aromatic carbon-carbon
+bonded_type_bond     35    41     3
+bonded_type_bond     36    41     3
+bonded_type_bond     37    41     3
+bonded_type_bond     41    55     3
+bonded_type_bond     41    56     3
+# # alcoholic carbon-oxygen
+bonded_type_bond     35    29     4
+bonded_type_bond     36    29     4
+bonded_type_bond     37    29     4
+bonded_type_bond     50    29     4
+bonded_type_bond     51    29     4
+# # thiolic or thioether or sulfide carbon-sulfur
+bonded_type_bond     35    79     5
+bonded_type_bond     35    80     5
+bonded_type_bond     35    81     5
+bonded_type_bond     36    79     5
+bonded_type_bond     36    80     5
+bonded_type_bond     36    81     5
+bonded_type_bond     37    79     5
+bonded_type_bond     37    80     5
+bonded_type_bond     37    81     5
+bonded_type_bond     52    79     5
+bonded_type_bond     53    81     5
+# # aliphatic amide carbon-carbon
+bonded_type_bond     35    38     6
+bonded_type_bond     36    38     6
+bonded_type_bond     37    38     6
+bonded_type_bond     44    38     6
+bonded_type_bond     59    38     6
+bonded_type_bond     60    38     6
+# # substituted amide carbon-nitrogen
+bonded_type_bond     35    19     7
+bonded_type_bond     36    19     7
+bonded_type_bond     37    19     7
+bonded_type_bond     44    19     7
+bonded_type_bond     35    20     7
+bonded_type_bond     36    20     7
+bonded_type_bond     37    20     7
+bonded_type_bond     44    20     7
+bonded_type_bond    155    20     7
+# # aliphatic carboxylic acid carbon-carbon
+bonded_type_bond     35    39     6
+bonded_type_bond     36    39     6
+bonded_type_bond     37    39     6
+bonded_type_bond     44    39     6
+bonded_type_bond     39    59     6
+# # substituted ammonium carbon-nitrogen
+bonded_type_bond     35    22     8
+bonded_type_bond     36    22     8
+bonded_type_bond     37    22     8
+bonded_type_bond     44    22     8
+bonded_type_bond     35    23     8
+bonded_type_bond     36    23     8
+bonded_type_bond     37    23     8
+bonded_type_bond     44    23     8
+bonded_type_bond    155    23     8
+# # (substituted) amine carbon-nitrogen
+bonded_type_bond     35   161    36
+bonded_type_bond     36   161    36
+bonded_type_bond     37   161    36
+bonded_type_bond     44   161    36
+# # guanidinium
+bonded_type_bond     43    26    33
+bonded_type_bond     26     1    31
+# # substituted guanidinium carbon-nitrogen
+bonded_type_bond     35    26     9
+bonded_type_bond     36    26     9
+bonded_type_bond     37    26     9
+# # disulfide sulfur-sulfur
+bonded_type_bond     81    81    12
+# # aromatic carbon-carbon
+bonded_type_bond     40    40    14
+bonded_type_bond     40    41    14
+bonded_type_bond     40    42    14
+bonded_type_bond     41    41    14
+bonded_type_bond     41    42    14
+# # aromatic carbon-hydrogen
+bonded_type_bond     40     2    15
+# # phenolic carbon-oxygen
+bonded_type_bond     42    31    16
+# # phenolic or alcoholic oxygen-hydrogen
+bonded_type_bond     29     3    24
+bonded_type_bond     29     4    24
+bonded_type_bond     29     5    24
+bonded_type_bond     31    12    24
+# # thiolic sulfur-hydrogen
+bonded_type_bond     79    11    27
+# # carboxylate carbon-oxygen
+bonded_type_bond     39    28    32
+# # carboxylic acid carbon-oxygen (H)
+bonded_type_bond     38    29    16
+# # amide carbon-oxygen
+bonded_type_bond     38    27    29
+# # aldehyde carbon-oxygen
+bonded_type_bond     45    33    29
+# # (substituted) (form)amide carbonyl carbon-nitrogen
+bonded_type_bond     38    18    30
+bonded_type_bond     38    19    30
+bonded_type_bond     38    20    30
+bonded_type_bond     45    18    30
+bonded_type_bond     45    19    30
+bonded_type_bond     45    20    30
+# # (substituted) amide nitrogen-hydrogen
+bonded_type_bond     18     6    31
+bonded_type_bond     19     7    31
+# # (substituted) ammonium nitrogen-hydrogen
+bonded_type_bond     21     8    31
+bonded_type_bond     22     9    31
+bonded_type_bond     23    10    31
+# # (substituted) amine nitrogen-hydrogen
+bonded_type_bond    161     9    31
+# # aromatic nitrogen-hydrogen
+bonded_type_bond     24    13    31
+# # the rest are specific parameters for non-generalized systems
+# # TRP and MIN exceptions
+# # CB-CG
+bonded_type_bond     57    73    10
+bonded_type_bond     35    73    10
+# # CG-CD1
+bonded_type_bond     73    40    17
+# # CE2-NE1
+bonded_type_bond     91    24    18
+# # CG-CD2
+bonded_type_bond     73    90    21
+# # CD2-CE3
+bonded_type_bond     90    40    35
+# # CE2-CZx
+bonded_type_bond     91    40    14
+# # CD2-CE2
+bonded_type_bond     90    91    20
+# # CD1-NE1
+bonded_type_bond     40    24    22
+# # HIX exceptions
+# # HIX CE1-N(H)
+bonded_type_bond     75    24    19
+bonded_type_bond     77    24    19
+# # HID/E XC(C-N)CH
+bonded_type_bond     74    24    22
+bonded_type_bond    154    24    22
+bonded_type_bond     78    24    22
+bonded_type_bond     92    24    22
+# # HID/E CE1-NCC
+bonded_type_bond     75    25    23
+# # HIX CG-CD2
+bonded_type_bond     74    76    25
+bonded_type_bond     74    78    25
+bonded_type_bond    154    92    25
+# # HID/E HC(C-N)CC
+bonded_type_bond     74    25    28
+bonded_type_bond     76    25    28
+# # HIX CB-CG and IME/D CT-C1
+bonded_type_bond     58    74    11
+bonded_type_bond     58   154    11
+bonded_type_bond     35    74    11
+# # hydrogens
+bonded_type_bond     75     2    15
+bonded_type_bond     76     2    15
+bonded_type_bond     77     2    15
+bonded_type_bond     78     2    15
+bonded_type_bond     92     2    15
+# # other exceptions
+# # SPC water oxygen-hydrogen
+bonded_type_bond     82    83    13
+# # T3P water oxygen-hydrogen
+bonded_type_bond     84    85    26
+# # urea
+bonded_type_bond    153    27    29
+bonded_type_bond    153    18    30
+
+
+####################################################
+#                                                  #
+#  The following is a list of bond angle bending   #
+#  potentials in OPLSAA/L.                         #
+#                                                  #
+####################################################
+
+# # aliphatic carbon-carbon-carbon
+bonded_type_angle    35    36    35     1
+bonded_type_angle    35    36    36     1
+bonded_type_angle    35    36    37     1
+bonded_type_angle    35    36    44     1
+bonded_type_angle    35    37    35     1
+bonded_type_angle    35    37    36     1
+bonded_type_angle    35    37    37     1
+bonded_type_angle    35    37    44     1
+bonded_type_angle    35    44    35     1
+bonded_type_angle    35    44    36     1
+bonded_type_angle    35    44    37     1
+bonded_type_angle    35    44    44     1
+bonded_type_angle    35    47    35     1
+bonded_type_angle    35    49    36     1
+bonded_type_angle    36    36    36     1
+bonded_type_angle    36    36    37     1
+bonded_type_angle    36    36    44     1
+bonded_type_angle    36    37    36     1
+bonded_type_angle    36    37    37     1
+bonded_type_angle    36    37    44     1
+bonded_type_angle    36    44    36     1
+bonded_type_angle    36    44    37     1
+bonded_type_angle    36    44    44     1
+bonded_type_angle    37    36    37     1
+bonded_type_angle    37    36    44     1
+bonded_type_angle    37    37    37     1
+bonded_type_angle    37    37    44     1
+bonded_type_angle    37    44    37     1
+bonded_type_angle    37    44    44     1
+bonded_type_angle    44    36    44     1
+bonded_type_angle    44    37    44     1
+bonded_type_angle    44    44    44     1
+bonded_type_angle    37    47    35     1
+bonded_type_angle    37    48    37     1
+bonded_type_angle    37    49    35     1
+bonded_type_angle    37    49    36     1
+bonded_type_angle    37    51    35     1
+bonded_type_angle    37    54    36     1
+bonded_type_angle    37    61    36     1
+bonded_type_angle    37    62    36     1
+bonded_type_angle    37    63    36     1
+bonded_type_angle    37    64    36     1
+bonded_type_angle    37    65    36     1
+bonded_type_angle    37    66    36     1
+bonded_type_angle    37    67    35     1
+bonded_type_angle    37    68    36     1
+bonded_type_angle    37    69    36     1
+bonded_type_angle    37    70    36     1
+bonded_type_angle    37    71    36     1
+bonded_type_angle    37    72    37     1
+bonded_type_angle    46    44    46     1
+bonded_type_angle    48    37    35     1
+bonded_type_angle    49    36    35     1
+bonded_type_angle    54    36    36     1
+bonded_type_angle    64    36    36     1
+bonded_type_angle    65    36    36     1
+bonded_type_angle    66    36    36     1
+bonded_type_angle    68    36    35     1
+bonded_type_angle    69    36    36     1
+bonded_type_angle    72    37    36     1
+bonded_type_angle   155    36    54     1
+# aliphatic carbon-carbon-hydrogen
+bonded_type_angle    35    35    15     2
+bonded_type_angle    35    36    16     2
+bonded_type_angle    35    37    17     2
+bonded_type_angle    35    47    17     2
+bonded_type_angle    35    49    17     2
+bonded_type_angle    35    51    17     2
+bonded_type_angle    35    67    16     2
+bonded_type_angle    36    35    15     2
+bonded_type_angle    36    36    16     2
+bonded_type_angle    36    37    17     2
+bonded_type_angle    36    49    17     2
+bonded_type_angle    36    54    16     2
+bonded_type_angle    36    61    16     2
+bonded_type_angle    36    62    16     2
+bonded_type_angle    36    63    16     2
+bonded_type_angle    36    64    16     2
+bonded_type_angle    36    65    16     2
+bonded_type_angle    36    66    16     2
+bonded_type_angle    36    68    16     2
+bonded_type_angle    36    69    16     2
+bonded_type_angle    36    70    16     2
+bonded_type_angle    36    71    16     2
+bonded_type_angle    36   155    16     2
+bonded_type_angle    37    35    15     2
+bonded_type_angle    37    36    16     2
+bonded_type_angle    37    37    17     2
+bonded_type_angle    37    46    15     2
+bonded_type_angle    37    47    17     2
+bonded_type_angle    37    48    16     2
+bonded_type_angle    37    49    17     2
+bonded_type_angle    37    50    16     2
+bonded_type_angle    37    51    17     2
+bonded_type_angle    37    52    16     2
+bonded_type_angle    37    53    16     2
+bonded_type_angle    37    54    16     2
+bonded_type_angle    37    55    16     2
+bonded_type_angle    37    56    16     2
+bonded_type_angle    37    57    16     2
+bonded_type_angle    37    58    16     2
+bonded_type_angle    37    59    16     2
+bonded_type_angle    37    60    16     2
+bonded_type_angle    37    61    16     2
+bonded_type_angle    37    62    16     2
+bonded_type_angle    37    63    16     2
+bonded_type_angle    37    64    16     2
+bonded_type_angle    37    65    16     2
+bonded_type_angle    37    66    16     2
+bonded_type_angle    37    67    16     2
+bonded_type_angle    37    68    16     2
+bonded_type_angle    37    69    16     2
+bonded_type_angle    37    70    16     2
+bonded_type_angle    37    71    16     2
+bonded_type_angle    37    72    16     2
+bonded_type_angle    44    35    15     2
+bonded_type_angle    44    36    16     2
+bonded_type_angle    44    37    17     2
+bonded_type_angle    44    46    15     2
+bonded_type_angle    46    37    17     2
+bonded_type_angle    47    35    15     2
+bonded_type_angle    47    37    17     2
+bonded_type_angle    48    37    17     2
+bonded_type_angle    49    35    15     2
+bonded_type_angle    49    36    16     2
+bonded_type_angle    49    37    17     2
+bonded_type_angle    50    37    17     2
+bonded_type_angle    51    35    15     2
+bonded_type_angle    51    37    17     2
+bonded_type_angle    52    37    17     2
+bonded_type_angle    53    37    17     2
+bonded_type_angle    54    36    16     2
+bonded_type_angle    54    37    17     2
+bonded_type_angle    55    37    17     2
+bonded_type_angle    56    37    17     2
+bonded_type_angle    57    37    17     2
+bonded_type_angle    58    37    17     2
+bonded_type_angle    59    37    17     2
+bonded_type_angle    60    37    17     2
+bonded_type_angle    61    36    16     2
+bonded_type_angle    61    37    17     2
+bonded_type_angle    62    36    16     2
+bonded_type_angle    62    37    17     2
+bonded_type_angle    63    36    16     2
+bonded_type_angle    63    37    17     2
+bonded_type_angle    64    36    16     2
+bonded_type_angle    64    37    17     2
+bonded_type_angle    65    36    16     2
+bonded_type_angle    65    37    17     2
+bonded_type_angle    66    36    16     2
+bonded_type_angle    66    37    17     2
+bonded_type_angle    67    35    15     2
+bonded_type_angle    67    37    17     2
+bonded_type_angle    68    36    16     2
+bonded_type_angle    68    37    17     2
+bonded_type_angle    69    36    16     2
+bonded_type_angle    69    37    17     2
+bonded_type_angle    70    36    16     2
+bonded_type_angle    70    37    17     2
+bonded_type_angle    71    36    16     2
+bonded_type_angle    71    37    17     2
+bonded_type_angle    72    37    17     2
+bonded_type_angle   155    36    16     2
+# # aliphatic hydrogen-carbon-hydrogen
+bonded_type_angle    14    34    14    12
+bonded_type_angle    15    35    15    12
+bonded_type_angle    16    36    16    12
+bonded_type_angle    15    46    15    12
+bonded_type_angle    16    48    16    12
+bonded_type_angle    16    50    16    12
+bonded_type_angle    16    52    16    12
+bonded_type_angle    16    53    16    12
+bonded_type_angle    16    54    16    12
+bonded_type_angle    16    55    16    12
+bonded_type_angle    16    56    16    12
+bonded_type_angle    16    57    16    12
+bonded_type_angle    16    58    16    12
+bonded_type_angle    16    59    16    12
+bonded_type_angle    16    60    16    12
+bonded_type_angle    16    61    16    12
+bonded_type_angle    16    62    16    12
+bonded_type_angle    16    63    16    12
+bonded_type_angle    16    64    16    12
+bonded_type_angle    16    65    16    12
+bonded_type_angle    16    66    16    12
+bonded_type_angle    16    67    16    12
+bonded_type_angle    16    68    16    12
+bonded_type_angle    16    69    16    12
+bonded_type_angle    16    70    16    12
+bonded_type_angle    16    71    16    12
+bonded_type_angle    16    72    16    12
+bonded_type_angle    16   155    16    12
+# # Cal-Cal-Car
+bonded_type_angle    37    55    41     3
+bonded_type_angle    37    56    41     3
+# # Cal-Car-Car
+bonded_type_angle    35    41    40    15
+bonded_type_angle    35    41    41    15
+bonded_type_angle    36    41    40    15
+bonded_type_angle    36    41    41    15
+bonded_type_angle    37    41    40    15
+bonded_type_angle    37    41    41    15
+bonded_type_angle    44    41    40    15
+bonded_type_angle    44    41    41    15
+bonded_type_angle    55    41    40    15
+bonded_type_angle    56    41    40    15
+# # Car-Car-Car
+bonded_type_angle    40    40    40    16
+bonded_type_angle    40    40    41    16
+bonded_type_angle    40    40    42    16
+bonded_type_angle    40    41    40    16
+bonded_type_angle    40    41    41    16
+bonded_type_angle    40    41    42    16
+bonded_type_angle    40    42    40    16
+bonded_type_angle    40    42    41    16
+bonded_type_angle    41    40    41    16
+bonded_type_angle    41    40    42    16
+bonded_type_angle    41    41    41    16
+bonded_type_angle    41    41    42    16
+bonded_type_angle    41    42    41    16
+# # Har-Car-Car
+bonded_type_angle     2    40    40    17
+bonded_type_angle     2    40    41    17
+bonded_type_angle     2    40    42    17
+# # H-Cal-Car
+bonded_type_angle    15    35    41    13
+bonded_type_angle    16    36    41    13
+bonded_type_angle    17    37    41    13
+bonded_type_angle    16    55    41    13
+bonded_type_angle    16    56    41    13
+# # Cal-Cal-Ccarbonyl (amide, ketone, aldehyde, carboxylic acid)
+bonded_type_angle    35    36    38     7
+bonded_type_angle    36    36    38     7
+bonded_type_angle    37    36    38     7
+bonded_type_angle    44    36    38     7
+bonded_type_angle    35    37    38     7
+bonded_type_angle    36    37    38     7
+bonded_type_angle    37    37    38     7
+bonded_type_angle    44    37    38     7
+bonded_type_angle    37    60    38     7
+bonded_type_angle    62    36    38     7
+bonded_type_angle    46    37    38     7
+bonded_type_angle    46    44    38     7
+bonded_type_angle    47    37    38     7
+bonded_type_angle    48    37    38     7
+bonded_type_angle    49    37    38     7
+bonded_type_angle    50    37    38     7
+bonded_type_angle    51    37    38     7
+bonded_type_angle    52    37    38     7
+bonded_type_angle    53    37    38     7
+bonded_type_angle    54    37    38     7
+bonded_type_angle    55    37    38     7
+bonded_type_angle    56    37    38     7
+bonded_type_angle    57    37    38     7
+bonded_type_angle    58    37    38     7
+bonded_type_angle    59    37    38     7
+bonded_type_angle    37    59    38     7
+bonded_type_angle    60    37    38     7
+bonded_type_angle    61    36    38     7
+bonded_type_angle    61    37    38     7
+bonded_type_angle    62    37    38     7
+bonded_type_angle    63    37    38     7
+bonded_type_angle    64    37    38     7
+bonded_type_angle    65    37    38     7
+bonded_type_angle    66    37    38     7
+bonded_type_angle    67    37    38     7
+bonded_type_angle    68    37    38     7
+bonded_type_angle    69    37    38     7
+bonded_type_angle    70    37    38     7
+bonded_type_angle    71    37    38     7
+bonded_type_angle    72    37    38     7
+bonded_type_angle    35    36    45     7
+bonded_type_angle    36    36    45     7
+bonded_type_angle    37    36    45     7
+bonded_type_angle    44    36    45     7
+bonded_type_angle    35    37    45     7
+bonded_type_angle    36    37    45     7
+bonded_type_angle    37    37    45     7
+bonded_type_angle    44    37    45     7
+# # H-Cal-Ccarbonyl (amide, ketone, aldehyde)
+bonded_type_angle    15    35    38    13
+bonded_type_angle    16    36    38    13
+bonded_type_angle    17    37    38    13
+bonded_type_angle    16    59    38    13
+bonded_type_angle    16    60    38    13
+bonded_type_angle    15    35    45    13
+bonded_type_angle    16    36    45    13
+bonded_type_angle    17    37    45    13
+# # Cal-Ccarbonyl-Ocarbonyl (amide, ketone, aldehyde)
+bonded_type_angle    35    38    27    26
+bonded_type_angle    36    38    27    26
+bonded_type_angle    37    38    27    26
+bonded_type_angle    44    38    27    26
+bonded_type_angle    59    38    27    26
+bonded_type_angle    60    38    27    26
+bonded_type_angle    35    45    33    26
+bonded_type_angle    36    45    33    26
+bonded_type_angle    37    45    33    26
+bonded_type_angle    44    45    33    26
+# # Cal-Cal-Ccarboxylate
+bonded_type_angle    35    36    39     7
+bonded_type_angle    36    36    39     7
+bonded_type_angle    37    36    39     7
+bonded_type_angle    44    36    39     7
+bonded_type_angle    35    37    39     7
+bonded_type_angle    36    37    39     7
+bonded_type_angle    37    37    39     7
+bonded_type_angle    44    37    39     7
+bonded_type_angle    37    59    39     7
+bonded_type_angle    61    36    39     7
+bonded_type_angle    46    37    39     7
+bonded_type_angle    46    44    39     7
+bonded_type_angle    47    37    39     7
+bonded_type_angle    48    37    39     7
+bonded_type_angle    49    37    39     7
+bonded_type_angle    50    37    39     7
+bonded_type_angle    51    37    39     7
+bonded_type_angle    52    37    39     7
+bonded_type_angle    53    37    39     7
+bonded_type_angle    54    37    39     7
+bonded_type_angle    55    37    39     7
+bonded_type_angle    56    37    39     7
+bonded_type_angle    57    37    39     7
+bonded_type_angle    58    37    39     7
+bonded_type_angle    59    37    39     7
+bonded_type_angle    60    37    39     7
+bonded_type_angle    61    37    39     7
+bonded_type_angle    62    37    39     7
+bonded_type_angle    63    37    39     7
+bonded_type_angle    64    37    39     7
+bonded_type_angle    65    37    39     7
+bonded_type_angle    66    37    39     7
+bonded_type_angle    67    37    39     7
+bonded_type_angle    68    37    39     7
+bonded_type_angle    69    37    39     7
+bonded_type_angle    70    37    39     7
+bonded_type_angle    71    37    39     7
+bonded_type_angle    72    37    39     7
+# # H-Cal-Ccarboxylate
+bonded_type_angle    15    35    39    13
+bonded_type_angle    16    36    39    13
+bonded_type_angle    17    37    39    13
+bonded_type_angle    16    59    39    13
+# # Cal-Ccarboxylate-Ocarboxylate
+bonded_type_angle    35    39    28    35
+bonded_type_angle    36    39    28    35
+bonded_type_angle    37    39    28    35
+bonded_type_angle    44    39    28    35
+bonded_type_angle    59    39    28    35
+# # Ocarboxylate-Ccarboxylate-Ocarboxylate
+bonded_type_angle    28    39    28    36
+# # Cal-Ccarboxylic acid-Ocarboxylic acid
+bonded_type_angle    35    38    29    66
+bonded_type_angle    36    38    29    66
+bonded_type_angle    37    38    29    66
+bonded_type_angle    44    38    29    66
+bonded_type_angle    59    38    29    66
+# # Ocarboxylic acid-Ccarboxylate-Ocarboxylic acid
+bonded_type_angle    27    38    29    65
+# # Cal-Cal-Namide
+bonded_type_angle    35    36    19     8
+bonded_type_angle    36    36    19     8
+bonded_type_angle    37    36    19     8
+bonded_type_angle    44    36    19     8
+bonded_type_angle    35    37    19     8
+bonded_type_angle    36    37    19     8
+bonded_type_angle    37    37    19     8
+bonded_type_angle    44    37    19     8
+bonded_type_angle    35    36    20     8
+bonded_type_angle    36    36    20     8
+bonded_type_angle    37    36    20     8
+bonded_type_angle    44    36    20     8
+bonded_type_angle    35    37    20     8
+bonded_type_angle    36    37    20     8
+bonded_type_angle    37    37    20     8
+bonded_type_angle    44    37    20     8
+bonded_type_angle    46    37    19     8
+bonded_type_angle    46    44    19     8
+bonded_type_angle    47    37    19     8
+bonded_type_angle    48    37    19     8
+bonded_type_angle    49    37    19     8
+bonded_type_angle    50    37    19     8
+bonded_type_angle    51    37    19     8
+bonded_type_angle    52    37    19     8
+bonded_type_angle    53    37    19     8
+bonded_type_angle    54    37    20     8
+bonded_type_angle    55    37    19     8
+bonded_type_angle    56    37    19     8
+bonded_type_angle    57    37    19     8
+bonded_type_angle    58    37    19     8
+bonded_type_angle    59    37    19     8
+bonded_type_angle    60    37    19     8
+bonded_type_angle    61    37    19     8
+bonded_type_angle    62    37    19     8
+bonded_type_angle    63    37    19     8
+bonded_type_angle    64    37    19     8
+bonded_type_angle    65    37    19     8
+bonded_type_angle    66    37    19     8
+bonded_type_angle    67    37    19     8
+bonded_type_angle    68    37    19     8
+bonded_type_angle    69    37    19     8
+bonded_type_angle    70    37    19     8
+bonded_type_angle    71    37    20     8
+bonded_type_angle    72    37    20     8
+bonded_type_angle    36   155    20     8
+# # H-Cal-Namide
+bonded_type_angle    15    35    19    13
+bonded_type_angle    16    36    19    13
+bonded_type_angle    17    37    19    13
+bonded_type_angle    15    35    20    13
+bonded_type_angle    16    36    20    13
+bonded_type_angle    17    37    20    13
+bonded_type_angle    16   155    20    13
+# # Cal-Ccarbonyl-Namide
+bonded_type_angle    35    38    18    27
+bonded_type_angle    36    38    18    27
+bonded_type_angle    37    38    18    27
+bonded_type_angle    44    38    18    27
+bonded_type_angle    35    38    19    27
+bonded_type_angle    36    38    19    27
+bonded_type_angle    37    38    19    27
+bonded_type_angle    44    38    19    27
+bonded_type_angle    35    38    20    27
+bonded_type_angle    36    38    20    27
+bonded_type_angle    37    38    20    27
+bonded_type_angle    44    38    20    27
+bonded_type_angle    60    38    18    27
+# # Ocarbonyl-Ccarbonyl-Namide
+bonded_type_angle    27    38    18    28
+bonded_type_angle    27    38    19    28
+bonded_type_angle    27    38    20    28
+bonded_type_angle    33    45    18    28
+bonded_type_angle    33    45    19    28
+bonded_type_angle    33    45    20    28
+# # Ccarbonyl-Cal-Namide
+bonded_type_angle    38    36    18    14
+bonded_type_angle    38    37    18    14
+bonded_type_angle    38    44    18    14
+bonded_type_angle    38    36    19    14
+bonded_type_angle    38    37    19    14
+bonded_type_angle    38    44    19    14
+bonded_type_angle    38    36    20    14
+bonded_type_angle    38    37    20    14
+bonded_type_angle    38    44    20    14
+# # Ccarboxylate-Cal-Namide
+bonded_type_angle    39    36    19    14
+bonded_type_angle    39    37    19    14
+bonded_type_angle    39    44    19    14
+bonded_type_angle    39    36    20    14
+bonded_type_angle    39    37    20    14
+bonded_type_angle    39    44    20    14
+# # Cal-Namide-Cal
+bonded_type_angle    35    20    35    31
+bonded_type_angle    35    20    36    31
+bonded_type_angle    35    20    37    31
+bonded_type_angle    35    20    44    31
+bonded_type_angle    36    20    36    31
+bonded_type_angle    36    20    37    31
+bonded_type_angle    36    20    44    31
+bonded_type_angle    37    20    37    31
+bonded_type_angle    37    20    44    31
+bonded_type_angle    44    20    44    31
+bonded_type_angle   155    20    37    31
+# # Ccarbonyl-Namide-Cal
+bonded_type_angle    38    19    35    32
+bonded_type_angle    38    19    36    32
+bonded_type_angle    38    19    37    32
+bonded_type_angle    38    19    44    32
+bonded_type_angle    38    20    35    32
+bonded_type_angle    38    20    36    32
+bonded_type_angle    38    20    37    32
+bonded_type_angle    38    20    44    32
+bonded_type_angle    38    20   155    32
+bonded_type_angle    45    19    35    32
+bonded_type_angle    45    19    36    32
+bonded_type_angle    45    19    37    32
+bonded_type_angle    45    19    44    32
+bonded_type_angle    45    20    35    32
+bonded_type_angle    45    20    36    32
+bonded_type_angle    45    20    37    32
+bonded_type_angle    45    20    44    32
+bonded_type_angle    45    20   155    32
+# # Ccarbonyl-Namide-H
+bonded_type_angle    38    18     6    34
+bonded_type_angle    38    19     7    34
+bonded_type_angle    45    18     6    34
+bonded_type_angle    45    19     7    34
+# # Cal-Namide-H
+bonded_type_angle    35    19     7    33
+bonded_type_angle    36    19     7    33
+bonded_type_angle    37    19     7    33
+bonded_type_angle    44    19     7    33
+# # H-Namide-H
+bonded_type_angle     6    18     6    17
+# # OCH (aldehyde)
+bonded_type_angle    33    45    89    17
+# # NCH ((subst.) formaldehyde)
+bonded_type_angle    18    45    89    30
+bonded_type_angle    19    45    89    30
+bonded_type_angle    20    45    89    30
+# # Cal-Cal-Nammonium
+bonded_type_angle    35    36    22     9
+bonded_type_angle    36    36    22     9
+bonded_type_angle    37    36    22     9
+bonded_type_angle    44    36    22     9
+bonded_type_angle    35    37    22     9
+bonded_type_angle    36    37    22     9
+bonded_type_angle    37    37    22     9
+bonded_type_angle    44    37    22     9
+bonded_type_angle    35    36    23     9
+bonded_type_angle    36    36    23     9
+bonded_type_angle    37    36    23     9
+bonded_type_angle    44    36    23     9
+bonded_type_angle    35    37    23     9
+bonded_type_angle    36    37    23     9
+bonded_type_angle    37    37    23     9
+bonded_type_angle    44    37    23     9
+bonded_type_angle    46    37    22     9
+bonded_type_angle    46    44    22     9
+bonded_type_angle    47    37    22     9
+bonded_type_angle    48    37    22     9
+bonded_type_angle    49    37    22     9
+bonded_type_angle    50    37    22     9
+bonded_type_angle    51    37    22     9
+bonded_type_angle    52    37    22     9
+bonded_type_angle    53    37    22     9
+bonded_type_angle    54    37    23     9
+bonded_type_angle    55    37    22     9
+bonded_type_angle    56    37    22     9
+bonded_type_angle    57    37    22     9
+bonded_type_angle    58    37    22     9
+bonded_type_angle    59    37    22     9
+bonded_type_angle    60    37    22     9
+bonded_type_angle    61    37    22     9
+bonded_type_angle    62    37    22     9
+bonded_type_angle    63    37    22     9
+bonded_type_angle    64    37    22     9
+bonded_type_angle    65    37    22     9
+bonded_type_angle    66    37    22     9
+bonded_type_angle    67    37    22     9
+bonded_type_angle    68    37    22     9
+bonded_type_angle    69    37    22     9
+bonded_type_angle    70    36    22     9
+bonded_type_angle    70    37    22     9
+bonded_type_angle    71    37    23     9
+bonded_type_angle    72    37    23     9
+bonded_type_angle    36   155    23     9
+# # Cal-Cal-Namine
+bonded_type_angle    35    36   161    67
+bonded_type_angle    36    36   161    67
+bonded_type_angle    37    36   161    67
+bonded_type_angle    44    36   161    67
+bonded_type_angle    35    37   161    67
+bonded_type_angle    36    37   161    67
+bonded_type_angle    37    37   161    67
+bonded_type_angle    44    37   161    67
+# # Ccarbonyl-Cal-Nammonium
+bonded_type_angle    38    36    22     9
+bonded_type_angle    38    37    22     9
+bonded_type_angle    38    44    22     9
+bonded_type_angle    38    36    23     9
+bonded_type_angle    38    37    23     9
+bonded_type_angle    38    44    23     9
+# # Ccarboxylate-Cal-Nammonium
+bonded_type_angle    39    36    22     9
+bonded_type_angle    39    37    22     9
+bonded_type_angle    39    44    22     9
+bonded_type_angle    39    36    23     9
+bonded_type_angle    39    37    23     9
+bonded_type_angle    39    44    23     9
+# # H-Cal-Nammonium
+bonded_type_angle    15    35    22    13
+bonded_type_angle    16    36    22    13
+bonded_type_angle    17    37    22    13
+bonded_type_angle    15    35    23    13
+bonded_type_angle    16    36    23    13
+bonded_type_angle    17    37    23    13
+bonded_type_angle    16   155    23    13
+# # H-Cal-Namine
+bonded_type_angle    15    35   161    13
+bonded_type_angle    16    36   161    13
+bonded_type_angle    17    37   161    13
+# # Cal-Nammonium-Cal
+bonded_type_angle    35    23    35    37
+bonded_type_angle    35    23    36    37
+bonded_type_angle    35    23    37    37
+bonded_type_angle    35    23    44    37
+bonded_type_angle    36    23    36    37
+bonded_type_angle    36    23    37    37
+bonded_type_angle    36    23    44    37
+bonded_type_angle    37    23    37    37
+bonded_type_angle    37    23    44    37
+bonded_type_angle    44    23    44    37
+bonded_type_angle    37    23   155    37
+# # Cal-Nammonium-H
+bonded_type_angle    35    22     9    13
+bonded_type_angle    35    23    10    13
+bonded_type_angle    36    22     9    13
+bonded_type_angle    36    23    10    13
+bonded_type_angle    37    22     9    13
+bonded_type_angle    37    23    10    13
+bonded_type_angle    44    22     9    13
+bonded_type_angle    44    23    10    13
+bonded_type_angle   155    23    10    13
+# # Cal-Namine-H
+bonded_type_angle    35   161     9    13
+bonded_type_angle    36   161     9    13
+bonded_type_angle    37   161     9    13
+bonded_type_angle    44   161     9    13
+# # H-Nammonium-H
+bonded_type_angle     8    21     8    13
+bonded_type_angle     9    22     9    13
+bonded_type_angle    10    23    10    13
+# # H-Namine-H
+bonded_type_angle     9   161     9    68
+# # Cal-Cal-Ngdn
+bonded_type_angle    35    36    26     9
+bonded_type_angle    36    36    26     9
+bonded_type_angle    37    36    26     9
+bonded_type_angle    44    36    26     9
+bonded_type_angle    35    37    26     9
+bonded_type_angle    36    37    26     9
+bonded_type_angle    37    37    26     9
+bonded_type_angle    44    37    26     9
+# # H-Cal-Ngdn
+bonded_type_angle    15    35    26    13
+bonded_type_angle    16    36    26    13
+bonded_type_angle    17    37    26    13
+# # Cal-Ngdn-Hgdn
+bonded_type_angle    35    26     1    38
+bonded_type_angle    36    26     1    38
+bonded_type_angle    37    26     1    38
+bonded_type_angle    44    26     1    38
+# # Cal-Ngdn-Cgdn
+bonded_type_angle    35    26    43    39
+bonded_type_angle    36    26    43    39
+bonded_type_angle    37    26    43    39
+bonded_type_angle    44    26    43    39
+# # Hgdn-Ngdn-Hgdn
+bonded_type_angle     1    26     1    17
+# # Cgdn-Ngdn-Hgdn
+bonded_type_angle    43    26     1    17
+# # Ngdn-Cgdn-Ngdn
+bonded_type_angle    26    43    26    15
+# # Cal-Cal-Oalc
+bonded_type_angle    35    36    29     4
+bonded_type_angle    36    36    29     4
+bonded_type_angle    37    36    29     4
+bonded_type_angle    44    36    29     4
+bonded_type_angle    35    37    29     4
+bonded_type_angle    36    37    29     4
+bonded_type_angle    37    37    29     4
+bonded_type_angle    44    37    29     4
+bonded_type_angle    37    50    29     4
+bonded_type_angle    35    51    29     4
+bonded_type_angle    37    51    29     4
+# # H-Cal-Oalc
+bonded_type_angle    15    35    29    13
+bonded_type_angle    16    36    29    13
+bonded_type_angle    17    37    29    13
+bonded_type_angle    16    50    29    13
+bonded_type_angle    17    51    29    13
+# # Cal-Oalc-Halc
+bonded_type_angle    35    29     3    21
+bonded_type_angle    36    29     4    21
+bonded_type_angle    37    29     5    21
+bonded_type_angle    50    29     4    21
+bonded_type_angle    51    29     5    21
+# # Car-Car-Ophenol
+bonded_type_angle    40    42    31    15
+bonded_type_angle    41    42    31    15
+# # Car-Ophenol-Hphenol
+bonded_type_angle    42    31    12    22
+# # C-OCaxboxylic Acid-HCarboxylic Acid
+bonded_type_angle    38    29     4    22
+# # Cal-Cal-Sthiol
+bonded_type_angle    35    36    79     5
+bonded_type_angle    36    36    79     5
+bonded_type_angle    37    36    79     5
+bonded_type_angle    44    36    79     5
+bonded_type_angle    35    37    79     5
+bonded_type_angle    36    37    79     5
+bonded_type_angle    37    37    79     5
+bonded_type_angle    44    37    79     5
+bonded_type_angle    37    52    79     5
+# # H-Cal-Sthiol
+bonded_type_angle    15    35    79    13
+bonded_type_angle    16    36    79    13
+bonded_type_angle    17    37    79    13
+bonded_type_angle    16    52    79    13
+# # Cal-Sthiol-Hthiol
+bonded_type_angle    35    79    11    23
+bonded_type_angle    36    79    11    23
+bonded_type_angle    37    79    11    23
+bonded_type_angle    52    79    11    23
+# # Cal-Cal-S(di)sulfide
+bonded_type_angle    35    36    80     6
+bonded_type_angle    36    36    80     6
+bonded_type_angle    37    36    80     6
+bonded_type_angle    44    36    80     6
+bonded_type_angle    35    37    80     6
+bonded_type_angle    36    37    80     6
+bonded_type_angle    37    37    80     6
+bonded_type_angle    44    37    80     6
+bonded_type_angle    63    36    80     6
+bonded_type_angle    35    36    81     6
+bonded_type_angle    36    36    81     6
+bonded_type_angle    37    36    81     6
+bonded_type_angle    44    36    81     6
+bonded_type_angle    35    37    81     6
+bonded_type_angle    36    37    81     6
+bonded_type_angle    37    37    81     6
+bonded_type_angle    44    37    81     6
+bonded_type_angle    37    53    81     6
+# # H-Cal-S(di)sulfide
+bonded_type_angle    15    35    80    13
+bonded_type_angle    16    36    80    13
+bonded_type_angle    17    37    80    13
+bonded_type_angle    15    35    81    13
+bonded_type_angle    16    36    81    13
+bonded_type_angle    17    37    81    13
+bonded_type_angle    16    53    81    13
+# # Cal-S-Cal
+bonded_type_angle    35    80    35    24
+bonded_type_angle    35    80    36    24
+bonded_type_angle    35    80    37    24
+bonded_type_angle    35    80    44    24
+bonded_type_angle    36    80    36    24
+bonded_type_angle    36    80    37    24
+bonded_type_angle    36    80    44    24
+bonded_type_angle    37    80    37    24
+bonded_type_angle    37    80    44    24
+bonded_type_angle    44    80    44    24
+# # Cal-S-S
+bonded_type_angle    35    81    81    25
+bonded_type_angle    36    81    81    25
+bonded_type_angle    37    81    81    25
+bonded_type_angle    44    81    81    25
+bonded_type_angle    53    81    81    25
+# # H-Car-Nar (indole)
+bonded_type_angle     2    40    24    19
+bonded_type_angle    40    24    13    17
+# # TRP and MIN special cases (note that for these heteroaromatic systems
+# # some of the angle sets are incompatible with planarity. in conjunction
+# # with planar restraints through dihedrals this generates a spurious baseline
+# # tension)
+bonded_type_angle    37    57    73    10
+bonded_type_angle    16    57    73    13
+bonded_type_angle    15    35    73    13
+bonded_type_angle    40    40    90    16
+bonded_type_angle    40    40    91    18
+bonded_type_angle     2    40    90    17
+bonded_type_angle     2    40    91    17
+bonded_type_angle     2    40    73    17
+bonded_type_angle    73    40    24    20
+bonded_type_angle    57    73    40    40
+bonded_type_angle    35    73    40    40
+bonded_type_angle    57    73    90    41
+bonded_type_angle    35    73    90    41
+bonded_type_angle    40    73    90    42
+bonded_type_angle    40    90    73    43
+bonded_type_angle    40    90    91    44
+bonded_type_angle    73    90    91    45
+bonded_type_angle    40    91    90    46
+bonded_type_angle    40    91    24    47
+bonded_type_angle    24    91    90    48
+bonded_type_angle    40    24    91    49
+bonded_type_angle    91    24    13    50
+# # HID/E/P and IMD/E special cases
+bonded_type_angle    37    58    74    11
+bonded_type_angle    16    58    74    13
+bonded_type_angle    15    35    74    13
+bonded_type_angle    37    58   154    11
+bonded_type_angle    16    58   154    13
+bonded_type_angle    74    24    13    51
+bonded_type_angle    75    24    13    51
+bonded_type_angle    77    24    13    51
+bonded_type_angle    78    24    13    51
+bonded_type_angle    92    24    13    51
+bonded_type_angle   154    24    13    51
+bonded_type_angle    75    24    74    52
+bonded_type_angle    75    24    78    52
+bonded_type_angle    77    24   154    52
+bonded_type_angle    77    24    92    52
+bonded_type_angle     2    75    24    17
+bonded_type_angle     2    75    25    17
+bonded_type_angle     2    77    24    17
+bonded_type_angle    24    75    25    15
+bonded_type_angle    24    77    24    15
+bonded_type_angle    58    74    76    54
+bonded_type_angle    58    74    78    54
+bonded_type_angle    35    74    76    54
+bonded_type_angle    35    74    78    54
+bonded_type_angle    58   154    92    54
+bonded_type_angle    58    74    25    55
+bonded_type_angle    35    74    25    55
+bonded_type_angle     2    76    74    56
+bonded_type_angle     2    76    25    17
+bonded_type_angle    25    76    74    57
+bonded_type_angle    25    74    78    57
+bonded_type_angle    24    74    76    60
+bonded_type_angle    58    74    24    58
+bonded_type_angle    35    74    24    58
+bonded_type_angle    58   154    24    58
+bonded_type_angle     2    78    24    19
+bonded_type_angle     2    78    74    59
+bonded_type_angle     2    92    24    17
+bonded_type_angle     2    92   154    59
+bonded_type_angle    24    78    74    60
+bonded_type_angle    24    92   154    60
+bonded_type_angle    24   154    92    60
+bonded_type_angle    75    25    74    61
+bonded_type_angle    75    25    76    61
+# # water special cases
+bonded_type_angle    83    82    83    29
+bonded_type_angle    85    84    85    62
+# # urea special cases
+bonded_type_angle    18   153    18    63
+bonded_type_angle    18   153    27    64
+bonded_type_angle   153    18     6    17
+
+
+####################################################
+#                                                  #
+#  The following is a list of improper dihedral    #
+#  potentials in OPLSAA/L, i.e., potentials        #
+#  maintaining planarity for a trigonal center.    #
+#                                                  #
+####################################################
+
+# # planarity at aromatic centers
+bonded_type_imptors   40    40     2    40   101
+bonded_type_imptors   40    40    41     2   101
+bonded_type_imptors   40    42    40     2   101
+bonded_type_imptors   40    41    41     2   101
+bonded_type_imptors   40    42    41     2   101
+bonded_type_imptors   40    42    42     2   101
+bonded_type_imptors   41    40    40    35   101
+bonded_type_imptors   41    41    40    35   101
+bonded_type_imptors   41    42    40    35   101
+bonded_type_imptors   41    41    41    35   101
+bonded_type_imptors   41    42    41    35   101
+bonded_type_imptors   41    42    42    35   101
+bonded_type_imptors   41    40    40    36   101
+bonded_type_imptors   41    41    40    36   101
+bonded_type_imptors   41    42    40    36   101
+bonded_type_imptors   41    41    41    36   101
+bonded_type_imptors   41    42    41    36   101
+bonded_type_imptors   41    42    42    36   101
+bonded_type_imptors   41    40    40    37   101
+bonded_type_imptors   41    41    40    37   101
+bonded_type_imptors   41    42    40    37   101
+bonded_type_imptors   41    41    41    37   101
+bonded_type_imptors   41    42    41    37   101
+bonded_type_imptors   41    42    42    37   101
+bonded_type_imptors   41    40    40    55   101
+bonded_type_imptors   41    40    40    56   101
+bonded_type_imptors   42    40    40    31   101
+bonded_type_imptors   42    41    40    31   101
+bonded_type_imptors   42    42    40    31   101
+bonded_type_imptors   42    41    41    31   101
+bonded_type_imptors   42    42    41    31   101
+bonded_type_imptors   42    42    42    31   101
+# # planarity at amide centers
+bonded_type_imptors   38    18    35    27   103
+bonded_type_imptors   38    18    36    27   103
+bonded_type_imptors   38    18    37    27   103
+bonded_type_imptors   38    18    44    27   103
+bonded_type_imptors   38    18    60    27   103
+bonded_type_imptors   38    19    35    27   103
+bonded_type_imptors   38    19    36    27   103
+bonded_type_imptors   38    19    37    27   103
+bonded_type_imptors   38    19    44    27   103
+bonded_type_imptors   38    20    35    27   103
+bonded_type_imptors   38    20    36    27   103
+bonded_type_imptors   38    20    37    27   103
+bonded_type_imptors   38    20    44    27   103
+bonded_type_imptors   45    33    18    89   103
+bonded_type_imptors   45    33    19    89   103
+bonded_type_imptors   45    33    20    89   103
+bonded_type_imptors   18     6    38     6   102
+bonded_type_imptors   18     6    45     6   102
+bonded_type_imptors   19    35    38     7   102
+bonded_type_imptors   19    36    38     7   102
+bonded_type_imptors   19    37    38     7   102
+bonded_type_imptors   19    44    38     7   102
+bonded_type_imptors   19    35    45     7   102
+bonded_type_imptors   19    36    45     7   102
+bonded_type_imptors   19    37    45     7   102
+bonded_type_imptors   19    44    45     7   102
+#bonded_type_imptors   20    38    35    35   102
+#bonded_type_imptors   20    38    35    36   102
+#bonded_type_imptors   20    38    35    37   102
+#bonded_type_imptors   20    38    36    36   102
+#bonded_type_imptors   20    38    36    37   102
+#bonded_type_imptors   20    38    37    37   102
+bonded_type_imptors   20    35    38    35   102
+bonded_type_imptors   20    35    38    36   102
+bonded_type_imptors   20    35    38    37   102
+bonded_type_imptors   20    36    38    35   102
+bonded_type_imptors   20    36    38    36   102
+bonded_type_imptors   20    36    38    37   102
+bonded_type_imptors   20    37    38    35   102
+bonded_type_imptors   20    37    38    36   102
+bonded_type_imptors   20    37    38    37   102
+bonded_type_imptors   20    37    38   155   102
+# # planarity at guanidinium centers
+bonded_type_imptors   26     1    43     1   102
+bonded_type_imptors   26    35    43     1   102
+bonded_type_imptors   26    36    43     1   102
+bonded_type_imptors   26    37    43     1   102
+bonded_type_imptors   26    44    43     1   102
+bonded_type_imptors   43    26    26    26   103
+# # planarity at carboxylates
+bonded_type_imptors   39    28    35    28   103
+bonded_type_imptors   39    28    36    28   103
+bonded_type_imptors   39    28    37    28   103
+bonded_type_imptors   39    28    44    28   103
+bonded_type_imptors   39    28    59    28   103
+# # planarity at carboxylic acids
+bonded_type_imptors   38    27    35    29   103
+bonded_type_imptors   38    27    36    29   103
+bonded_type_imptors   38    27    37    29   103
+bonded_type_imptors   38    27    44    29   103
+bonded_type_imptors   38    27    59    29   103
+# # specific planarity for TRP and MIN
+#bonded_type_imptors   73    57    40    90   101
+bonded_type_imptors   73    90    40    57   101
+#bonded_type_imptors   73    90    40    57   101
+#bonded_type_imptors   73    35    40    90   101
+#bonded_type_imptors   73    40    35    90   101
+bonded_type_imptors   73    90    40    35   101
+#bonded_type_imptors   90    91    40    73   101
+#bonded_type_imptors   90    40    73    91   101
+#bonded_type_imptors   90    73    40    91   101
+#bonded_type_imptors   91    24    40    90   101
+bonded_type_imptors   24    40    91    13   102
+bonded_type_imptors   40    24    73     2   101
+bonded_type_imptors   40    90    40     2   101
+bonded_type_imptors   40    91    40     2   101
+# # specific planarity for HIX and IMX
+bonded_type_imptors   74    76    24    58   101
+bonded_type_imptors   74    76    24    35   101
+bonded_type_imptors  154    92    24    58   101
+bonded_type_imptors   74    78    25    58   101
+bonded_type_imptors   74    78    25    35   101
+bonded_type_imptors   76    25    74     2   101
+bonded_type_imptors   78    24    74     2   101
+bonded_type_imptors   92    24   154     2   101
+bonded_type_imptors   75    24    25     2   101
+bonded_type_imptors   77    24    24     2   101
+bonded_type_imptors   24    77   154    13   102
+bonded_type_imptors   24    92    77    13   102
+bonded_type_imptors   24    75    74    13   102
+bonded_type_imptors   24    78    75    13   102
+# # specific planarity for URE
+bonded_type_imptors  153    18    18    27   103
+bonded_type_imptors   18     6   153     6   102
+
+
+####################################################
+#                                                  #
+#  The following is a list of the "essential"      #
+#  torsional potentials in OPLSAA/L, i.e., those   #
+#  prescribing quasi-rigid rotational barriers.    #
+#                                                  #
+####################################################
+
+# # planarity in aromatic rings (CCCC)
+bonded_type_torsion   40    40    40    40    76
+bonded_type_torsion   40    40    40    41    76
+bonded_type_torsion   40    40    40    42    76
+bonded_type_torsion   41    40    40    41    76
+bonded_type_torsion   41    40    40    42    76
+bonded_type_torsion   40    40    41    40    76
+bonded_type_torsion   40    40    41    41    76
+bonded_type_torsion   40    40    41    42    76
+bonded_type_torsion   41    40    41    41    76
+bonded_type_torsion   41    40    41    42    76
+bonded_type_torsion   40    40    42    40    76
+bonded_type_torsion   40    40    42    41    76
+bonded_type_torsion   40    40    42    42    76
+bonded_type_torsion   41    40    42    41    76
+bonded_type_torsion   41    40    42    42    76
+bonded_type_torsion   40    41    41    40    76
+bonded_type_torsion   40    41    41    41    76
+bonded_type_torsion   40    41    41    42    76
+bonded_type_torsion   41    41    41    41    76
+bonded_type_torsion   41    41    41    42    76
+# # planarity in aromatic rings (CCCH)
+bonded_type_torsion    2    40    40    40    76
+bonded_type_torsion    2    40    40    41    76
+bonded_type_torsion    2    40    40    42    76
+bonded_type_torsion    2    40    41    40    76
+bonded_type_torsion    2    40    41    41    76
+bonded_type_torsion    2    40    41    42    76
+bonded_type_torsion    2    40    42    40    76
+bonded_type_torsion    2    40    42    41    76
+bonded_type_torsion    2    40    42    42    76
+# # planarity in aromatic rings (HCCH)
+bonded_type_torsion    2    40    40     2    76
+# # planarity in (substituted) amides (XNCX)
+bonded_type_torsion    6    18    38    27    84
+bonded_type_torsion    6    18    45    33    84
+bonded_type_torsion    6    18    45    89    84
+bonded_type_torsion    6    18    38    35    84
+bonded_type_torsion    6    18    38    36    84
+bonded_type_torsion    6    18    38    37    84
+bonded_type_torsion    6    18    38    44    84
+bonded_type_torsion    6    18    38    60    84
+bonded_type_torsion    7    19    38    27    84
+bonded_type_torsion    7    19    45    33    84
+bonded_type_torsion    7    19    45    89    84
+bonded_type_torsion    7    19    38    35    84
+bonded_type_torsion    7    19    38    36    84
+bonded_type_torsion    7    19    38    37    84
+bonded_type_torsion    7    19    38    44    84
+bonded_type_torsion   35    19    38    27    85
+bonded_type_torsion   35    19    45    33    85
+bonded_type_torsion   35    19    45    89    85
+bonded_type_torsion   35    19    38    35    83
+bonded_type_torsion   35    19    38    36    83
+bonded_type_torsion   35    19    38    37    83
+bonded_type_torsion   35    19    38    44    83
+bonded_type_torsion   36    19    38    27    85
+bonded_type_torsion   36    19    45    33    85
+bonded_type_torsion   36    19    45    89    85
+bonded_type_torsion   36    19    38    35    83
+bonded_type_torsion   36    19    38    36    83
+bonded_type_torsion   36    19    38    37    83
+bonded_type_torsion   36    19    38    44    83
+bonded_type_torsion   37    19    38    27    85
+bonded_type_torsion   37    19    45    33    85
+bonded_type_torsion   37    19    45    89    85
+bonded_type_torsion   37    19    38    35    83
+bonded_type_torsion   37    19    38    36    83
+bonded_type_torsion   37    19    38    37    83
+bonded_type_torsion   37    19    38    44    83
+bonded_type_torsion   44    19    38    27    85
+bonded_type_torsion   44    19    45    33    85
+bonded_type_torsion   44    19    45    89    85
+bonded_type_torsion   44    19    38    35    83
+bonded_type_torsion   44    19    38    36    83
+bonded_type_torsion   44    19    38    37    83
+bonded_type_torsion   44    19    38    44    83
+bonded_type_torsion   35    20    38    27    85
+bonded_type_torsion   35    20    45    33    85
+bonded_type_torsion   35    20    45    89    85
+bonded_type_torsion   35    20    38    35    83
+bonded_type_torsion   35    20    38    36    83
+bonded_type_torsion   35    20    38    37    83
+bonded_type_torsion   35    20    38    44    83
+bonded_type_torsion   36    20    38    27    85
+bonded_type_torsion   36    20    45    33    85
+bonded_type_torsion   36    20    45    89    85
+bonded_type_torsion   36    20    38    35    83
+bonded_type_torsion   36    20    38    36    83
+bonded_type_torsion   36    20    38    37    83
+bonded_type_torsion   36    20    38    44    83
+bonded_type_torsion   37    20    38    27    85
+bonded_type_torsion   37    20    45    33    85
+bonded_type_torsion   37    20    45    89    85
+bonded_type_torsion   37    20    38    35   105  # Radhakrishnan et al. fix
+bonded_type_torsion   37    20    38    36   105  # Radhakrishnan et al. fix
+bonded_type_torsion   37    20    38    37   105  # Radhakrishnan et al. fix
+bonded_type_torsion   37    20    38    44    83
+bonded_type_torsion   44    20    38    27    85
+bonded_type_torsion   44    20    45    33    85
+bonded_type_torsion   44    20    45    89    85
+bonded_type_torsion   44    20    38    35    83
+bonded_type_torsion   44    20    38    36    83
+bonded_type_torsion   44    20    38    37    83
+bonded_type_torsion   44    20    38    44    83
+bonded_type_torsion  155    20    38    27    85
+bonded_type_torsion  155    20    38    35    83
+bonded_type_torsion  155    20    38    36    83
+bonded_type_torsion  155    20    38    37    83
+bonded_type_torsion  155    20    38    44    83
+bonded_type_torsion  155    20    45    33    85
+bonded_type_torsion  155    20    45    89    85
+# # planarity in (substituted) guanidinium ions
+bonded_type_torsion    1    26    43    26    90
+bonded_type_torsion   35    26    43    26    89
+bonded_type_torsion   36    26    43    26    89
+bonded_type_torsion   37    26    43    26    89
+bonded_type_torsion   44    26    43    26    89
+# # planarity in phenols
+bonded_type_torsion   31    42    40    40    76
+bonded_type_torsion   31    42    40    41    76
+bonded_type_torsion   31    42    41    41    76
+bonded_type_torsion   31    42    40     2    76
+bonded_type_torsion   40    42    31    12    77
+bonded_type_torsion   41    42    31    12    77
+# # planarity in toluene (and derivates)
+bonded_type_torsion   40    40    41    35    76
+bonded_type_torsion   40    40    41    36    76
+bonded_type_torsion   40    40    41    37    76
+bonded_type_torsion   40    40    41    44    76
+bonded_type_torsion   40    41    41    35    76
+bonded_type_torsion   40    41    41    36    76
+bonded_type_torsion   40    41    41    37    76
+bonded_type_torsion   40    41    41    44    76
+bonded_type_torsion   41    40    41    35    76
+bonded_type_torsion   41    40    41    36    76
+bonded_type_torsion   41    40    41    37    76
+bonded_type_torsion   41    40    41    44    76
+bonded_type_torsion   41    41    41    35    76
+bonded_type_torsion   41    41    41    36    76
+bonded_type_torsion   41    41    41    37    76
+bonded_type_torsion   41    41    41    44    76
+bonded_type_torsion   40    40    41    55    76
+bonded_type_torsion   40    40    41    56    76
+bonded_type_torsion    2    40    41    35    76
+bonded_type_torsion    2    40    41    36    76
+bonded_type_torsion    2    40    41    37    76
+bonded_type_torsion    2    40    41    44    76
+bonded_type_torsion    2    40    41    55    76
+bonded_type_torsion    2    40    41    56    76
+# # planarity in TRP and MIN
+bonded_type_torsion   24    40    73    57    78
+bonded_type_torsion   24    40    73    35    78
+bonded_type_torsion   24    40    73    90    78
+bonded_type_torsion    2    40    73    57    78
+bonded_type_torsion    2    40    73    35    78
+bonded_type_torsion    2    40    73    90    78
+bonded_type_torsion   13    24    40     2    80
+bonded_type_torsion   13    24    40    73    80
+bonded_type_torsion   91    24    40     2    80
+bonded_type_torsion   91    24    40    73    80
+bonded_type_torsion   13    24    91    90    93
+bonded_type_torsion   13    24    91    40    93
+bonded_type_torsion   40    24    91    90    93
+bonded_type_torsion   40    24    91    40    93
+bonded_type_torsion   40    90    91    24    92
+bonded_type_torsion   40    90    91    40    92
+bonded_type_torsion   73    90    91    24    92
+bonded_type_torsion   73    90    91    40    92
+bonded_type_torsion    2    40    90    73    79
+bonded_type_torsion    2    40    90    91    79
+bonded_type_torsion   40    40    90    73    79
+bonded_type_torsion   40    40    90    91    79
+bonded_type_torsion    2    40    91    24    76
+bonded_type_torsion    2    40    91    90    76
+bonded_type_torsion   40    40    91    24    76
+bonded_type_torsion   40    40    91    90    76
+bonded_type_torsion   40    73    90    40    91
+bonded_type_torsion   40    73    90    91    91
+bonded_type_torsion   57    73    90    40    91
+bonded_type_torsion   35    73    90    40    91
+bonded_type_torsion   57    73    90    91    91
+bonded_type_torsion   35    73    90    91    91
+bonded_type_torsion    2    40    40    90    76
+bonded_type_torsion    2    40    40    91    76
+bonded_type_torsion   40    40    40    90    76
+bonded_type_torsion   40    40    40    91    76
+# # planarity in HIX and IMX
+bonded_type_torsion   13    24    74    58    96
+bonded_type_torsion   13    24    74    35    96
+bonded_type_torsion   13    24   154    58    95
+bonded_type_torsion   13    24   154    92    95
+bonded_type_torsion   77    24   154    58    95
+bonded_type_torsion   77    24   154    92    95
+bonded_type_torsion   13    24    74    76    96
+bonded_type_torsion   75    24    74    58    95
+bonded_type_torsion   75    24    74    35    95
+bonded_type_torsion   75    24    74    76    95
+bonded_type_torsion   75    25    74    58    99
+bonded_type_torsion   75    25    74    35    99
+bonded_type_torsion   75    25    74    78    99
+bonded_type_torsion   24    74    76     2    98
+bonded_type_torsion   58    74    76     2    98
+bonded_type_torsion   35    74    76     2    98
+bonded_type_torsion   24    74    76    25    98
+bonded_type_torsion   58    74    76    25    98
+bonded_type_torsion   35    74    76    25    98
+bonded_type_torsion   25    74    78     2    98
+bonded_type_torsion   58    74    78     2    98
+bonded_type_torsion   35    74    78     2    98
+bonded_type_torsion   25    74    78    24    98
+bonded_type_torsion   58    74    78    24    98
+bonded_type_torsion   35    74    78    24    98
+bonded_type_torsion   24   154    92     2    98
+bonded_type_torsion   58   154    92     2    98
+bonded_type_torsion   24   154    92    24    98
+bonded_type_torsion   58   154    92    24    98
+bonded_type_torsion   75    25    76     2    99
+bonded_type_torsion   75    25    76    74    99
+bonded_type_torsion   13    24    78     2    80
+bonded_type_torsion   13    24    78    74    96
+bonded_type_torsion   75    24    78     2    96
+bonded_type_torsion   75    24    78    74    95
+bonded_type_torsion   13    24    92     2    96
+bonded_type_torsion   13    24    92   154    95
+bonded_type_torsion   77    24    92     2    96
+bonded_type_torsion   77    24    92   154    95
+bonded_type_torsion   76    25    75     2    97
+bonded_type_torsion   76    25    75    24    97
+bonded_type_torsion   13    24    75     2    94
+bonded_type_torsion   13    24    75    25    94
+bonded_type_torsion   78    24    75     2    94
+bonded_type_torsion   78    24    75    25    94
+bonded_type_torsion   13    24    77     2    94
+bonded_type_torsion   13    24    77    24    94
+bonded_type_torsion   92    24    77     2    94
+bonded_type_torsion   92    24    77    24    94
+bonded_type_torsion   74    24    75     2    94
+bonded_type_torsion   74    24    75    25    94
+bonded_type_torsion   74    25    75     2    97
+bonded_type_torsion   74    25    75    24    97
+bonded_type_torsion  154    24    77     2    94
+bonded_type_torsion  154    24    77    24    94
+# # residue-specific mandatory torsions
+# # PRO (note that it is not safe to use Cartesian dynamics without
+# #      torsional restraints for flexible rings)
+# # CD-CG
+bonded_type_torsion   54    36   155    16     2
+bonded_type_torsion   54    36   155    20     5
+bonded_type_torsion   16    36   155    16     9
+bonded_type_torsion   16    36   155    20    14
+# # CG-CB
+bonded_type_torsion  155    36    54    16     2
+bonded_type_torsion   16    36    54    16     9
+bonded_type_torsion   37    54    36   155     1
+bonded_type_torsion   37    54    36    16     2
+# # CB-CA
+bonded_type_torsion   36    54    37    38   104  # Radhakrishnan et al. fix
+bonded_type_torsion   16    54    37    38    13
+bonded_type_torsion   36    54    37    20     5
+bonded_type_torsion   16    54    37    20    14
+bonded_type_torsion   36    54    37    39     6
+bonded_type_torsion   16    54    37    39    15
+bonded_type_torsion   16    54    37    23    16
+bonded_type_torsion   36    54    37    17     2
+bonded_type_torsion   17    37    54    16     9
+# # N-CA
+bonded_type_torsion   38    20    37    38    38
+bonded_type_torsion   45    20    37    38    38
+bonded_type_torsion   38    20    37    39    40
+bonded_type_torsion   45    20    37    39    40
+bonded_type_torsion  155    20    37    54    37
+bonded_type_torsion  155    20    37    38    39
+bonded_type_torsion  155    20    37    39    39
+bonded_type_torsion   54    37    20    38    36
+bonded_type_torsion   54    37    20    45    36
+bonded_type_torsion   54    37    23    10    42
+bonded_type_torsion   17    37    23    10    43
+bonded_type_torsion   17    37    23   155     2
+bonded_type_torsion   38    37    23   155     4
+bonded_type_torsion   38    37    23    10    42
+bonded_type_torsion   39    37    23    10    42
+bonded_type_torsion   39    37    23   155     4
+# # N-CD
+bonded_type_torsion   36   155    23    37     1
+bonded_type_torsion   16   155    23    37     2
+bonded_type_torsion   37    20   155    36    87
+bonded_type_torsion   38    20   155    36    88
+# # planarity in urea
+bonded_type_torsion    6    18   153    18    84
+bonded_type_torsion    6    18   153    27    84
+# carboxylic acid C-OH bond (sidechain version)
+bonded_type_torsion   27    38    29     4   116 
+bonded_type_torsion   35    38    29     4   117
+bonded_type_torsion   36    38    29     4   117
+bonded_type_torsion   37    38    29     4   117
+bonded_type_torsion   44    38    29     4   117
+bonded_type_torsion   59    38    29     4   117
