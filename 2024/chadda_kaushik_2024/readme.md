@@ -4,8 +4,12 @@
 ## Overview
 This GitHub directory contains information for the manuscript:
 
-Chadda, R., Kaushik, V., Ahmad, I. M., Deveryshetty, J., Holehouse, A., Sigurdsson, S. T. D., Bothner, B., Dastvan, R., Origanti, S. & Antony, E. **Wrapping of single-stranded DNA by Replication Protein A and modulation through phosphorylation**  <br>
+Rahul Chadda\*, Vikas Kaushik\*, Iram Munir Ahmad, Jaigeeth Deveryshetty, Alex S. Holehouse, Snorri Th.d Sigurdsson, Gargi Biswas, Yaakov Levy, Brian Bothner, Richard B. Cooley, Ryan A. Mehl, Reza Dastvan, Sofia Origanti, and Edwin Antony† <br>**Partial wrapping of single-stranded DNA by Replication Protein A and modulation through phosphorylation**  <br>
 ***Nucleic Acids Research*** (2024) (in press)
+
+† - corresponding author
+* - co-first author
+
 
 ## Content
 A single notebook (`polymer_analysis.ipynb`) describes the polymer fitting analysis done in this paper.
