@@ -5,12 +5,11 @@ from protfasta import read_fasta
 import joblib
 from jax_unirep import get_reps
 from jax_unirep.utils import load_params, get_weights_dir
+import argparse
 
 # Constants
 SIZE = 1900
 PARAMS_PATH = get_weights_dir(paper_weights=SIZE)
-MODEL_PATH = 'final_svm_model_1900.pkl'
-FASTA_PATH = 'new_sequences.fasta'
 PARAMS = load_params(PARAMS_PATH, SIZE)[1]
 
 def load_fasta(filepath):
@@ -23,7 +22,7 @@ def load_fasta(filepath):
     Returns:
         list: List of sequences.
     """
-    seqs = read_fasta(filepath,invalid_sequence_action="ignore")
+    seqs = read_fasta(filepath, invalid_sequence_action="ignore")
     headers, sequences = [], []
     for header, sequence in seqs.items():
         headers.append(header)
@@ -70,18 +69,41 @@ def predict(model, embeddings):
     """
     return model.predict(embeddings)
 
+def save_predictions(headers, sequences, predictions, output_path):
+    """
+    Save the predictions to a CSV file.
+
+    Args:
+        headers (list): List of sequence headers.
+        sequences (list): List of sequences.
+        predictions (np.ndarray): Predictions from the model.
+        output_path (str): Path to save the CSV file.
+    """
+    results = pd.DataFrame({
+        'Header': headers,
+        'Sequence': sequences,
+        'Prediction': predictions
+    })
+    results.to_csv(output_path, index=False)
+
 def main():
     """
     Main function to load sequences, generate embeddings, load the model,
     and make predictions.
     """
-    headers,sequences = load_fasta(FASTA_PATH)
+    parser = argparse.ArgumentParser(description="Make predictions on new sequences using a trained SVM model.")
+    parser.add_argument('--fasta_path', type=str, default='new_sequences.fasta', help="Path to the FASTA file containing new sequences.")
+    parser.add_argument('--model_path', type=str, default='final_svm_model_1900.pkl', help="Path to the trained SVM model file.")
+    parser.add_argument('--output_path', type=str, default='predictions.csv', help="Path to save the predictions CSV file.")
+
+    args = parser.parse_args()
+
+    headers, sequences = load_fasta(args.fasta_path)
     embeddings = generate_embeddings(sequences, PARAMS, SIZE)
-    model = load_model(MODEL_PATH)
+    model = load_model(args.model_path)
     predictions = predict(model, embeddings)
 
-    for sequence, prediction in zip(sequences, predictions):
-        print(f'Sequence: {sequence[:50]}... Prediction: {prediction}')
+    save_predictions(headers, sequences, predictions, args.output_path)
 
 if __name__ == "__main__":
     main()
