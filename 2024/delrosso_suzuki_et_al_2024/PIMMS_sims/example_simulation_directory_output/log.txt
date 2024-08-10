@@ -1,0 +1,36 @@
+PIMMS Simulation
+Simulation Start:  2024-04-28 23:26:38 
+> STATUS:                          NUMBER OF STEPS     : 1000000 
+> STATUS:                          EQUIL. STEPS        : 20000 
+> STATUS:                          SAVE EQ            : True 
+> STATUS:                          XTC_OUT_FREQ       : 2000 
+> STATUS:                          EXPECTED # FRAMES  : 501 
+> STATUS:                          START TEMPERATURE     : 25.00 
+> STATUS:                          FINAL TEMPERATURE     : 25.00 
+> STATUS:                          Freeze file             : freezefile.pimms 
+> STATUS:                          Number of frozen chains : 200 
+> STATUS:                          Frozen chainIDs         : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200] 
+> STATUS: [ 2024-04-28 23:26:39 ]: Random Seed: 8018671056687111361 
+> STATUS: [ 2024-04-28 23:26:39 ]: C random Seed: 1058714225 
+> STATUS: [ 2024-04-28 23:26:39 ]: C RAND_MAX (system): 2147483647 
+> STATUS: [ 2024-04-28 23:26:42 ]: Estimated remaining time: 37:30:45 (hh:mm:ss) | 100% left 
+> STATUS: [ 2024-04-29 00:09:31 ]: Estimated remaining time: 13:34:32 (hh:mm:ss) | 95% left 
+> STATUS: [ 2024-04-29 00:52:40 ]: Estimated remaining time: 12:54:06 (hh:mm:ss) | 90% left 
+> STATUS: [ 2024-04-29 01:36:07 ]: Estimated remaining time: 12:13:36 (hh:mm:ss) | 85% left 
+> STATUS: [ 2024-04-29 02:19:28 ]: Estimated remaining time: 11:31:15 (hh:mm:ss) | 80% left 
+> STATUS: [ 2024-04-29 03:02:34 ]: Estimated remaining time: 10:47:45 (hh:mm:ss) | 75% left 
+> STATUS: [ 2024-04-29 03:45:36 ]: Estimated remaining time: 10:04:13 (hh:mm:ss) | 70% left 
+> STATUS: [ 2024-04-29 04:29:59 ]: Estimated remaining time: 09:23:21 (hh:mm:ss) | 65% left 
+> STATUS: [ 2024-04-29 05:13:29 ]: Estimated remaining time: 08:40:16 (hh:mm:ss) | 60% left 
+> STATUS: [ 2024-04-29 05:56:36 ]: Estimated remaining time: 07:56:37 (hh:mm:ss) | 55% left 
+> STATUS: [ 2024-04-29 06:40:42 ]: Estimated remaining time: 07:14:03 (hh:mm:ss) | 50% left 
+> STATUS: [ 2024-04-29 07:23:58 ]: Estimated remaining time: 06:30:32 (hh:mm:ss) | 45% left 
+> STATUS: [ 2024-04-29 08:08:17 ]: Estimated remaining time: 05:47:46 (hh:mm:ss) | 40% left 
+> STATUS: [ 2024-04-29 08:52:13 ]: Estimated remaining time: 05:04:33 (hh:mm:ss) | 35% left 
+> STATUS: [ 2024-04-29 09:35:04 ]: Estimated remaining time: 04:20:46 (hh:mm:ss) | 30% left 
+> STATUS: [ 2024-04-29 10:18:05 ]: Estimated remaining time: 03:37:09 (hh:mm:ss) | 25% left 
+> STATUS: [ 2024-04-29 11:02:00 ]: Estimated remaining time: 02:53:51 (hh:mm:ss) | 20% left 
+> STATUS: [ 2024-04-29 11:44:49 ]: Estimated remaining time: 02:10:16 (hh:mm:ss) | 15% left 
+> STATUS: [ 2024-04-29 12:27:53 ]: Estimated remaining time: 01:26:49 (hh:mm:ss) | 10% left 
+> STATUS: [ 2024-04-29 13:11:05 ]: Estimated remaining time: 00:43:24 (hh:mm:ss) |  5% left 
+> STATUS: [ 2024-04-29 13:54:12 ]: Estimated remaining time: 00:00:00 (hh:mm:ss) |  0% left 

@@ -1,0 +1,97 @@
+## ..........................................................................................
+# Input definition stuff 
+
+DIMENSIONS : 300 300 300        	  # Cube dimensions
+PARAMETER_FILE : full_params.prm       # parameter file
+
+## ...........................................................................................
+## chain definitions
+#
+# Have the format 
+#
+# CHAIN : <NUMBER OF CHAINS> <CHAIN SEQUENCE>
+#
+# All beads defined in the chain sequence must be defined in the PARAMETER_FILE
+
+CHAIN  : 100 Q
+CHAIN  : 100 IYYW
+CHAIN  : <~Ab_chains~> LYYW
+CHAIN  : 100 <~TAD_seq~>
+CHAIN  : <~Ab_chains~> <~TAD_seq~>
+
+#...........................................................................................
+## Simulation definition
+
+N_STEPS       :  1000000            # Number of simulation steps
+EQUILIBRATION :  20000              # Number of steps for equilibration
+
+
+RESTART_FREQ : 1000000            # Frequency that restart files are written (keep these big for now)
+NON_INTERACTING : FALSE           # If set to true then regardless of the parameters passed an EV simulation is run
+
+
+#...........................................................................................
+## Output information
+
+PRINT_FREQ    :	 2000              # Frequency at which info is printed to stdout
+XTC_FREQ      :  2000              # Frequency at which traj.xtc file is written to
+EN_FREQ       :  2000               # Frequency at which energy file is written to
+ENERGY_CHECK  :  20000            # Frequency at which global energy is recalculated (can be big)
+ANA_POL       :  2000              # Frequency at which 
+ANALYSIS_FREQ :  2000              # Frequency of general analysis routines 
+ANA_CLUSTER   :  2000              # Frequency of cluster analysis routines              
+TEMPERATURE   :  25               # Simulation temperature
+HARDWALL 	  :  True 		
+
+#.........................................................................
+## RESTART and freeze info
+
+EXPERIMENTAL_FEATURES  : True
+
+RESTART_FILE  : equil_restart.pimms
+EXTRA_CHAIN   : <~CoA_chains~> <~CoA_seq~>
+
+WRITE_CHAIN_TO_CHAINID  : True
+FREEZE_FILE  : freezefile.pimms
+
+#.............................................
+
+
+#...........................................................................................
+## Quenching allows you to start a simulation at one temperature and then slowly increase/decrease
+## it. The QUENCH_RUN flag determines if a quench run will be performed. If yes, this over-rides the
+## TEMPERATURE keyword as defined earlier
+##
+
+QUENCH_RUN : False                 # Perform a quench run (True=Yes, False=No)
+QUENCH_START : 220                # Temperature simulation starts at
+QUENCH_END : 140                  # Final temperature
+QUENCH_STEPSIZE : 1               # Stepsize (in temperature units) that the temperature is updated as
+QUENCH_FREQ : 50                  # Frequency (in number of steps) that the temperature is updated
+QUENCH_AS_EQUILIBRATION : True    # Treat the quench as an equilibration (no analysis performed)
+
+
+#...........................................................................................
+## Moveset keywords. Note moveset keywords (MOVE_*) must add up to 1.0
+## 
+
+CRANKSHAFT_SUBSTEPS: 10000        # number of substeps in the crankshat moves
+CRANKSHAFT_MODE : PROPORTIONAL    # how crankshaft moves per-chain are multiplied
+MOVE_CRANKSHAFT: 0.7             # Fraction of moves = crankshaft               
+MOVE_CHAIN_TRANSLATE : 0.2       # Fraction of moves that are chain translation  
+MOVE_CHAIN_ROTATE : 0.04          # Fraction of moves that are chain rotation
+MOVE_CHAIN_PIVOT : 0.03           # Fraction of moves that are chain pivot
+MOVE_HEAD_PIVOT : 0.01            # Fraction of moves that are head pivot (N/C terminal beads pivot)
+MOVE_CLUSTER_TRANSLATE : 0.01     # Fraction of moves that are cluster translation moves
+MOVE_CLUSTER_ROTATE : 0.01        # Fraction of moves that are cluster rotation moves  
+
+
+#...........................................................................................
+### Do not mess with stuff below here!
+
+# Keep the following move fractions at zero for now
+MOVE_SLITHER : 0.0
+MOVE_CTSMMC : 0.0
+MOVE_MULTICHAIN_TSMMC : 0.0
+MOVE_SYSTEM_TSMMC : 0.0
+MOVE_RATCHET_PIVOT : 0.0
