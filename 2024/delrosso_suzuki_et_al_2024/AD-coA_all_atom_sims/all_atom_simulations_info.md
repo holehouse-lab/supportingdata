@@ -1,8 +1,11 @@
 Minimization folder
 - GROMACS parameter files and code
-- CAMPARI minimization keyfile
-- CAMPARI MD keyfile
+- CAMPARI minimization keyfiles
+- CAMPARI MD keyfiles
 
 Full simulation folder
-- full hamiltonion keyfile
-- EV keyfile
+- full hamiltonion keyfiles
+- EV keyfiles
+
+
+To-do: upload Zenodo with all simulation trajectories
