@@ -1,6 +1,10 @@
+# About
+
+This readme describes the steps needed to conduct 
+
 ## Step 1: Build domains from proteome
 
-* Build domains using methd
+
 
 
 ## Step 2: Analyze with FINCHES
