@@ -1,0 +1,182 @@
+[
+    {
+        "name": "8511",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MATDHIDDPGILAAFPAGTCLLDDKGKTSGATFAPASEEDIEGNPTGAAGDNLAYGEPTAYYSFINQPKEISGRQSSESSQHERVQMAERDYDDFTDQPTGLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "3703",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MSLYKFGQRRAVDPLPRQCQRDKDYDAFIGGEQNCDNELSKSFPIVVMSVFLYDPTYNVDSEAQDNKLDHHGSEPTHGDTPTTSEDTRPGSDRVMRDVPQTLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "9693",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MMNGERSLIPDSMKSISAVRLIICGLIKPATAGLKEVDMHVWPNPTSLAGHSVSLYSSGKQISNLAFGDEESPNRERETAPADEDVIPDAHDTSDSLDGEHLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "8569",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MPQGVDNLVISWQAGEEGKNAGFIMGYLGVVGIDALDYQNDPAQHYNDAQHDKKENYYHKGNPKPAELDAEGLGSEEPALPDHSPKVEELSIPDMYRPEQYLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "4789",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MQGDFNPEPGRSSNTSPRRYRIDEPGIRKSGAPLDRDVSDEASSHVNYPAVSEIPDFEDDFTGDIPIGPADKQLVETDGHNGQLDLGLNWDDIASLIIFKILEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "6007",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MGHPELEEHDVQTNKEHHTNSQINLSTEVDLEPMGHKIDYPLANYVSPRNDYLPIFTISFMGFGGGRATPKETNVIAGTDPYKFTVSQSEDDLHGIADPRLLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "8352",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MNREAEWLREPLPKYYDFAGTYNTRMTEWGDKALTTVVVGTLYQVEEPPGLTPASPMQHGACNAYNSELGFTQNEGALKQEMPVIPGGGSDPERRGLADPDLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "9803",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MEVGHKAFPRSMEDTSDKVQLIAPGEINMFTSGYEDNPMVMVKNNFEGDTKFHSDDVPIENMDDEAEDAPYLNVGNGRLVYTTDPDGLDATLETPGYLEDGLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "4954",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MRVIGLSESPFDPAPKFPAASLAVGPVDGNKVPDLLLQAVLALMHTSSLKNSLNIANVVRANITPRRSQPMAKRPSILFRHSSLERDLIIVWVNDSIKDEALEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "7968",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MVLDMPAAQKGPLQMAGTELAAEEVKNGGQSTGHSLRSLRLDVAEGPSILDRLESHRETLHDKMEAAHELQGKKDWSLMNQYSDRGADSEHPFLKGEVTKYLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "6851",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MLGIVEETEHTGREGERDLDKSLQFSDGLFMEVTVDQANKLGATKASTCTKEDGPSRCRSQHTITNLIEFSDSVDKTEKTDKEGRTGPMNSELVGGQEDEDLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "9927",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MHPAEVSFSGGAPNNESKWDNRHYVQAESGEDHETGVHLGDFDEYLSLQAGPRLPMPELSGHWGSQCLNCDKGGKKKANIVPSPEDVSKDVKSYEGFEADRLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "9121",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MEDPTGVPFHHKKSHNMRKVETVNYGHKGCLVITDETNSLGVPGVDLEGLQGAGQLAMYKPTHGIEMARAESELIARRKEHGKMAFIIVHRELIPEEDNRFLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "933",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MVREIDDKTISDYLARGADEGTTAYSLKIPTDKCLFAPTKKHLHGGDKSQEADPPTKSPMVEHQFGHEPDFPSCREPEDYPGSPLVELTGLNRLTQEPNEELEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    },
+    {
+        "name": "665",
+        "modelSeeds": [],
+        "sequences": [
+            {
+                "proteinChain": {
+                    "sequence": "MATKGADHGLAAPQPHAKWDTQIPAEGADREHRSGGGNERRFYNEGAKHAQATWAIPDEPAFHLQPAVGEGATTDQAGSLEDQWVRSLNNNDVDPTQADETLEHHHHHH",
+                    "count": 1
+                }
+            }
+        ]
+    }
+]
