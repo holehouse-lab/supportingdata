@@ -4,8 +4,9 @@ Minimization folder
 - CAMPARI MD keyfiles
 
 Full simulation folder
-- full hamiltonion keyfiles
-- EV keyfiles
+- Representative keyfiles
 
+Excluded volume folder
+- Representative keyfiles
 
-To-do: upload Zenodo with all simulation trajectories
+Zenodo repository contains all simulation trajectories, keyfiles and analysis script.
