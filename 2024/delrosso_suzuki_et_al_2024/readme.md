@@ -6,6 +6,6 @@ Nicole DelRosso*, Peter Suzuki*, Daniel Griffith, Jeffrey M Lotthammer, Borna No
 
 Simulation data and analysis files for the all-atom simulations are stored in the following Zenodo repository:
 
-10.5281/zenodo.13947234 
+10.5281/zenodo.13998914
 
 
