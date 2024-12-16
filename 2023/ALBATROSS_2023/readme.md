@@ -1,3 +1,1 @@
-# About
-
-Please 
+# [Please see the repository in https://github.com/holehouse-lab/supportingdata/tree/master/2024/albatross_2024](https://github.com/holehouse-lab/supportingdata/tree/master/2024/albatross_2024)
