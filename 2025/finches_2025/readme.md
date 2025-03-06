@@ -47,8 +47,8 @@ Bar plot generated using data from Lin & Currie et al. very simply generated usi
 * S5B - [figures/si_figures/phase_diagrams/a1_lcd_arosio_phase_diagrams.ipynb](figures/si_figures/phase_diagrams/a1_lcd_arosio_phase_diagrams.ipynb)
 * S5C - [figures/si_figures/phase_diagrams/fus_phase_diagrams.ipynb](figures/si_figures/phase_diagrams/fus_phase_diagrams.ipynb)
 * S5D - [figures/si_figures/phase_diagrams/laf_1.ipynb](figures/si_figures/phase_diagrams/laf_1.ipynb)
-* S5E - [figures/si_figures/rlp/RLP_peptides.ipynb](figures/si_figures/rlp/RLP_peptides.ipynb)
-* S5F - - [figures/si_figures/rlp/RLP_peptides.ipynb](figures/si_figures/rlp/RLP_peptides.ipynb)
+* S5E - [figures/si_figures/phase_diagrams/RLP_peptides.ipynb](figures/si_figures/phase_diagrams/RLP_peptides.ipynb)
+* S5F - - [figures/si_figures/phase_diagrams/RLP_peptides.ipynb](figures/si_figures/phase_diagrams/RLP_peptides.ipynb)
 * S5G - Schematic of FUS local mutants
 * S5H - [figures/si_figures/phase_diagrams/fus_phase_diagrams.ipynb](figures/si_figures/phase_diagrams/fus_phase_diagrams.ipynb)
 
