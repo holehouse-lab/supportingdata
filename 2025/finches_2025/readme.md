@@ -9,8 +9,7 @@ This repository contains files and data for the preprint by Ginell et al.:
 Garrett M. Ginell, Ryan. J Emenecker, Jeffrey M. Lotthammer, Alex T. Keeley, Stephen P. Plassmeyer, Nicholas Razo, Emery T. Usher, Jaqueline F. Pelham, Alex S. Holehouse
 *Accepted*
 
-#### preprint
-[Preprint link](https://doi.org/10.1101/2024.06.03.597104)
+#### Preprint: [Preprint link](https://doi.org/10.1101/2024.06.03.597104)
 *NB, final updated version not on bioRxiv*
 
 ## FINCHES software package
@@ -22,7 +21,19 @@ The FINCHES documentation is available on ReadTheDocs: [https://finches.readthed
 
 
 ## Main text figures
-All code for generating main text figures can be found under `figures/`. Those notebooks are named after the specific panels they generate. Note many of those notebook ALSO generate SI figures, which are then specifically linked below
+
+#### [Figure 1](figures/figure_1/)
+
+#### [Figure 2](figures/figure_2/)
+
+#### [Figure 3](figures/figure_3/)
+
+#### [Figure 4](figures/figure_4/)
+
+#### [Figure 5](figures/figure_5/)
+
+
+All code for generating main text figures can be found under `figures/`. Those notebooks are named after the specific panels they generate. Note many of those notebook ALSO generate SI figures, which are then specifically linked below.
 
 
 ## SI figures
@@ -67,7 +78,11 @@ Bar plot generated using data from Lin & Currie et al. very simply generated usi
 * S6L - [figures/si_figures/phase_diagrams/tdp_43.ipynb](figures/si_figures/phase_diagrams/tdp_43.ipynb)
 
 #### Fig S7
+* S7A - [figures/si_figures/proteome_wide_csat/proteome_wide_csat.ipynb](figures/si_figures/proteome_wide_csat/proteome_wide_csat.ipynb)
+* S7B - [figures/si_figures/proteome_wide_csat/proteome_wide_csat.ipynb](figures/si_figures/proteome_wide_csat/proteome_wide_csat.ipynb)
 * S7C - [figures/figure_3/Fig_3J.ipynb](figures/figure_3/Fig_3J.ipynb)
+* S7D - [figures/si_figures/hax1/hax1_example.ipynb](figures/si_figures/hax1/hax1_example.ipynb)
+* S7E - [figures/si_figures/rg_vs_phasesep/annotate_with_rg.ipynb](figures/si_figures/rg_vs_phasesep/annotate_with_rg.ipynb)
 
 
 #### Fig S8
