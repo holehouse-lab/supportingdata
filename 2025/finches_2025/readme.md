@@ -86,8 +86,7 @@ Bar plot generated using data from Lin & Currie et al. very simply generated usi
 
 
 #### Fig S8
-
-* S8 - [figures/figure_3/Fig_3K.ipynb](figures/figure_3/Fig_3K.ipynb)
+* S8A,B,C,D,E,F,G,H - [figures/figure_3/Fig_3K.ipynb](figures/figure_3/Fig_3K.ipynb)
 
 #### Fig S9
 * S9A - [figures/figure_3/Fig_3I.ipynb](figures/figure_3/Fig_3I.ipynb)
@@ -96,9 +95,13 @@ Bar plot generated using data from Lin & Currie et al. very simply generated usi
 #### Fig S10
 * S10A - [figures/figure_4/Fig4_E_F.ipynb](figures/figure_4/Fig4_E_F.ipynb)
 * S10B - [figures/figure_4/Fig4_E_F.ipynb](figures/figure_4/Fig4_E_F.ipynb)
+* S10C - [figures/si_figures/foxo1/foxo1.ipynb](figures/si_figures/foxo1/foxo1.ipynb)
+* S10D - [figures/si_figures/foxo1/foxo1.ipynb](figures/si_figures/foxo1/foxo1.ipynb)
+* S10E - [figures/si_figures/foxo1/foxo1.ipynb](figures/si_figures/foxo1/foxo1.ipynb)
+* S10F - [figures/si_figures/foxo1/foxo1.ipynb](figures/si_figures/foxo1/foxo1.ipynb)
 
 #### Fig S11
-* 
+* S11A,B,C,D - [figures/si_figures/fingerprints/dipeptide_fingerprint.ipynb](figures/si_figures/fingerprints/dipeptide_fingerprint.ipynb)
 
 #### Fig S12
 * S12A - [figures/figure_5/Fig_5B_C_D.ipynb](figures/figure_5/Fig_5B_C_D.ipynb) 
@@ -124,3 +127,18 @@ Bar plot generated using data from Lin & Currie et al. very simply generated usi
 * S15B - 3D structure of the Gal11 Activation Domain Binding Domain (ADBD1; PDB [2LPB](https://www1.rcsb.org/structure/2LPB). The renumbered PDB file of the ADB1 structure is provided at [figures/figure_5/ABD_frame0_renumbered.pdb](figures/figure_5/ABD_frame0_renumbered.pdb) and the per-residue SASA associated with this structure at [figures/figure_5/ABD_sasa.txt](figures/figure_5/ABD_sasa.txt))
 * S15C - [figures/figure_5/Fig_5F.ipynb](figures/figure_5/Fig_5F.ipynb) 
 * S15D - [figures/figure_5/Fig_5J_K.ipynb](figures/figure_5/Fig_5J_K.ipynb) 
+
+#### Fig S16
+* S16 - [figures/si_figures/sensitivity_analysis/model_sensitivity_analysis.ipynb](figures/si_figures/sensitivity_analysis/model_sensitivity_analysis.ipynb)
+
+#### Fig S17
+* S17 - [figures/si_figures/calibration/prefactor_calibration.ipynb](figures/si_figures/calibration/prefactor_calibration.ipynb)
+
+#### Fig S18
+* S18A - [figures/si_figures/calibration/prefactor_calibration.ipynb](figures/si_figures/calibration/prefactor_calibration.ipynb)
+* S18B - [figures/si_figures/calibration/prefactor_calibration.ipynb](figures/si_figures/calibration/prefactor_calibration.ipynb)
+* S18C - [figures/si_figures/calibration/prefactor_calibration.ipynb](figures/si_figures/calibration/prefactor_calibration.ipynb)
+
+#### Fig S19
+* S19A - [figures/si_figures/b2_vs_eps/b2_vs_epsilon.ipynb](figures/si_figures/b2_vs_eps/b2_vs_epsilon.ipynb)
+* S19B - [figures/si_figures/b2_vs_eps/b2_vs_epsilon.ipynb](figures/si_figures/b2_vs_eps/b2_vs_epsilon.ipynb)
