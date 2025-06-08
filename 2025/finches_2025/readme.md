@@ -1,16 +1,14 @@
 ## Additional Supporting Information
-###### Last updated 2025-03-06
+###### Last updated 2025-06-08
 
 ## Overview
 This repository contains files and data for the preprint by Ginell et al.:
 
-**Sequence-based prediction of intermolecular interactions driven by disordered regions**
 
-Garrett M. Ginell, Ryan. J Emenecker, Jeffrey M. Lotthammer, Alex T. Keeley, Stephen P. Plassmeyer, Nicholas Razo, Emery T. Usher, Jaqueline F. Pelham, Alex S. Holehouse
-*Accepted*
+**Sequence-based prediction of intermolecular interactions driven by disordered regions.**<br>
+Ginell, G. M., Emenecker, R. J., Lotthammer, J. M., Keeley, A. T., Plassmeyer, S. P., Razo, N., Usher, E. T., Pelham, J. F. & Holehouse, A. S. 
+Science 388, eadq8381 (2025).
 
-#### Preprint: [Preprint link](https://doi.org/10.1101/2024.06.03.597104)
-*NB, final updated version not on bioRxiv*
 
 ## FINCHES software package
 FINCHES is available as a webserver: [https://www.finches-online.com](https://www.finches-online.com)
