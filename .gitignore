@@ -1,7 +1,10 @@
 .DS_Store
 .ipynb_checkpoints/
+.gitignore
 
 _*
+
+
 
 __pycache__/
 
