@@ -1,0 +1,1 @@
+deleted initial datapoints wit no data

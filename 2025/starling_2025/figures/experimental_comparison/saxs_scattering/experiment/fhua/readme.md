@@ -1,0 +1,1 @@
+trimmed first 3 data points off

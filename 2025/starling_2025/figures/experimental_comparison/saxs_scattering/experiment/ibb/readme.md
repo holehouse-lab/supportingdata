@@ -1,0 +1,12 @@
+# IBB
+
+
+### Sequence
+
+> GCTNENANTPAARLHRFKNKGKDSTEMRRRRIEVNVELRKAKKDDQMLKRRNVSSFPDDATSPLQENRNNQGTVNWSVDDIVKGINSSNVENQLQATCA
+
+
+Note we trimmed the first five data points off
+
+### Reference
+Fuertes, et al. PNAS (2017) 114, E6342–E6351.

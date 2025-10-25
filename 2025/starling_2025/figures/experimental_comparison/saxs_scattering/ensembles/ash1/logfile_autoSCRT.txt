@@ -1,0 +1,23 @@
+# camparitools generated log file
+# Logfile created 2025-09-18 06:37:34.433237
+Program: autoSCRT
+
+autoSCRT --pdb ash1_STARLING.pdb --xtc ash1_STARLING.xtc -n 400
+
+Complete commandline info passed below
+--pdb                       : ash1_STARLING.pdb
+--xtc                       : ash1_STARLING.xtc
+--n                         : 400
+--verbose                   : False
+--everything                : None
+--all_proteins              : None
+--pdbtraj                   : None
+--scaled_error              : None
+--save_each_profile         : False
+--save_saxs_ensemble        : False
+--foxs_profile_size         : None
+--foxs_water_layer_c2       : None
+--foxs_excluded_volume      : None
+--foxs_max_q                : None
+--info                      : False
+--no_log_file               : False
