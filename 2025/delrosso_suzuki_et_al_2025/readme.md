@@ -1,8 +1,8 @@
 This folder contains supporting data for the following in-progress manuscript:
 
-**Molecular basis of P300-mediated transcriptional activation by recruitment**
+**High-throughput affinity measurements of direct interactions between activation domains and co-activators**
 
-Nicole DelRosso*, Peter Suzuki*, Daniel Griffith, Jeffrey M Lotthammer, Borna Novak, Selin Kocalar, Maya Sheth, Alex Holehouse, Lacramioara Bintu‡, Polly Fordyce‡
+Nicole DelRosso*, Peter H. Suzuki*, Daniel Griffith, Jeffrey M. Lotthammer, Borna Novak, Selin Kocalar, Maya U. Sheth, Lillian Brixi Alex S. Holehouse, Lacramioara Bintu‡, Polly Fordyce‡
 
 Simulation data and analysis files for the all-atom simulations are stored in the following Zenodo repository:
 
