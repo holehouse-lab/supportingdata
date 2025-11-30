@@ -12,15 +12,17 @@ The full citation will be updated here when the paper is formally accepted.
 ## Repository structure
 For each figure, we provide links to either the Jupyter notebook used to generate the figure from scratch or, for a few cases, the raw data associated with the figures. Given the extent of the data associated with this paper, this directory maps each figure panel to a specific location where data and/or code are provided. However, within each directory, we often also provide README files to help orient the reader and provide context for the files.
 
-## Source data for publication
-In compliance with the journal's requirements, this repository contains all the source data associated with every main text and extended data figure, provided in a way that we _hope_ is maximally useful for readers. However, we note that raw numerical values for some of the figures may not be explicitly saved in this repository if code used to generate the values and the associated figures is provided. In principle, to access those numerical values requires only that the code be re-run, and we have checked that all the code here runs in the associated notebooks. However, if you run into issues with this and/or running the code is not possible for whatever reason, please contact Alex, and he can provide you with whatever data you might want.
+In addition to the code in this GitHub repository, ODM-seq analysis was performed using the code in [https://github.com/gerland-group/LS_ODM_seq_analysis](https://github.com/gerland-group/LS_ODM_seq_analysis). For completeness, we provide a mirror of this code in `odmseq_analysis/` directory.
 
-Similarly, if anything about the actual analysis is confusing or you'd like specific data shared in a more convenient format, please just contact Alex directly, and he can update the code accordingly to provide this!
+## Source data for publication
+In compliance with the journal's requirements, this repository contains all the source data associated with each main text and extended data figure, provided in a way we _hope_ is maximally useful to readers. However, we note that raw numerical values for some figures may not be explicitly saved in this repository if the code used to generate the figures is provided. In principle, to access those numerical values, it is sufficient to re-run the code, and we have checked that all the code here runs in the associated notebooks. *However*, if you run into issues with this and/or running the code is not possible for whatever reason, please contact Alex, and he can provide you with whatever data you might want.
+
+Similarly, if anything about the actual analysis is confusing or you'd like specific data shared in a more convenient format, please contact Alex directly, and he can update the code accordingly to provide this!
 
 ## Zenodo vs. GitHub
-To enable easy responsiveness and code access, we provide this repository on GitHub. However, the full size of this repo is ~18 GB (!), which is obviously too big for GitHub. As such, we use `.gitignore` files to exclude large raw data files or output directories with large amounts of generated data. The FULL repository (including all data) is provided at: [XXX](XXX). That repository represents a snapshot of the code and data at the time of publication. However, as needed, we will update the GitHub repository. 
+To enable easy responsiveness and code access, we have made this repository available on GitHub. However, the full size of this repo is ~18 GB (!), which is obviously too big for GitHub. As such, we use `.gitignore` files to exclude large raw data files or output directories with large amounts of generated data. The FULL repository (including all data) is provided at: [XXX](XXX). That repository represents a snapshot of the code and data at the time of publication. However, as needed, we will update the GitHub repository. 
 
-In general, if you want use the code do perform analysis we recommend just downloading the Zenodo repository, as it will work out of the box. If major changes are made to the code, we will update the GitHub repo and mirror these changes by incrementing the version on the Zenodo repository.
+In general, if you want to use the code for analysis, we recommend downloading the Zenodo repository, as it will work out of the box. If major changes are made to the code, we will update the GitHub repo and mirror them by incrementing the version in the Zenodo repository.
 
 ### Data compressed on GitHub
 Some files are provided in a compressed format, but NOT in their uncompressed format, to facilitate easy access to the underlying data. For completeness, those files are listed here, with the format `<original filename>.zip` in all cases. These are listed below:
@@ -37,7 +39,7 @@ Some files are provided in a compressed format, but NOT in their uncompressed fo
 
 
 ### Data excluded on GitHub
-Some files are not shared on GitHub at all due to their large size but are available in the Zenodo repository. These are listed below:
+Some files are not shared on GitHub at all due to their large size, but are available in the Zenodo repository. These are listed below:
 
 * In `figure_2/output_data/`, the following files are excluded from the GitHub Repo
 	* `all_aligned_seqs.pkl`
@@ -51,9 +53,9 @@ Some files are not shared on GitHub at all due to their large size but are avail
 	*  `ysn2idrs_v3_v3_disorder_0.8_50.pkl`
 *  In `figure_6/6B`,  the following files are excluded from the GitHub Repo:
 	* `fig6B.zip`  
-* In `extended_data_5/ED5_A` ,  the following files are excluded from the GitHub Repo:
+* In `extended_data_5/ED5_A`,  the following files are excluded from the GitHub Repo:
 	* `extended_data_5_A.zip`
-* In `extended_data_5/ED5_B` ,  the following files are excluded from the GitHub Repo:
+* In `extended_data_5/ED5_B`,  the following files are excluded from the GitHub Repo:
 	* `extended_data_5_B.zip`
 	* `read1_sgd_abf1wt_kpni_dm_sc_mhigh_15m.fastq.gz`
 	* `read2_sgd_abf1wt_kpni_dm_sc_mhigh_15m.fastq.gz`
@@ -224,13 +226,15 @@ For any questions or concerns, please contact co-corresponding authors [Alex Hol
 * B - `extended_data_1/fig_s1_analysis.ipynb`
 * C - `extended_data_10/ED10_C/ED10_C_genome.tsv` 
 
-
 ## Supplementary information
 
-### Supplementary figure 1
+### Supplementary figures 1 and 2
+Growth data are provided in the `viablity_data/` directory, with two large PDFs that report original images for growth plates.
+
+### Supplementary tables
+For completeness, we also provide all supplementary tables in the `supplementary_tables/` directory (`supplementary_tables_2025_11_30.xlsx)`.
 
 
 ## References
-
 Feng, B., Lin, Y., Zhou, L., Guo, Y., Friedman, R., Xia, R., Hu, F., Liu, C. & Tang, J. Reconstructing yeasts phylogenies and ancestors from whole genome data. Sci. Rep. 7, 15209 (2017).
   
