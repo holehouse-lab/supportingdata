@@ -1,0 +1,396 @@
+/work/bmb-svc-holehouse/alex/abf1/cg_binding/round5/M_35/X_11
+########################################
+#                                      #
+#       Running PIMMS on docker!       #
+#                                      #
+########################################
+Sat Nov 28 15:33:44 UTC 2020
+Runnin on LSF cluster...
++-------------------------------------------------+
+|                                                 |
+|                      PIMMS                      |
+|                                                 |
+| Polymer Interactions in Multicomponent Mixtures |
+|                                                 |
++-------------------------------------------------+
+         Version [v0.1.26.4]
+
+
+STARTING PIMMS
+................................................................................
+
+****************************************
+  [STARTUP]: Parsing keyfile [KEYFILE.kf]
+  [STARTUP]: Default values set are explicitly announced below:
+
+No RESIZED_EQUILIBRATION set - using default [False]
+No HARDWALL set - using default [False]
+Using random seed [8425269284400519408]
+No NON_INTERACTING set - using default [False]
+No ANGLES_OFF set - using default [False]
+No TSMMC_JUMP_TEMP set - using default [50]
+No TSMMC_STEP_MULTIPLIER set - using default [50]
+No ANA_INTSCAL set - using default [5000]
+No ANA_DISTMAP set - using default [5000]
+No ANA_INTER_RESIDUE set - using default [5000]
+No ANA_RESIDUE_PAIRS set - using default [[]]
+No ANALYSIS_MODULE set - using default [False]
+No ANA_CUSTOM set - using default [0]
+No ANA_CLUSTER_THRESHOLD set - using default [1]
+No RESTART_FILE set - using default [False]
+No RESTART_OVERRIDE_DIMENSIONS set - using default [False]
+No RESTART_OVERRIDE_HARDWALL set - using default [False]
+****************************************
+
+KEYFILE SUMMARY
+................................................................................
+
+--> System Overview
+Total number of steps     : 20000
+Num. equilibration steps  : 200
+Start temperature         : 150.00
+Final temperature         : 150.00
+Lattice-to-nanometers     : 0.36000
+
+****************************************
+--> Box Dimensions
+
+BOX DIMENSIONS                 : 30 x 30 x 30
+Total occupied volume fraction : 0.00370
+Total conc. of solute(s)       : 0.002637316415 (M)
+
+****************************************
+--> Quench Settings
+
+NO TEMPERATURE QUENCH IN EFFECT
+
+****************************************
+--> Simulation Components
+
+Chain group 1:
+   1 copies of the following chain:
+   PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+
+Chain group 2:
+   1 copies of the following chain:
+   XXXXXXXXXXXXXXXXXXXXMMMMMMXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+****************************************
+--> Output Parameters
+
+Print-to-screen freq.  : 100
+XTC out freq.          : 1000
+Energy out freq.       : 100
+Overal analysis freq.  : 5000
+
+
+Keyfile fully parsed! Preparing to start the simulation...
+--------------------------------------------------------------------------------
+
+SETTING UP THE SIMULATION
+................................................................................
+
+  [STARTUP]: Using random seed   : 8425269284400519408
+  [STARTUP]: Using C random seed : 1535966334
+  [STARTUP]: System RAND_MAX     : 2147483647
+
+PARSING PARAMETER FILE...
+................................................................................
+
+  [STARTUP]: Writing the complete set of parameters used in this simulation out to:
+             parameters_used.prm
+  [STARTUP]: Simulation started at 2020-11-28 15:33:51.902406
+
+  [STARTUP]: Building initial trajectory and pdb files...
+  [STARTUP]: Evaluating initial energy...
+
+  ****************************************
+   ENERGY COMPARISON
+     STEP             : 0   
+     GLOBAL           : -4811.0000
+     SHORT RANGE      : -4811.0000
+     LONG RANGE       : 0.0000
+     SUPER LONG RANGE : 0.0000
+     ANGLES           : 0.0000
+  ****************************************
+
+
+STARTING SIMULATION
+................................................................................
+
+Start time: 2020-11-28 15:33:51.907574
+  [UPDATE]:  Step 100 of 20000 [0.500 %] (Energy = -14850)
+  [UPDATE]:  Step 200 of 20000 [1.000 %] (Energy = -15806)
+  [UPDATE]:  Step 300 of 20000 [1.500 %] (Energy = -16565)
+  [UPDATE]:  Step 400 of 20000 [2.000 %] (Energy = -16600)
+  [UPDATE]:  Step 500 of 20000 [2.500 %] (Energy = -17597)
+  [UPDATE]:  Step 600 of 20000 [3.000 %] (Energy = -16745)
+  [UPDATE]:  Step 700 of 20000 [3.500 %] (Energy = -16600)
+  [UPDATE]:  Step 800 of 20000 [4.000 %] (Energy = -14900)
+  [UPDATE]:  Step 900 of 20000 [4.500 %] (Energy = -16582)
+  [UPDATE]:  Step 1000 of 20000 [5.000 %] (Energy = -17546)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 1100 of 20000 [5.500 %] (Energy = -16950)
+  [UPDATE]:  Step 1200 of 20000 [6.000 %] (Energy = -15550)
+  [UPDATE]:  Step 1300 of 20000 [6.500 %] (Energy = -16519)
+  [UPDATE]:  Step 1400 of 20000 [7.000 %] (Energy = -17733)
+  [UPDATE]:  Step 1500 of 20000 [7.500 %] (Energy = -16287)
+  [UPDATE]:  Step 1600 of 20000 [8.000 %] (Energy = -16818)
+  [UPDATE]:  Step 1700 of 20000 [8.500 %] (Energy = -14600)
+  [UPDATE]:  Step 1800 of 20000 [9.000 %] (Energy = -16720)
+  [UPDATE]:  Step 1900 of 20000 [9.500 %] (Energy = -15100)
+  [UPDATE]:  Step 2000 of 20000 [10.000 %] (Energy = -17526)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 2100 of 20000 [10.500 %] (Energy = -17098)
+  [UPDATE]:  Step 2200 of 20000 [11.000 %] (Energy = -15710)
+  [UPDATE]:  Step 2300 of 20000 [11.500 %] (Energy = -15550)
+  [UPDATE]:  Step 2400 of 20000 [12.000 %] (Energy = -14400)
+  [UPDATE]:  Step 2500 of 20000 [12.500 %] (Energy = -17349)
+  [UPDATE]:  Step 2600 of 20000 [13.000 %] (Energy = -18094)
+  [UPDATE]:  Step 2700 of 20000 [13.500 %] (Energy = -15800)
+  [UPDATE]:  Step 2800 of 20000 [14.000 %] (Energy = -16400)
+  [UPDATE]:  Step 2900 of 20000 [14.500 %] (Energy = -15550)
+  [UPDATE]:  Step 3000 of 20000 [15.000 %] (Energy = -16596)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 3100 of 20000 [15.500 %] (Energy = -16600)
+  [UPDATE]:  Step 3200 of 20000 [16.000 %] (Energy = -16947)
+  [UPDATE]:  Step 3300 of 20000 [16.500 %] (Energy = -16161)
+  [UPDATE]:  Step 3400 of 20000 [17.000 %] (Energy = -16899)
+  [UPDATE]:  Step 3500 of 20000 [17.500 %] (Energy = -16520)
+  [UPDATE]:  Step 3600 of 20000 [18.000 %] (Energy = -16330)
+  [UPDATE]:  Step 3700 of 20000 [18.500 %] (Energy = -15400)
+  [UPDATE]:  Step 3800 of 20000 [19.000 %] (Energy = -18418)
+  [UPDATE]:  Step 3900 of 20000 [19.500 %] (Energy = -17616)
+  [UPDATE]:  Step 4000 of 20000 [20.000 %] (Energy = -17154)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 4100 of 20000 [20.500 %] (Energy = -16881)
+  [UPDATE]:  Step 4200 of 20000 [21.000 %] (Energy = -18020)
+  [UPDATE]:  Step 4300 of 20000 [21.500 %] (Energy = -17275)
+  [UPDATE]:  Step 4400 of 20000 [22.000 %] (Energy = -17457)
+  [UPDATE]:  Step 4500 of 20000 [22.500 %] (Energy = -16262)
+  [UPDATE]:  Step 4600 of 20000 [23.000 %] (Energy = -14550)
+  [UPDATE]:  Step 4700 of 20000 [23.500 %] (Energy = -15950)
+  [UPDATE]:  Step 4800 of 20000 [24.000 %] (Energy = -16100)
+  [UPDATE]:  Step 4900 of 20000 [24.500 %] (Energy = -15185)
+  [UPDATE]:  Step 5000 of 20000 [25.000 %] (Energy = -16250)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 5100 of 20000 [25.500 %] (Energy = -17349)
+  [UPDATE]:  Step 5200 of 20000 [26.000 %] (Energy = -17830)
+  [UPDATE]:  Step 5300 of 20000 [26.500 %] (Energy = -15850)
+  [UPDATE]:  Step 5400 of 20000 [27.000 %] (Energy = -13850)
+  [UPDATE]:  Step 5500 of 20000 [27.500 %] (Energy = -17411)
+  [UPDATE]:  Step 5600 of 20000 [28.000 %] (Energy = -14350)
+  [UPDATE]:  Step 5700 of 20000 [28.500 %] (Energy = -17709)
+  [UPDATE]:  Step 5800 of 20000 [29.000 %] (Energy = -16100)
+  [UPDATE]:  Step 5900 of 20000 [29.500 %] (Energy = -14450)
+  [UPDATE]:  Step 6000 of 20000 [30.000 %] (Energy = -17898)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 6100 of 20000 [30.500 %] (Energy = -15300)
+  [UPDATE]:  Step 6200 of 20000 [31.000 %] (Energy = -15650)
+  [UPDATE]:  Step 6300 of 20000 [31.500 %] (Energy = -17113)
+  [UPDATE]:  Step 6400 of 20000 [32.000 %] (Energy = -17794)
+  [UPDATE]:  Step 6500 of 20000 [32.500 %] (Energy = -17023)
+  [UPDATE]:  Step 6600 of 20000 [33.000 %] (Energy = -15882)
+  [UPDATE]:  Step 6700 of 20000 [33.500 %] (Energy = -16473)
+  [UPDATE]:  Step 6800 of 20000 [34.000 %] (Energy = -15871)
+  [UPDATE]:  Step 6900 of 20000 [34.500 %] (Energy = -17503)
+  [UPDATE]:  Step 7000 of 20000 [35.000 %] (Energy = -15100)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 7100 of 20000 [35.500 %] (Energy = -18235)
+  [UPDATE]:  Step 7200 of 20000 [36.000 %] (Energy = -15100)
+  [UPDATE]:  Step 7300 of 20000 [36.500 %] (Energy = -16150)
+  [UPDATE]:  Step 7400 of 20000 [37.000 %] (Energy = -16946)
+  [UPDATE]:  Step 7500 of 20000 [37.500 %] (Energy = -15600)
+  [UPDATE]:  Step 7600 of 20000 [38.000 %] (Energy = -16600)
+  [UPDATE]:  Step 7700 of 20000 [38.500 %] (Energy = -15450)
+  [UPDATE]:  Step 7800 of 20000 [39.000 %] (Energy = -16850)
+  [UPDATE]:  Step 7900 of 20000 [39.500 %] (Energy = -17157)
+  [UPDATE]:  Step 8000 of 20000 [40.000 %] (Energy = -16176)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 8100 of 20000 [40.500 %] (Energy = -15750)
+  [UPDATE]:  Step 8200 of 20000 [41.000 %] (Energy = -18025)
+  [UPDATE]:  Step 8300 of 20000 [41.500 %] (Energy = -16750)
+  [UPDATE]:  Step 8400 of 20000 [42.000 %] (Energy = -15300)
+  [UPDATE]:  Step 8500 of 20000 [42.500 %] (Energy = -16600)
+  [UPDATE]:  Step 8600 of 20000 [43.000 %] (Energy = -15250)
+  [UPDATE]:  Step 8700 of 20000 [43.500 %] (Energy = -14500)
+  [UPDATE]:  Step 8800 of 20000 [44.000 %] (Energy = -18346)
+  [UPDATE]:  Step 8900 of 20000 [44.500 %] (Energy = -15900)
+  [UPDATE]:  Step 9000 of 20000 [45.000 %] (Energy = -16450)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 9100 of 20000 [45.500 %] (Energy = -18363)
+  [UPDATE]:  Step 9200 of 20000 [46.000 %] (Energy = -16393)
+  [UPDATE]:  Step 9300 of 20000 [46.500 %] (Energy = -15950)
+  [UPDATE]:  Step 9400 of 20000 [47.000 %] (Energy = -15750)
+  [UPDATE]:  Step 9500 of 20000 [47.500 %] (Energy = -16362)
+  [UPDATE]:  Step 9600 of 20000 [48.000 %] (Energy = -15350)
+  [UPDATE]:  Step 9700 of 20000 [48.500 %] (Energy = -18435)
+  [UPDATE]:  Step 9800 of 20000 [49.000 %] (Energy = -17224)
+  [UPDATE]:  Step 9900 of 20000 [49.500 %] (Energy = -14350)
+  [UPDATE]:  Step 10000 of 20000 [50.000 %] (Energy = -16550)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 10100 of 20000 [50.500 %] (Energy = -15500)
+  [UPDATE]:  Step 10200 of 20000 [51.000 %] (Energy = -15750)
+  [UPDATE]:  Step 10300 of 20000 [51.500 %] (Energy = -16691)
+  [UPDATE]:  Step 10400 of 20000 [52.000 %] (Energy = -17481)
+  [UPDATE]:  Step 10500 of 20000 [52.500 %] (Energy = -16219)
+  [UPDATE]:  Step 10600 of 20000 [53.000 %] (Energy = -18014)
+  [UPDATE]:  Step 10700 of 20000 [53.500 %] (Energy = -17645)
+  [UPDATE]:  Step 10800 of 20000 [54.000 %] (Energy = -16499)
+  [UPDATE]:  Step 10900 of 20000 [54.500 %] (Energy = -15800)
+  [UPDATE]:  Step 11000 of 20000 [55.000 %] (Energy = -15350)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 11100 of 20000 [55.500 %] (Energy = -14600)
+  [UPDATE]:  Step 11200 of 20000 [56.000 %] (Energy = -16218)
+  [UPDATE]:  Step 11300 of 20000 [56.500 %] (Energy = -17089)
+  [UPDATE]:  Step 11400 of 20000 [57.000 %] (Energy = -16000)
+  [UPDATE]:  Step 11500 of 20000 [57.500 %] (Energy = -17816)
+  [UPDATE]:  Step 11600 of 20000 [58.000 %] (Energy = -15850)
+  [UPDATE]:  Step 11700 of 20000 [58.500 %] (Energy = -16092)
+  [UPDATE]:  Step 11800 of 20000 [59.000 %] (Energy = -18594)
+  [UPDATE]:  Step 11900 of 20000 [59.500 %] (Energy = -15600)
+  [UPDATE]:  Step 12000 of 20000 [60.000 %] (Energy = -15750)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 12100 of 20000 [60.500 %] (Energy = -15200)
+  [UPDATE]:  Step 12200 of 20000 [61.000 %] (Energy = -16564)
+  [UPDATE]:  Step 12300 of 20000 [61.500 %] (Energy = -15988)
+  [UPDATE]:  Step 12400 of 20000 [62.000 %] (Energy = -16750)
+  [UPDATE]:  Step 12500 of 20000 [62.500 %] (Energy = -15500)
+  [UPDATE]:  Step 12600 of 20000 [63.000 %] (Energy = -16305)
+  [UPDATE]:  Step 12700 of 20000 [63.500 %] (Energy = -16661)
+  [UPDATE]:  Step 12800 of 20000 [64.000 %] (Energy = -16475)
+  [UPDATE]:  Step 12900 of 20000 [64.500 %] (Energy = -16470)
+  [UPDATE]:  Step 13000 of 20000 [65.000 %] (Energy = -16900)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 13100 of 20000 [65.500 %] (Energy = -15850)
+  [UPDATE]:  Step 13200 of 20000 [66.000 %] (Energy = -15450)
+  [UPDATE]:  Step 13300 of 20000 [66.500 %] (Energy = -16200)
+  [UPDATE]:  Step 13400 of 20000 [67.000 %] (Energy = -15650)
+  [UPDATE]:  Step 13500 of 20000 [67.500 %] (Energy = -16800)
+  [UPDATE]:  Step 13600 of 20000 [68.000 %] (Energy = -16622)
+  [UPDATE]:  Step 13700 of 20000 [68.500 %] (Energy = -16464)
+  [UPDATE]:  Step 13800 of 20000 [69.000 %] (Energy = -17783)
+  [UPDATE]:  Step 13900 of 20000 [69.500 %] (Energy = -18332)
+  [UPDATE]:  Step 14000 of 20000 [70.000 %] (Energy = -15450)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 14100 of 20000 [70.500 %] (Energy = -15850)
+  [UPDATE]:  Step 14200 of 20000 [71.000 %] (Energy = -17421)
+  [UPDATE]:  Step 14300 of 20000 [71.500 %] (Energy = -16999)
+  [UPDATE]:  Step 14400 of 20000 [72.000 %] (Energy = -16350)
+  [UPDATE]:  Step 14500 of 20000 [72.500 %] (Energy = -16650)
+  [UPDATE]:  Step 14600 of 20000 [73.000 %] (Energy = -16650)
+  [UPDATE]:  Step 14700 of 20000 [73.500 %] (Energy = -15650)
+  [UPDATE]:  Step 14800 of 20000 [74.000 %] (Energy = -15950)
+  [UPDATE]:  Step 14900 of 20000 [74.500 %] (Energy = -15379)
+  [UPDATE]:  Step 15000 of 20000 [75.000 %] (Energy = -17244)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 15100 of 20000 [75.500 %] (Energy = -16993)
+  [UPDATE]:  Step 15200 of 20000 [76.000 %] (Energy = -16550)
+  [UPDATE]:  Step 15300 of 20000 [76.500 %] (Energy = -15800)
+  [UPDATE]:  Step 15400 of 20000 [77.000 %] (Energy = -15900)
+  [UPDATE]:  Step 15500 of 20000 [77.500 %] (Energy = -16929)
+  [UPDATE]:  Step 15600 of 20000 [78.000 %] (Energy = -18280)
+  [UPDATE]:  Step 15700 of 20000 [78.500 %] (Energy = -15500)
+  [UPDATE]:  Step 15800 of 20000 [79.000 %] (Energy = -16450)
+  [UPDATE]:  Step 15900 of 20000 [79.500 %] (Energy = -18956)
+  [UPDATE]:  Step 16000 of 20000 [80.000 %] (Energy = -17926)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 16100 of 20000 [80.500 %] (Energy = -17129)
+  [UPDATE]:  Step 16200 of 20000 [81.000 %] (Energy = -17346)
+  [UPDATE]:  Step 16300 of 20000 [81.500 %] (Energy = -17376)
+  [UPDATE]:  Step 16400 of 20000 [82.000 %] (Energy = -17068)
+  [UPDATE]:  Step 16500 of 20000 [82.500 %] (Energy = -15700)
+  [UPDATE]:  Step 16600 of 20000 [83.000 %] (Energy = -15850)
+  [UPDATE]:  Step 16700 of 20000 [83.500 %] (Energy = -16405)
+  [UPDATE]:  Step 16800 of 20000 [84.000 %] (Energy = -17790)
+  [UPDATE]:  Step 16900 of 20000 [84.500 %] (Energy = -15350)
+  [UPDATE]:  Step 17000 of 20000 [85.000 %] (Energy = -15500)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 17100 of 20000 [85.500 %] (Energy = -17846)
+  [UPDATE]:  Step 17200 of 20000 [86.000 %] (Energy = -18189)
+  [UPDATE]:  Step 17300 of 20000 [86.500 %] (Energy = -17368)
+  [UPDATE]:  Step 17400 of 20000 [87.000 %] (Energy = -14750)
+  [UPDATE]:  Step 17500 of 20000 [87.500 %] (Energy = -16343)
+  [UPDATE]:  Step 17600 of 20000 [88.000 %] (Energy = -16101)
+  [UPDATE]:  Step 17700 of 20000 [88.500 %] (Energy = -16050)
+  [UPDATE]:  Step 17800 of 20000 [89.000 %] (Energy = -15212)
+  [UPDATE]:  Step 17900 of 20000 [89.500 %] (Energy = -15500)
+  [UPDATE]:  Step 18000 of 20000 [90.000 %] (Energy = -16600)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 18100 of 20000 [90.500 %] (Energy = -15300)
+  [UPDATE]:  Step 18200 of 20000 [91.000 %] (Energy = -17272)
+  [UPDATE]:  Step 18300 of 20000 [91.500 %] (Energy = -17144)
+  [UPDATE]:  Step 18400 of 20000 [92.000 %] (Energy = -16488)
+  [UPDATE]:  Step 18500 of 20000 [92.500 %] (Energy = -17092)
+  [UPDATE]:  Step 18600 of 20000 [93.000 %] (Energy = -17734)
+  [UPDATE]:  Step 18700 of 20000 [93.500 %] (Energy = -15550)
+  [UPDATE]:  Step 18800 of 20000 [94.000 %] (Energy = -15200)
+  [UPDATE]:  Step 18900 of 20000 [94.500 %] (Energy = -18025)
+  [UPDATE]:  Step 19000 of 20000 [95.000 %] (Energy = -16153)
+  [INFO]:    Saving coordinates...
+  [UPDATE]:  Step 19100 of 20000 [95.500 %] (Energy = -16650)
+  [UPDATE]:  Step 19200 of 20000 [96.000 %] (Energy = -16000)
+  [UPDATE]:  Step 19300 of 20000 [96.500 %] (Energy = -15650)
+  [UPDATE]:  Step 19400 of 20000 [97.000 %] (Energy = -15577)
+  [UPDATE]:  Step 19500 of 20000 [97.500 %] (Energy = -17559)
+  [UPDATE]:  Step 19600 of 20000 [98.000 %] (Energy = -16471)
+  [UPDATE]:  Step 19700 of 20000 [98.500 %] (Energy = -14300)
+  [UPDATE]:  Step 19800 of 20000 [99.000 %] (Energy = -16550)
+  [UPDATE]:  Step 19900 of 20000 [99.500 %] (Energy = -18002)
+  [UPDATE]:  Step 20000 of 20000 [100.000 %] (Energy = -18642)
+  [INFO]:    Saving coordinates...
+
+  [INFO]:    Simulation complete
+  [INFO]:    Simulation finished at 2020-11-28 15:55:25.585007
+  [INFO]:    Simulation time:  0 hours, 21 minutes, 33 seconds
+
+  [INFO]:    Performing final analysis output...
+  [INFO]:    Writing restart file on step 20001...
+  [INFO]:    .... done!
+             
+             We hope the results are all you hoped for!
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@compute1-exec-256.ris.wustl.edu>
+Subject: Job 513897: <M_35_X_11> in cluster <compute1-lsf> Done
+
+Job <M_35_X_11> was submitted from host <compute1-client-1.ris.wustl.edu> by user <alex.holehouse> in cluster <compute1-lsf> at Sat Nov 28 09:33:37 2020
+Job was executed on host(s) <compute1-exec-256.ris.wustl.edu>, in queue <alex.holehouse>, as user <alex.holehouse> in cluster <compute1-lsf> at Sat Nov 28 09:33:39 2020
+</home/alex.holehouse> was used as the home directory.
+</storage1/fs1/home1/Active/home/alex.holehouse> was used as the working directory.
+Started at Sat Nov 28 09:33:39 2020
+Terminated at Sat Nov 28 09:55:26 2020
+Results reported at Sat Nov 28 09:55:26 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/bin/bash -c "cd /work/bmb-svc-holehouse/alex/abf1/cg_binding/round5/M_35/X_11; pwd; /pimms/launcher/launcher_pimms.sh"
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1276.80 sec.
+    Max Memory :                                 128 MB
+    Average Memory :                             96.20 MB
+    Total Requested Memory :                     4096.00 MB
+    Delta Memory :                               3968.00 MB
+    Max Swap :                                   89 MB
+    Max Processes :                              12
+    Max Threads :                                28
+    Run time :                                   1307 sec.
+    Turnaround time :                            1309 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </storage1/fs1/alex.holehouse/Active/bmb-svc-holehouse/alex/abf1/cg_binding/round5/M_35/X_11/513897.error> for stderr output of this job.
+

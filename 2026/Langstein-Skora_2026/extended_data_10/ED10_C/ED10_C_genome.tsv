@@ -1,0 +1,29 @@
+chr	avg	count	sample	time	cat	rep	group
+genome	0.27687292993630575	29.613058027247774	ASK454	180	FUS¹⁻¹⁶³12E	replicate 1	180 min, replicate 1
+genome	0.2868203476990914	46.478482256954685	ASK454	240	FUS¹⁻¹⁶³12E	replicate 1	240 min, replicate 1
+genome	0.2617614021042519	43.01627136450525	ASK455	180	WT Abf1	replicate 2	180 min, replicate 2
+genome	0.27554001230171216	32.81445479261223	ASK455	240	WT Abf1	replicate 2	240 min, replicate 2
+genome	0.2863629236811939	37.45047172461846	ASK458	180	FUS¹⁻¹⁶³12E	replicate 2	180 min, replicate 2
+genome	0.2983992627278088	66.79506332313049	ASK458	240	FUS¹⁻¹⁶³12E	replicate 2	240 min, replicate 2
+genome	0.2867742511900197	40.8758671447814	ASK459	180	WT Abf1	replicate 1	180 min, replicate 1
+genome	0.30331020112036317	29.18893205901853	ASK459	240	WT Abf1	replicate 1	240 min, replicate 1
+genome	0.2819500726775826	55.866035904832394	ASK460	180	no Abf1	replicate 1	180 min, replicate 1
+genome	0.2965017640625943	60.160314066595255	ASK460	240	no Abf1	replicate 1	240 min, replicate 1
+genome	0.2915501083498936	57.19948598754292	ASK461	180	no Abf1	replicate 2	180 min, replicate 2
+genome	0.3058062267014685	49.983399862121836	ASK461	240	no Abf1	replicate 2	240 min, replicate 2
+genome	0.23918595422400613	32.59122312915992	ASK468	180	Local Shuffle 12	replicate 1	180 min, replicate 1
+genome	0.25644519374403324	38.59422698938619	ASK468	240	Local Shuffle 12	replicate 1	240 min, replicate 1
+genome	0.23552439646880818	22.40301315619252	ASK469	180	Local Shuffle 12	replicate 2	180 min, replicate 2
+genome	0.251052272401796	40.31490279989105	ASK469	240	Local Shuffle 12	replicate 2	240 min, replicate 2
+genome	0.23807440205715957	28.49689851421116	ASK470	180	altered aromatic patterning	replicate 1	180 min, replicate 1
+genome	0.2531889744439545	24.815962206599803	ASK470	240	altered aromatic patterning	replicate 1	240 min, replicate 1
+genome	0.23217540379726903	38.33622871347266	ASK471	180	altered aromatic patterning	replicate 2	180 min, replicate 2
+genome	0.24841714308580318	35.334673269467565	ASK471	240	altered aromatic patterning	replicate 2	240 min, replicate 2
+genome	0.2671295049376884	94.49810900031493	ASKFG1	180	Fus Gal4 motif	replicate 1	180 min, replicate 1
+genome	0.2778048874113027	52.028353643120795	ASKFG1	240	Fus Gal4 motif	replicate 1	240 min, replicate 1
+genome	0.2633758019365084	86.77540999732992	ASKFG2	180	Fus Gal4 motif	replicate 2	180 min, replicate 2
+genome	0.2773054450989616	81.8268653153501	ASKFG2	240	Fus Gal4 motif	replicate 2	240 min, replicate 2
+genome	0.25470126359450246	40.361626770712505	ASKGS1	180	Gal4 shuffle	replicate 1	180 min, replicate 1
+genome	0.2651842736273981	84.5422184593611	ASKGS1	240	Gal4 shuffle	replicate 1	240 min, replicate 1
+genome	0.25971558648893633	61.47287036321348	ASKGS2	180	Gal4 shuffle	replicate 2	180 min, replicate 2
+genome	0.26841703004335243	71.98178552419633	ASKGS2	240	Gal4 shuffle	replicate 2	240 min, replicate 2

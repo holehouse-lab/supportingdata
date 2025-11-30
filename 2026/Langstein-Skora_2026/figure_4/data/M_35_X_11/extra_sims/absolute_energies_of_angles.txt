@@ -1,0 +1,10 @@
+===================================================
+||            ANGLE PARAMETER SUMMARY            ||
+===================================================
+Parameter file used:
+
+Angle penalties for each residues to be used printed below
+P -> 0.00, 0.00, 0.00
+X -> 0.00, 0.00, 0.00
+M -> 0.00, 0.00, 0.00
+
