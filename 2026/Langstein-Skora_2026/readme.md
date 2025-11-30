@@ -20,7 +20,7 @@ In compliance with the journal's requirements, this repository contains all the 
 Similarly, if anything about the actual analysis is confusing or you'd like specific data shared in a more convenient format, please contact Alex directly, and he can update the code accordingly to provide this!
 
 ## Zenodo vs. GitHub
-To enable easy responsiveness and code access, we have made this repository available on GitHub. However, the full size of this repo is ~18 GB (!), which is obviously too big for GitHub. As such, we use `.gitignore` files to exclude large raw data files or output directories with large amounts of generated data. The FULL repository (including all data) is provided at: [XXX](XXX). That repository represents a snapshot of the code and data at the time of publication. However, as needed, we will update the GitHub repository. 
+To enable easy responsiveness and code access, we have made this repository available on GitHub. However, the full size of this repo is ~18 GB (!), which is obviously too big for GitHub. As such, we use `.gitignore` files to exclude large raw data files or output directories with large amounts of generated data. The FULL repository (including all data) is provided at: [10.5281/zenodo.17770967](https://zenodo.org/records/17770968). That repository represents a snapshot of the code and data at the time of publication. However, as needed, we will update the GitHub repository. 
 
 In general, if you want to use the code for analysis, we recommend downloading the Zenodo repository, as it will work out of the box. If major changes are made to the code, we will update the GitHub repo and mirror them by incrementing the version in the Zenodo repository.
 
@@ -233,6 +233,13 @@ Growth data are provided in the `viablity_data/` directory, with two large PDFs 
 
 ### Supplementary tables
 For completeness, we also provide all supplementary tables in the `supplementary_tables/` directory (`supplementary_tables_2025_11_30.xlsx)`.
+
+## License 
+**DATA** is shared under CC BY 4.0 (Creative Commons Attribution 4.0 International) [link](https://creativecommons.org/licenses/by/4.0/deed.en). 
+
+**CODE** is shared under the MIT License [link](https://mit-license.org/).
+
+Any software tools used in this analysis are subject to their own licenses. 
 
 
 ## References
