@@ -3,9 +3,9 @@
 ## Overview
 This GitHub repository contains all the data and most of the code associated with generating the figures and performing the analyses associated with the manuscript:
 
-***Sequence- and chemical specificity define the functional landscape of intrinsically disordered regions***
+***Sequence and chemical specificity define the functional landscape of intrinsically disordered regions***
 
-written by Langstein-Skora, Schmid and Huth et al.
+written by Langstein-Skora, Schmid, and Huth et al.
 
 The full citation will be updated here when the paper is formally accepted. 
 
