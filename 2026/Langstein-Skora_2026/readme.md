@@ -9,6 +9,9 @@ written by Langstein-Skora, Schmid, and Huth et al.
 
 The full citation will be updated here when the paper is formally accepted. 
 
+## Changelog
+Please see the `changelog_github.md` and `changelog_zenodo.md` for a record of changes made to the two. Changes to Zenodo will lag GitHub.
+
 ## Repository structure
 For each figure, we provide links to either the Jupyter notebook used to generate the figure from scratch or, for a few cases, the raw data associated with the figures. Given the extent of the data associated with this paper, this directory maps each figure panel to a specific location where data and/or code are provided. However, within each directory, we often also provide README files to help orient the reader and provide context for the files.
 
@@ -61,7 +64,6 @@ Some files are not shared on GitHub at all due to their large size, but are avai
 	* `read2_sgd_abf1wt_kpni_dm_sc_mhigh_15m.fastq.gz`
 * In `extended_data_5/ED5_C`,  the following files are excluded from the GitHub Repo:
 	* `extended_data_5_C.zip`
-
 
 ## Contact
 For any questions or concerns, please contact co-corresponding authors [Alex Holehouse](https://www.holehouselab.com/) and [Philipp Korber](https://www.med.lmu.de/bmc/en/research/research-groups/korber-lab/).
