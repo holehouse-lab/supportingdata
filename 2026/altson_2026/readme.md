@@ -1,11 +1,17 @@
-# Alston et al. (2023) — Analysis Code and Data
+# Alston et al. (2026) — Analysis Code and Data
 
-This repository contains the analysis code, data, and notebooks for reproducing the figures in the manuscript from Alston et al., which investigates how the disordered N-terminal domain (NTD) of coronavirus nucleocapsid proteins modulates RNA binding by the folded RNA-binding domain (RBD).
+##### Last updated 2026-04-16
+
+This repository contains the analysis code, data, and notebooks for reproducing the figures in the manuscript :
+
+Alston, J. J., Soranno, A. & Holehouse, A. S. Conserved molecular recognition by an intrinsically disordered region in the absence of sequence conservation. *bioRxiv* (2026). doi:10.1101/2023.08.06.552128  
+
+
 
 ## Repository Structure
 
 ```
-NTD_RNA_2023/
+NTD_RNA_2026/
 ├── Figure_1/    Structural overview of coronavirus nucleocapsid NTD–RBD constructs
 ├── Figure_2/    Coarse-grained simulations showing an inert disordered region suppresses RNA binding
 ├── Figure_3/    Charge clustering in the SARS-CoV-2 NTD determines binding enhancement
@@ -89,5 +95,5 @@ Some figures were generated or processed with the following tools (not required 
 
 ## Citation
 
-If you use code or data from this repository, please cite Alston et al. (2023).
+If you use code or data from this repository, please cite Alston et al. (2026).
 
