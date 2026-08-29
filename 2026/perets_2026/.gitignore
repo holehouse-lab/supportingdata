@@ -1,0 +1,5 @@
+# large simulation data - not tracked, but keep the READMEs that document it
+data/**
+!data/**/
+!data/README.md
+!data/**/README.md
