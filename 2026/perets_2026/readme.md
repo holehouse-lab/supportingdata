@@ -2,6 +2,8 @@
 
 #### Last updated 2026-08-28
 
+#### Associated Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22154617.svg)](https://doi.org/10.5281/zenodo.22154617)
+
 This directory contains code, data and figures for the computational panels of:
 
 > Perets, E. A., Spies, J. A., Cheong, J. H., Shi, L., Asamoto, D. K., Holehouse, A. S., Kim, J. E., Min, W., Neu, J. & Yan, E. C. Y. *Chain collapse, reduced dielectric, and water release drive protein phase separation.* **Biophysical Journal** 125 (2026). doi:[10.1016/j.bpj.2026.07.018](https://doi.org/10.1016/j.bpj.2026.07.018)
