@@ -2,13 +2,15 @@
 
 #### Last updated 2026-08-28
 
+#### Associated Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22152422.svg)](https://doi.org/10.5281/zenodo.22152422)
+
 This directory contains code and figures for the paper:
 
 > Lotthammer, J. M. & Holehouse, A. S. *Disentangling folding from energetic traps in simulations of disordered proteins.* **J. Chem. Inf. Model.** (2025). doi:[10.1021/acs.jcim.4c02005](https://doi.org/10.1021/acs.jcim.4c02005)
 
 and explains what is being computed, what the panels mean, and what to look for in the result.
 
-## The idea in one paragraph
+## PENGUIN - a method to assess sampling quality
 
 PENGUIN is a computational method for evaluating sampling quality of disordered protein simulations. The method asks two questions of every residue in a set of replicate simulations. 
 
@@ -55,6 +57,8 @@ The simulations behind these figures (~5.8 GB) live in [`data/`](data/README.md)
 | `data/ash1_md/` | Ash1 all-atom MD in five segments - **not redistributable** (D. E. Shaw Research; see `data/ash1_md/README.md` for how to obtain it) | 11 |
 
 If you keep the data elsewhere, set `PENGUIN_DATA_DIR` to that directory; `penguin_helpers.get_data_dir()` honours it.
+
+Data are available via the Zenodo repo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22152422.svg)](https://doi.org/10.5281/zenodo.22152422)
 
 ## Running
 
