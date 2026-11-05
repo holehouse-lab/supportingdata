@@ -1,0 +1,45 @@
+# .gitignore for the Figure 2C analysis.
+#
+# The plotting notebook (Fig2C.ipynb), the exploratory notebook
+# (fig_infecting_different_orgs.ipynb), the host-classification script
+# (host_to_tax_id.py) and the rendered figure
+# (prokaryote_vs_eukaryote_infecting_viruses_AFPP.pdf) are tracked. Every data
+# table they read or write now lives in data/viral_proteomes/ at the top of the
+# repository (see the README there); the rules below only keep stray local
+# copies of them out of this directory.
+
+# --- Stray copies of the data tables (the real ones are in data/viral_proteomes/) -
+# Third-party downloads:
+#   virushostdb.tsv               Virus-Host DB (https://www.genome.jp/virushostdb/)
+#   org_id_to_proteome_id.tsv     UniProt proteome-ID <-> organism-ID map
+# Upstream prediction output:
+#   viral_proteome_fraction_disorder_by_prot_and_total_proteome.tsv
+# Regenerated locally by host_to_tax_id.py:
+#   archaeal_infecting_viruses.tsv, bacterial_infecting_viruses.tsv,
+#   ecoli_infecting_viruses.tsv, eukaryotic_infecting_viruses.tsv,
+#   human_infecting_viruses.tsv
+# Catch-all so any additional data tables dropped in here stay untracked.
+*.tsv
+
+# --- Jupyter / Python cruft -------------------------------------------------------
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# --- OS / editor cruft ------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+.idea/
+.vscode/

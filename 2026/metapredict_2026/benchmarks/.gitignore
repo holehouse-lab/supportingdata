@@ -1,0 +1,6 @@
+# The synthetic FASTA inputs for the stream benchmark (~2 GB for the full sweep) are
+# written to data/benchmarks/stream_synthetic_data/ and ignored by the top-level
+# .gitignore.
+
+__pycache__/
+*.pyc

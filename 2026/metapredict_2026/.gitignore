@@ -1,0 +1,11 @@
+# all data is gitignored but present in Zenodo repo.
+data/
+illustrator_files/
+
+
+# Python / Jupyter / OS cruft
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.ruff_cache/
+.DS_Store
