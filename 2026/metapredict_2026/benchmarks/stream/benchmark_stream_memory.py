@@ -91,6 +91,30 @@ FULL_SIZES = [20000, 80000, 250000, 500000, 720000, 1440000, 2880000]
 MB_TO_GIB = 1e6 / 2**30
 
 
+def draw_lengths(rng: np.random.Generator, n_sequences: int) -> np.ndarray:
+    """Draw the lengths of ``n_sequences`` synthetic sequences.
+
+    Lengths are log-normal (:data:`LENGTH_LOGNORM_MEAN`, :data:`LENGTH_LOGNORM_SIGMA`
+    on the natural-log scale), rounded down to whole residues and limited to
+    :data:`LENGTH_MIN`-:data:`LENGTH_MAX` residues.
+
+    Parameters
+    ----------
+    rng : numpy.random.Generator
+        Generator to draw from. It is advanced by ``n_sequences`` draws, so
+        :func:`make_fasta` can carry on drawing residues from the same stream.
+    n_sequences : int
+        Number of lengths to draw.
+
+    Returns
+    -------
+    numpy.ndarray
+        Integer array of ``n_sequences`` lengths, in residues.
+    """
+    lengths = rng.lognormal(LENGTH_LOGNORM_MEAN, LENGTH_LOGNORM_SIGMA, n_sequences).astype(int)
+    return np.clip(lengths, LENGTH_MIN, LENGTH_MAX)
+
+
 def make_fasta(n_sequences: int, path: str) -> tuple[int, int]:
     """Write a reproducible synthetic FASTA file of ``n_sequences`` sequences.
 
@@ -111,13 +135,7 @@ def make_fasta(n_sequences: int, path: str) -> tuple[int, int]:
         ``(n_sequences, n_residues)`` written.
     """
     rng = np.random.default_rng(RNG_SEED)
-    lengths = np.clip(
-        rng.lognormal(LENGTH_LOGNORM_MEAN, LENGTH_LOGNORM_SIGMA, n_sequences).astype(
-            int
-        ),
-        LENGTH_MIN,
-        LENGTH_MAX,
-    )
+    lengths = draw_lengths(rng, n_sequences)
     alphabet = np.frombuffer(AA_ALPHABET.encode(), dtype="S1")
 
     # Vectorised generation: draw every residue for the whole file in one shot

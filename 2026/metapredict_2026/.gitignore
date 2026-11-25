@@ -2,6 +2,9 @@
 data/
 illustrator_files/
 
+# submitted manuscript PDFs
+manuscript/
+
 
 # Python / Jupyter / OS cruft
 __pycache__/

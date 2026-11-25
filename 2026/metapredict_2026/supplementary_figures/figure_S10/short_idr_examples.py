@@ -4,7 +4,7 @@ Each example is one full-length CAID3 Disorder-PDB protein drawn as three tracks
 sharing a residue axis: the metapredict V3 score (with metapredict's own IDR calls
 shaded), the AlphaFold2 pLDDT, and the Disorder-PDB reference labels with the short
 IDRs that V3 misses outlined. The track drawing reuses ``ground_truth_panels`` (the
-Figure 2D/E code) so the colours match Figure 2. Beside the tracks is the protein's
+Figure 2D code) so the colours match Figure 2. Beside the tracks is the protein's
 AlphaFold2 model, rendered by ``render_structures.py`` in the standard AlphaFold
 pLDDT colours with the missed short IDRs drawn as thick, opaque tubes.
 
@@ -418,7 +418,7 @@ def example_panel(example: Example, reference: Dict[str, tuple], v3: Dict[str, D
     for ax in (ax_trace, ax_plddt, ax_labels):
         ax.tick_params(labelsize=TICK_FONTSIZE)
 
-    # Track 1: metapredict V3 score with metapredict's IDR calls shaded (as in Figure 2D/E).
+    # Track 1: metapredict V3 score with metapredict's IDR calls shaded (as in Figure 2D).
     for call_start, call_end in _idr_domains(sequence, scores):
         ax_trace.axvspan(call_start + 0.5, call_end + 0.5, color=C_IDR, alpha=0.16, lw=0, zorder=1)
     ax_trace.plot(positions, scores, color=METAPREDICT_COLOR, lw=TRACE_LW, zorder=4)

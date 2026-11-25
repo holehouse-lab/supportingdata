@@ -1,28 +1,25 @@
-# Figure 2 — metapredict V3 against the CAID3 field, and where it is right and wrong
+# Figure 2 — metapredict V3 against the CAID3 field
 
 | Panel | Notebook | Contents |
 | --- | --- | --- |
-| A | `figure_2A.ipynb` | ROC curves: metapredict V1/V2/V3 and the top 5 CAID3 predictors, with every other CAID3 predictor in grey. |
-| B | `figure_2B.ipynb` | Precision–recall curves, as in A. Carries the predictor legend for the whole figure. |
-| C | `figure_2C.ipynb` | Per-residue traces of the top 5 CAID3 predictors and metapredict V3 on four example proteins, each above its Disorder-PDB bar. Carries the Disorder-PDB key. |
-| D | `figure_2D.ipynb` | The five proteins metapredict V3 predicts best (per-protein AUC), with PDB structural evidence. Carries the track names and the IDR-call/PDB key for D and E. |
-| E | `figure_2E.ipynb` | The five proteins metapredict V3 predicts worst, as in D (no track names or legend; it sits to the right of D). |
+| A | `figure_2A.ipynb` | ROC curves: metapredict V1/V2/V3 and the five CAID3 predictors with the highest AUC; the other 58 CAID3 disorder predictors in grey. |
+| B | `figure_2B.ipynb` | Precision–recall curves, as in A. |
+| C | `figure_2C.ipynb` | Per-residue traces of metapredict V3 and the top five CAID3 predictors, each above its Disorder-PDB bar. Draws four proteins; the published panel shows three (DP04242, DP04068, DP03933). |
+| D (left) | `figure_2D_left.ipynb` | The five proteins with the highest metapredict V3 per-protein AUC, with PDB structural evidence. The published panel shows three (DP04263, DP04172, DP04297). |
+| D (right) | `figure_2D_right.ipynb` | The five proteins with the lowest per-protein AUC, drawn the same way. The published panel shows three (DP04228, DP04249, DP04214). |
 
-`caid_eval.py` and `predictor_classes.py` are the CAID3 scoring code from the original CAID3 re-analysis (unchanged), `caid3_panels.py` loads the data and draws A–C, `ground_truth_panels.py` draws the four-track blocks in D–E, and `figtools.py` is the shared style.
+**Notebook output vs the assembled figure.** A and B are used as drawn. The notebooks draw more proteins than the figure shows: four in C (three shown) and five in each half of D (three shown). The others were removed in Illustrator, so `figures/figure_2C.pdf`, `figure_2D_left.pdf` and `figure_2D_right.pdf` are longer than the published panels. Set `TRACE_TARGETS` (C) or `N_EXAMPLES` (D) in the notebooks to change what is drawn.
 
-**Running:** open a notebook from this directory and run all cells (each takes ~15–30 s). Needs the CAID3 reference set (`caid_references/caid3_disorder_pdb.fasta`), the CAID3 prediction files, the metapredict 3.1.0 CAID predictions and, for D–E, the PDB-coverage cache (`pdb_cache/`), all in the shared data directory (`../../data`, see its README). Requires metapredict 3.1.x, numpy, matplotlib and scikit-learn. Each notebook writes `figures/figure_2<panel>.pdf`.
+`caid_eval.py` and `predictor_classes.py` are the CAID3 scoring code, `caid3_panels.py` loads the data and draws A–C, `ground_truth_panels.py` draws the four-track blocks in D, and `figtools.py` is the shared style.
 
-**Layout.** The panels are drawn at print size: A and B 3.2 in wide each, C 6.45 in, D 3.5 in and E 2.9 in, so A|B and D|E each fill a 6.4 in row. Text is 7 pt (ticks, headers), 8 pt (axis labels) and 6.5 pt (legends), as in Figures 1, S10 and S11. Each colour is keyed once, so the legend says "colours as in B" for the other panels. The notebooks print what the panels no longer show: each highlighted predictor's AUC/APS and rank (A, B) and the PDB codes behind each resolved block (D, E).
+**Running:** open a notebook from this directory and run all cells (15–30 s each). Each writes `figures/<notebook name>.pdf`. Requires metapredict 3.1.x, numpy, matplotlib and scikit-learn. Reads `caid_references/caid3_disorder_pdb.fasta`, `caid3/`, `metapredict_caid/` and, for D, `pdb_cache/` from `../../data/` (see its README).
 
-**Result with metapredict 3.1.0** (66 CAID3 disorder predictors): V3 AUC 0.929 (14th), APS 0.902 (7th), Fmax 0.828 (8th), MCC 0.761 (7th); V2 0.915/0.875/0.804/0.721; V1 0.887/0.837/0.749/0.640.
+**Scoring (as in the Methods)**
 
-**How the panels are scored.** All metrics are pooled over every covered, non-excluded residue of every target (as in the CAID3 assessment): AUC and APS from scikit-learn; Fmax as the maximum F1 over thresholds; MCC at the Fmax threshold. Only disorder predictors are ranked; binding and linker flavours (listed in `predictor_classes.py`) are excluded. Per-protein AUC (D–E) uses one target's scored residues; only targets of 40–500 residues with ≥15 disordered and ≥15 ordered scored residues are eligible. metapredict IDR shading in D–E applies metapredict's domain decomposition (0.5 threshold, 12-residue minimum IDR, 50-residue minimum folded domain, 10-residue gap closure) to the plotted scores.
+- The 63 CAID3 disorder predictors (binding and linker predictors, listed in `predictor_classes.py`, are excluded) plus metapredict V1–V3 are scored on CAID3 Disorder-PDB: 319 proteins, 31,401 disordered and 67,838 ordered residues, pooled. Each predictor is scored on the proteins it predicted.
+- AUC and APS come from scikit-learn, Fmax is the highest F1 over all cutoffs, and MCC is taken at the Fmax cutoff. The notebooks print each highlighted predictor's value and rank.
+- Per-protein AUC (D) is the ROC AUC of the V3 score over one protein's scored residues. Only proteins of 40–500 residues with at least 15 disordered and 15 ordered scored residues are eligible (116 proteins; 27 have an AUC of 1.00 and are ranked by their number of disordered residues).
+- PDB track (D): each residue is labelled as resolved in a monomer, a homo-oligomer or only a hetero-complex, in a construct but with missing density, or in no PDB construct. The PDB codes behind each block are printed by the notebook.
+- IDR shading (D) uses metapredict's default domain calling (0.5 threshold, minimum IDR 12 residues, minimum folded domain 50, gap closure 10).
 
-**Differences from the original CAID3 analysis figures**
-- metapredict is predicted with metapredict 3.1.0 rather than taken from the CAID3-distributed files (raw scores agree to ±0.001).
-- Each top CAID3 method has one fixed colour in every panel (PUNCH2 green, PUNCH2-Light violet, AlphaFold-rsa teal, SPOT-Disorder2 black, AlphaFold3-rsa brown); previously the ground-truth figures used different colours for the same methods.
-- Titles are removed and text is kept to a minimum: only the DisProt ID heads each protein in C, and the ID and per-protein AUC in D–E; the PDB codes are printed rather than drawn. Threshold lines are thin black dashes.
-- A and B draw every CAID3 disorder predictor other than the highlighted eight in grey (previously only those below metapredict V3, which left out the methods ranked 6–13).
-- The Disorder-PDB labels are a thin bar under each trace in C–E (orange disordered, green ordered, hatched grey unscored), as in Figures S4 and S10. C previously shaded disordered residues instead.
-- The PDB track in D–E is drawn in greys (monomer, homo-oligomer, hetero-complex only, from dark to light) with missing density hatched pale orange, so it shares no colour with a predictor line; the NMR Cα RMSF overlay is off (pass `rmsf=load_rmsf()` to `make_composite` to bring it back).
-- D/E show five proteins each, which makes them tall for a main-text panel; change `N_EXAMPLES` in the notebook to show fewer.
+**Result:** metapredict V3 has AUC 0.929 (14th of 66), APS 0.902 (7th), Fmax 0.828 (8th) and MCC 0.761 (7th); see Figure S3 for V1 and V2.

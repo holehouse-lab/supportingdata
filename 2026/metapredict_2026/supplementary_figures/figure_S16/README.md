@@ -1,20 +1,19 @@
 # Figure S16 — disorder in human transcription factors
 
-**A:** each human transcription factor (Lambert et al. 2018) drawn as its IDR (red) and non-IDR (black) residues, ordered by length. The inset compares the fraction disordered per protein for the human proteome and for transcription factors. **B:** amino-acid composition of the proteome, proteome IDRs, transcription factors and transcription-factor IDRs.
+| Panel | Notebook | Contents |
+| --- | --- | --- |
+| A | `figure_S16A.ipynb` | Each transcription factor as its residues inside IDRs (red) and outside them (black), ordered by length (`figures/figure_S16A.pdf`), and the inset comparing the fraction disordered per protein in the human proteome and in transcription factors (`figures/figure_S16A_inset.pdf`). |
+| B | `figure_S16B.ipynb` | Amino-acid composition of the proteome, proteome IDRs, transcription factors and transcription-factor IDRs (`figures/figure_S16B.pdf`). |
 
 | File | Contents |
 | --- | --- |
-| `build_idr_tables.py` | **Run first.** Predicts IDRs with metapredict 3.1.x (V3, default settings, CPU) for the proteome and TF FASTA files and writes `HP_IDRs.tsv` and `TF_IDRs.tsv`, all in `../../data/human_transcription_factors/`. Takes about 1 min. |
-| `figure_S16A.ipynb` | Panel A: `figures/figure_S16A.pdf` and the inset `figures/figure_S16A_inset.pdf`. |
-| `figure_S16B.ipynb` | Panel B: `figures/figure_S16B.pdf`. |
+| `build_idr_tables.py` | Predicts IDRs with metapredict 3.1.x (V3, default settings, CPU) for the proteome and transcription-factor FASTA files and writes `HP_IDRs.tsv` and `TF_IDRs.tsv`. Takes about 1 min. |
 | `tf_idrs.py` | Loads sequences and IDR tables; per-protein disorder and composition. |
-| `optional_shephard_annotation.py` | Optional: the original 2024 SHEPHARD route to the same tables. Not needed for the figure. |
-| `figtools.py` | Shared manuscript style (copy of `shared/figtools.py`). |
+| `optional_shephard_annotation.py` | The original 2024 SHEPHARD route to the same tables. Not needed for the figure. |
+| `figtools.py` | Shared style. |
 
-**Running:** `python build_idr_tables.py`, then run the notebooks from this directory (metapredict 3.1.x, protfasta, numpy, matplotlib). The FASTA inputs and IDR tables are in `../../data/human_transcription_factors/` (see its README). Fraction disordered for a protein is the number of residues inside its IDRs divided by its length.
+**Running:** open a notebook from this directory and run all cells (metapredict 3.1.x, protfasta, numpy, matplotlib). The FASTA files and IDR tables are in `../../data/human_transcription_factors/` (see its README); the tables are provided, and `python build_idr_tables.py` rebuilds them.
 
-**Changes vs the published panel (2024 predictions)**
-- **Numbers are unchanged.** The IDR tables from 3.1.0 match the 2024 ones except for one boundary (Q13277: IDR 1–20 is now 1–19). The medians are unchanged: 0.236 for the proteome and 0.569 for TFs.
-- **The inset marks the median.** It is labelled with the median but used to draw the mean line; it now draws the median. The proteome is black and TFs are blue, matching B.
-- **B uses the xmgrace colours.** The four sets are black, red, blue and green, all solid.
-- **No SHEPHARD.** The notebooks use only metapredict output. The TF set is the 1,627 reviewed UniProt entries mapped from Lambert et al.'s gene names.
+**The transcription-factor set.** The list from Lambert *et al.* (2018) has 1,608 gene names. Mapping them to reviewed human UniProt entries (29 October 2024) gives 1,627 sequences, and the figure plots all 1,627.
+
+**Result:** the fraction disordered of a protein is its residues inside IDRs divided by its length. The median is 0.569 for transcription factors and 0.236 for the human proteome (20,656 proteins), a ratio of 2.4.

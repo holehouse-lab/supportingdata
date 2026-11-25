@@ -1,21 +1,27 @@
-# Figure 1 — metapredict V3 accuracy and speed
+# Figure 1 — metapredict V3 is fast and accurate
 
 | Panel | Notebook | Contents |
 | --- | --- | --- |
 | A | `figure_1A.ipynb` | CAID1 Disprot-PDB: predictors ranked by MCC. |
-| B | `figure_1B.ipynb` | CAID2 Disorder-PDB: predictors ranked by MCC. |
-| C | `figure_1C.ipynb` | CAID3 Disorder-PDB: top 40 predictors ranked by MCC. |
-| D | `figure_1D.ipynb` | Msn2 (P33748) disorder profiles from metapredict V1, V2 and V3. |
-| E | `figure_1E.ipynb` | Time to predict the human proteome for V1/V2/V3 across hardware. |
+| B | `figure_1B.ipynb` | CAID2 Disorder-PDB: predictors ranked by MCC (39 predictors). |
+| C | `figure_1C.ipynb` | CAID3 Disorder-PDB: top 40 of 66 predictors ranked by MCC. |
+| D | `figure_1D.ipynb` | Msn2 (P33748) disorder profiles from metapredict V1, V2 and V3, with the DNA-binding domain shaded. |
+| E | `figure_1E.ipynb` | Time to predict the human proteome (20,652 sequences) with V1/V2/V3 on each device. |
 
-`caid_mcc.py` holds the CAID reading, MCC and ranking-panel functions for A–C, `perf_plots.py` loads and plots the benchmark TSVs for E, and `figtools.py` is the shared style.
+`caid_mcc.py` reads the CAID files, computes MCC and draws A–C; `perf_plots.py` loads and plots the benchmark TSVs for E; `figtools.py` is the shared style.
 
-**Running:** open a notebook from this directory and run all cells. A–C read the CAID reference sets (`caid_references/`), the CAID prediction files and the metapredict 3.1.0 CAID predictions from the shared data directory (`../../data`, see its README); 1C also takes its list of disorder predictors (names only) from `caid_references/caid3_disorder_pdb_results.csv`. E reads `../../data/benchmarks/proteome/`, written by `../../benchmarks/proteome/benchmark_metapredict.py` (see `../../benchmarks/README.md`). Requires metapredict 3.1.x, numpy, matplotlib and scikit-learn. Each notebook writes `figures/figure_1<panel>.pdf`.
+**Running:** open a notebook from this directory and run all cells. Each writes `figures/figure_1<panel>.pdf`. Requires metapredict 3.1.x, numpy, matplotlib and scikit-learn. Inputs, all in `../../data/` (see its README):
 
-**Differences from the published panel**
-- metapredict is scored from metapredict 3.1.0 predictions with 3.1.0's default binary calls (residues inside predicted IDRs are disordered), not with a 0.42/0.5 per-residue cutoff. MCC: CAID1 V1/V2/V3 = 0.623/0.715/0.714; CAID2 0.692/0.768/0.769; CAID3 0.688/0.741/0.756.
-- C (CAID3) is new, D now includes V2, and E is new data from metapredict 3.1.0.
-- Bars are solid black and the dataset name is written in the axes rather than as a title; A–C share one MCC axis. DFLpred (CAID1, MCC −0.029) sits below zero and has no visible bar, as before.
-- `n` counts every bar shown, metapredict included.
+- A–C: `caid_references/` (reference sets; C also takes its list of disorder predictors from `caid3_disorder_pdb_results.csv`), `caid2/` and `caid3/` (CAID predictions) and `metapredict_caid/` (metapredict 3.1.0 predictions).
+- E: `benchmarks/proteome/`, written by `../../benchmarks/proteome/benchmark_metapredict.py`.
 
-**Values hard-coded in the notebooks.** Figure 1A uses the published CAID1 MCC values for the competing predictors (OpenEBench, https://openebench.bsc.es/benchmarking/OEBC011/OEBX0110000002/participants, column `dataset_default_thr_mcc`), because CAID1 per-residue predictions are not distributed in a usable form. The metapredict values in 1A are computed from 3.1.0 predictions.
+**MCC scoring (A–C, as in the Methods)**
+
+- metapredict: a residue is disordered if it lies inside a DisorderedDomain (metapredict 3.1.0 defaults). MCC for V1/V2/V3 is 0.623/0.715/0.714 on CAID1, 0.692/0.768/0.769 on CAID2 and 0.688/0.741/0.756 on CAID3 (V3 ranks 7th of 66).
+- A: the other predictors' values are the published CAID1 MCCs (OpenEBench, https://openebench.bsc.es/benchmarking/OEBC011/OEBX0110000002/participants, column `dataset_default_thr_mcc`), written in the notebook.
+- B: predictors are scored on their submitted binary calls. Score-only predictors are included only where a published cutoff exists (AlphaFold-rsa 0.581, AlphaFold-disorder 0.312, RONN 0.5).
+- C: predictors are scored on their submitted binary calls where available. The 19 score-only predictors are cut at 0.5, except the AlphaFold2/AlphaFold3 RSA and pLDDT tracks (0.581 and 0.312).
+
+**Timing (E):** M3 Max CPU 4.6/10/36 s for V1/V2/V3, Xeon Silver 4210R CPU 15/38/122 s, M3 Max MPS 10/20/21 s, RTX A4000 3.0/4.4/4.3 s.
+
+**Notebook output vs the assembled figure.** A–D are used as drawn. For E, the notebook draws vertical bars labelled by machine; in the assembled figure the panel was re-laid in Illustrator with horizontal bars and retyped hardware labels. The values are the same.

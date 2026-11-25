@@ -1,4 +1,4 @@
-"""Best/worst-predicted protein panels for Figure 2D/E (four tracks per protein).
+"""Best/worst-predicted protein panels for Figure 2D (four tracks per protein).
 
 Adapted from ``CAID3_comparison/figures/ground_truth_traces.py``. Each selected
 protein is drawn as a block of four tracks sharing a residue axis:

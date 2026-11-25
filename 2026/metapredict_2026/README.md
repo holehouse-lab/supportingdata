@@ -1,27 +1,33 @@
-# metapredict V3 — figure code
+## Overview (metapredict V3)
 
-Code and data to regenerate every figure in Lotthammer, Hernández-García, Griffith, Weijers, Holehouse & Emenecker, *Metapredict enables accurate disorder prediction across the Tree of Life*. 
+##### Last updated 2026-11-24
+
+This repository contains files and data for the preprint by Lotthammer et al.:
+
+Lotthammer, J., Hernández-García, J., Griffith, D., Weijers, D., Holehouse, A. & Emenecker, R. Metapredict enables accurate disorder prediction across the Tree of Life. *bioRxiv* 2024.11. 05.622168 (2026) doi:10.1101/2024.11.05.622168.  (V2)
 
 ## Layout
 
-| Directory | Contents |
-| --- | --- |
-| `maintext_figures/figure_<N>/` | One directory per main-text figure. |
-| `supplementary_figures/figure_S<NN>/` | One directory per supplementary figure. |
-| `data/` | Every input the figures and benchmarks read: CAID predictions (downloaded) and reference sets, metapredict 3.1.0 CAID predictions, PDB structural coverage, sequences, AlphaFold models and renders, viral-proteome and tree-of-life tables, and benchmark results. See `data/README.md`. |
-| `benchmarks/` | Scripts that time metapredict and write TSVs to `data/benchmarks/`, read by Figures 1E, S5, S6, S7 and S8. Run them on each benchmark machine; see `benchmarks/README.md`. |
-| `shared/` | Master copies of the helper modules copied into figure directories (`figtools.py`, `caid3_panels.py`) and `sync_figtools.sh`. |
-| `illustrator_files/` | The assembled figures: the Illustrator `.ai` file and its exported PNG for each figure that has one (1, 2, 3, S1, S5, S12, S13, S15, S16). See `illustrator_files/README.md`. |
+| Directory | In git | Contents |
+| --- | --- | --- |
+| `maintext_figures/figure_<N>/` | yes | One directory per main-text figure (1–3). |
+| `supplementary_figures/figure_S<NN>/` | yes | One directory per supplementary figure (S1–S13, S15, S16; S14 is a web-server screenshot, so no notebook here). |
+| `benchmarks/` | yes | Scripts that time metapredict and write the TSVs behind Figures 1E and S5–S8. |
+| `shared/` | yes | Master copies of the helper modules that are copied into the figure directories. |
+| `data/` | no (Zenodo) | Every input the figures and benchmarks read. See `data/README.md`. |
+| `illustrator_files/` | no (Zenodo) | The assembled figures (Illustrator files and exported images). |
 
-Each figure directory has a short `README.md`, one notebook per panel (`figure_1A.ipynb`, `figure_S03B.ipynb`, ...) and small helper `.py` files, and writes its panels to `figures/<panel>.pdf`. Figure directories hold code only: every input they read is in `data/` (found through `figtools.shared_data_path`, with a provenance README for each dataset), and the assembled Illustrator figures are in `illustrator_files/`. Notebooks run top to bottom with the figure directory as the working directory.
+`data/` and `illustrator_files/` are too large for git and are in the Zenodo archive that accompanies the paper. Unpack `data/` at the top of this directory, or point `$METAPREDICT_V3_DATA_DIR` at it. A notebook that cannot find an input stops with a `MISSING:` message naming the file.
+
+Each figure directory has a `README.md`, one notebook per panel (`figure_1A.ipynb`, `figure_S03B.ipynb`, ...) and small helper `.py` files, and writes each panel to `figures/<panel>.pdf`. Figure directories hold code only. Run notebooks top to bottom with the figure directory as the working directory. Panel letters, figure numbers, and the numbers quoted in each README follow the manuscript.
 
 ## Figures
 
 | Figure | Panels |
 | --- | --- |
 | 1 | A–C CAID1/2/3 MCC rankings; D Msn2 profiles (V1/V2/V3); E human-proteome prediction time |
-| 2 | A/B ROC and PR curves vs the CAID3 field; C example traces; D/E best- and worst-predicted proteins with PDB evidence |
-| 3 | Disorder across the tree of life (made by co-authors and copied from the original analysis, with data paths updated; Figure 2 in the original submission) |
+| 2 | A/B ROC and precision–recall curves against the CAID3 field; C example traces; D best- (left) and worst-predicted (right) proteins with PDB evidence |
+| 3 | Disorder across the tree of life (co-author code, copied from the original analysis) |
 | S1 | metapredict V1 vs AF2 pLDDT on two proteins |
 | S2 | Building the combined disorder/pLDDT training scores |
 | S3 | CAID3 rankings by AUC, APS, Fmax and MCC |
@@ -31,17 +37,19 @@ Each figure directory has a short `README.md`, one notebook per panel (`figure_1
 | S7 | Batch vs sequential prediction |
 | S8 | `predict_disorder` vs `predict_disorder_stream` memory and throughput |
 | S9 | PDB-disorder-monomer benchmark |
-| S10 | Short IDRs metapredict V3 misses: ten example proteins, with AlphaFold2 models |
+| S10 | Short IDRs metapredict V3 misses: ten example proteins with AlphaFold2 models |
 | S11 | CAID3 metrics and rankings by IDR length |
 | S12 | Residues correct per 100 on CAID3 |
-| S13 | Figure 3 using total fraction across proteome (A tree copied unchanged; B, C) |
+| S13 | Figure 3 using the total fraction across the proteome |
 | S14 | Screenshot of the metapredict web server (no directory; nothing is generated) |
 | S15 | Synthetic and designed proteins |
 | S16 | Human transcription factors |
 
 ## Requirements
 
-Python ≥ 3.9 with metapredict 3.1.x, numpy, scipy, matplotlib, scikit-learn, protfasta and jupyter; Biopython only to rebuild the PDB cache; psutil (and optionally py-cpuinfo) for the benchmarks; PyMOL (`pymol-open-source-whl`) only to re-render the Figure S10 structures. Figures use Arial and write PDFs with editable text.
+Python ≥ 3.9 with metapredict 3.1.x, numpy, scipy, matplotlib, scikit-learn, protfasta, and Jupyter. Optional: Biopython to rebuild the PDB cache; psutil (and py-cpuinfo) for the benchmarks; PyMOL (`pymol-open-source-whl`) to re-render the Figure S10 structures; R with taxize, dplyr and ape for the Figure 3A analysis. Figures use Arial and are written in PDFs with editable text.
+
+Figures 1, 2, S1–S12, S15 and S16 use metapredict 3.1.0. Figures 3 and S13 use the 2024 metapredict V3 predictions of 23,129 UniProt reference proteomes, which are not regenerated here.
 
 ## Colours
 

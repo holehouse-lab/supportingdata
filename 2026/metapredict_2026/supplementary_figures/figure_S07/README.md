@@ -1,16 +1,16 @@
-# Figure S7 — Batch vs one-at-a-time prediction
+# Figure S7 — batch vs sequential prediction
 
-Time to predict random subsets of the human proteome (10–15,000 sequences), either one sequence per call (sequential, red; always on the CPU) or in a single batched call (black on CPU, blue on GPU; default batch size, on metapredict 3.1.0's default device unless the run pinned one, e.g. the Xeon CPU series on `aviation`). Dashed lines are linear fits.
+Time to predict random subsets of 10 to 15,000 human proteins, either one sequence per call (sequential, red; always on the CPU) or in one batched call at the default batch size (black on a CPU, blue on a GPU). Dashed lines are linear fits.
 
-| Notebook | Panel |
-| --- | --- |
-| `figure_S07A.ipynb` | V1 |
-| `figure_S07B.ipynb` | V2 |
-| `figure_S07C.ipynb` | V3 |
-| `figure_S07.ipynb` | A–C side by side with panel letters (`figures/figure_S07.pdf`) |
+| Panel | Notebook | Contents |
+| --- | --- | --- |
+| A | `figure_S07A.ipynb` | V1. |
+| B | `figure_S07B.ipynb` | V2. |
+| C | `figure_S07C.ipynb` | V3. |
+| A–C | `figure_S07.ipynb` | The three panels side by side with panel letters (`figures/figure_S07.pdf`). |
 
-**Data.** Every TSV in `../../data/benchmarks/batch_vs_sequential/`, written by `benchmarks/batch_vs_sequential/run_batch_vs_sequential.py` (see `benchmarks/README.md`). `perf_plots.py` holds the helpers and `figtools.py` the shared style. PDFs are written to `figures/`.
+`perf_plots.py` loads and plots the benchmark TSVs and `figtools.py` is the shared style.
 
-**Run.** Open each notebook and run all cells from this directory.
+**Running:** open a notebook from this directory and run all cells. The notebooks read every TSV in `../../data/benchmarks/batch_vs_sequential/`, written by `../../benchmarks/batch_vs_sequential/run_batch_vs_sequential.py` (see `../../benchmarks/README.md`).
 
-**Differences from the 2025 draft.** That draft was one panel for a single version, with the timings made inside the notebook. The timing is now a seeded script covering all three versions, with one panel per version.
+**Notes.** On the MacBook Pro, batched calls use each network's default device (CPU for V1 and V2, MPS for V3). The workstation was run twice, batching on the CPU and on the GPU; its sequential times are the median of the two runs.

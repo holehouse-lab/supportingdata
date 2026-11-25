@@ -360,7 +360,7 @@ def _runs(mask: np.ndarray) -> List[Tuple[int, int]]:
 
 
 def label_track(ax, labels: np.ndarray) -> None:
-    """Draw one protein's Disorder-PDB labels as a thin bar (as in Figures 2D/E and S10).
+    """Draw one protein's Disorder-PDB labels as a thin bar (as in Figures 2D and S10).
 
     Parameters
     ----------
